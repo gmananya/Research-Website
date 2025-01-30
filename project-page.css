@@ -88,20 +88,6 @@ section h2 {
     margin: 20px 0;
 }
 
-.bibtex-code {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: left;
-    font-family: monospace;
-    border-radius: 5px;
-    overflow-x: auto;
-}
-
-.bibtex-code pre {
-    white-space: pre-wrap;
-}
-
-
 #abstract {
     align-items: center;
 }
@@ -182,23 +168,83 @@ section h2 {
     text-align: justify;
 }
 
-/* Center the BibTeX code block, but don't align the text inside */
-.bibtex-code {
-    background-color: #f0f0f0;
-    padding: 20px;
-    font-family: monospace;
-    text-align: left; /* Keep the text left-aligned */
-    width: 100%;
-    /* max-width: 800px; */
-    border-radius: 5px;
-}
 
-pre {
-    white-space: pre-wrap;
-}
 
 section h2 {
     text-align: left;
     margin-bottom: 20px;
     width: 100%; 
 }
+
+table.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table.custom-table th, table.custom-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table.custom-table th {
+    background-color: #f2f2f2;
+}
+
+table.custom-table td[rowspan] {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table.description-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+td img {
+    max-width: 150px;
+    height: auto;
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #eef1f6;
+}
+
+.bibtex-code {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+    font-family: monospace;
+    border-radius: 5px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.bibtex-code pre {
+    white-space: pre-wrap;
+}
+
