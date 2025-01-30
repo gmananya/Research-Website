@@ -92,14 +92,6 @@ section h2 {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -139,7 +131,6 @@ header, .image-section, section {
     background-color: #555;
 }
 
-/* Section titles (like Abstract, Pipeline, etc.) */
 section h2 {
     margin-bottom: 20px;
 }
@@ -155,7 +146,6 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Style the abstract section */
 #abstract {
     background-color: #f0f0f0;
     padding: 20px;
@@ -230,6 +220,7 @@ th, td {
     padding: 15px;
     text-align: left;
 }
+
 th {
     background-color: #eef1f6;
 }
