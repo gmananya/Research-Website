@@ -5,8 +5,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', 'SF Pro Text', sans-serif;
     box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -16,8 +20,15 @@ body {
 /* Logo */
 .logo {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
 }
 
 /* Navbar */
@@ -178,6 +189,8 @@ section {
 
 .wrapper {
     margin-top: 5%;
+    display: flex;
+    align-items: center;
 }
 
 .wrapper div {
@@ -185,9 +198,8 @@ section {
 }
 
 .split-left {
-    float: left;
+    flex: 0 0 60%;
     margin: 3% 20px 0 0;
-    width: 60%;
 }
 
 .name {
@@ -197,8 +209,9 @@ section {
 .split-left p {
     letter-spacing: 0.1px;
     padding-left: 0;
-    line-height: 25px;
-    margin-bottom: 10%;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 3%;
 }
 
 .split-left ul li {
@@ -271,7 +284,7 @@ a {
 }
 
 .row-cards {
-    margin: 9% 17%;
+    margin: 7% 17%;
 }
 
 .row-cards .research {
@@ -289,7 +302,7 @@ a {
 
 .card .card-body {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     padding: 20px;
 }
 
@@ -303,7 +316,7 @@ a {
 .card .author {
     color: black;
     padding-bottom: 15px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
@@ -392,14 +405,33 @@ a {
     height: 0;
   }
 
+  .news-item {
+    display: flex;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
   .news-list p {
     margin: 10px 0;
     font-size: 16px;
     line-height: 1.5;
   }
 
+  .news-date {
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 120px;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+
+  .news-text {
+    flex: 1;
+  }
+
   .news-list b {
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 15px; 
     display: inline-block;
   }

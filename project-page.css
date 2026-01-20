@@ -5,29 +5,30 @@
 }
 
 body {
-    font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', 'SF Pro Text', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     background-color: #ffffff;
     color:  black;
     padding: 60px;
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 20px;
     color: #333;
-    line-height: normal;
-    font-weight: 500;
+    line-height: 1.2;
+    font-weight: 600;
 }
 
 .authors {
-    font-size: 1.2em;
+    font-size: 16px;
     color: #007bff;
 }
 
@@ -43,9 +44,31 @@ header h1 {
 .institution,
 .conference,
 .equal-contribution {
-    font-size: 1em;
+    font-size: 16px;
     color: #555;
     margin-top: 5px;
+}
+
+.conference {
+    font-weight: 600;
+}
+
+.paper-links-section {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paper-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.paper-link:hover {
+    text-decoration: underline;
 }
 
 .buttons {
@@ -60,7 +83,7 @@ header h1 {
     border-radius: 20px;
     margin: 0 10px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .button:hover {
@@ -69,17 +92,17 @@ header h1 {
 
 /* Section Styling */
 section {
-    margin: 40px 0;
-    align-items: center;
-    /* text-align: left; */
-    text-align: justify;
+    margin: 60px 0;
+    align-items: flex-start;
+    text-align: left;
 }
 
 section h2 {
-    font-size: 28px;
+    font-size: 24px;
     color: #333;
-    margin-bottom: 15px;
-    font-weight: 450;
+    margin-bottom: 20px;
+    font-weight: 600;
+    width: 100%;
 }
 
 .section-image {
@@ -92,16 +115,11 @@ section h2 {
     align-items: center;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 header, .image-section, section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -109,12 +127,13 @@ header, .image-section, section {
     margin-bottom: 100px;
 }
 
-/* Center the buttons and put them on the same line */
+/* Left-align the buttons */
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .buttons a {
@@ -142,20 +161,22 @@ section h2 {
 }
 
 .description, section p {
-    max-width: 800px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 #abstract {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: justify;
-    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
 }
 
 .abstract-text {
-    max-width: 800px;
-    text-align: justify;
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
 }
 
 
