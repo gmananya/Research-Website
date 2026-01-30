@@ -55,7 +55,7 @@
         <section id="problem">
             <h2>Types of Webpage Distractions</h2>
             <img src="media/Distractions.png" alt="Types of Webpage Distractions" class="section-image">
-            <p>Modern webpages contain numerous elements that can distract users from their primary goals. We categorize these distractions into several types: <strong>navigational elements</strong> (headers, sidebars, menus), <strong>promotional content</strong> (advertisements, banners, pop-ups), <strong>social features</strong> (comments, sharing buttons, recommendations), and <strong>supplementary information</strong> (related articles, footers, metadata). For screen reader users, these distractions are particularly challenging as they must navigate through content sequentially, encountering each element in order rather than visually scanning and skipping irrelevant sections.</p>
+            <p>Modern webpages contain numerous elements that can distract users from their primary goals. This is the Homedepot's webpage. Say an amateur woodworker is looking to make a coffee table and they want to buy a power drill. When they visit the webpage, they see a lot of content that is not relevant to their task such as ads, promotions, and irrelevant menu options. These distractions not only slow down a sighted user who visually skim a webpage to find what is relevant to their goal, but for screen reader users, these distractions are particularly challenging as they must navigate through content sequentially, encountering each element in order. This sequential navigation can result in screen reader users taking up to twice as long as sighted users to complete the same task.</p>
             <br>
             <!-- <img src="media/Webpage-Context.png" alt="Four frames containing image contexts (screenshot of webpage and alt text of image in view) across news, travel, social media, and shopping categories from left to right. For the news article in the leftmost frame with an image of a car submerged in a pool, the alt text is missing. The frame to its right is a travel blog containing an image with pink cherry trees on either side of a road with alt text “A close-up of a pink cherry tree” written below the frame. The next frame is a screenshot of a post on X platform. It is an image of Stephen Curry in a gray suit. It contains the alt text “Image” below the frame. The last and rightmost frame is a screen grab of an e-commerce website selling sofas. It has the alt text “Beige Brown Italian Leather Sofa Set 3 Pcs Contemporary ESF 405” below the frame." class="section-image"  style="width: 70%; align-content: center;"> -->
             
@@ -87,25 +87,32 @@
                 <source src="media/Screen Reader Workflow.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p>For screen reader users, Task Mode restructures the page's accessibility tree to prioritize task-relevant elements, dramatically reducing navigation time. The system preserves page structure while filtering out distractions, allowing users to quickly access the information they need without losing context.</p>
+            
+            <p>For screen reader users, this makes a huge difference. When shopping for that same power drill, they can set the visualization to task-specific information only. At any time, they can adjust a relevance threshold to control how much detail they want, as they browse. Then they can add their task. Task Mode automatically processes and temporarily hides all the irrelevant content, so screen reader users can jump straight to the search bar or relevant power drill listings in far fewer strokes and time.</p>
         </section>
 
         <!-- Results Section -->
         <section id="results">
             <h2>Results</h2>
             <img src="media/visualization-modes.png" alt="Visualization Modes" class="section-image">
+            <p>This figure shows the three rendering modes (Color Gradients, Varying Opacity, and Only Task-Specific Information - 75%) modify two types of webpages based on user tasks used in Phase 1 of the user study. In the top example (Wikipedia), the Color Gradients overlay heatmaps on web elements (texts, images, SVGs) proportional to their task relevance, while Varying Opacity fades out less relevant content, and Only Task-Specific Information (75%) threshold mode removes low-relevance sections entirely to show only the most pertinent definitions and diagrams. In the bottom example (H-E-B), the Color Gradients highlight product names, prices, and filters that best match the user's goal, Varying Opacity dims unrelated items and interface elements, and the Only Task-Specific Information (75%) threshold mode filters out all but the most relevant product listings. Each mode progressively reduces visual noise by suppressing or removing unrelated content, while retaining context to varying degrees.</p>
+            
+            <img src="media/time reduction.png" alt="Time Reduction Results" class="section-image" style="margin-top: 40px; width: 60%;">
+            <p>Task Mode significantly reduced task completion time for screen reader users while maintaining performance for vision users, decreasing the completion time gap between groups from 2x to 1.2x.</p>
+            
             <div style="margin-top: 60px;">
                 <div style="margin-bottom: 40px;">
                     <h3 style="font-size: 20px; margin-bottom: 15px; font-weight: 600;">Original Webpage</h3>
-                    <img src="media/bloombergoriginal.png" alt="Bloomberg Original" style="width: 100%; height: auto;">
+                    <img src="media/bloombergoriginal.png" alt="Bloomberg Original" style="width: 100%; height: auto; margin-bottom: 20px;">
+                    <p>In Phase 2 where participants selected websites and tasks of their choice. Screen reader user 5 used Bloomberg website to keep up with latest news on technology. The website shows a large ad, market tickers, and multiple navigation bars before reaching tech headlines, plus unrelated content such as other news articles live-TV promos and so on - adding many landmarks, regions, and links to skip.</p>
                 </div>
                 <div>
                     <h3 style="font-size: 20px; margin-bottom: 15px; font-weight: 600;">Task Mode</h3>
-                    <img src="media/bloombergtaskmode.png" alt="Bloomberg Task Mode" style="width: 100%; height: auto;">
+                    <img src="media/bloombergtaskmode.png" alt="Bloomberg Task Mode" style="width: 100%; height: auto; margin-bottom: 20px;">
+                    <p>Task Mode filters the webpage around the user's task. The Tech section and headlines appeared first; all tech news on the page were retained and all unrelated links were hidden. So It took less time to find latest tech news.</p>
                 </div>
             </div>
             <!-- <img src="media/Task-2.png" alt="The image is from top to bottom. On the top-left side there is an image of two red cars on a tar road. To its right is the context-free description of the image that reads "The image shows modern sporty cars - a red Mercedes-Benz and a bright …on an asphalt road..The BMW is slightly ahead, hinting at a competition..". To the bottom-left, is an image of the webpage where the image appears. The context-aware description of the image is present to the right of the image of the website and reads, "Two red German sports sedans, a Mercedes-AMG C43 … Mercedes displays its emblematic grille and dynamic headlights … and Maharashtra license plates…"." class="section-image" style="width: 60%; align-content: center;"> -->
-            <p>Example context-free and context-aware descriptions for a website and image selected by P8.</p>
 
         </section>
 
