@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</title>
+    <link rel="stylesheet" href="task-mode.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</h1>
+            <p class="authors">
+                <a href="https://ananyagm.com/" class="author">Ananya Gubbi Mohanbabu</a>,
+                <!-- <sup>*</sup>,  -->
+                <a href="https://tomfluff.github.io/" class="author">Yotam Sechayk</a>,
+                <a href="https://amypavel.com/" class="author">Amy Pavel</a>
+                <!-- <sup>*</sup>,  -->
+            </p>
+            <p class="institution">University of Texas at Austin</p>
+            <p class="conference">ASSETS 2025</p>
+            <!-- <p class="equal-contribution">*Indicates Equal Contribution</p> -->
+        </header>
+
+        <div class="paper-links-section">
+            <a href="https://arxiv.org/src/2507.14769v1/anc/Task_Mode_Tagged_2025.pdf" class="paper-link">📄 PDF</a>
+            <!-- <a href="#" class="paper-link">📄 Supplementary</a> -->
+            <!-- <a href="https://github.com/UT-CS-HCI/task-mode" class="paper-link">💻 Code</a> -->
+            <a href="https://arxiv.org/abs/2507.14769" class="paper-link">⚙ arXiv</a>
+        </div>
+
+    
+
+        <!-- Abstract Section -->
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p class="abstract-text">Modern web interfaces are unnecessarily complex to use as they overwhelm users 
+                with excessive text and visuals unrelated to their current goals. This problem particularly impacts 
+                screen reader users (SRUs), who navigate content sequentially and may spend minutes traversing 
+                irrelevant elements before reaching desired information compared to vision users (VUs) who 
+                visually skim in seconds. We present Task Mode, a system that dynamically filters web content 
+                based on user-specified goals using large language models to identify and prioritize relevant 
+                elements while minimizing distractions. Our approach preserves page structure while offering 
+                multiple viewing modes tailored to different access needs. Our user study with 12 participants 
+                (6 VUs, 6 SRUs) demonstrates that <b>our approach reduced task completion time for SRUs while 
+                maintaining performance for VUs, decreasing the completion time gap between groups from 2x to 1.2x</b>. 
+                11 of 12 participants wanted to use Task Mode in the future, reporting that Task Mode supported 
+                completing tasks with less effort and fewer distractions. This work demonstrates how designing new 
+                interactions simultaneously for visual and non-visual access can reduce rather than reinforce 
+                accessibility disparities in future technology created by human-computer interaction researchers 
+                and practitioners.</p>
+        </section>
+
+        <!-- Abstract Section -->
+        <section id="problem">
+            <h2>Types of Webpage Distractions</h2>
+            <img src="media/Distractions.png" alt="Types of Webpage Distractions" class="section-image">
+            <p>Modern webpages contain numerous elements that can distract users from their primary goals. This is the Homedepot's webpage. Say an amateur woodworker is looking to make a coffee table and they want to buy a power drill. When they visit the webpage, they see a lot of content that is not relevant to their task such as ads, promotions, and irrelevant menu options. These distractions not only slow down a sighted user who visually skim a webpage to find what is relevant to their goal, but for screen reader users, these distractions are particularly challenging as they must navigate through content sequentially, encountering each element in order. This sequential navigation can result in screen reader users taking up to twice as long as sighted users to complete the same task.</p>
+            <br>
+            <!-- <img src="media/Webpage-Context.png" alt="Four frames containing image contexts (screenshot of webpage and alt text of image in view) across news, travel, social media, and shopping categories from left to right. For the news article in the leftmost frame with an image of a car submerged in a pool, the alt text is missing. The frame to its right is a travel blog containing an image with pink cherry trees on either side of a road with alt text “A close-up of a pink cherry tree” written below the frame. The next frame is a screenshot of a post on X platform. It is an image of Stephen Curry in a gray suit. It contains the alt text “Image” below the frame. The last and rightmost frame is a screen grab of an e-commerce website selling sofas. It has the alt text “Beige Brown Italian Leather Sofa Set 3 Pcs Contemporary ESF 405” below the frame." class="section-image"  style="width: 70%; align-content: center;"> -->
+            
+        </section>
+
+        <!-- Pipeline Section -->
+        <section id="pipeline">
+            <h2>Pipeline</h2>
+            <img src="media/taskmode-pipeline.png" alt="The figure shows a diagram of system pipeline. From left to right, the diagram shows 6 groupings or columns, all connected by arrows pointing to the right. The first group includes Selected Image and Webpage. From Selected Image, there are two arrows pointing right to Alt and Image which are in the second group. From Webpage, there are three arrows pointing right to Title, URL, and Text (also in the second group). In the third column, there is an arrow pointing from URL to Purpose, and from Text there is an arrow pointing to the right to “Text to Image Distance (pixels), Text to Image Location (L, R, T,B), and Text to Image Similarity (CLIPScore). The Image also points to the right to Long Context-free Image Description and Initial Context-aware Image Description in the fourth group. Image, Alt, Title and Initial Context-aware Image Description all point to the right to Visually Concrete Text in the fifth column. The Long Context-free description points to the right to Short Context-free Image Description. The Visually Concrete Text and The Image point to the right to Long Context-Aware Image Description in the right in the sixth group. The Long Context-Aware Image Description points downwards to the Short Context-Aware Image Description." class="section-image">
+            <p>The system takes a webpage and a selected webpage image as selected by the user, then extracts all of the text elements on the page. 
+                It analyzes the webpage to get an image relevance score for each text element. Our score considers the distance between the text element and the target image, 
+                position of the text in comparison to the image, and the CLIP score similarity between the image and the text. 
+                For each text element, we combine these scores together to achieve the final relevance score. We use the extracted context text and its scores to inform the final context-aware description.
+                </p>
+        </section>
+
+        <!-- System Section -->
+        <section id="system">
+            <h2>System</h2>
+            <p>Task Mode is implemented as a browser extension that dynamically filters webpage content based on user-specified tasks. Users activate the extension and describe their goal in natural language. The system then uses large language models to analyze the page structure, identify task-relevant elements, and present different visualization modes to help users focus on what matters for their specific task.</p>
+            
+            <video controls class="section-image" style="width: 80%; align-content: center;">
+                <source src="media/Opacity revised.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>The visualization modes allow users to toggle between viewing all content, highlighting relevant elements with dimmed distractions, or showing only task-relevant content. This flexibility lets users choose the level of filtering that best suits their needs and preferences.</p>
+            
+            <video controls class="section-image" style="width: 80%; align-content: center; margin-top: 40px;">
+                <source src="media/Screen Reader Workflow.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            <p>For screen reader users, this makes a huge difference. When shopping for that same power drill, they can set the visualization to task-specific information only. At any time, they can adjust a relevance threshold to control how much detail they want, as they browse. Then they can add their task. Task Mode automatically processes and temporarily hides all the irrelevant content, so screen reader users can jump straight to the search bar or relevant power drill listings in far fewer strokes and time.</p>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results">
+            <h2>Results</h2>
+            <img src="media/visualization-modes.png" alt="Visualization Modes" class="section-image">
+            <p>This figure shows the three rendering modes (Color Gradients, Varying Opacity, and Only Task-Specific Information - 75%) modify two types of webpages based on user tasks used in Phase 1 of the user study. In the top example (Wikipedia), the Color Gradients overlay heatmaps on web elements (texts, images, SVGs) proportional to their task relevance, while Varying Opacity fades out less relevant content, and Only Task-Specific Information (75%) threshold mode removes low-relevance sections entirely to show only the most pertinent definitions and diagrams. In the bottom example (H-E-B), the Color Gradients highlight product names, prices, and filters that best match the user's goal, Varying Opacity dims unrelated items and interface elements, and the Only Task-Specific Information (75%) threshold mode filters out all but the most relevant product listings. Each mode progressively reduces visual noise by suppressing or removing unrelated content, while retaining context to varying degrees.</p>
+            
+            <img src="media/time reduction.png" alt="Time Reduction Results" class="section-image" style="margin-top: 40px; width: 60%;">
+            <p>Task Mode significantly reduced task completion time for screen reader users while maintaining performance for vision users, decreasing the completion time gap between groups from 2x to 1.2x.</p>
+            
+            <div style="margin-top: 60px;">
+                <div style="margin-bottom: 40px;">
+                    <h3 style="font-size: 20px; margin-bottom: 15px; font-weight: 600;">Original Webpage</h3>
+                    <img src="media/BloombergOriginal.png" alt="Bloomberg Original" style="width: 100%; height: auto; margin-bottom: 20px;">
+                    <p>In Phase 2 where participants selected websites and tasks of their choice. Screen reader user 5 used Bloomberg website to keep up with latest news on technology. The website shows a large ad, market tickers, and multiple navigation bars before reaching tech headlines, plus unrelated content such as other news articles live-TV promos and so on - adding many landmarks, regions, and links to skip.</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 20px; margin-bottom: 15px; font-weight: 600;">Task Mode</h3>
+                    <img src="media/BloombergTaskMode.png" alt="Bloomberg Task Mode" style="width: 100%; height: auto; margin-bottom: 20px;">
+                    <p>Task Mode filters the webpage around the user's task. The Tech section and headlines appeared first; all tech news on the page were retained and all unrelated links were hidden. So It took less time to find latest tech news.</p>
+                </div>
+            </div>
+            <!-- <img src="media/Task-2.png" alt="The image is from top to bottom. On the top-left side there is an image of two red cars on a tar road. To its right is the context-free description of the image that reads "The image shows modern sporty cars - a red Mercedes-Benz and a bright …on an asphalt road..The BMW is slightly ahead, hinting at a competition..". To the bottom-left, is an image of the webpage where the image appears. The context-aware description of the image is present to the right of the image of the website and reads, "Two red German sports sedans, a Mercedes-AMG C43 … Mercedes displays its emblematic grille and dynamic headlights … and Maharashtra license plates…"." class="section-image" style="width: 60%; align-content: center;"> -->
+
+        </section>
+
+        <!-- BibTeX Section -->
+        <section id="bibtex">
+            <h2>BibTeX</h2>
+            <div class="bibtex-code">
+                <pre>@article{mohanbabu2025task,
+  title={Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs},
+  author={Mohanbabu, Ananya Gubbi and Sechayk, Yotam and Pavel, Amy},
+  journal={arXiv preprint arXiv:2507.14769},
+  year={2025}
+}</pre>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</title>
+    <link rel="stylesheet" href="a11y-cua.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</h1>
+            <p class="authors">
+                <a href="https://ananyagm.com/" class="author">Ananya Gubbi Mohanbabu</a><sup>*</sup>,
+                <span class="author">Rosiana Natalie</span><sup>*</sup>,
+                <span class="author">Brandon Kim</span>,
+                <span class="author">Anhong Guo</span><sup>†</sup>,
+                <a href="https://amypavel.com/" class="author">Amy Pavel</a><sup>†</sup>
+            </p>
+            <p class="institution">UC Berkeley, University of Michigan</p>
+            <p class="conference">CHI 2026</p>
+            <p class="equal-contribution"><sup>*</sup> Equal contribution, <sup>†</sup> Equal supervision</p>
+        </header>
+
+        <div class="paper-links-section">
+            <a href="https://doi.org/10.1145/3772318.3791896" class="paper-link">📄 Paper</a>
+            <a href="https://huggingface.co/datasets/berkeley-hci/A11y-CUA" class="paper-link">🗂 Dataset</a>
+            <a href="https://github.com/gmananya/computer-use-logger" class="paper-link">💻 Computer Use Recorder Code</a>
+        </div>
+
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p class="abstract-text">
+                Computer Use Agents (CUAs) operate interfaces by pointing, clicking, and typing - mirroring interactions of sighted users (SUs) who can thus monitor CUAs and share control.
+                CUAs do not reflect interactions by blind and low-vision users (BLVUs) who use assistive technology (AT). BLVUs thus cannot easily collaborate with CUAs.
+                To characterize the accessibility gap of CUAs, we present A11y-CUA, a dataset of BLVUs and SUs performing 60 everyday tasks with 40.4 hours and 158,325 events.
+                Our dataset analysis reveals that our collected interaction traces quantitatively confirm distinct interaction styles between SU and BLVU groups (mouse- vs. keyboard-dominant)
+                and demonstrate interaction diversity within each group (sequential vs. shortcut navigation for BLVUs). We then compare collected traces to state-of-the-art CUAs under default and
+                AT conditions (keyboard-only, magnifier). The default CUA executed 78.3% of tasks successfully. But with the AT conditions, CUA's performance dropped to 41.67% and 28.3% with
+                keyboard-only and magnifier conditions respectively, and did not reflect nuances of real AT use. With our open A11y-CUA dataset, we aim to promote collaborative and accessible CUAs for everyone.
+            </p>
+        </section>
+
+
+        <section id="contributions">
+            <h2>Our contributions</h2>
+            <ul class="dash-list" style="line-height: 1.7; width: 100%;">
+                <li>A <strong>dataset of SUs, BLVUs, and CUAs</strong> performing 60 real-world everyday computing tasks across desktop and web applications.</li>
+                <li>A <strong>computer use recorder</strong> that captures and creates replayable traces of real computer use.</li>
+                <li>A comparative analysis of SU and BLVU interaction styles, <strong>highlighting between-group and within-group variability</strong>.</li>
+                <li>An <strong>evaluation of state-of-the-art CUAs under default and AT (keyboard-only, magnified viewport) conditions</strong>, revealing accessibility gaps in current CUAs.</li>
+            </ul>
+        </section>
+
+        <div class="image-section">
+            <img src="media/InteractionSample_v2.png" alt="Illustrative interaction traces comparing BLVU and SU trajectories for computer tasks." class="section-image">
+            <p class="description">
+                A11y-CUA captures how blind and low-vision users (BLVUs), sighted users (SUs), and computer use agents (CUAs)
+                complete real-world desktop and web tasks, enabling direct analysis of accessibility gaps in agent behavior.
+                The above figure is an example of interaction traces from SUs and BLVUs performing a task in the A11y-CUA dataset (to play a video in 1.5x speed). 
+                SUs (top) complete the task primarily through mouse interactions, resulting in fewer steps to complete the tasks. 
+                On the other hand, BLVUs (bottom) use keyboard navigation and screen reader feedback, which generally leads to longer interaction sequences.
+            </p>
+        </div>
+
+        
+
+        <section id="stats">
+            <h2>Dataset Overview</h2>
+            <table class="custom-table stats-table" aria-label="A11y-CUA dataset overview">
+                <tbody>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">🧑‍🤝‍🧑</span> Participants</td>
+                        <td>16 humans (8 BLVUs, 8 SUs), 2 CUAs (Claude Sonnet 4.5, Qwen3-VL-32B-Instruct)</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">📝</span> Tasks</td>
+                        <td>60 everyday computer tasks</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">⏱️</span> Total Recording Duration</td>
+                        <td>40.4 hours</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">📊</span> Events Recorded</td>
+                        <td>158,325</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">🗃️</span> Task Categories</td>
+                        <td>Browsing &amp; Web, System Operations, Document Editing, Workflow, Media</td>
+                    </tr>
+                    <tr>
+                        <td><span class="stat-icon" aria-hidden="true">🪟</span> Task Scope</td>
+                        <td>26 single-app tasks, 34 multi-app tasks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cua-conditions">
+            <h2>CUA Conditions</h2>
+            <p>
+                We evaluate CUA performance under three conditions that mirror common usage patterns for sighted users and assistive technology use.
+            </p>
+
+            <div style="display: flex; gap: 24px; align-items: stretch; margin-bottom: 22px; width: 100%; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 320px;">
+                    <h3 style="font-size: 20px; margin-bottom: 10px; font-weight: 600;">1) Default-CUA</h3>
+                    <p style="margin-bottom: 0;">
+                        Uses both keyboard and mouse with full desktop visibility at standard scaling. This condition represents sighted-style interaction,
+                        where the agent can point-and-click visible controls and execute mixed input actions during task completion.
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 280px; padding: 18px;">
+                    <video controls poster="media/default-cua-demo-thumb.jpg" style="width: 92%; max-width: 92%; border-radius: 8px; background: #000; display: block; margin: 0 auto;">
+                        <source src="media/default-cua-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 24px; align-items: stretch; margin-bottom: 22px; width: 100%; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 320px;">
+                    <h3 style="font-size: 20px; margin-bottom: 10px; font-weight: 600;">2) Screen-Reader-CUA (SR-CUA)</h3>
+                    <p style="margin-bottom: 0;">
+                        Operates in a keyboard-only action space with mouse actions disabled, while a screen reader setup is active.
+                        This approximates interaction constraints faced in screen-reader workflows and emphasizes focus navigation, key sequences, and command-based control.
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 280px; padding: 18px;">
+                    <video controls poster="media/sr-cua-demo-thumb.jpg" style="width: 92%; max-width: 92%; border-radius: 8px; background: #000; display: block; margin: 0 auto;">
+                        <source src="media/sr-cua-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 24px; align-items: stretch; width: 100%; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 320px;">
+                    <h3 style="font-size: 20px; margin-bottom: 10px; font-weight: 600;">3) Magnifier-CUA</h3>
+                    <p style="margin-bottom: 0;">
+                        Uses keyboard and mouse but with a 150 percent magnified viewport that restricts visible context.
+                        This approximates low-vision viewing constraints, requiring more panning and zoom-aware navigation.
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 280px; padding: 18px;">
+                    <video controls poster="media/magnifier-cua-demo-thumb.jpg" style="width: 92%; max-width: 92%; border-radius: 8px; background: #000; display: block; margin: 0 auto;">
+                        <source src="media/magnifier-cua-demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="dataset-viewer">
+            <h2>Dataset Viewer</h2>
+            <p>
+                Select a user and task to preview a task execution video.
+            </p>
+            <div style="display: flex; gap: 16px; flex-wrap: wrap; width: 100%; margin-bottom: 14px;">
+                <div style="flex: 1; min-width: 240px;">
+                    <label for="viewer-user" style="display:block; margin-bottom: 6px; font-weight: 600;">User</label>
+                    <select id="viewer-user" style="width: 100%; padding: 10px; border: 1px solid #ccd4df; border-radius: 6px;">
+                    </select>
+                </div>
+                <div style="flex: 1; min-width: 240px;">
+                    <label for="viewer-task" style="display:block; margin-bottom: 6px; font-weight: 600;">Task</label>
+                    <select id="viewer-task" style="width: 100%; padding: 10px; border: 1px solid #ccd4df; border-radius: 6px;">
+                    </select>
+                </div>
+            </div>
+            <div id="viewer-meta" style="margin: 8px 0 14px; color: #555;"></div>
+            <video id="viewer-video" controls poster="media/default-cua-demo-thumb.jpg" style="width: 100%; max-width: 100%; border-radius: 8px; background: #000;">
+                Your browser does not support the video tag.
+            </video>
+            <p id="viewer-empty" style="margin-top: 10px; color: #555;">
+                No video available for this user/task yet. Add an entry in the manifest inside this page.
+            </p>
+        </section>
+ -->
+
+        <section id="table-2">
+            <h2>Recorder Event Types</h2>
+            <p>
+                We record the following events and their corresponding metadata from users' computer use interactions,
+            </p>
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th>Event Type</th>
+                        <th>Source</th>
+                        <th>Trigger</th>
+                        <th>Fields Captured</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>mouse_click</td><td>Desktop</td><td>Mouse button pressed</td><td>cursor, element in focus, application/window, timestamp</td></tr>
+                    <tr><td>mouse_up</td><td>Desktop</td><td>Mouse button released</td><td>cursor, element in focus, application/window, timestamp</td></tr>
+                    <tr><td>mouse_move</td><td>Desktop</td><td>Mouse movement (throttled)</td><td>delta, cursor position</td></tr>
+                    <tr><td>scroll</td><td>Desktop + Web</td><td>Mouse scroll event</td><td>delta, direction</td></tr>
+                    <tr><td>drag_drop</td><td>Desktop</td><td>Cursor moves >= 6 px while button held</td><td>from/to app + UIA target, duration, slider changes</td></tr>
+                    <tr><td>key_press</td><td>Desktop + Web</td><td>Non-modifier key press</td><td>normalized key name, modifiers, context, element in focus</td></tr>
+                    <tr><td>hotkey</td><td>Desktop</td><td>Modifier + non-modifier combo</td><td>combo string (e.g., Ctrl+C), classified intent</td></tr>
+                    <tr><td>input</td><td>Web</td><td>Typing in an input field</td><td>selector, element metadata</td></tr>
+                    <tr><td>focus / blur</td><td>Web</td><td>Focus changes</td><td>target selector, metadata</td></tr>
+                    <tr><td>page</td><td>Web</td><td>Page load or URL change</td><td>DOM + accessibility tree snapshot, tab ID</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="recorder">
+            <h2>Computer Use Recorder</h2>
+            <p>
+                We built a lightweight, open-source computer use recorder for collecting synchronized multimodal traces.
+                It captures screen video, system audio, OS-level input (mouse, keyboard, scroll), window/element context,
+                accessibility settings, UI Automation (UIA) snapshots, and web-side DOM plus accessibility tree updates.
+            </p>
+            <p>
+                The architecture has two main parts: (1) a local application logger that coordinates recording and desktop events,
+                and (2) a web logger server that receives structured browser events from a Chrome extension.
+                All streams are aligned to a unified timeline and summarized in per-task metadata.
+            </p>
+            <img
+                src="media/computer-use-recorder.png"
+                alt="Computer Use Recorder architecture showing local application logger, web logger, synchronized streams, and generated multimodal outputs."
+                class="section-image"
+            >
+        </section>
+
+        <section id="figures-3-6">
+            <h2>Contrasting Sighted and Blind and Low-Vision Users’ Interactions</h2>
+            <p>
+                SUs tend to work mouse-first with routine scrolling and occasional shortcuts, visually skipping irrelevant items
+                and jumping directly to targets, whereas BLVUs are keyboard-centric and often follow a <strong>verify-before-commit</strong> routine:
+                they pause to let the screen reader finish, re-perform actions to confirm outcomes, and carefully track focus before issuing commands.
+            </p>
+            <img src="media/task_success_rate-by_category_four_groups-1.png" alt="Task completion rates by task category across SUs, BLVUs, Default-CUA, SR-CUA, and Magnifier-CUA." class="section-image">
+            <p>
+                Fig. SUs complete nearly all tasks across categories, while BLVUs show slightly lower success rates, especially for workflow tasks.
+                Default-CUA reaches moderate performance, approaching BLVUs for web and browsing, system operations, and media, but falls further behind on document editing and workflow tasks.
+                Claude 4.5's SR-CUA and Magnifier-CUA models perform substantially worse overall, with particularly low completion rates on workflow and media tasks.
+            </p>
+
+            <img src="media/per_user_shapes_by_task-1.png" alt="Per-task completion times for SU and BLVU participants across 60 tasks grouped by category." class="section-image">
+            <p>
+                Fig. SUs complete most tasks quickly with a tighter spread (often below 150 seconds),
+                whereas BLVUs show higher central times and greater variance, especially in Document Editing, Workflow, and Media categories.
+                The wide dispersion within both groups shows substantial within-group strategy differences.
+            </p>
+            
+        </section>
+
+        <section id="figures-3-6">
+            <h2>Interaction Diversity within Sighted and Blind and Low-Vision User Groups</h2>
+
+            <p>
+                We identify distinct within-group strategies: among SUs, some favor <strong>mouse-first</strong> flows,
+                others rely more on <strong>shortcut-friendly</strong> patterns or context menus; among BLVUs, interaction varies between
+                <strong>walking</strong> (Tab/Arrow step-by-step), <strong>chunk-jumping</strong> with Ctrl/Shift shortcuts, and <strong>ribbon routes</strong> driven by Alt/Win menus.
+            </p>
+            <img src="media/keystroke_variance_blind-1.png" alt="Cross-BLVU standard deviation in keystrokes by task and keystroke type." class="section-image">
+            <p>
+                Fig. Cross-BLVU standard deviation in keystrokes by task and keystroke type (lower is more consistent).
+                Each point reports, for a given task, the variance across BLVUs in character input, navigation keys (Tab/Arrow), and hotkeys (Ctrl/Alt/Win/Shift).
+                Variability is generally small for browsing and system operations, but rises sharply for document editing and remains elevated in workflow and media.
+                Hotkeys categories are typically low-variance, with occasional Ctrl spikes during editing. 
+                The high dispersion indicates diverse strategies (typing vs. navigation vs. shortcuts) for the same task.
+            </p>
+
+            <img src="media/keystroke_variance_sighted-1.png" alt="Cross-SU standard deviation in keyboard and mouse actions by task and action type." class="section-image">
+            <p>
+                Fig. Cross-SU standard deviation in keyboard and mouse actions by task and action type (lower is more consistent).
+                Larger values indicate less predictable behavior. Mouse scroll exhibits the highest dispersion with occasional large spikes.
+                Mouse clicks and navigation keys are also variable, especially in workflow and media tasks.
+                Hotkeys remain near zero across tasks, and drag-and-drop spikes only for tasks that require it.
+            </p>
+        </section>
+
+
+        <section id="section-5-results">
+            <h2>Comparing CUA Interactions to Sighted and Blind and Low-Vision User Workflows</h2>
+            <p>
+                Default-CUA partially resembles sighted behavior by pointing and clicking visible controls,
+                but under-uses efficient strategies such as drag-and-drop, scrolling to reveal context, and hotkeys, tending instead to type long strings
+                and take more keyboard-centric paths. 
+            </p>
+            <p>
+                SR-CUA shows many more <strong>arrow-key navigation steps</strong>, pane-cycling, and re-focusing attempts. Magnifier-CUA combines mouse and keyboard input,
+                but frequently relies on <strong>Win+R launches and path-jumping behavior</strong> instead of navigating naturally through the intended interface.
+                SR-CUA and Magnifier-CUA diverge from BLVU workflows: they often <strong>replay long navigation sequences</strong> or get stuck in zoomed-in regions
+                rather than performing minimal in-place repairs and leveraging rich accessibility cues as BLVUs do.
+            </p>
+            <p>
+                Across all three conditions, a recurring qualitative failure is that agents complete intermediate steps but omit the <strong>final confirmation action</strong>
+                such as Save, Apply, Done, or Submit. In several tasks, SR-CUA and Magnifier-CUA also incorrectly treat simply <strong>locating a file or window as the end goal</strong>,
+                rather than continuing through the full operation required for task completion.
+            </p>
+        </section>
+
+        <section id="cua-limitations">
+            <h2>Limitations of CUAs under AT Conditions</h2>
+            <p>
+                We identify three recurrent gaps when CUAs operate under assistive-technology constraints,
+            </p>
+            <div style="display: flex; gap: 18px; flex-wrap: wrap; align-items: stretch; width: 100%;">
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 20px; margin-bottom: 8px; font-weight: 600;">Perception Gap</h3>
+                    <p>
+                        The perception gap arises when agents cannot access the same signals users perceive, such as screen-reader announcements,
+                        ARIA state changes, or content that is off-viewport under magnification.
+                    </p>
+                    <!-- <div style="border:2px dashed #c7cfda; border-radius:8px; padding:16px;">
+                        <strong>Video Placeholder: Perception Gap</strong><br>
+                        Suggested file: <code>media/perception-gap-demo.mp4</code>
+                    </div> -->
+                </div>
+
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 20px; margin-bottom: 8px; font-weight: 600;">Cognitive Gap</h3>
+                    <p>
+                        The cognitive gap appears as weak tracking of task state and goal completion across steps and across applications,
+                        especially in long, multi-app workflows.
+                    </p>
+                    <!-- <div style="border:2px dashed #c7cfda; border-radius:8px; padding:16px;">
+                        <strong>Video Placeholder: Cognitive Gap</strong><br>
+                        Suggested file: <code>media/cognitive-gap-demo.mp4</code>
+                    </div> -->
+                </div>
+
+                <div style="flex: 1; min-width: 260px;">
+                    <h3 style="font-size: 20px; margin-bottom: 8px; font-weight: 600;">Action Gap</h3>
+                    <p>
+                        The action gap shows up as under-use of robust interaction methods, fragile drag-and-drop behavior,
+                        and failure to execute reliable final "finish moves" in the correct context.
+                    </p>
+                    <!-- <div style="border:2px dashed #c7cfda; border-radius:8px; padding:16px;">
+                        <strong>Video Placeholder: Action Gap</strong><br>
+                        Suggested file: <code>media/action-gap-demo.mp4</code>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="usage">
+            <h2>Towards Accessibility-Aware CUAs</h2>
+            <p>
+                A11y-CUA is useful for benchmarking accessible CUAs, training interaction models under AT constraints,
+                and analyzing strategy differences across user groups. We think about CUAs along a spectrum defined by how closely they simulate BLVUs’ assistive interactions.
+            </p>
+            <img src="media/simulation-spectrum-1.png" alt="Simulation spectrum for accessibility-aware CUA design from low-simulation to high-simulation settings." class="section-image" style="width: 70%; margin-left: auto; margin-right: auto; display: block;">
+            <p>
+                At the low-simulation end, CUAs prioritize autonomous task completion,
+                at the mid-spectrum CUAs simulate common BLVU interaction patterns for robustness testing, and towards high-simulation CUAs approximate
+                an individual BLVU's strategies to support personalized instruction, tutorials, and collaborative assistance.
+            </p>
+        </section>
+
+        <section id="bibtex">
+            <h2>BibTeX</h2>
+            <div class="bibtex-code">
+<pre>@inproceedings{gubbi2026a11y,
+    title={A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents},
+    author={Gubbi Mohanbabu, Ananya and Natalie, Rosiana and Kim, Brandon and Guo, Anhong and Pavel, Amy},
+    booktitle={Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+    pages={1--26},
+    year={2026}
+  }</pre>
+            </div>
+        </section>
+    </div>
+</body>
+<script>
+const DATASET_VIDEO_MANIFEST = {
+    "SU1": {
+        "17": {
+            title: "Task 17 - Search flight and select cheapest option",
+            video: "media/a11y-cua/SU1/task-17.mp4"
+        }
+    },
+    "BLVU6": {
+        "90": {
+            title: "Task 90 - Compress JPG to 40 percent",
+            video: "media/a11y-cua/BLVU6/task-90.mp4"
+        }
+    }
+};
+
+const userSelect = document.getElementById("viewer-user");
+const taskSelect = document.getElementById("viewer-task");
+const videoEl = document.getElementById("viewer-video");
+const emptyMsg = document.getElementById("viewer-empty");
+const metaEl = document.getElementById("viewer-meta");
+
+function setTasksForUser(userId) {
+    const tasks = Object.keys(DATASET_VIDEO_MANIFEST[userId] || {}).sort((a, b) => Number(a) - Number(b));
+    taskSelect.innerHTML = "";
+    tasks.forEach((taskId) => {
+        const option = document.createElement("option");
+        option.value = taskId;
+        option.textContent = `Task ${taskId}`;
+        taskSelect.appendChild(option);
+    });
+    if (tasks.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.textContent = "No tasks configured";
+        taskSelect.appendChild(option);
+    }
+}
+
+function renderVideo() {
+    const userId = userSelect.value;
+    const taskId = taskSelect.value;
+    const entry = DATASET_VIDEO_MANIFEST[userId] && DATASET_VIDEO_MANIFEST[userId][taskId];
+    if (!entry || !entry.video) {
+        videoEl.removeAttribute("src");
+        videoEl.load();
+        emptyMsg.style.display = "block";
+        metaEl.textContent = "";
+        return;
+    }
+    videoEl.src = entry.video;
+    videoEl.load();
+    emptyMsg.style.display = "none";
+    metaEl.textContent = `${entry.title || `Task ${taskId}`} (${userId})`;
+}
+
+function initViewer() {
+    const users = Object.keys(DATASET_VIDEO_MANIFEST).sort();
+    userSelect.innerHTML = "";
+    users.forEach((userId) => {
+        const option = document.createElement("option");
+        option.value = userId;
+        option.textContent = userId;
+        userSelect.appendChild(option);
+    });
+    if (users.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.textContent = "No users configured";
+        userSelect.appendChild(option);
+    }
+    setTasksForUser(userSelect.value);
+    renderVideo();
+}
+
+userSelect.addEventListener("change", () => {
+    setTasksForUser(userSelect.value);
+    renderVideo();
+});
+
+taskSelect.addEventListener("change", renderVideo);
+initViewer();
+</script>
+</html>
