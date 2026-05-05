@@ -1,4 +1,9 @@
 # Simple workflow for deploying static content to GitHub Pages
+#
+# If "Setup Pages" fails with: Get Pages site failed / Not Found
+# → Repo → Settings → Pages → Build and deployment → Source: "GitHub Actions"
+#    (not "Deploy from a branch"). Save, then re-run this workflow.
+#
 name: Deploy static content to Pages
 
 on:
