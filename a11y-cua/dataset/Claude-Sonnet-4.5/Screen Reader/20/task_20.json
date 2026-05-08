@@ -1,0 +1,6058 @@
+{
+  "metadata": {
+    "task_id": 20,
+    "task_title": "Set an alarm on Clock",
+    "instruction": "Set an alarm for 8.30 AM that repeats every Monday",
+    "context": "I need an alarm to remind me to badge in to work.",
+    "task_group": "System Operations",
+    "applications": "Clock",
+    "success": false,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Screen Reader",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1764465839.1963868,
+      "ended_at": 1764466529.4551606,
+      "duration": 690.26
+    },
+    "statistics": {
+      "total_events": 103,
+      "apps_used": [
+        "Code.exe",
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::HWND_132390"
+      ],
+      "by_type": {
+        "key_press": 74,
+        "hotkey": 29
+      },
+      "by_app": {
+        "Code.exe": 2,
+        "ApplicationFrameHost.exe": 101
+      },
+      "keystrokes": {
+        "total_hotkeys": 2,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 96,
+        "hotkeys": {
+          "Ctrl+2": 1,
+          "Ctrl+3": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Tab": 60,
+          "Shift": 27,
+          "Up": 3,
+          "Enter": 2,
+          "Esc": 2,
+          "Down": 1,
+          "F6": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Terminal 4, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 862,
+          "top": 715,
+          "right": 1556,
+          "bottom": 872
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Cancel <Text>",
+          "confidence": 0.35,
+          "rationale": "Esc cancelled the terminal interaction."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 8.6198,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 862,
+          "top": 715,
+          "right": 1556,
+          "bottom": 872
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.42,
+          "rationale": "Win opened the app launcher."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 59.1815,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.33,
+          "rationale": "Esc dismissed the current Clock context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 72.4388,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 88.6514,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 102.5566,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 102.6233,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 102.6692,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 119.7344,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 119.8359,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 119.8833,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 135.1673,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Focus sessions item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 149.5297,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 168.5346,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 168.6241,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "2",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 168.6703,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+2",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "2",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 184.8313,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 184.944,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "3",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 185.0024,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+3",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "3",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 204.049,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 204.1514,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 204.1997,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 204.2475,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 204.3334,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 204.3837,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 204.4297,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 204.4769,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 204.5172,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Open alarm editor",
+          "confidence": 0.72,
+          "rationale": "Initial cancel/open window actions followed by focus navigation through buttons and list items indicate dismissing startup prompts and reaching the alarm setup screen."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 222.817,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Toggle <Button>",
+          "confidence": 0.8,
+          "rationale": "Enter toggled the navigation button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 253.8773,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Focus sessions item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 278.2513,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 301.2733,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Edit your daily goal",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 301.4664,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 301.5524,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 301.6026,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 301.6571,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 301.71,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 301.7567,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 301.8057,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 301.8524,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 301.9015,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 301.9564,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 302.0131,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 302.0605,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 302.1091,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 302.1548,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 302.2013,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 302.2518,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 302.3022,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 302.3608,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 302.4076,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 302.4563,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 302.51,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 302.5582,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 302.6086,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 302.6723,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 302.7299,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 302.781,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 302.8293,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 302.8779,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 302.9273,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Start focus session",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 324.1705,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Decrease the focus session time",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 324.2532,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Decrease the focus session time",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 324.3083,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Decrease the focus session time",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 336.6448,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 336.7203,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 336.7768,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 336.8309,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 336.882,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 336.9329,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 336.9898,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 337.042,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 337.1009,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "See more",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 358.2505,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Keep on top",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 358.3776,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Keep on top",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 358.4409,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Keep on top",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 368.4215,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 368.5402,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 368.6043,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 368.6587,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 368.719,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 368.7711,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 368.8205,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 368.8731,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 368.9283,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 84,
+          "endIndex": 84
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 435.1931,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 457.8002,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.88,
+          "rationale": "The toggle at 28 and the long run of button-focused navigation fit adjusting the alarm's time and related settings to reach 8:30 AM."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 482.3333,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 87,
+          "endIndex": 87
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 482.4306,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 482.4883,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 89,
+          "endIndex": 89
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 507.4895,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 90,
+          "endIndex": 90
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 534.5826,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 91,
+          "endIndex": 91
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 534.7013,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 92,
+          "endIndex": 92
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 534.7637,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Ambient music view",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 893,
+          "top": 523,
+          "right": 1399,
+          "bottom": 835
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 93,
+          "endIndex": 93
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 560.7531,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 94,
+          "endIndex": 94
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.88,
+          "rationale": "Enter activated the Focus sessions item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 587.1514,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 95,
+          "endIndex": 95
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.8,
+          "rationale": "Down navigated the Focus sessions item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 615.4541,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 96,
+          "endIndex": 96
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.92,
+          "rationale": "Tab moved focus to the Sign in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 643.4243,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 97,
+          "endIndex": 97
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 97
+    },
+    {
+      "timestamp": 643.4987,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 98,
+          "endIndex": 98
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 98
+    },
+    {
+      "timestamp": 643.5477,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 99,
+          "endIndex": 99
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 99
+    },
+    {
+      "timestamp": 658.4836,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 100,
+          "endIndex": 100
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 100
+    },
+    {
+      "timestamp": 658.6022,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 101,
+          "endIndex": 101
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 101
+    },
+    {
+      "timestamp": 658.6586,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1066,
+        789
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 789
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 102,
+          "endIndex": 102
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Modifier key in a focus-navigation chord."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Esc and Win were used to leave the terminal and bring up the app environment, then Esc dismissed the current Clock context, which is app-level navigation."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.95,
+          "rationale": "This span centers on list-item navigation and a select action, matching selection of Monday in the repeat-day list."
+        }
+      },
+      "index": 102
+    }
+  ]
+}

@@ -1,0 +1,4277 @@
+{
+  "metadata": {
+    "task_id": 14,
+    "task_title": "Save webage as PDF",
+    "instruction": "Find the lyrics to \"Baby Shark\" song on Chrome. Once you find the lyrics, save the webpage as a PDF so I can print it.",
+    "context": "I want to print the lyrics to \"Baby Shark\" song.",
+    "task_group": "Browsing and Web",
+    "applications": "Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU1",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1755549612.27092,
+      "ended_at": 1755549658.6796496,
+      "duration": 46.41
+    },
+    "statistics": {
+      "total_events": 72,
+      "apps_used": [
+        "python3.13.exe",
+        "explorer.exe",
+        "chrome.exe",
+        "msedge.exe"
+      ],
+      "by_type": {
+        "mouse_move": 30,
+        "mouse_click": 23,
+        "key_press": 10,
+        "scroll": 6,
+        "drag_drop": 3
+      },
+      "by_app": {
+        "python3.13.exe": 9,
+        "explorer.exe": 9,
+        "chrome.exe": 47,
+        "msedge.exe": 7
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 10,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "3": 1,
+          "4": 1,
+          "b": 4,
+          "a": 2,
+          "-": 1,
+          "Enter": 1
+        }
+      }
+    },
+    "web": {
+      "tabs": [
+        {
+          "order": 1,
+          "first_ts": 7.4128,
+          "url": "https://www.google.com/search?q=baby+shark+lyrics&rlz=1C1GCEB_enUS1171US1171&oq=bab&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIPCAEQLhhDGLEDGIAEGIoFMgYIAhBFGEAyBggDEEUYOTINCAQQABiRAhiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBBzgwOGowajeoAgiwAgHxBTFN_h0EBOEE&sourceid=chrome&ie=UTF-8",
+          "title": "baby shark lyrics - Google Search",
+          "file": "/task_logs/14/web_logs/web_tab1_1755549621347.json",
+          "dom_url": "/task_logs/14/web_logs/web_tab1_1755549621347.html",
+          "a11y_url": "/task_logs/14/web_logs/web_tab1_1755549621347_a11y_tree.json"
+        },
+        {
+          "order": 2,
+          "first_ts": 10.1268,
+          "url": "https://studycat.com/english-for-kids/songs/baby-shark-song-and-lyrics/",
+          "title": "Baby Shark Song and Lyrics",
+          "file": "/task_logs/14/web_logs/web_tab2_1755549624061.json",
+          "dom_url": "/task_logs/14/web_logs/web_tab2_1755549624061.html",
+          "a11y_url": "/task_logs/14/web_logs/web_tab2_1755549624061_a11y_tree.json"
+        }
+      ],
+      "total_events": 9,
+      "by_tab": {
+        "1::7.4128": 4,
+        "2::10.1268": 5
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        427,
+        521
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 427,
+          "y": 521
+        },
+        "element_bounds": {
+          "left": 379,
+          "top": 501,
+          "right": 692,
+          "bottom": 535
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.92,
+          "rationale": "Moved the pointer within the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Moved to the Google Chrome launcher item and opened the browser application."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.6021,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        52,
+        506
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 52,
+          "y": 506
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 485,
+          "right": 112,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.88,
+          "rationale": "Clicked the Google Chrome launcher item to open the app."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Moved to the Google Chrome launcher item and opened the browser application."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 2.0548,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        52,
+        506
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 52,
+          "y": 506
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 485,
+          "right": 112,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.88,
+          "rationale": "Clicked the Google Chrome launcher item to open the app."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Moved to the Google Chrome launcher item and opened the browser application."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 2.232,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        52,
+        506
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 52,
+          "y": 506
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 485,
+          "right": 112,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.88,
+          "rationale": "Clicked the Google Chrome launcher item to open the app."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Moved to the Google Chrome launcher item and opened the browser application."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 2.766,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        52,
+        506
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 52,
+          "y": 506
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1799,
+          "bottom": 983
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.93,
+          "rationale": "Moved the pointer over the Chrome list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Moved to the Google Chrome launcher item and opened the browser application."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 4.2227,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        789,
+        208
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 789,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1798,
+          "bottom": 241
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.52,
+          "rationale": "Typed the first character of the search query in launcher search."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.72,
+          "rationale": "Typed into the launcher search box to find an application entry."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 4.3279,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        789,
+        208
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 789,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1798,
+          "bottom": 241
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.52,
+          "rationale": "Typed the first character of the search query in launcher search."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.72,
+          "rationale": "Typed into the launcher search box to find an application entry."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 4.4285,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        789,
+        208
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 789,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1798,
+          "bottom": 241
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.52,
+          "rationale": "Typed the first character of the search query in launcher search."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.72,
+          "rationale": "Typed into the launcher search box to find an application entry."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 5.0588,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        789,
+        208
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 789,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1798,
+          "bottom": 241
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Moved the cursor around the launcher list area."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.72,
+          "rationale": "Typed into the launcher search box to find an application entry."
+        },
+        "l5": {
+          "tag": "Launch Chrome",
+          "confidence": 0.97,
+          "rationale": "Application navigation and app search are used to open Chrome before searching."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 5.5942,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        823,
+        98
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Address and search bar",
+        "control_type": "EditControl",
+        "automation_id": "view_1012"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 823,
+          "y": 98
+        },
+        "element_bounds": {
+          "left": 261,
+          "top": 91,
+          "right": 1391,
+          "bottom": 128
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.95,
+          "rationale": "Clicked the address/search bar to focus it."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 5.9523,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        824,
+        99
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        -8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 824,
+          "y": 99
+        },
+        "element_bounds": {
+          "left": 205,
+          "top": 84,
+          "right": 1457,
+          "bottom": 135
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Cursor To <Search Box>",
+          "confidence": 0.93,
+          "rationale": "Moved the pointer over Chrome's address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 5.955,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        823,
+        98
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 823,
+          "y": 98
+        },
+        "element_bounds": {
+          "left": 205,
+          "top": 84,
+          "right": 1457,
+          "bottom": 135
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.98,
+          "rationale": "Typed the first letter of the query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 6.0409,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        824,
+        99
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 824,
+          "y": 99
+        },
+        "element_bounds": {
+          "left": 205,
+          "top": 84,
+          "right": 1457,
+          "bottom": 135
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.98,
+          "rationale": "Typed the first letter of the query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 6.1594,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        824,
+        99
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 824,
+          "y": 99
+        },
+        "element_bounds": {
+          "left": 205,
+          "top": 84,
+          "right": 1457,
+          "bottom": 135
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.98,
+          "rationale": "Typed the first letter of the query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 6.7961,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        824,
+        99
+      ],
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 824,
+          "y": 99
+        },
+        "element_bounds": {
+          "left": 205,
+          "top": 84,
+          "right": 1457,
+          "bottom": 135
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <Search Box>",
+          "confidence": 0.91,
+          "rationale": "Pressed Enter to submit the search in the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.98,
+          "rationale": "Clicked Chrome's address bar, entered the web query, and submitted it."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.95,
+          "rationale": "Typing the web query to find the Baby Shark lyrics page."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 7.556,
+      "application": "chrome.exe",
+      "window_title": "baby shark lyrics - Google Search - Google Chrome",
+      "cursor_position": [
+        824,
+        102
+      ],
+      "focused_element": {
+        "name": "baby shark lyrics - Google Search",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 824,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 261,
+          "top": 91,
+          "right": 1391,
+          "bottom": 128
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.9,
+          "rationale": "Moved the pointer over the search results page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opened the Baby Shark lyrics result from the search results page."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 9.4028,
+      "application": "chrome.exe",
+      "window_title": "baby shark lyrics - Google Search - Google Chrome",
+      "cursor_position": [
+        342,
+        671
+      ],
+      "focused_element": {
+        "name": "baby shark lyrics - Google Search",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "TextControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 342,
+          "y": 671
+        },
+        "element_bounds": {
+          "left": 87,
+          "top": 665,
+          "right": 465,
+          "bottom": 712
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.97,
+          "rationale": "Opened the search result for the Baby Shark lyrics page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opened the Baby Shark lyrics result from the search results page."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 10.5721,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        342,
+        671
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Dive into the catchy world of \"Baby Shark\"! Discover the full lyrics and fascinating story behind this irresistible children's song. Come sing along!",
+        "control_type": "TextControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 342,
+          "y": 671
+        },
+        "element_bounds": {
+          "left": 169,
+          "top": 575,
+          "right": 718,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.94,
+          "rationale": "Moved the cursor onto the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 11.0552,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        589,
+        513
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 589,
+          "y": 513
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 295,
+          "right": 1775,
+          "bottom": 8641
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 18,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scrolled the lyrics webpage."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 11.0908,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        591,
+        513
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 591,
+          "y": 513
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 293,
+          "right": 1775,
+          "bottom": 8639
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 18,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scrolled the lyrics webpage."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 11.1331,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        596,
+        511
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        6,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 596,
+          "y": 511
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 273,
+          "right": 1775,
+          "bottom": 8619
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.93,
+          "rationale": "Moved the pointer over the lyrics page content."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 11.1667,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        593,
+        513
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 593,
+          "y": 513
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 273,
+          "right": 1775,
+          "bottom": 8619
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scrolled further through the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 11.2809,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        598,
+        509
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 598,
+          "y": 509
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 253,
+          "right": 1775,
+          "bottom": 8599
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.92,
+          "rationale": "Moved the pointer on the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 11.8113,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        608,
+        502
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 608,
+          "y": 502
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": -155,
+          "right": 1775,
+          "bottom": 8191
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Webpage>",
+          "confidence": 0.78,
+          "rationale": "Clicked the page body to focus the webpage."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and focused the lyrics webpage to read its content."
+        },
+        "l5": {
+          "tag": "Open lyrics page",
+          "confidence": 0.93,
+          "rationale": "Opening the search result and viewing the lyrics webpage content."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 12.0095,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        609,
+        502
+      ],
+      "focused_element": {
+        "name": "Cast…",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Cast…",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        3,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 609,
+          "y": 502
+        },
+        "element_bounds": {
+          "left": 606,
+          "top": 499,
+          "right": 1149,
+          "bottom": 542
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.89,
+          "rationale": "Moved the cursor to the browser menu item near Print."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 12.9209,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        743,
+        480
+      ],
+      "focused_element": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 743,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 606,
+          "top": 457,
+          "right": 1149,
+          "bottom": 500
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Print <Menu Item>",
+          "confidence": 0.99,
+          "rationale": "Selected the Print command from the menu."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 13.7294,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        743,
+        480
+      ],
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -3,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 743,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.93,
+          "rationale": "Moved the cursor over the Save button in print preview."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 15.379,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1432,
+        368
+      ],
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl"
+      },
+      "target": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1432,
+          "y": 368
+        },
+        "element_bounds": {
+          "left": 1338,
+          "top": 330,
+          "right": 1626,
+          "bottom": 385
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.84,
+          "rationale": "Opened the Pages dropdown in print settings."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 15.6418,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1432,
+        368
+      ],
+      "focused_element": {
+        "name": "All",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        14,
+        -14
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1432,
+          "y": 368
+        },
+        "element_bounds": {
+          "left": 1338,
+          "top": 330,
+          "right": 1626,
+          "bottom": 385
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved the cursor to the All pages option."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 16.5776,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        988,
+        426
+      ],
+      "focused_element": {
+        "name": "All",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 988,
+          "y": 426
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.9,
+          "rationale": "Selected the All pages option."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 16.6389,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        986,
+        426
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -78,
+        -8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 986,
+          "y": 426
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.73,
+          "rationale": "Moved the cursor over the PDF preview pane."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 16.9316,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        989,
+        425
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 989,
+          "y": 425
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.78,
+          "rationale": "Scrolled within the PDF preview pane."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 16.981,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        989,
+        425
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        3,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 989,
+          "y": 425
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.73,
+          "rationale": "Moved the cursor over the PDF preview pane again."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 17.0303,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        989,
+        425
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 989,
+          "y": 425
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 33,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.78,
+          "rationale": "Scrolled the PDF preview."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 17.1031,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        989,
+        425
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 989,
+          "y": 425
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 33,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.78,
+          "rationale": "Scrolled the PDF preview."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 17.1749,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        996,
+        418
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        7,
+        -7
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 996,
+          "y": 418
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.72,
+          "rationale": "Moved the cursor over the preview area."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 18.0949,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1065,
+        255
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1065,
+          "y": 255
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Webpage>",
+          "confidence": 0.68,
+          "rationale": "Clicked the preview/document area to focus it."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 18.1661,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1067,
+        266
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1067,
+          "y": 266
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.72,
+          "rationale": "Moved the cursor within the preview pane."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 37
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 20.6549,
+      "button": "Button.left",
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1052,
+        458
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "from": {
+        "application": "chrome.exe",
+        "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+        "cursor_position": [
+          1065,
+          255
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "DocumentControl"
+        },
+        "focused_element": {
+          "name": "PDF document containing 10 pages",
+          "control_type": "DocumentControl"
+        }
+      },
+      "to": {
+        "application": "chrome.exe",
+        "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+        "cursor_position": [
+          1052,
+          458
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "DocumentControl"
+        },
+        "focused_element": {
+          "name": "PDF document containing 10 pages",
+          "control_type": "DocumentControl"
+        }
+      },
+      "drag_distance": 203,
+      "duration_ms": 2511,
+      "coordinates": {
+        "cursor": {
+          "x": 1052,
+          "y": 458
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move <Canvas>",
+          "confidence": 0.47,
+          "rationale": "Dragged within the preview region as if moving the page view."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 20.678,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1052,
+        458
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1052,
+          "y": 458
+        },
+        "element_bounds": {
+          "left": 162,
+          "top": 139,
+          "right": 1085,
+          "bottom": 945
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.72,
+          "rationale": "Moved the cursor over the preview area again."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 21.1966,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1372,
+        367
+      ],
+      "focused_element": {
+        "name": "PDF document containing 10 pages",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl"
+      },
+      "target": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1372,
+          "y": 367
+        },
+        "element_bounds": {
+          "left": 1338,
+          "top": 330,
+          "right": 1626,
+          "bottom": 385
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.84,
+          "rationale": "Opened the Pages dropdown again."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 21.4284,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1372,
+        367
+      ],
+      "focused_element": {
+        "name": "All",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        13,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1372,
+          "y": 367
+        },
+        "element_bounds": {
+          "left": 1338,
+          "top": 330,
+          "right": 1626,
+          "bottom": 385
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved the cursor to the All option in the dropdown."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 22.1451,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1382,
+        503
+      ],
+      "focused_element": {
+        "name": "All",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "More settings",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "More settings",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1382,
+          "y": 503
+        },
+        "element_bounds": {
+          "left": 1086,
+          "top": 491,
+          "right": 1662,
+          "bottom": 600
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.83,
+          "rationale": "Expanded the More settings section."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 22.3149,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1382,
+        504
+      ],
+      "focused_element": {
+        "name": "Pages",
+        "control_type": "ComboBoxControl"
+      },
+      "element_under_cursor": {
+        "name": "More settings",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1382,
+          "y": 504
+        },
+        "element_bounds": {
+          "left": 1086,
+          "top": 491,
+          "right": 1662,
+          "bottom": 600
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.86,
+          "rationale": "Moved the cursor back toward the Pages control."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 22.8947,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1426,
+        413
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl",
+        "automation_id": "input"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1426,
+          "y": 413
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.96,
+          "rationale": "Clicked into the custom page range field."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 23.1475,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1424,
+        413
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1424,
+          "y": 413
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.94,
+          "rationale": "Moved the cursor within the page range field."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 23.2244,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1422,
+        414
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "3",
+      "coordinates": {
+        "cursor": {
+          "x": 1422,
+          "y": 414
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.97,
+          "rationale": "Typed the page range value."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 23.7718,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1422,
+        414
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "-",
+      "coordinates": {
+        "cursor": {
+          "x": 1422,
+          "y": 414
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.97,
+          "rationale": "Typed the page range value."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 23.8805,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1422,
+        414
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "4",
+      "coordinates": {
+        "cursor": {
+          "x": 1422,
+          "y": 414
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.97,
+          "rationale": "Typed the page range value."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 24.4306,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1421,
+        416
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -3,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1421,
+          "y": 416
+        },
+        "element_bounds": {
+          "left": 1353,
+          "top": 387,
+          "right": 1611,
+          "bottom": 442
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Moved the cursor back over the page range field."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 25.4257,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        1442,
+        888
+      ],
+      "focused_element": {
+        "name": "e.g. 1-5, 8, 11-13",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1442,
+          "y": 888
+        },
+        "element_bounds": {
+          "left": 1405,
+          "top": 855,
+          "right": 1506,
+          "bottom": 909
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked Save to generate the PDF."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 26.1182,
+      "application": "chrome.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        1442,
+        888
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1442,
+          "y": 888
+        },
+        "element_bounds": {
+          "left": 1405,
+          "top": 855,
+          "right": 1506,
+          "bottom": 909
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Moved the cursor to the file name field in Save As."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 27.8278,
+      "application": "chrome.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        159,
+        293
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 159,
+          "y": 293
+        },
+        "element_bounds": {
+          "left": 115,
+          "top": 279,
+          "right": 186,
+          "bottom": 327
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.82,
+          "rationale": "Selected Desktop in the Save As location tree."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 28.0829,
+      "application": "chrome.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        159,
+        294
+      ],
+      "focused_element": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -5,
+        9
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 159,
+          "y": 294
+        },
+        "element_bounds": {
+          "left": 115,
+          "top": 279,
+          "right": 186,
+          "bottom": 327
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Moved the cursor over the Desktop location item."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 28.8679,
+      "application": "chrome.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        725,
+        660
+      ],
+      "focused_element": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 725,
+          "y": 660
+        },
+        "element_bounds": {
+          "left": 667,
+          "top": 659,
+          "right": 799,
+          "bottom": 698
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked Save in the Save As dialog."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Chrome print preview and Save As dialogs to export the lyrics webpage as a PDF and save it to Desktop."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.92,
+          "rationale": "Using the website print/export flow to generate a PDF copy of the page."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 29.1758,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        725,
+        661
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 725,
+          "y": 661
+        },
+        "element_bounds": {
+          "left": 169,
+          "top": 589,
+          "right": 1631,
+          "bottom": 7313
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.93,
+          "rationale": "Moved the cursor over the Chrome page after saving."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Brought the Chrome window back to the foreground after saving."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 30.8739,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark Song and Lyrics - Google Chrome",
+      "cursor_position": [
+        369,
+        44
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics - Google Chrome",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 369,
+          "y": 44
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 15,
+          "right": 410,
+          "bottom": 77
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.81,
+          "rationale": "Clicked the Chrome window area to bring it forward."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Brought the Chrome window back to the foreground after saving."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 31.2713,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        369,
+        44
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -11,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 369,
+          "y": 44
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.91,
+          "rationale": "Moved the cursor back to the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Brought the Chrome window back to the foreground after saving."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 32.6223,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        408,
+        250
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 408,
+          "y": 250
+        },
+        "element_bounds": {
+          "left": 263,
+          "top": 231,
+          "right": 1139,
+          "bottom": 273
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.9,
+          "rationale": "Clicked the logger window to switch focus to it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Brought the Chrome window back to the foreground after saving."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 32.712,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        491,
+        254
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        82,
+        4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 491,
+          "y": 254
+        },
+        "element_bounds": {
+          "left": 324,
+          "top": 234,
+          "right": 1200,
+          "bottom": 276
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.9,
+          "rationale": "Moved the cursor within the logger window."
+        },
+        "l4": {
+          "tag": "Arrange <Application>",
+          "confidence": 0.6,
+          "rationale": "Dragged within the logger window, likely repositioning its pane or window area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 59
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 32.9533,
+      "button": "Button.left",
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        756,
+        275
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "from": {
+        "application": "python3.13.exe",
+        "window_title": "Computer Use Logger",
+        "cursor_position": [
+          408,
+          250
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "TitleBarControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "to": {
+        "application": "python3.13.exe",
+        "window_title": "Computer Use Logger",
+        "cursor_position": [
+          756,
+          275
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "TitleBarControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "drag_distance": 348,
+      "duration_ms": 298,
+      "coordinates": {
+        "cursor": {
+          "x": 756,
+          "y": 275
+        },
+        "element_bounds": {
+          "left": 611,
+          "top": 256,
+          "right": 1487,
+          "bottom": 298
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move <Window>",
+          "confidence": 0.44,
+          "rationale": "Dragged inside the logger window pane, likely repositioning a window or pane area."
+        },
+        "l4": {
+          "tag": "Arrange <Application>",
+          "confidence": 0.6,
+          "rationale": "Dragged within the logger window, likely repositioning its pane or window area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 33.0048,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        756,
+        275
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 756,
+          "y": 275
+        },
+        "element_bounds": {
+          "left": 611,
+          "top": 256,
+          "right": 1487,
+          "bottom": 298
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.9,
+          "rationale": "Moved the cursor within the logger window again."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Selected the saved Baby Shark item in the logger and opened it from Program Manager."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 33.7488,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        276,
+        516
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 276,
+          "y": 516
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 485,
+          "right": 336,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 62,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.84,
+          "rationale": "Selected the Baby Shark Song and Lyrics list item in the logger."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Selected the saved Baby Shark item in the logger and opened it from Program Manager."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 33.913,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        276,
+        516
+      ],
+      "focused_element": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 276,
+          "y": 516
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 485,
+          "right": 336,
+          "bottom": 639
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 62,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Opened the Baby Shark Song and Lyrics item from Program Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Selected the saved Baby Shark item in the logger and opened it from Program Manager."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 34.6148,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        276,
+        516
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 276,
+          "y": 516
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 111,
+          "right": 1920,
+          "bottom": 1008
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.86,
+          "rationale": "Moved the cursor over the PDF document in Edge."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 36.0411,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1901,
+        724
+      ],
+      "focused_element": {
+        "name": "Page 2",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics.pdf",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics.pdf",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1901,
+          "y": 724
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 111,
+          "right": 1914,
+          "bottom": 1002
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Focus To <Webpage>",
+          "confidence": 0.76,
+          "rationale": "Clicked the PDF document area to focus the viewer."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 36.1105,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1902,
+        724
+      ],
+      "focused_element": {
+        "name": "Page 2",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics.pdf",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1902,
+          "y": 724
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 111,
+          "right": 1914,
+          "bottom": 1002
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.8,
+          "rationale": "Moved the cursor over the PDF page area."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 66
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 37.8477,
+      "button": "Button.left",
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1826,
+        867
+      ],
+      "focused_element": {
+        "name": "Page 2",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics.pdf",
+        "control_type": "DocumentControl"
+      },
+      "from": {
+        "application": "msedge.exe",
+        "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+        "cursor_position": [
+          1901,
+          724
+        ],
+        "element_under_cursor": {
+          "name": "Baby Shark Song and Lyrics.pdf",
+          "control_type": "DocumentControl"
+        },
+        "focused_element": {
+          "name": "Page 2",
+          "control_type": "GroupControl"
+        }
+      },
+      "to": {
+        "application": "msedge.exe",
+        "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+        "cursor_position": [
+          1826,
+          867
+        ],
+        "element_under_cursor": {
+          "name": "Baby Shark Song and Lyrics.pdf",
+          "control_type": "DocumentControl"
+        },
+        "focused_element": {
+          "name": "Page 2",
+          "control_type": "GroupControl"
+        }
+      },
+      "drag_distance": 161,
+      "duration_ms": 1771,
+      "coordinates": {
+        "cursor": {
+          "x": 1826,
+          "y": 867
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 111,
+          "right": 1914,
+          "bottom": 1002
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move <Canvas>",
+          "confidence": 0.55,
+          "rationale": "Dragged within the PDF page area."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 37.9129,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1871,
+        749
+      ],
+      "focused_element": {
+        "name": "Page 2",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Baby Shark Song and Lyrics.pdf",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        45,
+        -117
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1871,
+          "y": 749
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 111,
+          "right": 1914,
+          "bottom": 1002
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.8,
+          "rationale": "Moved the cursor again over the PDF page area."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 38.3959,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1896,
+        17
+      ],
+      "focused_element": {
+        "name": "Page 2",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Baby Shark Song and Lyrics.pdf - Microsoft Edge",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1896,
+          "y": 17
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 111
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.82,
+          "rationale": "Clicked the Edge window area to bring it into focus."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Opened the saved PDF in Edge and inspected the document by moving and dragging within the page area."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 38.6824,
+      "application": "msedge.exe",
+      "window_title": "Baby Shark Song and Lyrics.pdf - Profile 1 - Microsoft​ Edge",
+      "cursor_position": [
+        1896,
+        17
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -6,
+        8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1896,
+          "y": 17
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.9,
+          "rationale": "Moved the cursor over the Edge window chrome."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.57,
+          "rationale": "Clicked the logger close button to finalize and end the session."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 39.6119,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        1055,
+        697
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1055,
+          "y": 697
+        },
+        "element_bounds": {
+          "left": 922,
+          "top": 686,
+          "right": 1152,
+          "bottom": 735
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.49,
+          "rationale": "Clicked the final logger button, likely to close or end the session."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.57,
+          "rationale": "Clicked the logger close button to finalize and end the session."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.83,
+          "rationale": "Switching through dialogs and confirming the final save of the PDF file."
+        }
+      },
+      "index": 71
+    }
+  ]
+}

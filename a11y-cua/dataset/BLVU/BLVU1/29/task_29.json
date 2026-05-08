@@ -1,0 +1,2969 @@
+{
+  "metadata": {
+    "task_id": 29,
+    "task_title": "Force quit an application",
+    "instruction": "Open Chrome and close the application from Task Manager",
+    "context": "I'm browsing on Chrome but it is frozen.",
+    "task_group": "System Operations",
+    "applications": "Task Manager, Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU1",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756556624.9697423,
+      "ended_at": 1756556919.3594606,
+      "duration": 294.39
+    },
+    "statistics": {
+      "total_events": 53,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe",
+        "Taskmgr.exe"
+      ],
+      "by_type": {
+        "key_press": 51,
+        "hotkey": 2
+      },
+      "by_app": {
+        "explorer.exe": 18,
+        "chrome.exe": 9,
+        "Taskmgr.exe": 26
+      },
+      "keystrokes": {
+        "total_hotkeys": 1,
+        "total_screen_reader_commands": 4,
+        "total_other_keys": 43,
+        "hotkeys": {
+          "Ctrl+Shift+Esc": 1
+        },
+        "screen_reader_commands": {
+          "Insert+Insert": 2,
+          "Insert+Tab": 2
+        },
+        "other_keys": {
+          "Up": 24,
+          "Down": 8,
+          "Right": 4,
+          "Enter": 2,
+          "Left": 2,
+          "g": 1,
+          "Menu": 1,
+          "o": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1475,
+        233
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1475,
+          "y": 233
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.45,
+          "rationale": "Alt is used as a keyboard access key in Program Manager, likely moving focus to the menu area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 16.4756,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "TeamViewer",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 16.595,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "TeamViewer",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 16.8495,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 16.949,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 17.2175,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 17.3057,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 18.3846,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 18.5113,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 19.058,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 19.1604,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 19.3916,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "TeamViewer",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 19.5255,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "TeamViewer",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 19.8869,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 19.9661,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 23.4628,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 23.5779,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moved through the Program Manager app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 25.2425,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1419,
+        251
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1419,
+          "y": 251
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Enter opened the selected Google Chrome app entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.56,
+          "rationale": "The long list-item traversal followed by opening a list item suggests locating the target Chrome entry."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 150.5803,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Insert",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.25,
+          "rationale": "Standalone Insert key in Chrome did not target a specific control; focus remained in the active window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 151.0668,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Insert",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.25,
+          "rationale": "Standalone Insert key in Chrome did not target a specific control; focus remained in the active window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 151.1913,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.6,
+          "rationale": "Tab likely advanced keyboard focus to the next browser control."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 151.2741,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "hotkey",
+      "combo": "Insert+Tab",
+      "mods": [
+        "Insert"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": true,
+        "reader_hint": "NVDA/JAWS likely",
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.6,
+          "rationale": "Tab likely advanced keyboard focus to the next browser control."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 153.2931,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.2,
+          "rationale": "Standalone Ctrl key press had no direct UI target change."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 155.2795,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.2,
+          "rationale": "Standalone Ctrl key press had no direct UI target change."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 155.4033,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.2,
+          "rationale": "Standalone Ctrl key press had no direct UI target change."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 155.5212,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Cancel <Text>",
+          "confidence": 0.84,
+          "rationale": "Esc cancelled/dismissed the current Chrome address bar interaction."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 155.6013,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Shift+Esc",
+      "mods": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Esc",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 25,
+          "top": 145,
+          "right": 1579,
+          "bottom": 982
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Ctrl+Shift+Esc opened Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 159.7945,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: jfw",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 454,
+          "right": 1130,
+          "bottom": 496
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moved focus to the next Task Manager process entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 162.032,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 454,
+          "right": 1130,
+          "bottom": 496
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moved focus to the next Task Manager process entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 162.1457,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 454,
+          "right": 1130,
+          "bottom": 496
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moved focus to the next Task Manager process entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 164.5375,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Menu",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.72,
+          "rationale": "Menu key opened the Task Manager menu/menu-bar interaction."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 164.6631,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 165.928,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 166.0469,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 167.0075,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 167.1174,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 168.0157,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 168.1355,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 169.0964,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 169.2263,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 170.2336,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 170.3464,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 171.2084,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 171.3066,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 172.2619,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 172.3509,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 173.2479,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 173.3396,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 174.3543,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 174.4812,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 175.4263,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 175.5554,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow navigated within the Task Manager menu bar/items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 176.8205,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1126,
+        481
+      ],
+      "element_under_cursor": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1126,
+          "y": 481
+        },
+        "element_bounds": {
+          "left": 161,
+          "top": 452,
+          "right": 1128,
+          "bottom": 494
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.7,
+          "rationale": "Enter activated the selected chrome process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user moves through Program Manager with arrows and typeahead, then presses Enter on Google Chrome to launch/open the application."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.67,
+          "rationale": "Focus shifts to window and button elements, then through a cancel/open sequence, consistent with dealing with a termination prompt."
+        }
+      },
+      "index": 52
+    }
+  ]
+}

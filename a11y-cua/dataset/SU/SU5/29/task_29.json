@@ -1,0 +1,564 @@
+{
+  "metadata": {
+    "task_id": 29,
+    "task_title": "Force quit an application",
+    "instruction": "Open Chrome and close the application from Task Manager",
+    "context": "I'm browsing on Chrome but it is frozen.",
+    "task_group": "System Operations",
+    "applications": "Task Manager, Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU5",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1756175628.1157691,
+      "ended_at": 1756175678.187125,
+      "duration": 50.07
+    },
+    "statistics": {
+      "total_events": 9,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe"
+      ],
+      "by_type": {
+        "mouse_click": 5,
+        "mouse_move": 4
+      },
+      "by_app": {
+        "explorer.exe": 7,
+        "chrome.exe": 2
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        28,
+        195
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 28,
+          "y": 195
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 294
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Google Chrome app entry in Program Manager to launch/open Chrome."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Selected the Google Chrome list item in Program Manager to launch the Chrome application."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.63,
+          "rationale": "The list-item open action followed by moving to the search box fits the initial step of locating and launching Chrome."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.5976,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        41,
+        199
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        13,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 41,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 294
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Cursor To <Search Box>",
+          "confidence": 0.9,
+          "rationale": "Moved the mouse over Chrome's address/search bar area."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.74,
+          "rationale": "Moved the cursor to the Chrome address/search bar area, navigating within the browser interface."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.63,
+          "rationale": "The list-item open action followed by moving to the search box fits the initial step of locating and launching Chrome."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 3.756,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1553,
+        1042
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Show Hidden Icons",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Show Hidden Icons",
+        "control_type": "ButtonControl",
+        "automation_id": "SystemTrayIcon"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1553,
+          "y": 1042
+        },
+        "element_bounds": {
+          "left": 1531,
+          "top": 1008,
+          "right": 1579,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Clicked the Show Hidden Icons button to open the system tray overflow."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
+        },
+        "l5": {
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 5.9391,
+      "application": "explorer.exe",
+      "window_title": "System tray overflow window.",
+      "cursor_position": [
+        1545,
+        1042
+      ],
+      "focused_element": {
+        "name": "OBS Studio",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Show Hidden Icons Hide",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -8,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1545,
+          "y": 1042
+        },
+        "element_bounds": {
+          "left": 1531,
+          "top": 1008,
+          "right": 1579,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.88,
+          "rationale": "Moved the cursor toward the OBS Studio tray button in the overflow window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
+        },
+        "l5": {
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 8.8318,
+      "application": "explorer.exe",
+      "window_title": "System tray overflow window.",
+      "cursor_position": [
+        1475,
+        1038
+      ],
+      "focused_element": {
+        "name": "OBS Studio",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1475,
+          "y": 1038
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1008,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.63,
+          "rationale": "Clicked inside the tray overflow popup/window area to activate it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
+        },
+        "l5": {
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 10.1127,
+      "application": "explorer.exe",
+      "window_title": "",
+      "cursor_position": [
+        1478,
+        1031
+      ],
+      "focused_element": {
+        "name": "Task Manager",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        -8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1478,
+          "y": 1031
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1008,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.94,
+          "rationale": "Moved the cursor to the Task Manager menu item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
+        },
+        "l5": {
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 11.2626,
+      "application": "explorer.exe",
+      "window_title": "",
+      "cursor_position": [
+        1592,
+        933
+      ],
+      "focused_element": {
+        "name": "Task Manager",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task Manager",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Task Manager",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1592,
+          "y": 933
+        },
+        "element_bounds": {
+          "left": 1542,
+          "top": 913,
+          "right": 1690,
+          "bottom": 941
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Task Manager menu item to open Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
+        },
+        "l5": {
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 35.7993,
+      "application": "explorer.exe",
+      "window_title": "",
+      "cursor_position": [
+        1196,
+        103
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -397,
+        -820
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1196,
+          "y": 103
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.62,
+          "rationale": "Moved the cursor within the Task Manager window in preparation for ending the task."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Used Task Manager's End task button to finalize force-closing Chrome."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.85,
+          "rationale": "The final window focus and delete-button action complete the confirmation needed to close Chrome."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 36.8379,
+      "application": "explorer.exe",
+      "window_title": "",
+      "cursor_position": [
+        545,
+        458
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 545,
+          "y": 458
+        },
+        "element_bounds": {
+          "left": 384,
+          "top": 443,
+          "right": 614,
+          "bottom": 492
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Delete <Button>",
+          "confidence": 0.7,
+          "rationale": "Clicked the Task Manager action button used to terminate/remove the Chrome process (End task)."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Used Task Manager's End task button to finalize force-closing Chrome."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.85,
+          "rationale": "The final window focus and delete-button action complete the confirmation needed to close Chrome."
+        }
+      },
+      "index": 8
+    }
+  ]
+}

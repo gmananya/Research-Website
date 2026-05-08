@@ -1,0 +1,4700 @@
+{
+  "metadata": {
+    "task_id": 79,
+    "task_title": "Recover a photo from Trash",
+    "instruction": "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder.",
+    "context": "I accidentally deleted a file with the name Task ID 79.jpg.",
+    "task_group": "System Operation",
+    "applications": "Recycle bin",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU1",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1755704145.6109555,
+      "ended_at": 1755704216.7841933,
+      "duration": 71.17
+    },
+    "statistics": {
+      "total_events": 84,
+      "apps_used": [
+        "explorer.exe"
+      ],
+      "by_type": {
+        "key_press": 77,
+        "hotkey": 7
+      },
+      "by_app": {
+        "explorer.exe": 84
+      },
+      "keystrokes": {
+        "total_hotkeys": 3,
+        "total_screen_reader_commands": 6,
+        "total_other_keys": 69,
+        "hotkeys": {
+          "Ctrl+End": 2,
+          "Win+E": 1
+        },
+        "screen_reader_commands": {
+          "Insert+Tab": 4,
+          "Insert+Insert": 2
+        },
+        "other_keys": {
+          "Down": 22,
+          "Up": 22,
+          "Tab": 6,
+          "Enter": 4,
+          "Left": 4,
+          "Right": 4,
+          "d": 3,
+          "Menu": 1,
+          "r": 1,
+          "Shift": 1,
+          "t": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.78,
+          "rationale": "Typed a character to jump to the Recycle Bin item in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.1453,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Opened the selected Recycle Bin item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 3.6672,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "13",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 4.2205,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "13",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 5.1271,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "5",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 5.2159,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "5",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 6.5306,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 8.2159,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 8.3139,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 8.7637,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 8.8333,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Moved selection down within the Recycle Bin file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.9,
+          "rationale": "Opened Recycle Bin from the desktop/program manager and moved selection until Task ID 79 was highlighted."
+        },
+        "l5": {
+          "tag": "Find deleted file in Recycle Bin",
+          "confidence": 0.93,
+          "rationale": "Navigates within Recycle Bin to find the deleted Task ID 79.jpg before recovery."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 12.8005,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Menu",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Opened the context menu for the selected file."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 13.705,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 13.7826,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 15.0829,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Cut",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 15.1862,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Cut",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 16.1247,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 16.223,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 16.6491,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Send to My Phone",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 16.7187,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Send to My Phone",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 17.5422,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Share",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 17.6531,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Share",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 18.6127,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 18.7151,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Moved focus to the next context-menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 20.5052,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Activated the Restore command from the context menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened the context menu for Task ID 79 and confirmed the Restore command to recover the file."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.98,
+          "rationale": "Uses the menu/confirmation flow to restore the chosen deleted file from Recycle Bin."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 23.1809,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 23.2865,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 24.4215,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 24.519,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 25.4491,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 25.5671,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Moved focus within the Recycle Bin file list after restoring."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 27.0548,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Part of the Win+E shortcut used to open File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 27.1707,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Old Assignment",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Part of the Win+E shortcut used to open File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 27.5762,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+E",
+      "mods": [
+        "Win"
+      ],
+      "key": "e",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Part of the Win+E shortcut used to open File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 29.9173,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Recommended ",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 30.0927,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Control Host",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 30.1764,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Home",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 30.2498,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Home",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 30.302,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Home",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 31.4157,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 32.4562,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 33.4695,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Keyboard navigation toward the file-navigation controls in File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 34.7286,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Opened the Documents folder from the navigation tree."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 35.38,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Shell Folder View",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 35.4532,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 36.3634,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 36.549,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 36.6255,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+End",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "End",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 36.7071,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 36.784,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+End",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "End",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 37.9315,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 38.0354,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 39.1152,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 39.2316,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 39.772,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 39.8639,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 40.4178,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 86",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 40.5301,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 86",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 41.6345,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 84",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 41.7339,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 84",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 42.7561,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 83",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 42.8626,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 83",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 43.881,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 81",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 43.9965,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 81",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 45.0005,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 45.121,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Tabbed into the file list from the folder view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 46.3584,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Opened the Task 79 folder to verify its contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moved focus around within Recycle Bin after the restore before switching away to continue navigation."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.91,
+          "rationale": "Moves through File Explorer toward the previous destination, Documents > Task 79, for verification."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 47.3353,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 47.4205,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 48.5342,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 48.6494,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 49.2942,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 49.3753,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 50.0503,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 50.1663,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 50.6255,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 50.7208,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 51.1485,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Insert",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 51.2667,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 51.3494,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Insert+Tab",
+      "mods": [
+        "Insert"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": true,
+        "reader_hint": "NVDA/JAWS likely",
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 53.0294,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Insert",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 53.1359,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Insert"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 53.2139,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Insert+Tab",
+      "mods": [
+        "Insert"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": true,
+        "reader_hint": "NVDA/JAWS likely",
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 54.534,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "cursor_position": [
+        664,
+        584
+      ],
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 664,
+          "y": 584
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moved focus within the Task 79 folder contents."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.86,
+          "rationale": "Inspected the contents of the Task 79 folder to verify the restored image was present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.95,
+          "rationale": "Reviews the target folder contents to confirm the recovered file is present in its previous location."
+        }
+      },
+      "index": 83
+    }
+  ]
+}

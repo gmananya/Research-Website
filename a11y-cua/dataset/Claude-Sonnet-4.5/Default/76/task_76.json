@@ -1,0 +1,3618 @@
+{
+  "metadata": {
+    "task_id": 76,
+    "task_title": "Add a song to a playlist",
+    "instruction": "Create the playlist \"Fun with Kids\" on Media Player and add Task ID 76.mp3 in Documents > Task 76 folder to the playlist.",
+    "context": "I want to make a new playlist to organize my music better. I want to add \"Baby Shark\" video in my playlist.",
+    "task_group": "Media",
+    "applications": "Music",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1764802719.892325,
+      "ended_at": 1764803245.2536192,
+      "duration": 525.36
+    },
+    "statistics": {
+      "total_events": 62,
+      "apps_used": [
+        "Code.exe",
+        "explorer.exe",
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::MediaPlayer",
+        "explorer.exe"
+      ],
+      "by_type": {
+        "mouse_click": 41,
+        "key_press": 17,
+        "hotkey": 2,
+        "scroll": 2
+      },
+      "by_app": {
+        "explorer.exe": 20,
+        "ApplicationFrameHost.exe": 42
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 19,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Shift": 4,
+          "f": 2,
+          "i": 2,
+          "k": 2,
+          "Space": 2,
+          "d": 1,
+          "h": 1,
+          "n": 1,
+          "s": 1,
+          "t": 1,
+          "u": 1,
+          "w": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        625,
+        1164
+      ],
+      "element_under_cursor": {
+        "name": "Start",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Start",
+        "control_type": "ButtonControl",
+        "automation_id": "StartButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 625,
+          "y": 1164
+        },
+        "element_bounds": {
+          "left": 593,
+          "top": 1128,
+          "right": 661,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.98,
+          "rationale": "Open the Start menu from the Start button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        625,
+        1164
+      ],
+      "element_under_cursor": {
+        "name": "Start",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Start",
+        "control_type": "ButtonControl",
+        "automation_id": "StartButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 625,
+          "y": 1164
+        },
+        "element_bounds": {
+          "left": 593,
+          "top": 1128,
+          "right": 661,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.98,
+          "rationale": "Open the Start menu from the Start button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 25.1155,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Open file(s)",
+        "control_type": "SplitButtonControl"
+      },
+      "cursor_position": [
+        1029,
+        535
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1029,
+          "y": 535
+        },
+        "element_bounds": {
+          "left": 107,
+          "top": 371,
+          "right": 1077,
+          "bottom": 873
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.95,
+          "rationale": "Bring the Media Player window to the foreground."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 33.5344,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        994,
+        709
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 994,
+          "y": 709
+        },
+        "element_bounds": {
+          "left": 107,
+          "top": 371,
+          "right": 1077,
+          "bottom": 873
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.95,
+          "rationale": "Bring the Media Player window to the foreground."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 42.0849,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        69,
+        531
+      ],
+      "element_under_cursor": {
+        "name": "Play queue",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Play queue",
+        "control_type": "ListItemControl",
+        "automation_id": "openPlayQueueNavigationViewItem"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 69,
+          "y": 531
+        },
+        "element_bounds": {
+          "left": 40,
+          "top": 509,
+          "right": 100,
+          "bottom": 563
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Play queue view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 51.2165,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Current item. 2025-11-28 00-05-38.mp4, .",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        69,
+        208
+      ],
+      "element_under_cursor": {
+        "name": "Open Navigation",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Open Navigation",
+        "control_type": "ButtonControl",
+        "automation_id": "TogglePaneButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 69,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 39,
+          "top": 183,
+          "right": 99,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Toggle <Button>",
+          "confidence": 0.96,
+          "rationale": "Toggle the navigation pane."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 60.7986,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        141,
+        595
+      ],
+      "element_under_cursor": {
+        "name": "Playlists",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Playlists",
+        "control_type": "ListItemControl",
+        "automation_id": "playlistsNavigationViewItem"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 141,
+          "y": 595
+        },
+        "element_bounds": {
+          "left": 40,
+          "top": 569,
+          "right": 507,
+          "bottom": 623
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.95,
+          "rationale": "Open the Playlists section."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened Media Player and moved to the Playlists area by switching windows, showing the navigation pane, and selecting Playlists."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 68.5666,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlists",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        594,
+        604
+      ],
+      "element_under_cursor": {
+        "name": "Create a new playlist",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Create a new playlist",
+        "control_type": "TextControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 594,
+          "y": 604
+        },
+        "element_bounds": {
+          "left": 514,
+          "top": 591,
+          "right": 705,
+          "bottom": 619
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Create <Text>",
+          "confidence": 0.91,
+          "rationale": "Start creating a new playlist."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 79.1583,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Playlist name",
+        "control_type": "EditControl",
+        "automation_id": "NewPlaylistNameTextBox"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 8,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Focus the playlist name field for typing."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 79.341,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Playlist name",
+        "control_type": "EditControl",
+        "automation_id": "NewPlaylistNameTextBox"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 8,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Focus the playlist name field for typing."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 79.5128,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Playlist name",
+        "control_type": "EditControl",
+        "automation_id": "NewPlaylistNameTextBox"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Focus the playlist name field for typing."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 87.3805,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 87.4126,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "f",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 87.4409,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+F",
+      "mods": [
+        "Shift"
+      ],
+      "key": "f",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 87.4643,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 87.486,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 87.5172,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 87.5441,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 87.5731,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "w",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 87.5983,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 87.6269,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 87.6553,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 87.6837,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 87.7012,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 87.72,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 87.7375,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+K",
+      "mods": [
+        "Shift"
+      ],
+      "key": "k",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 87.7572,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 87.7754,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 87.7948,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 87.8152,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        685
+      ],
+      "element_under_cursor": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 385,
+          "top": 661,
+          "right": 805,
+          "bottom": 710
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Type the playlist name into the text field."
+        },
+        "l4": {
+          "tag": "Enter <Text>",
+          "confidence": 0.98,
+          "rationale": "Started creating a new playlist and typed the name 'Fun with Kids' into the playlist name field."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 99.1809,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Playlist name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        592,
+        757
+      ],
+      "element_under_cursor": {
+        "name": "Create playlist",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Create playlist",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 592,
+          "y": 757
+        },
+        "element_bounds": {
+          "left": 511,
+          "top": 734,
+          "right": 679,
+          "bottom": 782
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Create <Button>",
+          "confidence": 0.98,
+          "rationale": "Confirm creation of the new playlist."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.97,
+          "rationale": "Clicked Create playlist to finalize the new playlist."
+        },
+        "l5": {
+          "tag": "Create playlist",
+          "confidence": 0.98,
+          "rationale": "This span opens Media Player, navigates to the playlist-creation flow, types the new playlist name, and confirms creation."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 111.1812,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Fun with Kids, 0 items",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        312,
+        504
+      ],
+      "element_under_cursor": {
+        "name": "Fun with Kids, 0 items",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Fun with Kids, 0 items",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 312,
+          "y": 504
+        },
+        "element_bounds": {
+          "left": 185,
+          "top": 371,
+          "right": 441,
+          "bottom": 707
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the newly created playlist."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Opened the newly created 'Fun with Kids' playlist to continue working in it."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 123.9936,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "2025-11-28 00-05-38.mp4, . Now playing.",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        817,
+        375
+      ],
+      "element_under_cursor": {
+        "name": "More app bar",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "More app bar",
+        "control_type": "ButtonControl",
+        "automation_id": "MoreButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 817,
+          "y": 375
+        },
+        "element_bounds": {
+          "left": 787,
+          "top": 339,
+          "right": 858,
+          "bottom": 411
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.87,
+          "rationale": "Open the more options app bar."
+        },
+        "l4": {
+          "tag": "View <Application>",
+          "confidence": 0.88,
+          "rationale": "Opened the More app bar, changing which Media Player controls were visible."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 150.1901,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Less app bar",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        600,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "AppBarControl"
+      },
+      "target": {
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 600,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 481,
+          "top": 339,
+          "right": 857,
+          "bottom": 411
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.72,
+          "rationale": "Refocus the Media Player window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 160.059,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1095,
+        1164
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.Windows.Explorer"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1095,
+          "y": 1164
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Switch <Button>",
+          "confidence": 0.97,
+          "rationale": "Switch to File Explorer from the taskbar button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 183.8762,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        135,
+        525
+      ],
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 135,
+          "y": 525
+        },
+        "element_bounds": {
+          "left": 89,
+          "top": 501,
+          "right": 184,
+          "bottom": 549
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 35,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Open Documents in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 183.8762,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        135,
+        525
+      ],
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 135,
+          "y": 525
+        },
+        "element_bounds": {
+          "left": 89,
+          "top": 501,
+          "right": 184,
+          "bottom": 549
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 35,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Open Documents in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 194.9728,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        768,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Task 42",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 768,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 272,
+          "top": 598,
+          "right": 1285,
+          "bottom": 635
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 37,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.99,
+          "rationale": "Scroll the Documents window content."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 194.9728,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        768,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Task 42",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 768,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 272,
+          "top": 598,
+          "right": 1285,
+          "bottom": 635
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 37,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.99,
+          "rationale": "Scroll the Documents window content."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 205.941,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        336,
+        843
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 336,
+          "y": 843
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 829,
+          "right": 710,
+          "bottom": 858
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 39,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.74,
+          "rationale": "Select the Task 76 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 205.941,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        336,
+        843
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 336,
+          "y": 843
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 829,
+          "right": 710,
+          "bottom": 858
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 39,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.74,
+          "rationale": "Select the Task 76 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 206.0535,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        336,
+        843
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 336,
+          "y": 843
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 829,
+          "right": 710,
+          "bottom": 858
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 41,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Open the Task 76 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 206.0535,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        336,
+        843
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 336,
+          "y": 843
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 829,
+          "right": 710,
+          "bottom": 858
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 41,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Open the Task 76 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 222.9382,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        348,
+        273
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 348,
+          "y": 273
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 259,
+          "right": 521,
+          "bottom": 288
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 43,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.95,
+          "rationale": "Select the Task ID 76 file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 222.9382,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        348,
+        273
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 348,
+          "y": 273
+        },
+        "element_bounds": {
+          "left": 305,
+          "top": 259,
+          "right": 521,
+          "bottom": 288
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 43,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.95,
+          "rationale": "Select the Task ID 76 file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Brought Media Player back to the foreground after using the app bar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 237.0768,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        504,
+        900
+      ],
+      "element_under_cursor": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl",
+        "automation_id": "expandtoclassic"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 504,
+          "y": 900
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 876,
+          "right": 836,
+          "bottom": 924
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 45,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the classic context menu options."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 237.0768,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        504,
+        900
+      ],
+      "element_under_cursor": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl",
+        "automation_id": "expandtoclassic"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 504,
+          "y": 900
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 876,
+          "right": 836,
+          "bottom": 924
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 45,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the classic context menu options."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 248.17,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        504,
+        900
+      ],
+      "element_under_cursor": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl",
+        "automation_id": "expandtoclassic"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 504,
+          "y": 900
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 876,
+          "right": 836,
+          "bottom": 924
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 47,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the classic context menu options."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 248.17,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        504,
+        900
+      ],
+      "element_under_cursor": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Show more options",
+        "control_type": "MenuItemControl",
+        "automation_id": "expandtoclassic"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 504,
+          "y": 900
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 876,
+          "right": 836,
+          "bottom": 924
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 47,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the classic context menu options."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 262.3347,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Shell Folder View",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        528,
+        369
+      ],
+      "element_under_cursor": {
+        "name": "Add to Media Player play queue",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Add to Media Player play queue",
+        "control_type": "MenuItemControl",
+        "automation_id": "31158"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 528,
+          "y": 369
+        },
+        "element_bounds": {
+          "left": 351,
+          "top": 351,
+          "right": 765,
+          "bottom": 387
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 49,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.93,
+          "rationale": "Choose Add to Media Player play queue."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 262.3347,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Shell Folder View",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        528,
+        369
+      ],
+      "element_under_cursor": {
+        "name": "Add to Media Player play queue",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Add to Media Player play queue",
+        "control_type": "MenuItemControl",
+        "automation_id": "31158"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 528,
+          "y": 369
+        },
+        "element_bounds": {
+          "left": 351,
+          "top": 351,
+          "right": 765,
+          "bottom": 387
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 49,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.93,
+          "rationale": "Choose Add to Media Player play queue."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.97,
+          "rationale": "Opened the classic context menu and chose Add to Media Player play queue to insert the audio file into the queue."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 274.9352,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1326,
+        1164
+      ],
+      "element_under_cursor": {
+        "name": "Media Player - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Media Player - 1 running window",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1326,
+          "y": 1164
+        },
+        "element_bounds": {
+          "left": 1294,
+          "top": 1128,
+          "right": 1360,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Switch <Button>",
+          "confidence": 0.97,
+          "rationale": "Switch back to the Media Player window from the taskbar button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Switched back to Media Player from the taskbar."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 329.2165,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1365,
+        21
+      ],
+      "element_under_cursor": {
+        "name": "Minimize",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Minimize",
+        "control_type": "ButtonControl",
+        "automation_id": "Minimize-Restore"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1365,
+          "y": 21
+        },
+        "element_bounds": {
+          "left": 1330,
+          "top": 1,
+          "right": 1401,
+          "bottom": 45
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 52,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Minimize <Button>",
+          "confidence": 0.99,
+          "rationale": "Minimize the File Explorer window."
+        },
+        "l4": {
+          "tag": "View <Application>",
+          "confidence": 0.92,
+          "rationale": "Minimized File Explorer to clear the workspace and keep Media Player visible."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 329.2165,
+      "application": "explorer.exe",
+      "window_title": "Task 76 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1365,
+        21
+      ],
+      "element_under_cursor": {
+        "name": "Minimize",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Minimize",
+        "control_type": "ButtonControl",
+        "automation_id": "Minimize-Restore"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1365,
+          "y": 21
+        },
+        "element_bounds": {
+          "left": 1330,
+          "top": 1,
+          "right": 1401,
+          "bottom": 45
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 52,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Minimize <Button>",
+          "confidence": 0.99,
+          "rationale": "Minimize the File Explorer window."
+        },
+        "l4": {
+          "tag": "View <Application>",
+          "confidence": 0.92,
+          "rationale": "Minimized File Explorer to clear the workspace and keep Media Player visible."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 361.3147,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        69,
+        531
+      ],
+      "element_under_cursor": {
+        "name": "Play queue",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Play queue",
+        "control_type": "ListItemControl",
+        "automation_id": "openPlayQueueNavigationViewItem"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 69,
+          "y": 531
+        },
+        "element_bounds": {
+          "left": 40,
+          "top": 509,
+          "right": 100,
+          "bottom": 563
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Play queue view again."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 378.2488,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "2025-11-28 00-05-38.mp4, ",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        337,
+        489
+      ],
+      "element_under_cursor": {
+        "name": "Task ID 76",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Task ID 76",
+        "control_type": "TextControl",
+        "automation_id": "Title"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 337,
+          "y": 489
+        },
+        "element_bounds": {
+          "left": 298,
+          "top": 473,
+          "right": 643,
+          "bottom": 497
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.83,
+          "rationale": "Select the Task ID 76 track entry."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 393.1456,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Current item. Task ID 76, Unknown artist; Duration: 2 minutes 16 seconds.",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        337,
+        484
+      ],
+      "element_under_cursor": {
+        "name": "Task ID 76",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Task ID 76",
+        "control_type": "TextControl",
+        "automation_id": "Title"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 337,
+          "y": 484
+        },
+        "element_bounds": {
+          "left": 298,
+          "top": 473,
+          "right": 643,
+          "bottom": 497
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.83,
+          "rationale": "Select the Task ID 76 track entry."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 409.9916,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Play",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        433,
+        610
+      ],
+      "element_under_cursor": {
+        "name": "Add to",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Add to",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 433,
+          "y": 610
+        },
+        "element_bounds": {
+          "left": 403,
+          "top": 597,
+          "right": 586,
+          "bottom": 625
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Open the Add to submenu."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 442.1228,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Play queue",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        784,
+        715
+      ],
+      "element_under_cursor": {
+        "name": "Fun with Kids",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Fun with Kids",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 784,
+          "y": 715
+        },
+        "element_bounds": {
+          "left": 723,
+          "top": 701,
+          "right": 960,
+          "bottom": 729
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.91,
+          "rationale": "Choose the Fun with Kids destination playlist."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 456.8414,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Play queue",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        784,
+        715
+      ],
+      "element_under_cursor": {
+        "name": "Fun with Kids",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Fun with Kids",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 784,
+          "y": 715
+        },
+        "element_bounds": {
+          "left": 723,
+          "top": 701,
+          "right": 960,
+          "bottom": 729
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.91,
+          "rationale": "Choose the Fun with Kids destination playlist."
+        },
+        "l4": {
+          "tag": "Insert <Audio>",
+          "confidence": 0.98,
+          "rationale": "Reopened the play queue, selected Task ID 76, and added it to the Fun with Kids playlist."
+        },
+        "l5": {
+          "tag": "Add audio to playlist",
+          "confidence": 0.84,
+          "rationale": "These steps switch into file browsing, navigate through Documents > Task 76, and carry out the audio insert actions needed to add Task ID 76.mp3."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 474.8421,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Current item. Task ID 76, Unknown artist; Duration: 2 minutes 16 seconds.",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        69,
+        595
+      ],
+      "element_under_cursor": {
+        "name": "Playlists",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Playlists",
+        "control_type": "ListItemControl",
+        "automation_id": "playlistsNavigationViewItem"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 69,
+          "y": 595
+        },
+        "element_bounds": {
+          "left": 40,
+          "top": 569,
+          "right": 100,
+          "bottom": 623
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Playlists section."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.91,
+          "rationale": "Opened the Playlists view and inspected the Fun with Kids playlist showing 1 item."
+        },
+        "l5": {
+          "tag": "Review playlist",
+          "confidence": 0.89,
+          "rationale": "The final application review checks the resulting playlist state after the track has been added."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 492.5894,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Fun with Kids, 1 item",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        312,
+        504
+      ],
+      "element_under_cursor": {
+        "name": "Fun with Kids, 1 item",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Fun with Kids, 1 item",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 312,
+          "y": 504
+        },
+        "element_bounds": {
+          "left": 185,
+          "top": 371,
+          "right": 441,
+          "bottom": 707
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Playlists section."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.91,
+          "rationale": "Opened the Playlists view and inspected the Fun with Kids playlist showing 1 item."
+        },
+        "l5": {
+          "tag": "Review playlist",
+          "confidence": 0.89,
+          "rationale": "The final application review checks the resulting playlist state after the track has been added."
+        }
+      },
+      "index": 61
+    }
+  ]
+}

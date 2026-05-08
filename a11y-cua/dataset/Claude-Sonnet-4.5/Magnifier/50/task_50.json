@@ -1,0 +1,8762 @@
+{
+  "metadata": {
+    "task_id": 50,
+    "task_title": "Capitalize the starting letter of every word in Word and add page number",
+    "instruction": "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title and add the page number",
+    "context": "I am writing an article on Word and I want to modify the title format based on the guidelines.",
+    "task_group": "Document Editing",
+    "applications": "Word",
+    "success": false,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Magnifier",
+      "condition": "low-vision"
+    },
+    "session": {
+      "started_at": 1764815424.6787138,
+      "ended_at": 1764816691.267109,
+      "duration": 1266.59
+    },
+    "statistics": {
+      "total_events": 208,
+      "apps_used": [
+        "Code.exe",
+        "explorer.exe",
+        "OneDrive.exe",
+        "msedge.exe",
+        "Notepad.exe",
+        "Notepad.exe"
+      ],
+      "by_type": {
+        "mouse_click": 31,
+        "key_press": 145,
+        "hotkey": 24,
+        "scroll": 7,
+        "mouse_move": 1
+      },
+      "by_app": {
+        "Code.exe": 4,
+        "explorer.exe": 97,
+        "OneDrive.exe": 1,
+        "msedge.exe": 4,
+        "Notepad.exe": 102
+      },
+      "keystrokes": {
+        "total_hotkeys": 9,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 96,
+        "hotkeys": {
+          "Alt+Tab": 2,
+          "Ctrl+A": 2,
+          "Alt+D": 1,
+          "Ctrl+L": 1,
+          "Ctrl+O": 1,
+          "Win+E": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Shift": 18,
+          "a": 7,
+          "t": 7,
+          "d": 6,
+          "s": 6,
+          "\\": 5,
+          "c": 4,
+          "Enter": 4,
+          "n": 4,
+          "Space": 4,
+          "0": 3,
+          "5": 3,
+          "i": 3,
+          "k": 3,
+          "m": 3,
+          "u": 3,
+          ";": 2,
+          "e": 2,
+          "o": 2,
+          "-": 1,
+          ".": 1,
+          "Esc": 1,
+          "g": 1,
+          "r": 1,
+          "x": 1,
+          "y": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0.0,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        556,
+        1152
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 556,
+          "y": 1152
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 13.6553,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        633,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 633,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 26.6719,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        633,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 633,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 27.669,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        633,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 633,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 28.298,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        633,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+E",
+      "mods": [
+        "Win"
+      ],
+      "key": "e",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 633,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 4,
+          "endIndex": 4
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 42.7025,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        43,
+        594
+      ],
+      "element_under_cursor": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 43,
+          "y": 594
+        },
+        "element_bounds": {
+          "left": 38,
+          "top": 38,
+          "right": 1590,
+          "bottom": 1081
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 5,
+          "endIndex": 5
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 49.8206,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        75,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Pictures (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 75,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 127,
+          "top": 587,
+          "right": 192,
+          "bottom": 635
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 6,
+          "endIndex": 6
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 55.027,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        43,
+        594
+      ],
+      "element_under_cursor": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 43,
+          "y": 594
+        },
+        "element_bounds": {
+          "left": 38,
+          "top": 38,
+          "right": 1590,
+          "bottom": 1081
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 70.0433,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 70.1239,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 70.1499,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+L",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "l",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "focus_location_bar"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 10,
+          "endIndex": 10
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 76.0084,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 76.0487,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 76.0846,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+D",
+      "mods": [
+        "Alt"
+      ],
+      "key": "d",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 13,
+          "endIndex": 13
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 83.8335,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 83.8894,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 83.9296,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+A",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "a",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 16,
+          "endIndex": 16
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 90.0891,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 90.1346,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 90.1808,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+C",
+      "mods": [
+        "Shift"
+      ],
+      "key": "c",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 19,
+          "endIndex": 19
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 90.2294,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 90.2857,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 90.3478,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": ";",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 90.5209,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+;",
+      "mods": [
+        "Shift"
+      ],
+      "key": ";",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 23,
+          "endIndex": 23
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 90.568,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 90.6028,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 90.6666,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 90.7191,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 90.7792,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+U",
+      "mods": [
+        "Shift"
+      ],
+      "key": "u",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 28,
+          "endIndex": 28
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 90.8216,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 90.8796,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 90.9243,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 90.9524,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 90.9966,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 91.0401,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 91.0953,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 91.1546,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 91.2113,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 91.2532,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 91.2829,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 91.3246,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 91.3705,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 91.4058,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 91.4616,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "-",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 91.5054,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 91.5465,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 91.585,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 91.6158,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 91.6426,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 91.6704,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 91.7025,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 91.7313,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 91.7592,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+D",
+      "mods": [
+        "Shift"
+      ],
+      "key": "d",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 52,
+          "endIndex": 52
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 91.7868,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 91.8132,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 91.8448,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 91.884,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 91.9126,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 91.9382,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 91.9695,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 92.0004,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 92.031,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 92.056,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 92.0842,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 92.1169,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 92.1529,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 65,
+          "endIndex": 65
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 92.1848,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 92.2158,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 92.2447,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 92.272,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 92.3051,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 92.3325,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "5",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 92.3643,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 98.8266,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 99.3023,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        0
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 0
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 108.6022,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 75,
+          "endIndex": 75
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 116.7674,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        319,
+        468
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Items View",
+        "control_type": "ListControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 319,
+          "y": 468
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 76,
+          "endIndex": 77
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 117.033,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        319,
+        468
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Items View",
+        "control_type": "ListControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 319,
+          "y": 468
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 76,
+          "endIndex": 77
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 152.6353,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 78,
+          "endIndex": 78
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 152.7655,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 153.1642,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 80,
+          "endIndex": 80
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 164.3536,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 164.4474,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 164.9963,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 83,
+          "endIndex": 83
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 174.194,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        633,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 633,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 84,
+          "endIndex": 84
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 181.8717,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        306,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl",
+        "automation_id": "refreshButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 306,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 85,
+          "endIndex": 85
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 189.5581,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        306,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 306,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 221.4252,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 87,
+          "endIndex": 87
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 248.3177,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        843,
+        115
+      ],
+      "element_under_cursor": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 115
+        },
+        "element_bounds": {
+          "left": 351,
+          "top": 111,
+          "right": 1208,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 259.604,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        303,
+        153
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl",
+        "automation_id": "refreshButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 303,
+          "y": 153
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 89,
+          "endIndex": 89
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 283.5747,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        303,
+        153
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl",
+        "automation_id": "refreshButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 303,
+          "y": 153
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 90,
+          "endIndex": 91
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 283.817,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        303,
+        153
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl",
+        "automation_id": "refreshButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 303,
+          "y": 153
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 90,
+          "endIndex": 91
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 305.9135,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        303,
+        153
+      ],
+      "element_under_cursor": {
+        "name": "Refresh \"Task 50\" (F5)",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 303,
+          "y": 153
+        },
+        "element_bounds": {
+          "left": 282,
+          "top": 111,
+          "right": 330,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 92,
+          "endIndex": 92
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 327.571,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1114,
+        1155
+      ],
+      "element_under_cursor": {
+        "name": "Magnifier - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        365,
+        1035
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1114,
+          "y": 1155
+        },
+        "element_bounds": {
+          "left": 1096,
+          "top": 1128,
+          "right": 1162,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 93,
+          "endIndex": 93
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 336.9234,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 94,
+          "endIndex": 94
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 348.7398,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 95,
+          "endIndex": 95
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 348.9695,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 96,
+          "endIndex": 96
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 349.5044,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 97,
+          "endIndex": 97
+        }
+      },
+      "index": 97
+    },
+    {
+      "timestamp": 361.3627,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        300,
+        468
+      ],
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Items View",
+        "control_type": "ListControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 300,
+          "y": 468
+        },
+        "element_bounds": {
+          "left": 289,
+          "top": 242,
+          "right": 1579,
+          "bottom": 1031
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 98,
+          "endIndex": 98
+        }
+      },
+      "index": 98
+    },
+    {
+      "timestamp": 371.7694,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        259,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "Line up",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Line up",
+        "control_type": "ButtonControl",
+        "automation_id": "UpButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 259,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 257,
+          "top": 242,
+          "right": 283,
+          "bottom": 268
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 99,
+          "endIndex": 99
+        }
+      },
+      "index": 99
+    },
+    {
+      "timestamp": 396.0266,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1140,
+        1147
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\\obs-studio\\bin\\64bit\\obs64.exe"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1140,
+          "y": 1147
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 100,
+          "endIndex": 100
+        }
+      },
+      "index": 100
+    },
+    {
+      "timestamp": 431.0759,
+      "application": "OneDrive.exe",
+      "window_title": "Activity Center",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1140,
+        1147
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\\obs-studio\\bin\\64bit\\obs64.exe"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1140,
+          "y": 1147
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 101,
+          "endIndex": 101
+        }
+      },
+      "index": 101
+    },
+    {
+      "timestamp": 548.175,
+      "application": "msedge.exe",
+      "window_title": "task 5000 minotauros tibia - Search - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "task 5000 minotauros tibia - Search",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        865,
+        505
+      ],
+      "element_under_cursor": {
+        "name": "TIBIA TASK MINOTAUR - COMO LIBERAR A TASK DE 5000 MINOS",
+        "control_type": "ImageControl"
+      },
+      "target": {
+        "name": "TIBIA TASK MINOTAUR - COMO LIBERAR A TASK DE 5000 MINOS",
+        "control_type": "ImageControl",
+        "automation_id": "emb37D42141"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 865,
+          "y": 505
+        },
+        "element_bounds": {
+          "left": 271,
+          "top": 459,
+          "right": 907,
+          "bottom": 817
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 102,
+          "endIndex": 102
+        }
+      },
+      "index": 102
+    },
+    {
+      "timestamp": 561.8277,
+      "application": "msedge.exe",
+      "window_title": "Bing Videos and 1 more page - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "Bing Videos",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1180,
+        75
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Tab bar",
+        "control_type": "TabControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1180,
+          "y": 75
+        },
+        "element_bounds": {
+          "left": 861,
+          "top": 25,
+          "right": 1373,
+          "bottom": 78
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 103,
+          "endIndex": 103
+        }
+      },
+      "index": 103
+    },
+    {
+      "timestamp": 574.6437,
+      "application": "msedge.exe",
+      "window_title": "Bing Videos and 1 more page - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "Bing Videos",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1180,
+        75
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1180,
+          "y": 75
+        },
+        "element_bounds": {
+          "left": 861,
+          "top": 25,
+          "right": 1373,
+          "bottom": 78
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 104,
+          "endIndex": 104
+        }
+      },
+      "index": 104
+    },
+    {
+      "timestamp": 574.9484,
+      "application": "msedge.exe",
+      "window_title": "Bing Videos and 1 more page - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "Zoom Out",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1180,
+        75
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1180,
+          "y": 75
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 105,
+          "endIndex": 105
+        }
+      },
+      "index": 105
+    },
+    {
+      "timestamp": 682.3458,
+      "application": "Notepad.exe",
+      "window_title": "Untitled - Notepad",
+      "focused_element": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 106,
+          "endIndex": 107
+        }
+      },
+      "index": 106
+    },
+    {
+      "timestamp": 682.3458,
+      "application": "Notepad.exe",
+      "window_title": "Untitled - Notepad",
+      "focused_element": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 106,
+          "endIndex": 107
+        }
+      },
+      "index": 107
+    },
+    {
+      "timestamp": 698.4342,
+      "application": "Notepad.exe",
+      "window_title": "Untitled - Notepad",
+      "focused_element": {
+        "name": "Desktop 1",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 108,
+          "endIndex": 108
+        }
+      },
+      "index": 108
+    },
+    {
+      "timestamp": 698.4342,
+      "application": "Notepad.exe",
+      "window_title": "Untitled - Notepad",
+      "focused_element": {
+        "name": "Desktop 1",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 109,
+          "endIndex": 109
+        }
+      },
+      "index": 109
+    },
+    {
+      "timestamp": 700.3919,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 110,
+          "endIndex": 110
+        }
+      },
+      "index": 110
+    },
+    {
+      "timestamp": 700.3919,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 111,
+          "endIndex": 111
+        }
+      },
+      "index": 111
+    },
+    {
+      "timestamp": 703.0883,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+O",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "o",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "open"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 63,
+          "top": 160,
+          "right": 195,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 112,
+          "endIndex": 112
+        }
+      },
+      "index": 112
+    },
+    {
+      "timestamp": 703.0883,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+O",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "o",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "open"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 63,
+          "top": 160,
+          "right": 195,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 113,
+          "endIndex": 113
+        }
+      },
+      "index": 113
+    },
+    {
+      "timestamp": 711.8043,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Organize",
+        "control_type": "ButtonControl",
+        "automation_id": "{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 63,
+          "top": 160,
+          "right": 195,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 114,
+          "endIndex": 115
+        }
+      },
+      "index": 114
+    },
+    {
+      "timestamp": 711.8043,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        124,
+        186
+      ],
+      "element_under_cursor": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Organize",
+        "control_type": "ButtonControl",
+        "automation_id": "{7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 124,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 63,
+          "top": 160,
+          "right": 195,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 114,
+          "endIndex": 115
+        }
+      },
+      "index": 115
+    },
+    {
+      "timestamp": 727.7089,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        780,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Page right",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 780,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 719,
+          "top": 588,
+          "right": 944,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 116,
+          "endIndex": 119
+        }
+      },
+      "index": 116
+    },
+    {
+      "timestamp": 727.7089,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        780,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Page right",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 780,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 719,
+          "top": 588,
+          "right": 944,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 116,
+          "endIndex": 119
+        }
+      },
+      "index": 117
+    },
+    {
+      "timestamp": 742.0459,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        780,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Page right",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 780,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 719,
+          "top": 588,
+          "right": 944,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 116,
+          "endIndex": 119
+        }
+      },
+      "index": 118
+    },
+    {
+      "timestamp": 742.0459,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        780,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Page right",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 780,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 719,
+          "top": 588,
+          "right": 944,
+          "bottom": 614
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 116,
+          "endIndex": 119
+        }
+      },
+      "index": 119
+    },
+    {
+      "timestamp": 758.5141,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1215,
+        160
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1215,
+          "y": 160
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 120,
+          "endIndex": 121
+        }
+      },
+      "index": 120
+    },
+    {
+      "timestamp": 758.5141,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1215,
+        160
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1215,
+          "y": 160
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 120,
+          "endIndex": 121
+        }
+      },
+      "index": 121
+    },
+    {
+      "timestamp": 773.4939,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        750,
+        966
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Sources",
+        "control_type": "WindowControl",
+        "automation_id": "OBSApp.OBSBasic.sourcesDock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 750,
+          "y": 966
+        },
+        "element_bounds": {
+          "left": 555,
+          "top": 736,
+          "right": 780,
+          "bottom": 973
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 122,
+          "endIndex": 123
+        }
+      },
+      "index": 122
+    },
+    {
+      "timestamp": 773.4939,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        750,
+        966
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Sources",
+        "control_type": "WindowControl",
+        "automation_id": "OBSApp.OBSBasic.sourcesDock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 750,
+          "y": 966
+        },
+        "element_bounds": {
+          "left": 555,
+          "top": 736,
+          "right": 780,
+          "bottom": 973
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 122,
+          "endIndex": 123
+        }
+      },
+      "index": 123
+    },
+    {
+      "timestamp": 840.5251,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        966
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "target": {
+        "name": "Scene Transitions",
+        "control_type": "WindowControl",
+        "automation_id": "OBSApp.OBSBasic.transitionsDock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 966
+        },
+        "element_bounds": {
+          "left": 1128,
+          "top": 736,
+          "right": 1425,
+          "bottom": 1019
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 124,
+          "endIndex": 125
+        }
+      },
+      "index": 124
+    },
+    {
+      "timestamp": 840.5251,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        966
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "target": {
+        "name": "Scene Transitions",
+        "control_type": "WindowControl",
+        "automation_id": "OBSApp.OBSBasic.transitionsDock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 966
+        },
+        "element_bounds": {
+          "left": 1128,
+          "top": 736,
+          "right": 1425,
+          "bottom": 1019
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 124,
+          "endIndex": 125
+        }
+      },
+      "index": 125
+    },
+    {
+      "timestamp": 1084.4893,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "File name:",
+        "control_type": "EditControl",
+        "automation_id": "1148"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 126,
+          "endIndex": 127
+        }
+      },
+      "index": 126
+    },
+    {
+      "timestamp": 1084.4893,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Organize",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "File name:",
+        "control_type": "EditControl",
+        "automation_id": "1148"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 126,
+          "endIndex": 127
+        }
+      },
+      "index": 127
+    },
+    {
+      "timestamp": 1100.9872,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 128,
+          "endIndex": 128
+        }
+      },
+      "index": 128
+    },
+    {
+      "timestamp": 1100.9872,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 129,
+          "endIndex": 129
+        }
+      },
+      "index": 129
+    },
+    {
+      "timestamp": 1101.0953,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 130,
+          "endIndex": 130
+        }
+      },
+      "index": 130
+    },
+    {
+      "timestamp": 1101.0953,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 131,
+          "endIndex": 131
+        }
+      },
+      "index": 131
+    },
+    {
+      "timestamp": 1101.1641,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+A",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "a",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 132,
+          "endIndex": 132
+        }
+      },
+      "index": 132
+    },
+    {
+      "timestamp": 1101.1641,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+A",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "a",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 133,
+          "endIndex": 133
+        }
+      },
+      "index": 133
+    },
+    {
+      "timestamp": 1120.2326,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 134,
+          "endIndex": 134
+        }
+      },
+      "index": 134
+    },
+    {
+      "timestamp": 1120.2326,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 135,
+          "endIndex": 135
+        }
+      },
+      "index": 135
+    },
+    {
+      "timestamp": 1120.5342,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 136,
+          "endIndex": 136
+        }
+      },
+      "index": 136
+    },
+    {
+      "timestamp": 1120.5342,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 137,
+          "endIndex": 137
+        }
+      },
+      "index": 137
+    },
+    {
+      "timestamp": 1120.6693,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 138,
+          "endIndex": 138
+        }
+      },
+      "index": 138
+    },
+    {
+      "timestamp": 1120.6693,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 139,
+          "endIndex": 139
+        }
+      },
+      "index": 139
+    },
+    {
+      "timestamp": 1120.8338,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 140,
+          "endIndex": 140
+        }
+      },
+      "index": 140
+    },
+    {
+      "timestamp": 1120.8338,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 141,
+          "endIndex": 141
+        }
+      },
+      "index": 141
+    },
+    {
+      "timestamp": 1120.9789,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 142,
+          "endIndex": 142
+        }
+      },
+      "index": 142
+    },
+    {
+      "timestamp": 1120.9789,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 143,
+          "endIndex": 143
+        }
+      },
+      "index": 143
+    },
+    {
+      "timestamp": 1121.0892,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 144,
+          "endIndex": 144
+        }
+      },
+      "index": 144
+    },
+    {
+      "timestamp": 1121.0892,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 145,
+          "endIndex": 145
+        }
+      },
+      "index": 145
+    },
+    {
+      "timestamp": 1121.199,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 146,
+          "endIndex": 146
+        }
+      },
+      "index": 146
+    },
+    {
+      "timestamp": 1121.199,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 147,
+          "endIndex": 147
+        }
+      },
+      "index": 147
+    },
+    {
+      "timestamp": 1121.3201,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 148,
+          "endIndex": 148
+        }
+      },
+      "index": 148
+    },
+    {
+      "timestamp": 1121.3201,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 149,
+          "endIndex": 149
+        }
+      },
+      "index": 149
+    },
+    {
+      "timestamp": 1121.5011,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "5",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 150,
+          "endIndex": 150
+        }
+      },
+      "index": 150
+    },
+    {
+      "timestamp": 1121.5011,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "5",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 151,
+          "endIndex": 151
+        }
+      },
+      "index": 151
+    },
+    {
+      "timestamp": 1121.5994,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 152,
+          "endIndex": 152
+        }
+      },
+      "index": 152
+    },
+    {
+      "timestamp": 1121.5994,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 153,
+          "endIndex": 153
+        }
+      },
+      "index": 153
+    },
+    {
+      "timestamp": 1121.6797,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 154,
+          "endIndex": 154
+        }
+      },
+      "index": 154
+    },
+    {
+      "timestamp": 1121.6797,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "\\",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 155,
+          "endIndex": 155
+        }
+      },
+      "index": 155
+    },
+    {
+      "timestamp": 1121.7451,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 156,
+          "endIndex": 156
+        }
+      },
+      "index": 156
+    },
+    {
+      "timestamp": 1121.7451,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 157,
+          "endIndex": 157
+        }
+      },
+      "index": 157
+    },
+    {
+      "timestamp": 1121.8049,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 158,
+          "endIndex": 158
+        }
+      },
+      "index": 158
+    },
+    {
+      "timestamp": 1121.8049,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 159,
+          "endIndex": 159
+        }
+      },
+      "index": 159
+    },
+    {
+      "timestamp": 1121.9183,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 160,
+          "endIndex": 160
+        }
+      },
+      "index": 160
+    },
+    {
+      "timestamp": 1121.9183,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 161,
+          "endIndex": 161
+        }
+      },
+      "index": 161
+    },
+    {
+      "timestamp": 1121.9837,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 162,
+          "endIndex": 162
+        }
+      },
+      "index": 162
+    },
+    {
+      "timestamp": 1121.9837,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 163,
+          "endIndex": 163
+        }
+      },
+      "index": 163
+    },
+    {
+      "timestamp": 1122.045,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 164,
+          "endIndex": 164
+        }
+      },
+      "index": 164
+    },
+    {
+      "timestamp": 1122.045,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 165,
+          "endIndex": 165
+        }
+      },
+      "index": 165
+    },
+    {
+      "timestamp": 1122.108,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 166,
+          "endIndex": 166
+        }
+      },
+      "index": 166
+    },
+    {
+      "timestamp": 1122.108,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 167,
+          "endIndex": 167
+        }
+      },
+      "index": 167
+    },
+    {
+      "timestamp": 1122.1612,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 168,
+          "endIndex": 168
+        }
+      },
+      "index": 168
+    },
+    {
+      "timestamp": 1122.1612,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 169,
+          "endIndex": 169
+        }
+      },
+      "index": 169
+    },
+    {
+      "timestamp": 1122.2221,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 170,
+          "endIndex": 170
+        }
+      },
+      "index": 170
+    },
+    {
+      "timestamp": 1122.2221,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 171,
+          "endIndex": 171
+        }
+      },
+      "index": 171
+    },
+    {
+      "timestamp": 1122.2824,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 172,
+          "endIndex": 172
+        }
+      },
+      "index": 172
+    },
+    {
+      "timestamp": 1122.2824,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 173,
+          "endIndex": 173
+        }
+      },
+      "index": 173
+    },
+    {
+      "timestamp": 1122.3332,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 174,
+          "endIndex": 174
+        }
+      },
+      "index": 174
+    },
+    {
+      "timestamp": 1122.3332,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 175,
+          "endIndex": 175
+        }
+      },
+      "index": 175
+    },
+    {
+      "timestamp": 1122.3995,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+I",
+      "mods": [
+        "Shift"
+      ],
+      "key": "i",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 176,
+          "endIndex": 176
+        }
+      },
+      "index": 176
+    },
+    {
+      "timestamp": 1122.3995,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+I",
+      "mods": [
+        "Shift"
+      ],
+      "key": "i",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 177,
+          "endIndex": 177
+        }
+      },
+      "index": 177
+    },
+    {
+      "timestamp": 1122.4555,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 178,
+          "endIndex": 178
+        }
+      },
+      "index": 178
+    },
+    {
+      "timestamp": 1122.4555,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 179,
+          "endIndex": 179
+        }
+      },
+      "index": 179
+    },
+    {
+      "timestamp": 1122.5062,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 180,
+          "endIndex": 180
+        }
+      },
+      "index": 180
+    },
+    {
+      "timestamp": 1122.5062,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 181,
+          "endIndex": 181
+        }
+      },
+      "index": 181
+    },
+    {
+      "timestamp": 1122.5605,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 182,
+          "endIndex": 182
+        }
+      },
+      "index": 182
+    },
+    {
+      "timestamp": 1122.5605,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 183,
+          "endIndex": 183
+        }
+      },
+      "index": 183
+    },
+    {
+      "timestamp": 1122.6167,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+D",
+      "mods": [
+        "Shift"
+      ],
+      "key": "d",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 184,
+          "endIndex": 184
+        }
+      },
+      "index": 184
+    },
+    {
+      "timestamp": 1122.6167,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+D",
+      "mods": [
+        "Shift"
+      ],
+      "key": "d",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 185,
+          "endIndex": 185
+        }
+      },
+      "index": 185
+    },
+    {
+      "timestamp": 1122.675,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 186,
+          "endIndex": 186
+        }
+      },
+      "index": 186
+    },
+    {
+      "timestamp": 1122.675,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 187,
+          "endIndex": 187
+        }
+      },
+      "index": 187
+    },
+    {
+      "timestamp": 1122.729,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 188,
+          "endIndex": 188
+        }
+      },
+      "index": 188
+    },
+    {
+      "timestamp": 1122.729,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 189,
+          "endIndex": 189
+        }
+      },
+      "index": 189
+    },
+    {
+      "timestamp": 1122.7898,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "5",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 190,
+          "endIndex": 190
+        }
+      },
+      "index": 190
+    },
+    {
+      "timestamp": 1122.7898,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "5",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 191,
+          "endIndex": 191
+        }
+      },
+      "index": 191
+    },
+    {
+      "timestamp": 1122.8549,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 192,
+          "endIndex": 192
+        }
+      },
+      "index": 192
+    },
+    {
+      "timestamp": 1122.8549,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 193,
+          "endIndex": 193
+        }
+      },
+      "index": 193
+    },
+    {
+      "timestamp": 1122.9073,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": ".",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 194,
+          "endIndex": 194
+        }
+      },
+      "index": 194
+    },
+    {
+      "timestamp": 1122.9073,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": ".",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 195,
+          "endIndex": 195
+        }
+      },
+      "index": 195
+    },
+    {
+      "timestamp": 1122.9646,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 196,
+          "endIndex": 196
+        }
+      },
+      "index": 196
+    },
+    {
+      "timestamp": 1122.9646,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 197,
+          "endIndex": 197
+        }
+      },
+      "index": 197
+    },
+    {
+      "timestamp": 1123.0233,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 198,
+          "endIndex": 198
+        }
+      },
+      "index": 198
+    },
+    {
+      "timestamp": 1123.0233,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 199,
+          "endIndex": 199
+        }
+      },
+      "index": 199
+    },
+    {
+      "timestamp": 1123.0769,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 200,
+          "endIndex": 200
+        }
+      },
+      "index": 200
+    },
+    {
+      "timestamp": 1123.0769,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 201,
+          "endIndex": 201
+        }
+      },
+      "index": 201
+    },
+    {
+      "timestamp": 1123.1318,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "x",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 202,
+          "endIndex": 202
+        }
+      },
+      "index": 202
+    },
+    {
+      "timestamp": 1123.1318,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        574,
+        652
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "x",
+      "coordinates": {
+        "cursor": {
+          "x": 574,
+          "y": 652
+        },
+        "element_bounds": {
+          "left": 334,
+          "top": 645,
+          "right": 641,
+          "bottom": 670
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 203,
+          "endIndex": 203
+        }
+      },
+      "index": 203
+    },
+    {
+      "timestamp": 1138.2533,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1129,
+        667
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1129,
+          "y": 667
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 204,
+          "endIndex": 205
+        }
+      },
+      "index": 204
+    },
+    {
+      "timestamp": 1138.2533,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1129,
+        667
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Text editor",
+        "control_type": "DocumentControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1129,
+          "y": 667
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 204,
+          "endIndex": 205
+        }
+      },
+      "index": 205
+    },
+    {
+      "timestamp": 1178.6214,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1129,
+        667
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1129,
+          "y": 667
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 206,
+          "endIndex": 206
+        }
+      },
+      "index": 206
+    },
+    {
+      "timestamp": 1178.6214,
+      "application": "Notepad.exe",
+      "window_title": "Open",
+      "focused_element": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1129,
+        667
+      ],
+      "element_under_cursor": {
+        "name": "Text editor",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1129,
+          "y": 667
+        },
+        "element_bounds": {
+          "left": 47,
+          "top": 150,
+          "right": 1469,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 207,
+          "endIndex": 207
+        }
+      },
+      "index": 207
+    }
+  ]
+}

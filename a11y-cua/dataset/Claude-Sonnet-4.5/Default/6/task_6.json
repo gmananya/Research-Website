@@ -1,0 +1,1824 @@
+{
+  "metadata": {
+    "task_id": 6,
+    "task_title": "Search for a product on an online store",
+    "instruction": "Visit walmart.com on Chrome. Search for a frying pan, then click on the first product with a pan size of exactly 10 inches and add it to cart.",
+    "context": "I've been getting into cooking recently, so I've decided to upgrade my frying pan.",
+    "task_group": "Browsing and Web",
+    "applications": "Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763653376.3770573,
+      "ended_at": 1763653580.0154734,
+      "duration": 203.64
+    },
+    "statistics": {
+      "total_events": 31,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe"
+      ],
+      "by_type": {
+        "mouse_click": 9,
+        "key_press": 21,
+        "scroll": 1
+      },
+      "by_app": {
+        "explorer.exe": 2,
+        "chrome.exe": 29
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 21,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "a": 3,
+          "m": 2,
+          "n": 2,
+          "r": 2,
+          ".": 1,
+          "c": 1,
+          "f": 1,
+          "g": 1,
+          "i": 1,
+          "l": 1,
+          "o": 1,
+          "p": 1,
+          "Space": 1,
+          "t": 1,
+          "w": 1,
+          "y": 1
+        }
+      }
+    },
+    "web": {
+      "tabs": [
+        {
+          "order": 1,
+          "first_ts": 42.5776,
+          "url": "https://www.walmart.com/",
+          "title": "Walmart | Save Money. Live better.",
+          "file": "/task_logs/6/web_logs/web_tab1_1763653442524.json",
+          "dom_url": "/task_logs/User 18/6/web_logs/web_tab1_1763653442524.html",
+          "a11y_url": "/task_logs/User 18/6/web_logs/web_tab1_1763653442524_a11y_tree.json"
+        },
+        {
+          "order": 2,
+          "first_ts": 87.9686,
+          "url": "https://www.walmart.com/search?q=frying+pan",
+          "title": "frying pan - Walmart.com",
+          "file": "/task_logs/6/web_logs/web_tab2_1763653487915.json",
+          "dom_url": null,
+          "a11y_url": null
+        },
+        {
+          "order": 3,
+          "first_ts": 128.3366,
+          "url": "https://www.walmart.com/ip/Blue-Diamond-Toxin-Free-Ceramic-Nonstick-Safe-Open-Frypan-Skillet-10/535575865?classType=VARIANT&athbdg=L1300&adsRedirect=true",
+          "title": "Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\" - Walmart.com",
+          "file": "/task_logs/6/web_logs/web_tab3_1763653528283.json",
+          "dom_url": "/task_logs/User 18/6/web_logs/web_tab3_1763653528283.html",
+          "a11y_url": "/task_logs/User 18/6/web_logs/web_tab3_1763653528283_a11y_tree.json"
+        },
+        {
+          "order": 4,
+          "first_ts": 154.7176,
+          "url": "https://www.walmart.com/pac?id=535575865&ip=19.92&qt=1&g=FC&oId=1C24EE57E03E48F0BEFA4C7EF67E71E1&fahs=f&facp=f&faacc=f&fshs=f&fscp=f&fsacc=f&cat=4044&po=&csid=0&cty=1&cgc=1",
+          "title": "Added to cart | Relevant recommendations",
+          "file": "/task_logs/6/web_logs/web_tab4_1763653554664.json",
+          "dom_url": null,
+          "a11y_url": null
+        }
+      ],
+      "total_events": 42,
+      "by_tab": {
+        "1::42.5776": 29,
+        "2::87.9686": 6,
+        "3::128.3366": 5,
+        "4::154.7176": 2
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        166,
+        64
+      ],
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 166,
+          "y": 64
+        },
+        "element_bounds": {
+          "left": 112,
+          "top": 5,
+          "right": 224,
+          "bottom": 134
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Clicked the Google Chrome list item in Program Manager to launch Chrome."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Launched Google Chrome from Program Manager and dismissed the restore-pages prompt to get into the browser app."
+        },
+        "l5": {
+          "tag": "Launch browser",
+          "confidence": 0.93,
+          "rationale": "Starts the browser application and dismisses the initial prompt, setting up Chrome for the Walmart visit."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.3631,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        166,
+        64
+      ],
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 166,
+          "y": 64
+        },
+        "element_bounds": {
+          "left": 112,
+          "top": 5,
+          "right": 224,
+          "bottom": 134
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Clicked the Google Chrome list item in Program Manager to launch Chrome."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Launched Google Chrome from Program Manager and dismissed the restore-pages prompt to get into the browser app."
+        },
+        "l5": {
+          "tag": "Launch browser",
+          "confidence": 0.93,
+          "rationale": "Starts the browser application and dismisses the initial prompt, setting up Chrome for the Walmart visit."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 16.4085,
+      "application": "chrome.exe",
+      "window_title": "Restore pages?",
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1588,
+          "top": 157,
+          "right": 1625,
+          "bottom": 191
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.99,
+          "rationale": "Activated the Close button on the Restore pages dialog to dismiss it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Launched Google Chrome from Program Manager and dismissed the restore-pages prompt to get into the browser app."
+        },
+        "l5": {
+          "tag": "Launch browser",
+          "confidence": 0.93,
+          "rationale": "Starts the browser application and dismisses the initial prompt, setting up Chrome for the Walmart visit."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 23.4963,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "w",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 23.5786,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 23.6069,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 23.6334,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 23.6583,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 23.6892,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 23.7074,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 23.7303,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": ".",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 23.7526,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 23.7767,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 23.793,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "All Bookmarks",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1474,
+          "top": 135,
+          "right": 1646,
+          "bottom": 177
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the URL into the Chrome address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 39.0928,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        597,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "walmart.com",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 597,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 532,
+          "top": 133,
+          "right": 663,
+          "bottom": 194
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.93,
+          "rationale": "Clicked the walmart.com autocomplete suggestion to open the site."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.97,
+          "rationale": "Typed walmart.com into Chrome’s address bar and selected the autocomplete suggestion to navigate to the site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.89,
+          "rationale": "Uses browser/web navigation to reach Walmart by typing into the search/address box and opening the site."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 59.5802,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1591,
+        891
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Walmart | Save Money. Live better. - Google Chrome",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1591,
+          "y": 891
+        },
+        "element_bounds": {
+          "left": 277,
+          "top": 136,
+          "right": 1658,
+          "bottom": 1103
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Select <Webpage>",
+          "confidence": 0.67,
+          "rationale": "Clicked on the Walmart page body/background area."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.61,
+          "rationale": "Clicked on the loaded Walmart page background, staying within the website before continuing."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 70.886,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "EditControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 445,
+          "top": 160,
+          "right": 1532,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Select <Search Box>",
+          "confidence": 0.96,
+          "rationale": "Activated the Walmart search field to prepare for entering the product query."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 78.6781,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "f",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 78.7562,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 78.7875,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 78.8148,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 78.8408,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 78.8732,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 78.899,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 78.9269,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "p",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 78.9469,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 78.969,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the first character of the search query into the Walmart search box."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 87.4495,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1516,
+        199
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1516,
+          "y": 199
+        },
+        "element_bounds": {
+          "left": 301,
+          "top": 160,
+          "right": 1555,
+          "bottom": 238
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Search button to submit the product search."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Used Walmart’s search box to enter \"frying pan\" and submitted the query."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.96,
+          "rationale": "Focuses Walmart search, enters the frying pan query, and submits it to load relevant results."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 112.0646,
+      "application": "chrome.exe",
+      "window_title": "frying pan - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "T-fal Easy Care, 20 Piece Non-Stick Pots and Pans Cookware Set, Grey",
+        "control_type": "HyperlinkControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 683,
+          "top": 549,
+          "right": 1030,
+          "bottom": 728
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scrolled the Walmart search results page to view more products."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.99,
+          "rationale": "Scrolled the Walmart search results page to inspect more products."
+        },
+        "l5": {
+          "tag": "Add matching pan to cart",
+          "confidence": 0.91,
+          "rationale": "Browses the results, opens the first matching 10-inch pan product, and clicks the cart/add button."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 123.1426,
+      "application": "chrome.exe",
+      "window_title": "frying pan - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        955,
+        882
+      ],
+      "element_under_cursor": {
+        "name": "Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\"",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\"",
+        "control_type": "HyperlinkControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 955,
+          "y": 882
+        },
+        "element_bounds": {
+          "left": 955,
+          "top": 847,
+          "right": 1475,
+          "bottom": 914
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.99,
+          "rationale": "Clicked the first matching product link to open its product page."
+        },
+        "l4": {
+          "tag": "Navigate <Item Card>",
+          "confidence": 0.96,
+          "rationale": "Opened the first matching 10-inch frying pan result listing to reach its product page."
+        },
+        "l5": {
+          "tag": "Add matching pan to cart",
+          "confidence": 0.91,
+          "rationale": "Browses the results, opens the first matching 10-inch pan product, and clicks the cart/add button."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 153.5081,
+      "application": "chrome.exe",
+      "window_title": "Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\" - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1446,
+        796
+      ],
+      "element_under_cursor": {
+        "name": "Add to cart - Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\"",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Add to cart - Blue Diamond Toxin Free Ceramic Nonstick Safe Open Frypan/Skillet, 10\"",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1446,
+          "y": 796
+        },
+        "element_bounds": {
+          "left": 1320,
+          "top": 765,
+          "right": 1572,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Add to cart button to add the product to the cart."
+        },
+        "l4": {
+          "tag": "Confirm <Website>",
+          "confidence": 0.99,
+          "rationale": "Clicked Add to cart to confirm adding the selected product to the cart."
+        },
+        "l5": {
+          "tag": "Add matching pan to cart",
+          "confidence": 0.91,
+          "rationale": "Browses the results, opens the first matching 10-inch pan product, and clicks the cart/add button."
+        }
+      },
+      "index": 30
+    }
+  ]
+}

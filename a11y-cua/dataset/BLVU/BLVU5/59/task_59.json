@@ -1,0 +1,5493 @@
+{
+  "metadata": {
+    "task_id": 59,
+    "task_title": "Convert a file (Excel) into a CSV file",
+    "instruction": "Export the Task ID 59.xlsx in Documents > Task 59 folder to .csv and move it to Desktop.",
+    "context": "I need to convert and export the Books Excel spreadsheet.",
+    "task_group": "Workflow",
+    "applications": "Excel",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756744721.4057436,
+      "ended_at": 1756744864.9047883,
+      "duration": 143.5
+    },
+    "statistics": {
+      "total_events": 98,
+      "apps_used": [
+        "explorer.exe",
+        "EXCEL.EXE"
+      ],
+      "by_type": {
+        "key_press": 89,
+        "hotkey": 9
+      },
+      "by_app": {
+        "explorer.exe": 45,
+        "EXCEL.EXE": 53
+      },
+      "keystrokes": {
+        "total_hotkeys": 8,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 74,
+        "hotkeys": {
+          "Ctrl+Left": 2,
+          "Ctrl+\u0016": 1,
+          "Ctrl+\u0018": 1,
+          "Ctrl+Alt_Gr": 1,
+          "Ctrl+F4": 1,
+          "Win+M": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 32,
+          "Enter": 9,
+          "Tab": 9,
+          "Left": 8,
+          "Up": 6,
+          "Right": 4,
+          "F6": 2,
+          "Esc": 1,
+          "PageDown": 1,
+          "Shift": 1,
+          "Space": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins opening the system/start surface needed to launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.0989,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins opening the system/start surface needed to launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.2253,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins opening the system/start surface needed to launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 1.1192,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.37,
+          "rationale": "Ctrl key starts a text-navigation shortcut inside the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 1.2134,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.37,
+          "rationale": "Ctrl key starts a text-navigation shortcut inside the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 1.2512,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.37,
+          "rationale": "Ctrl key starts a text-navigation shortcut inside the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 1.3187,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.37,
+          "rationale": "Ctrl key starts a text-navigation shortcut inside the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 1.3614,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.37,
+          "rationale": "Ctrl key starts a text-navigation shortcut inside the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 2.3756,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.9,
+          "rationale": "Enter confirms the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 2.7845,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.9,
+          "rationale": "Enter confirms the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 5.0458,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 6.3508,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 6.5646,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 6.7694,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 52",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 6.9488,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 7.1363,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 58",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 8.5333,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "PageDown moves focus through the Documents file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 9.7581,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the Task 59 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 12.3883,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.93,
+          "rationale": "Down arrow moves to the Task ID 59 workbook entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 12.8852,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.93,
+          "rationale": "Down arrow moves to the Task ID 59 workbook entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 13.3936,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Enter opens the Task ID 59 Excel file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opens the Run dialog and uses it to launch File Explorer, beginning the path to the Documents folder."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 22.2301,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59  -  Protected View - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.56,
+          "rationale": "F6 cycles focus in Protected View to the next pane."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "In Protected View, tabs to Enable Editing and confirms it so the spreadsheet can be edited."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 24.7484,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59  -  Protected View - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.56,
+          "rationale": "F6 cycles focus in Protected View to the next pane."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "In Protected View, tabs to Enable Editing and confirms it so the spreadsheet can be edited."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 26.3781,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59  -  Protected View - Excel",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.98,
+          "rationale": "Tab moves focus to the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "In Protected View, tabs to Enable Editing and confirms it so the spreadsheet can be edited."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 27.5863,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59  -  Protected View - Excel",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Enter activates Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "In Protected View, tabs to Enable Editing and confirms it so the spreadsheet can be edited."
+        },
+        "l5": {
+          "tag": "Locate and open workbook",
+          "confidence": 0.94,
+          "rationale": "Navigates through the app and confirms the Task 59 Excel file before working on it."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 33.3433,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.52,
+          "rationale": "Alt begins opening the File/backstage controls."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 35.8882,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "File Tab",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Left arrow moves focus onto the File tab button."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 37.2038,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 39.7419,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "New",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 40.3554,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Open",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 40.4926,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Share",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 41.1233,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Info",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 41.9131,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 42.5566,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save As",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 44.9013,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Print",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 45.8527,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Export",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 48.5262,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Close",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 49.2141,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Export",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through backstage menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 50.3118,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Create PDF/XPS Document",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.82,
+          "rationale": "Enter selects the Export view/tab item."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 53.5024,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Change File Type",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 55.6161,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Change File Type",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 58.007,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Create PDF/XPS",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 60.1798,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Create PDF/XPS",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 60.2866,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Create PDF/XPS Document",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 60.3692,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Create PDF/XPS Document",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Right arrow moves focus between Export options."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 63.4072,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.93,
+          "rationale": "Esc cancels the Export/backstage action and returns to the workbook."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 65.7208,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.51,
+          "rationale": "Alt reopens the File/backstage controls."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 68.2508,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "File Tab",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Left arrow moves focus to the File tab button."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 69.3206,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 69.5798,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "New",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 69.8662,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Share",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 69.9862,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Share",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 71.7312,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Info",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 73.288,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 74.1053,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save As",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves through File menu items."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 75.0201,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "This PC",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.82,
+          "rationale": "Enter selects the This PC location tab."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Navigates through Excel's File > Export area to inspect export options, then cancels back to the workbook without exporting from that page."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 77.8703,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Navigate Up",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to Navigate Up."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 79.8299,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Documents ‎> Task 59",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to Navigate Up."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 84.5816,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Enter file name here",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to the file name text box."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 87.8686,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save as type",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to the Save as type control."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 89.8331,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Excel Workbook (*.xlsx)",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.9,
+          "rationale": "Space selects the current Excel Workbook file type entry."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 91.2345,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Excel Macro-Enabled Workbook (*.xlsm)",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves to the next file type in the list."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 92.3855,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Excel Binary Workbook (*.xlsb)",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves to the next file type in the list."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 93.4443,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Excel 97-2003 Workbook (*.xls)",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves to the next file type in the list."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 94.3808,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "CSV UTF-8 (Comma delimited) (*.csv)",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves to the next file type in the list."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 96.509,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Save as type",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.82,
+          "rationale": "Enter confirms the Save as type selection."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 99.1206,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.98,
+          "rationale": "Tab moves focus to the Save button."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 100.7837,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.99,
+          "rationale": "Enter activates Save to export the CSV file."
+        },
+        "l4": {
+          "tag": "Export <Spreadsheet>",
+          "confidence": 0.99,
+          "rationale": "Changes the save format to CSV UTF-8 and activates Save to export the workbook as a .csv file."
+        },
+        "l5": {
+          "tag": "Export as CSV",
+          "confidence": 0.96,
+          "rationale": "Uses spreadsheet menus and export dialogs to choose CSV and save the workbook."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 106.0618,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Up arrow moves focus to the worksheet cell above."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.68,
+          "rationale": "Moves selection within the worksheet after saving, likely just returning focus to the spreadsheet grid."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 106.1671,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Up arrow moves focus to the worksheet cell above."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.68,
+          "rationale": "Moves selection within the worksheet after saving, likely just returning focus to the spreadsheet grid."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 106.501,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Up arrow moves focus to the worksheet cell above."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.68,
+          "rationale": "Moves selection within the worksheet after saving, likely just returning focus to the spreadsheet grid."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 106.5826,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A2",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Up arrow moves focus to the worksheet cell above."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.68,
+          "rationale": "Moves selection within the worksheet after saving, likely just returning focus to the spreadsheet grid."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 108.1055,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "A2",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Up arrow moves focus to the worksheet cell above."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 108.461,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 59 - Excel",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt_Gr",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.22,
+          "rationale": "AltGr is another modifier in the file-navigation sequence."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 108.648,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Alt_Gr",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Alt_Gr",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.22,
+          "rationale": "AltGr is another modifier in the file-navigation sequence."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 109.8667,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.62,
+          "rationale": "F4 in File Explorer focuses the address bar."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 109.9873,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+F4",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "F4",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.98,
+          "rationale": "Ctrl+F4 closes the active File Explorer window/tab."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 112.098,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Up arrow moves focus within the file list."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 115.6016,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.88,
+          "rationale": "Right arrow moves to the next column header."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 117.8902,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Type",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.88,
+          "rationale": "Right arrow moves to the next column header."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 120.2973,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Type",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Move Focus To <Row>",
+          "confidence": 0.44,
+          "rationale": "Down arrow moves focus from the column header toward the file rows."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 121.5454,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.88,
+          "rationale": "Left arrow moves back to the previous column header."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 121.753,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 121.9417,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 122.3547,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 84,
+          "endIndex": 84
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 122.4331,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 122.5295,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 122.8004,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 87,
+          "endIndex": 87
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 123.6308,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 124.2266,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 89,
+          "endIndex": 89
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Left arrow navigates within the selected file item context."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 124.4673,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0018",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 90,
+          "endIndex": 90
+        },
+        "l3": {
+          "tag": "Cut <List Item>",
+          "confidence": 0.98,
+          "rationale": "The X key with Ctrl cuts the selected file."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 124.5484,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0018",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0018",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 91,
+          "endIndex": 91
+        },
+        "l3": {
+          "tag": "Cut <List Item>",
+          "confidence": 0.98,
+          "rationale": "The X key with Ctrl cuts the selected file."
+        },
+        "l4": {
+          "tag": "Arrange <Item Card>",
+          "confidence": 0.8,
+          "rationale": "Moves around in File Explorer to get back to the selected Task ID 59 file item and cuts it so it can be relocated."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 125.6147,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 92,
+          "endIndex": 92
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.48,
+          "rationale": "Win key starts the Win+M shortcut sequence."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 125.8854,
+      "application": "explorer.exe",
+      "window_title": "Task 59 - File Explorer",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 93,
+          "endIndex": 93
+        },
+        "l3": {
+          "tag": "Minimize <Window>",
+          "confidence": 0.99,
+          "rationale": "M with Win held minimizes all windows."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 125.9559,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+M",
+      "mods": [
+        "Win"
+      ],
+      "key": "m",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 94,
+          "endIndex": 94
+        },
+        "l3": {
+          "tag": "Minimize <Window>",
+          "confidence": 0.99,
+          "rationale": "M with Win held minimizes all windows."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 126.9775,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 95,
+          "endIndex": 95
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.17,
+          "rationale": "Ctrl prepares the paste shortcut on the desktop context."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 127.0986,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0016",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 96,
+          "endIndex": 96
+        },
+        "l3": {
+          "tag": "Paste <Window>",
+          "confidence": 0.97,
+          "rationale": "V with Ctrl held pastes the cut file to the desktop/window context."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 127.1753,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1237,
+        207
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0016",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0016",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1237,
+          "y": 207
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 97,
+          "endIndex": 97
+        },
+        "l3": {
+          "tag": "Paste <Window>",
+          "confidence": 0.97,
+          "rationale": "V with Ctrl held pastes the cut file to the desktop/window context."
+        },
+        "l4": {
+          "tag": "Arrange <Canvas>",
+          "confidence": 0.83,
+          "rationale": "Minimizes windows and pastes the cut file onto the Desktop workspace, completing the move."
+        },
+        "l5": {
+          "tag": "Move CSV to Desktop",
+          "confidence": 0.98,
+          "rationale": "Moves through the file list, selects the exported item, and cuts it for relocation."
+        }
+      },
+      "index": 97
+    }
+  ]
+}

@@ -1,0 +1,1539 @@
+{
+  "metadata": {
+    "task_id": 16,
+    "task_title": "Translating the language of a webpage",
+    "instruction": "Visit www.france24.com/fr. Translate the news page in French on this webpage to English using Google Translate.",
+    "context": "I want to get up-to-date about some news from France but the reliable news websites are mostly in French. I want to read the English Translation of this.",
+    "task_group": "Browsing and Web",
+    "applications": "Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU5",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1756174904.3932796,
+      "ended_at": 1756174980.8242607,
+      "duration": 76.43
+    },
+    "statistics": {
+      "total_events": 26,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe"
+      ],
+      "by_type": {
+        "mouse_click": 7,
+        "mouse_move": 7,
+        "key_press": 12
+      },
+      "by_app": {
+        "explorer.exe": 1,
+        "chrome.exe": 25
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 12,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "2": 1,
+          "4": 1,
+          "c": 2,
+          ".": 1,
+          "a": 1,
+          "e": 1,
+          "f": 1,
+          "m": 1,
+          "n": 1,
+          "o": 1,
+          "r": 1
+        }
+      }
+    },
+    "web": {
+      "tabs": [
+        {
+          "order": 1,
+          "first_ts": 11.656,
+          "url": "https://www.google.com/search?q=france24&rlz=1C1GCEB_enUS1176US1176&oq=france24&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YxwEY0QMYgAQyCQgCEAAYChiABDIJCAMQABgKGIAEMgcIBBAAGIAEMgkIBRAAGAoYgAQyBwgGEAAYgAQyBwgHEAAYgAQyCQgIEAAYChiABKgCALACAA&sourceid=chrome&ie=UTF-8",
+          "title": "france24 - Google Search",
+          "file": "/task_logs/16/web_logs/web_tab1_1756174924450.json",
+          "dom_url": "/task_logs/User 14/16/web_logs/web_tab1_1756174924450.html",
+          "a11y_url": "/task_logs/User 14/16/web_logs/web_tab1_1756174924450_a11y_tree.json"
+        },
+        {
+          "order": 2,
+          "first_ts": 18.934,
+          "url": "https://www.google.com/search?q=france24.com+fr&rlz=1C1GCEB_enUS1176US1176&oq=france24.com&gs_lcrp=EgZjaHJvbWUqBwgFEAAYgAQyBggAEAUYLDIGCAEQRRg5MgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgcIBRAAGIAEMg0IBhAuGMcBGNEDGIAEMgYIBxAFGCzSAQkxMDExNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
+          "title": "france24.com fr - Google Search",
+          "file": "/task_logs/16/web_logs/web_tab2_1756174931728.json",
+          "dom_url": "/task_logs/User 14/16/web_logs/web_tab2_1756174931728.html",
+          "a11y_url": "/task_logs/User 14/16/web_logs/web_tab2_1756174931728_a11y_tree.json"
+        }
+      ],
+      "total_events": 5,
+      "by_tab": {
+        "1::11.656": 1,
+        "2::18.934": 4
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        30,
+        188
+      ],
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 30,
+          "y": 188
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 294
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.95,
+          "rationale": "Launch Google Chrome from the app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Launch Google Chrome from the app list to begin the browsing task."
+        },
+        "l5": {
+          "tag": "Launch browser",
+          "confidence": 0.96,
+          "rationale": "Opened the application from a list item to begin browsing."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 2.1231,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        44,
+        180
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        10,
+        -10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 44,
+          "y": 180
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 294
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Cursor To <Search Box>",
+          "confidence": 0.88,
+          "rationale": "Move the pointer to the address/search bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 6.9614,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "f",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 7.1857,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 7.6349,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 7.8499,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 8.0999,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 8.3454,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1526,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 10.7759,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "2",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 11.0621,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "4",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 12.4349,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": ".",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 13.4727,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 13.6961,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 14.3139,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1060,
+        126
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1060,
+          "y": 126
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Type the first character of the URL/query into the address bar."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 15.5682,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1064,
+        140
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        89,
+        50
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1064,
+          "y": 140
+        },
+        "element_bounds": {
+          "left": 949,
+          "top": 90,
+          "right": 1472,
+          "bottom": 141
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.55,
+          "rationale": "Move the pointer over the page area after entering the query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 16.6854,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "cursor_position": [
+        1132,
+        499
+      ],
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "New Tab",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1132,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 769,
+          "top": 202,
+          "right": 1813,
+          "bottom": 994
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Select <Webpage>",
+          "confidence": 0.54,
+          "rationale": "Click the page area to activate or interact with the current webpage."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 19.5603,
+      "application": "chrome.exe",
+      "window_title": "france24.com fr - Google Search - Google Chrome",
+      "cursor_position": [
+        1129,
+        503
+      ],
+      "focused_element": {
+        "name": "france24.com fr - Google Search",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "France 24 - Infos, news & actualités - L'information internationale en ...",
+        "control_type": "TextControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        18,
+        146
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1129,
+          "y": 503
+        },
+        "element_bounds": {
+          "left": 811,
+          "top": 460,
+          "right": 1749,
+          "bottom": 507
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.86,
+          "rationale": "Move the pointer over the Google search results page."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 21.2789,
+      "application": "chrome.exe",
+      "window_title": "france24.com fr - Google Search - Google Chrome",
+      "cursor_position": [
+        1026,
+        496
+      ],
+      "focused_element": {
+        "name": "france24.com fr - Google Search",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "France 24 - Infos, news & actualités - L'information internationale en ...",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "France 24 - Infos, news & actualités - L'information internationale en ...",
+        "control_type": "TextControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1026,
+          "y": 496
+        },
+        "element_bounds": {
+          "left": 811,
+          "top": 460,
+          "right": 1749,
+          "bottom": 507
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.96,
+          "rationale": "Open the France 24 search result from Google."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.94,
+          "rationale": "Use the browser address/search bar to search for France24 and open the search result to reach the site."
+        },
+        "l5": {
+          "tag": "Open France24 site",
+          "confidence": 0.9,
+          "rationale": "Entered the France24 query/URL in the search box and opened the matching webpage result."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 24.5773,
+      "application": "chrome.exe",
+      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
+      "cursor_position": [
+        1029,
+        488
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        3,
+        -8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1029,
+          "y": 488
+        },
+        "element_bounds": {
+          "left": 769,
+          "top": 482,
+          "right": 1813,
+          "bottom": 23988
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.9,
+          "rationale": "Move the pointer over the France 24 page after it opens."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 25.7252,
+      "application": "chrome.exe",
+      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
+      "cursor_position": [
+        1251,
+        171
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "English",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "English",
+        "control_type": "TabItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1251,
+          "y": 171
+        },
+        "element_bounds": {
+          "left": 1192,
+          "top": 153,
+          "right": 1346,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.83,
+          "rationale": "Choose the English translation tab/button."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 26.219,
+      "application": "chrome.exe",
+      "window_title": "Translating…",
+      "cursor_position": [
+        1249,
+        173
+      ],
+      "focused_element": {
+        "name": "Translating…",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "English",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 173
+        },
+        "element_bounds": {
+          "left": 1192,
+          "top": 153,
+          "right": 1346,
+          "bottom": 201
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.67,
+          "rationale": "Hover over the translation progress panel."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 38.0104,
+      "application": "chrome.exe",
+      "window_title": "Translated",
+      "cursor_position": [
+        1447,
+        903
+      ],
+      "focused_element": {
+        "name": "Translated",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Refuser",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Refuser",
+        "control_type": "ButtonControl",
+        "automation_id": "didomi-notice-disagree-button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1447,
+          "y": 903
+        },
+        "element_bounds": {
+          "left": 1318,
+          "top": 878,
+          "right": 1487,
+          "bottom": 939
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.93,
+          "rationale": "Click the refuse button on the consent notice."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 39.2575,
+      "application": "chrome.exe",
+      "window_title": "France 24 - News, news & current affairs - Live international news - Google Chrome",
+      "cursor_position": [
+        1443,
+        885
+      ],
+      "focused_element": {
+        "name": "France 24 - News, news & current affairs - Live international news",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Understand why",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -6,
+        -18
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1443,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 1193,
+          "top": 815,
+          "right": 1480,
+          "bottom": 890
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.9,
+          "rationale": "Move the pointer over the translated page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 50.5113,
+      "application": "chrome.exe",
+      "window_title": "France 24 - News, news & current affairs - Live international news - Google Chrome",
+      "cursor_position": [
+        1759,
+        622
+      ],
+      "focused_element": {
+        "name": "France 24 - News, news & current affairs - Live international news",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "France 24 - News, news & current affairs - Live international news",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1759,
+          "y": 622
+        },
+        "element_bounds": {
+          "left": 1749,
+          "top": 611,
+          "right": 1772,
+          "bottom": 634
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Select <Webpage>",
+          "confidence": 0.66,
+          "rationale": "Click the webpage content area after translation."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 51.4108,
+      "application": "chrome.exe",
+      "window_title": "France 24 - News, news & current affairs - Live international news - Google Chrome",
+      "cursor_position": [
+        1749,
+        617
+      ],
+      "focused_element": {
+        "name": "France 24 - News, news & current affairs - Live international news",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -10,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1749,
+          "y": 617
+        },
+        "element_bounds": {
+          "left": 769,
+          "top": -313,
+          "right": 1790,
+          "bottom": 23002
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <Webpage>",
+          "confidence": 0.9,
+          "rationale": "Move the pointer within the translated webpage."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 56.979,
+      "application": "chrome.exe",
+      "window_title": "France 24 - News, news & current affairs - Live international news - Google Chrome",
+      "cursor_position": [
+        1788,
+        52
+      ],
+      "focused_element": {
+        "name": "France 24 - News, news & current affairs - Live international news",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "France 24 - News, news & current affairs - Live international news - Google Chrome",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1788,
+          "y": 52
+        },
+        "element_bounds": {
+          "left": 769,
+          "top": 21,
+          "right": 1814,
+          "bottom": 152
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Select <Webpage>",
+          "confidence": 0.61,
+          "rationale": "Click the page/header area on the translated site."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.84,
+          "rationale": "Switch the France24 site into English with Google Translate, dismiss the consent prompt, and then view/interact with the translated webpage."
+        },
+        "l5": {
+          "tag": "Translate page to English",
+          "confidence": 0.84,
+          "rationale": "Used the webpage and translation controls to switch the French news page into English."
+        }
+      },
+      "index": 25
+    }
+  ]
+}

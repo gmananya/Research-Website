@@ -1,0 +1,5219 @@
+{
+  "metadata": {
+    "task_id": 6,
+    "task_title": "Search for a product on an online store",
+    "instruction": "Visit walmart.com on Chrome. Search for a frying pan, then click on the first product with a pan size of exactly 10 inches and add it to cart.",
+    "context": "I've been getting into cooking recently, so I've decided to upgrade my frying pan.",
+    "task_group": "Browsing and Web",
+    "applications": "Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU1",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1757162455.5933197,
+      "ended_at": 1757162550.7019649,
+      "duration": 95.11
+    },
+    "statistics": {
+      "total_events": 92,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe"
+      ],
+      "by_type": {
+        "key_press": 83,
+        "hotkey": 9
+      },
+      "by_app": {
+        "explorer.exe": 3,
+        "chrome.exe": 89
+      },
+      "keystrokes": {
+        "total_hotkeys": 8,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 68,
+        "hotkeys": {
+          "Ctrl+Right": 5,
+          "Alt+Tab": 1,
+          "Ctrl+<255>": 1,
+          "Ctrl+Home": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "0": 1,
+          "1": 1,
+          "Down": 18,
+          "b": 7,
+          "Up": 5,
+          "Enter": 4,
+          "a": 3,
+          "e": 3,
+          "h": 3,
+          "\"": 2,
+          "m": 2,
+          "n": 2,
+          "r": 2,
+          "Space": 2,
+          ".": 1,
+          "c": 1,
+          "Esc": 1,
+          "f": 1,
+          "g": 1,
+          "i": 1,
+          "l": 1,
+          "o": 1,
+          "p": 1,
+          "Shift": 1,
+          "t": 1,
+          "w": 1,
+          "y": 1
+        }
+      }
+    },
+    "web": {
+      "tabs": [
+        {
+          "order": 1,
+          "first_ts": 14.0577,
+          "url": "https://www.walmart.com/",
+          "title": "Walmart | Save Money. Live better.",
+          "file": "/task_logs/6/web_logs/web_tab1_1757162474790.json",
+          "dom_url": "/task_logs/User 3/6/web_logs/web_tab1_1757162474790.html",
+          "a11y_url": "/task_logs/User 3/6/web_logs/web_tab1_1757162474790_a11y_tree.json"
+        },
+        {
+          "order": 2,
+          "first_ts": 24.4037,
+          "url": "https://www.walmart.com/search?q=frying+pan+10%22",
+          "title": "frying pan 10\" - Walmart.com",
+          "file": "/task_logs/6/web_logs/web_tab2_1757162485136.json",
+          "dom_url": null,
+          "a11y_url": null
+        },
+        {
+          "order": 3,
+          "first_ts": 62.1497,
+          "url": "https://www.walmart.com/ip/Farberware-Easy-Clean-Pro-10-Inch-Nonstick-Frying-Pan-Navy/15076420753?classType=VARIANT&adsRedirect=true",
+          "title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+          "file": "/task_logs/6/web_logs/web_tab3_1757162522882.json",
+          "dom_url": "/task_logs/User 3/6/web_logs/web_tab3_1757162522882.html",
+          "a11y_url": "/task_logs/User 3/6/web_logs/web_tab3_1757162522882_a11y_tree.json"
+        }
+      ],
+      "total_events": 42,
+      "by_tab": {
+        "1::14.0577": 26,
+        "2::24.4037": 5,
+        "3::62.1497": 11
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.6,
+          "rationale": "Alt is used while changing focus at the system/window level."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.95,
+          "rationale": "Switching from the current system window to Chrome to begin browsing."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.1409,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Task Switching",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.6,
+          "rationale": "Alt is used while changing focus at the system/window level."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.95,
+          "rationale": "Switching from the current system window to Chrome to begin browsing."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.2247,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab switches to the Chrome window."
+        },
+        "l4": {
+          "tag": "Navigate <Web>",
+          "confidence": 0.95,
+          "rationale": "Switching from the current system window to Chrome to begin browsing."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 8.8618,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "w",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 9.1063,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 9.236,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 9.9687,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 10.2706,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 10.4112,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 10.5101,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 10.6238,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": ".",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 10.7558,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 10.9052,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 10.993,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typing the walmart.com URL into the address/search bar."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 11.2222,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <Webpage>",
+          "confidence": 0.96,
+          "rationale": "Enter opens the typed Walmart page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 13.7002,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <Webpage>",
+          "confidence": 0.42,
+          "rationale": "Keyboard focus is being moved around the loaded webpage."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 13.9788,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.82,
+          "rationale": "Up arrow on the page scrolls the content."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 14.9112,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <Webpage>",
+          "confidence": 0.42,
+          "rationale": "Keyboard focus is being moved around the loaded webpage."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 15.3342,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.55,
+          "rationale": "The key press is consistent with moving to or focusing the search field."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 16.6198,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.82,
+          "rationale": "Up arrow on the page scrolls the content."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 17.317,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Walmart | Save Money. Live better.",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.82,
+          "rationale": "Up arrow on the page scrolls the content."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.98,
+          "rationale": "Entering walmart.com in the address bar and loading the Walmart site."
+        },
+        "l5": {
+          "tag": "Open Walmart site",
+          "confidence": 0.96,
+          "rationale": "Covers the initial browser/window focus and the site-loading/navigation actions needed to reach Walmart before searching."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 18.7527,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 20.8815,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "f",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 21.0313,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 21.2586,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 21.4729,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 21.5725,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 21.6885,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 21.8352,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 21.9932,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "p",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 22.2564,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 22.4342,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 22.5585,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 22.6754,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "1",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 22.9235,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 23.3531,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 23.5602,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\"",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 23.6503,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+\"",
+      "mods": [
+        "Shift"
+      ],
+      "key": "\"",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 23.9383,
+      "application": "chrome.exe",
+      "window_title": "Walmart | Save Money. Live better. - Google Chrome",
+      "focused_element": {
+        "name": "Search",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Beginning the product search query in the search field."
+        },
+        "l4": {
+          "tag": "Search <Website>",
+          "confidence": 0.99,
+          "rationale": "Typing the frying pan query into Walmart search and submitting it."
+        },
+        "l5": {
+          "tag": "Search for frying pan",
+          "confidence": 0.99,
+          "rationale": "This span is the query entry phase in the Walmart search box, matching the task to search for a frying pan."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 25.9174,
+      "application": "chrome.exe",
+      "window_title": "walmart.com/search?q=frying+pan+10\" - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.55,
+          "rationale": "Keyboard navigation is moving to an edit/search field on the results page."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 28.5698,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.55,
+          "rationale": "Keyboard navigation is moving to an edit/search field on the results page."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 30.4822,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 31.5017,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 32.3969,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 33.0781,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 34.1241,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 35.053,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 35.4265,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 36.0386,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 36.589,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 37.2158,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 37.6827,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 38.6901,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation is stepping through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 39.6531,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "The H key is moving to a heading or text region."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 41.7129,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation continues through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 42.7365,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation continues through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 43.9573,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Arrow navigation continues through result links."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 46.3172,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 46.4636,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 46.5693,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Right",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Right",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 47.403,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 48.2552,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 50.5736,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 51.3181,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 53.1771,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 53.3049,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 53.4034,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Right",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Right",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 54.1511,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 54.2708,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Right",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Right",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 54.8461,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 54.9553,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Right",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Right",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 55.7101,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 55.8505,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Right",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Right",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl-based navigation is moving within page text by keyboard."
+        },
+        "l4": {
+          "tag": "Review <Item Card>",
+          "confidence": 0.83,
+          "rationale": "Scanning search result items to identify the first pan with an exact 10-inch size."
+        },
+        "l5": {
+          "tag": "Inspect search results",
+          "confidence": 0.93,
+          "rationale": "The item-card review, scrolling, and cursor inspection here are used to find the first product whose pan size is exactly 10 inches."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 56.9016,
+      "application": "chrome.exe",
+      "window_title": "frying pan 10\" - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the selected product result."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 59.8799,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.45,
+          "rationale": "Keyboard navigation continues within the product page text."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 60.2085,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "<255>",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.45,
+          "rationale": "Keyboard navigation continues within the product page text."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 60.4875,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+<255>",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "<255>",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.45,
+          "rationale": "Keyboard navigation continues within the product page text."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 60.7196,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Home",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.93,
+          "rationale": "Home scrolls the page back toward the top."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 60.8647,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Home",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Home",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.93,
+          "rationale": "Home scrolls the page back toward the top."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 62.1538,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.93,
+          "rationale": "Home scrolls the page back toward the top."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 63.6375,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "The H key is moving focus to a heading or text region."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 64.6629,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.72,
+          "rationale": "Esc cancels the current in-page interaction."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 65.8052,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "The H key is moving focus to a heading or text region."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 66.874,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 67.8984,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 84,
+          "endIndex": 84
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 68.4763,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 69.7667,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 70.8605,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 87,
+          "endIndex": 87
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 71.9907,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 73.049,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 89,
+          "endIndex": 89
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 74.1291,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 90,
+          "endIndex": 90
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "The B key is moving to a button on the product page."
+        },
+        "l4": {
+          "tag": "Navigate <Website>",
+          "confidence": 0.97,
+          "rationale": "Opening the selected product result from the search page."
+        },
+        "l5": {
+          "tag": "Open first matching product",
+          "confidence": 0.9,
+          "rationale": "After identifying the match, these navigation actions move into the chosen product listing from the search results."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 76.6901,
+      "application": "chrome.exe",
+      "window_title": "Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue - Walmart.com - Google Chrome",
+      "focused_element": {
+        "name": "Add to cart - Farberware Easy Clean 10 Inch Ceramic Nonstick Frying Pan / Skillet, Dishwasher Safe, Blue",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1249,
+        244
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 244
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 91,
+          "endIndex": 91
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Enter activates the Add to cart button."
+        },
+        "l4": {
+          "tag": "Confirm <Website>",
+          "confidence": 0.99,
+          "rationale": "Activating Add to cart to finalize adding the item to the cart."
+        },
+        "l5": {
+          "tag": "Add matching pan to cart",
+          "confidence": 0.98,
+          "rationale": "The final confirm/select action corresponds to clicking the add-to-cart control for the chosen pan."
+        }
+      },
+      "index": 91
+    }
+  ]
+}

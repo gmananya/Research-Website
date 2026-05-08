@@ -1,0 +1,5287 @@
+{
+  "metadata": {
+    "task_id": 55,
+    "task_title": "Copy text from Word to the Notes section in Powerpoint",
+    "instruction": "Copy presentation notes from word document located in Task ID 55.docx to my presentation slide Task ID 55.pptx, both in Documents > Task 55 folder.",
+    "context": "I’m giving a presentation tomorrow and I want to move my talking points from a word document to the Notes section of my presentation.",
+    "task_group": "Workflow",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756745737.9342456,
+      "ended_at": 1756745855.9423013,
+      "duration": 118.01
+    },
+    "statistics": {
+      "total_events": 92,
+      "apps_used": [
+        "explorer.exe",
+        "WINWORD.EXE",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "key_press": 74,
+        "hotkey": 18
+      },
+      "by_app": {
+        "explorer.exe": 41,
+        "WINWORD.EXE": 29,
+        "POWERPNT.EXE": 22
+      },
+      "keystrokes": {
+        "total_hotkeys": 16,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 49,
+        "hotkeys": {
+          "Alt+Tab": 6,
+          "Ctrl+Home": 4,
+          "Ctrl+Left": 2,
+          "Ctrl+\u0001": 1,
+          "Ctrl+\u0003": 1,
+          "Ctrl+\u0016": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 10,
+          "Tab": 10,
+          "F6": 8,
+          "Enter": 7,
+          "Up": 6,
+          "Left": 3,
+          "Right": 2,
+          "PageDown": 1,
+          "Shift": 1,
+          "Space": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.74,
+          "rationale": "Win key changes to the system Start/app surface."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.1152,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Part of the Win+R shortcut to open Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.2478,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Part of the Win+R shortcut to open Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 1.5828,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl key is part of cursor movement in the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 1.7372,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl key is part of cursor movement in the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 1.8038,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl key is part of cursor movement in the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 1.8732,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl key is part of cursor movement in the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 1.9444,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl key is part of cursor movement in the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 2.6898,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.95,
+          "rationale": "Enter opens the requested location in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 3.052,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.95,
+          "rationale": "Enter opens the requested location in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 5.5055,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 6.744,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 6.9195,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 7.0561,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 52",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 7.1848,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 7.3231,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 58",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 7.488,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 8.9313,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 58",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 12.9532,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "PageDown moves focus through items in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 14.387,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the selected Task 55 item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 17.1779,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Toggle <List Item>",
+          "confidence": 0.78,
+          "rationale": "Space toggles the selection state of the focused file item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 17.536,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.72,
+          "rationale": "Right arrow moves across file list columns."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 17.7911,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Type",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.72,
+          "rationale": "Right arrow moves across file list columns."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 19.2689,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.72,
+          "rationale": "Right arrow moves across file list columns."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 19.5316,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Left arrow moves within the file list focus."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 19.7363,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Left arrow moves within the file list focus."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 22.1238,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the Task ID 55 file item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 26.38,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.64,
+          "rationale": "Alt shifts focus to the window/menu context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 27.992,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.64,
+          "rationale": "Alt shifts focus to the window/menu context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 28.8545,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab switches to another window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 28.9549,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves to the next item in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 31.3688,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the focused Task ID 55 item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 41.2172,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.64,
+          "rationale": "Alt shifts focus within the PowerPoint window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 41.7714,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Tab in the task switcher cycles the active window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 41.9519,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Tab in the task switcher cycles the active window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 43.9824,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.63,
+          "rationale": "Alt shifts focus to the window or menu area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 44.4066,
+      "application": "explorer.exe",
+      "window_title": "Task 55 - File Explorer",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.63,
+          "rationale": "Alt shifts focus to the window or menu area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 44.5118,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab cycles to another window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 47.1718,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab cycles to another window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 47.2772,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab cycles to another window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "Uses Run, File Explorer, and window switching to locate and open the Task 55 files and bring the relevant app windows into view."
+        },
+        "l5": {
+          "tag": "Open source document",
+          "confidence": 0.94,
+          "rationale": "This span is dominated by navigation across windows and application elements to reach the Word source file in the Task 55 folder."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 53.2795,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.8,
+          "rationale": "F6 cycles focus panes in Word."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 54.8901,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Down arrow moves within the Word document text."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 54.9962,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Down arrow moves within the Word document text."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 55.8786,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Down arrow moves within the Word document text."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 55.9557,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Task ID 55  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Down arrow moves within the Word document text."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 56.7037,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.7,
+          "rationale": "F6 lands on the hyperlink control in protected view."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 59.0593,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 59.1838,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Close this message",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 60.4737,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Tab returns focus to the protected view link."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 60.9016,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.82,
+          "rationale": "Tab returns focus to the protected view link."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 60.9873,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Close this message",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Close this message button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 61.0595,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Close this message",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Close this message button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 61.1662,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Close this message button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 61.2469,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Close this message button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 62.3933,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55  -  Protected View - Word",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Enter activates the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "In the Word protected-view document, moves focus to the Enable Editing prompt and activates it so the source document can be edited/copied."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 66.6652,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl is part of moving to the start of the Word document."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 67.2988,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Home",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl is part of moving to the start of the Word document."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 67.3849,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Home",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Home",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl is part of moving to the start of the Word document."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 67.4707,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Home",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl is part of moving to the start of the Word document."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 67.5508,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Home",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Home",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl is part of moving to the start of the Word document."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 67.7679,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Select All <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the Select All shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 67.878,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0001",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Select All <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the Select All shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 67.973,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0001",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0001",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Select All <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the Select All shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 68.8139,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Copy <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the copy shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 69.1271,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0003",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Copy <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the copy shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 69.2006,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0003",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0003",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Copy <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the copy shortcut in Word."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.88,
+          "rationale": "Moves to the start of the Word document, selects all text, and copies the source content in preparation for transfer."
+        },
+        "l5": {
+          "tag": "Copy source notes",
+          "confidence": 0.93,
+          "rationale": "The document is confirmed open, then the text is reviewed, selected, and copied from the Word file."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 69.9019,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "Task ID 55",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.62,
+          "rationale": "Alt shifts focus toward the application menus."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Switches window focus away from Word and toward the PowerPoint application."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 70.3118,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 55 - Word",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.62,
+          "rationale": "Alt shifts focus toward the application menus."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Switches window focus away from Word and toward the PowerPoint application."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 70.4539,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab switches to the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Switches window focus away from Word and toward the PowerPoint application."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 72.3616,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab switches to the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Switches window focus away from Word and toward the PowerPoint application."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 72.4895,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt+Tab switches to the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Switches window focus away from Word and toward the PowerPoint application."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 75.8543,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.78,
+          "rationale": "F6 cycles focus in PowerPoint protected view."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 77.8472,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.78,
+          "rationale": "F6 cycles focus in PowerPoint protected view."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 80.0732,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.78,
+          "rationale": "F6 cycles focus in PowerPoint protected view."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 81.3245,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.7,
+          "rationale": "F6 lands on the protected view hyperlink."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 82.9469,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 84.1956,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Enter activates the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.96,
+          "rationale": "In the PowerPoint protected-view file, activates Enable Editing so the presentation can be modified."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.9,
+          "rationale": "The trace switches back to the presentation application and confirms the correct PowerPoint destination file."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 88.4777,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide 2 - Interesting Facts ",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.6,
+          "rationale": "Down moves focus in the slide navigation area."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 89.302,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Title TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Tab moves focus to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 90.6763,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "View Indicator Slide 2 of 4",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Tab moves focus to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 95.268,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.86,
+          "rationale": "F6 reaches the Home ribbon tab item."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 97.5536,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.84,
+          "rationale": "F6 moves focus to the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 100.8541,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Up arrow moves the cursor within the notes text."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 100.9545,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Up arrow moves the cursor within the notes text."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 101.1184,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 84,
+          "endIndex": 84
+        },
+        "l3": {
+          "tag": "Paste <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl is part of the paste shortcut into notes."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 101.3387,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0016",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        },
+        "l3": {
+          "tag": "Paste <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl is part of the paste shortcut into notes."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 101.4428,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0016",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0016",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 86,
+          "endIndex": 86
+        },
+        "l3": {
+          "tag": "Paste <Text>",
+          "confidence": 0.99,
+          "rationale": "Ctrl is part of the paste shortcut into notes."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.99,
+          "rationale": "Pastes the copied notes into the slide Notes area of the presentation."
+        },
+        "l5": {
+          "tag": "Paste notes into slide",
+          "confidence": 0.96,
+          "rationale": "This span opens the insertion target in the presentation and pastes the copied text into the notes area."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 102.4266,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 87,
+          "endIndex": 87
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl begins navigation within the notes text."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.84,
+          "rationale": "Moves the cursor back to the beginning of the Notes text after the paste operation."
+        },
+        "l5": {
+          "tag": "Verify pasted notes",
+          "confidence": 0.72,
+          "rationale": "After pasting, focus moves within the presentation text area, consistent with checking or settling the inserted notes."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 102.5594,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Home",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl begins navigation within the notes text."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.84,
+          "rationale": "Moves the cursor back to the beginning of the Notes text after the paste operation."
+        },
+        "l5": {
+          "tag": "Verify pasted notes",
+          "confidence": 0.72,
+          "rationale": "After pasting, focus moves within the presentation text area, consistent with checking or settling the inserted notes."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 102.648,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Home",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Home",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 89,
+          "endIndex": 89
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl begins navigation within the notes text."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.84,
+          "rationale": "Moves the cursor back to the beginning of the Notes text after the paste operation."
+        },
+        "l5": {
+          "tag": "Verify pasted notes",
+          "confidence": 0.72,
+          "rationale": "After pasting, focus moves within the presentation text area, consistent with checking or settling the inserted notes."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 102.7229,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Home",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 90,
+          "endIndex": 90
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl begins navigation within the notes text."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.84,
+          "rationale": "Moves the cursor back to the beginning of the Notes text after the paste operation."
+        },
+        "l5": {
+          "tag": "Verify pasted notes",
+          "confidence": 0.72,
+          "rationale": "After pasting, focus moves within the presentation text area, consistent with checking or settling the inserted notes."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 102.8122,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 55 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1080,
+        56
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Home",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Home",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1080,
+          "y": 56
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 91,
+          "endIndex": 91
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Ctrl begins navigation within the notes text."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.84,
+          "rationale": "Moves the cursor back to the beginning of the Notes text after the paste operation."
+        },
+        "l5": {
+          "tag": "Verify pasted notes",
+          "confidence": 0.72,
+          "rationale": "After pasting, focus moves within the presentation text area, consistent with checking or settling the inserted notes."
+        }
+      },
+      "index": 91
+    }
+  ]
+}

@@ -1,0 +1,4867 @@
+{
+  "metadata": {
+    "task_id": 29,
+    "task_title": "Force quit an application",
+    "instruction": "Open Chrome and close the application from Task Manager",
+    "context": "I'm browsing on Chrome but it is frozen.",
+    "task_group": "System Operations",
+    "applications": "Task Manager, Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Magnifier",
+      "condition": "low-vision"
+    },
+    "session": {
+      "started_at": 1764797204.4131935,
+      "ended_at": 1764798292.544136,
+      "duration": 1088.13
+    },
+    "statistics": {
+      "total_events": 114,
+      "apps_used": [
+        "explorer.exe",
+        "nvda.exe",
+        "Taskmgr.exe",
+        "chrome.exe",
+        "explorer.exe"
+      ],
+      "by_type": {
+        "mouse_click": 43,
+        "key_press": 48,
+        "hotkey": 8,
+        "scroll": 15
+      },
+      "by_app": {
+        "explorer.exe": 52,
+        "nvda.exe": 2,
+        "Taskmgr.exe": 42,
+        "chrome.exe": 18
+      },
+      "keystrokes": {
+        "total_hotkeys": 6,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 19,
+        "hotkeys": {
+          "Ctrl+Shift+Esc": 3,
+          "Alt+F4": 2,
+          "Win+U": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Esc": 4,
+          "c": 2,
+          "e": 2,
+          "Enter": 2,
+          "h": 2,
+          "m": 2,
+          "o": 2,
+          "r": 2,
+          "Right": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0.0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1825,
+        838
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1825,
+          "y": 838
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1825,
+        838
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1825,
+          "y": 838
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 0,
+          "endIndex": 1
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 4.6021,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        600,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 600,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 4.6021,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        600,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 600,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 19.7977,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.Windows.Explorer"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 19.7977,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.Windows.Explorer"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 32.2069,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 32.2069,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 32.31,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 32.31,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 32.4493,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+F4",
+      "mods": [
+        "Alt"
+      ],
+      "key": "F4",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "close_window"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 10,
+          "endIndex": 10
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 32.4493,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1030,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+F4",
+      "mods": [
+        "Alt"
+      ],
+      "key": "F4",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "close_window"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1030,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1128,
+          "right": 1096,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 11,
+          "endIndex": 11
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 43.4115,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        73,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 12,
+          "endIndex": 13
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 43.4115,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        73,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 12,
+          "endIndex": 13
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 43.4812,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 14,
+          "endIndex": 15
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 43.4812,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 14,
+          "endIndex": 15
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 64.3317,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "NVDA",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 16,
+          "endIndex": 17
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 64.3317,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "NVDA",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 16,
+          "endIndex": 17
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 64.424,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "NVDA",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 18,
+          "endIndex": 19
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 64.424,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "NVDA",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 18,
+          "endIndex": 19
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 68.5918,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 68.5918,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 68.6199,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 68.6199,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 68.6413,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+U",
+      "mods": [
+        "Win"
+      ],
+      "key": "u",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 24,
+          "endIndex": 24
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 68.6413,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        73,
+        847
+      ],
+      "element_under_cursor": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+U",
+      "mods": [
+        "Win"
+      ],
+      "key": "u",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 73,
+          "y": 847
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 775,
+          "right": 112,
+          "bottom": 879
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 25,
+          "endIndex": 25
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 81.5073,
+      "application": "nvda.exe",
+      "window_title": "Welcome to NVDA",
+      "focused_element": {
+        "name": "Keyboard layout:",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Welcome to NVDA",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Welcome to NVDA",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 509,
+          "top": 317,
+          "right": 1411,
+          "bottom": 811
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 26,
+          "endIndex": 26
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 87.5029,
+      "application": "nvda.exe",
+      "window_title": "Welcome to NVDA",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 93.3919,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1350,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1350,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 28,
+          "endIndex": 29
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 93.3919,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1350,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1350,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 28,
+          "endIndex": 29
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 101.2425,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\\obs-studio\\bin\\64bit\\obs64.exe"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1162,
+          "top": 1128,
+          "right": 1228,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 30,
+          "endIndex": 31
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 101.2425,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: {6D809377-6AF0-444B-8957-A3773F02200E}\\obs-studio\\bin\\64bit\\obs64.exe"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1162,
+          "top": 1128,
+          "right": 1228,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 30,
+          "endIndex": 31
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 130.9009,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        82,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 82,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 130.9009,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        82,
+        885
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 82,
+          "y": 885
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 145.2958,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        889,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "ButtonControl",
+        "automation_id": "SearchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 889,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 631,
+          "top": 1140,
+          "right": 960,
+          "bottom": 1188
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 34,
+          "endIndex": 35
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 145.2958,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "NVDA",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        889,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "ButtonControl",
+        "automation_id": "SearchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 889,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 631,
+          "top": 1140,
+          "right": 960,
+          "bottom": 1188
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 34,
+          "endIndex": 35
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 190.3828,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 190.3828,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 190.607,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 190.607,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 190.6415,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 190.6415,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 190.6719,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 190.6719,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 190.6977,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 190.6977,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 190.7314,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 190.7314,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1188,
+        1146
+      ],
+      "element_under_cursor": {
+        "name": "OBS Studio - 1 running window pinned",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1188,
+          "y": 1146
+        },
+        "element_bounds": {
+          "left": 1129,
+          "top": 1128,
+          "right": 1195,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 197.9784,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        331,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Run",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Run",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 331,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 11,
+          "top": 777,
+          "right": 601,
+          "bottom": 1124
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 48,
+          "endIndex": 49
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 197.9784,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        331,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Run",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Run",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 331,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 11,
+          "top": 777,
+          "right": 601,
+          "bottom": 1124
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 48,
+          "endIndex": 49
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 207.6025,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        357,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Run",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Run",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 357,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 11,
+          "top": 777,
+          "right": 601,
+          "bottom": 1124
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 50,
+          "endIndex": 51
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 207.6025,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        357,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Run",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Run",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 357,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 11,
+          "top": 777,
+          "right": 601,
+          "bottom": 1124
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 50,
+          "endIndex": 51
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 265.4725,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "CPU 7% Sorted (descending). Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        346,
+        670
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 346,
+          "y": 670
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 640,
+          "right": 511,
+          "bottom": 682
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 52,
+          "endIndex": 52
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 274.8252,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "0.1 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 723,
+          "right": 984,
+          "bottom": 765
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 53,
+          "endIndex": 53
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 276.3869,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        357,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Add",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 357,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 324,
+          "top": 976,
+          "right": 363,
+          "bottom": 1016
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 276.3869,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        357,
+        994
+      ],
+      "element_under_cursor": {
+        "name": "Add",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 357,
+          "y": 994
+        },
+        "element_bounds": {
+          "left": 324,
+          "top": 976,
+          "right": 363,
+          "bottom": 1016
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 286.7665,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "2.4 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 722,
+          "right": 984,
+          "bottom": 764
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 56,
+          "endIndex": 56
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 297.0484,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "End task",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 57,
+          "endIndex": 57
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 304.3627,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Cancel",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 152,
+          "right": 928,
+          "bottom": 734
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 305.1782,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Cancel",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 152,
+          "right": 928,
+          "bottom": 734
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 307.225,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 307.2574,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 307.2849,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 307.3137,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 307.3406,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 307.365,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        922,
+        282
+      ],
+      "element_under_cursor": {
+        "name": "End task",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 922,
+          "y": 282
+        },
+        "element_bounds": {
+          "left": 897,
+          "top": 232,
+          "right": 1038,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 319.0503,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        433,
+        277
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 433,
+          "y": 277
+        },
+        "element_bounds": {
+          "left": 235,
+          "top": 230,
+          "right": 952,
+          "bottom": 281
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 66,
+          "endIndex": 66
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 329.9651,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "0 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 435,
+          "right": 984,
+          "bottom": 477
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 67,
+          "endIndex": 68
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 351.6294,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "202.1 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 567,
+          "right": 984,
+          "bottom": 609
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 67,
+          "endIndex": 68
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 363.315,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        433,
+        187
+      ],
+      "element_under_cursor": {
+        "name": "Glass Window",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Glass Window",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 433,
+          "y": 187
+        },
+        "element_bounds": {
+          "left": 229,
+          "top": 163,
+          "right": 517,
+          "bottom": 219
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 69,
+          "endIndex": 69
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 376.1139,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Console Window Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        433,
+        313
+      ],
+      "element_under_cursor": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "target": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 433,
+          "y": 313
+        },
+        "element_bounds": {
+          "left": 237,
+          "top": 308,
+          "right": 588,
+          "bottom": 384
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 70,
+          "endIndex": 70
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 389.6015,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        433,
+        313
+      ],
+      "element_under_cursor": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 433,
+          "y": 313
+        },
+        "element_bounds": {
+          "left": 237,
+          "top": 308,
+          "right": 588,
+          "bottom": 384
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 401.0334,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "4.1 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 585,
+          "right": 984,
+          "bottom": 627
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 72,
+          "endIndex": 73
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 413.1317,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "9.1 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 729,
+          "right": 984,
+          "bottom": 771
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 72,
+          "endIndex": 73
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 423.68,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        562,
+        1069
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "New Tab - Google Chrome",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1069
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1718,
+          "bottom": 1127
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 74,
+          "endIndex": 74
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 434.0269,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1069
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1069
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 434.1055,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1069
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1069
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 76,
+          "endIndex": 76
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 434.1231,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1069
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1069
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 434.1412,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1069
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Shift+Esc",
+      "mods": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Esc",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1069
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 78,
+          "endIndex": 78
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 459.3581,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "6.6 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 723,
+          "right": 984,
+          "bottom": 765
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 79,
+          "endIndex": 80
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 472.7767,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "1.5 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 573,
+          "right": 984,
+          "bottom": 615
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 79,
+          "endIndex": 80
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 484.0215,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Name. Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        562,
+        682
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 682
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 675,
+          "right": 582,
+          "bottom": 717
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 81,
+          "endIndex": 81
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 496.8734,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "NVDA application (has UIAccess) (32 bit)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        562,
+        871
+      ],
+      "element_under_cursor": {
+        "name": "Service Host: DHCP Client",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Service Host: DHCP Client",
+        "control_type": "TreeItemControl",
+        "automation_id": "1026:2612"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 871
+        },
+        "element_bounds": {
+          "left": 237,
+          "top": 845,
+          "right": 1205,
+          "bottom": 887
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 82,
+          "endIndex": 82
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 509.3537,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Service Host: DHCP Client",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        562,
+        1060
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "New Tab",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1060
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 83,
+          "endIndex": 83
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 523.8743,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1060
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1060
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 84,
+          "endIndex": 84
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 523.9094,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1060
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1060
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 523.9257,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1060
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1060
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 523.9442,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        562,
+        1060
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Shift+Esc",
+      "mods": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Esc",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 562,
+          "y": 1060
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 87,
+          "endIndex": 87
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 551.8209,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Service Host: DHCP Client",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        438,
+        766
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 438,
+          "y": 766
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 759,
+          "right": 583,
+          "bottom": 801
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 88,
+          "endIndex": 88
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 563.5645,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        627,
+        594
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Row details",
+        "control_type": "PaneControl",
+        "automation_id": "TmViewRow"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 594
+        },
+        "element_bounds": {
+          "left": 588,
+          "top": 591,
+          "right": 696,
+          "bottom": 633
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 89,
+          "endIndex": 89
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 577.6181,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Search. 8 instances.",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "127.2 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 592,
+          "right": 984,
+          "bottom": 634
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 90,
+          "endIndex": 90
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 594.6179,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Search. 8 instances.",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        438,
+        796
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 438,
+          "y": 796
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 779,
+          "right": 533,
+          "bottom": 821
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 91,
+          "endIndex": 91
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 607.7355,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Address and search bar",
+        "control_type": "EditControl",
+        "automation_id": "view_1012"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 243,
+          "top": 76,
+          "right": 1400,
+          "bottom": 113
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 92,
+          "endIndex": 92
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 622.3831,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 187,
+          "top": 69,
+          "right": 1430,
+          "bottom": 120
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 93,
+          "endIndex": 93
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 636.2412,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 243,
+          "top": 76,
+          "right": 1263,
+          "bottom": 113
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 94,
+          "endIndex": 94
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 636.3023,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 243,
+          "top": 76,
+          "right": 1263,
+          "bottom": 113
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 95,
+          "endIndex": 95
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 636.3222,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 243,
+          "top": 76,
+          "right": 1263,
+          "bottom": 113
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 96,
+          "endIndex": 96
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 636.3398,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        102
+      ],
+      "element_under_cursor": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Shift+Esc",
+      "mods": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Esc",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 243,
+          "top": 76,
+          "right": 1263,
+          "bottom": 113
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 97,
+          "endIndex": 97
+        }
+      },
+      "index": 97
+    },
+    {
+      "timestamp": 662.3522,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Antimalware Core Service",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "5.4 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 567,
+          "right": 984,
+          "bottom": 609
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 98,
+          "endIndex": 100
+        }
+      },
+      "index": 98
+    },
+    {
+      "timestamp": 676.0994,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Antimalware Core Service",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "17.4 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 561,
+          "right": 984,
+          "bottom": 603
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 98,
+          "endIndex": 100
+        }
+      },
+      "index": 99
+    },
+    {
+      "timestamp": 689.4189,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Antimalware Core Service",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "0.4 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 417,
+          "right": 984,
+          "bottom": 459
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 98,
+          "endIndex": 100
+        }
+      },
+      "index": 100
+    },
+    {
+      "timestamp": 703.5982,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Antimalware Core Service",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        436,
+        699
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 436,
+          "y": 699
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 675,
+          "right": 476,
+          "bottom": 717
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 101,
+          "endIndex": 101
+        }
+      },
+      "index": 101
+    },
+    {
+      "timestamp": 718.4307,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        622,
+        489
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Row details",
+        "control_type": "PaneControl",
+        "automation_id": "TmViewRow"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 622,
+          "y": 489
+        },
+        "element_bounds": {
+          "left": 588,
+          "top": 465,
+          "right": 696,
+          "bottom": 507
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 102,
+          "endIndex": 102
+        }
+      },
+      "index": 102
+    },
+    {
+      "timestamp": 733.9795,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Processes",
+        "control_type": "DataGridControl"
+      },
+      "cursor_position": [
+        243,
+        387
+      ],
+      "element_under_cursor": {
+        "name": "WMI Provider Host",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "WMI Provider Host",
+        "control_type": "TreeItemControl",
+        "automation_id": "2:19492"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 243,
+          "y": 387
+        },
+        "element_bounds": {
+          "left": 237,
+          "top": 381,
+          "right": 1205,
+          "bottom": 423
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 103,
+          "endIndex": 103
+        }
+      },
+      "index": 103
+    },
+    {
+      "timestamp": 748.2048,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "WMI Provider Host",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        436,
+        835
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "TextControl",
+        "automation_id": "TmColFriendlyName"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 436,
+          "y": 835
+        },
+        "element_bounds": {
+          "left": 315,
+          "top": 808,
+          "right": 577,
+          "bottom": 850
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 104,
+          "endIndex": 104
+        }
+      },
+      "index": 104
+    },
+    {
+      "timestamp": 827.0222,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        622,
+        156
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "target": {
+        "name": "Task Manager",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 622,
+          "y": 156
+        },
+        "element_bounds": {
+          "left": 187,
+          "top": 155,
+          "right": 1311,
+          "bottom": 200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 105,
+          "endIndex": 105
+        }
+      },
+      "index": 105
+    },
+    {
+      "timestamp": 845.4219,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Microsoft Windows Search Indexer",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "1.5 MB",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 877,
+          "top": 564,
+          "right": 984,
+          "bottom": 606
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 106,
+          "endIndex": 106
+        }
+      },
+      "index": 106
+    },
+    {
+      "timestamp": 861.9477,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "error": "(-2147418113, 'Catastrophic failure', (None, None, None, 0, None))"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 107,
+          "endIndex": 107
+        }
+      },
+      "index": 107
+    },
+    {
+      "timestamp": 861.9804,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 108,
+          "endIndex": 108
+        }
+      },
+      "index": 108
+    },
+    {
+      "timestamp": 862.0156,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+F4",
+      "mods": [
+        "Alt"
+      ],
+      "key": "F4",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "close_window"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 302,
+          "top": 574,
+          "right": 1422,
+          "bottom": 646
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 109,
+          "endIndex": 109
+        }
+      },
+      "index": 109
+    },
+    {
+      "timestamp": 897.8198,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1741,
+        22
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1741,
+          "y": 22
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 110,
+          "endIndex": 110
+        }
+      },
+      "index": 110
+    },
+    {
+      "timestamp": 953.4154,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "CPU 6% Sorted (descending). Press Enter to change sorting.",
+        "control_type": "HeaderItemControl"
+      },
+      "cursor_position": [
+        427,
+        1108
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "New Tab",
+        "control_type": "DocumentControl",
+        "automation_id": "RootWebArea"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 427,
+          "y": 1108
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 111,
+          "endIndex": 111
+        }
+      },
+      "index": 111
+    },
+    {
+      "timestamp": 970.5146,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        427,
+        1108
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 427,
+          "y": 1108
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 112,
+          "endIndex": 112
+        }
+      },
+      "index": 112
+    },
+    {
+      "timestamp": 970.62,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        427,
+        1108
+      ],
+      "element_under_cursor": {
+        "name": "New Tab",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 427,
+          "y": 1108
+        },
+        "element_bounds": {
+          "left": 7,
+          "top": 181,
+          "right": 1717,
+          "bottom": 1126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 113,
+          "endIndex": 113
+        }
+      },
+      "index": 113
+    }
+  ]
+}

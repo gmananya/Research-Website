@@ -1,0 +1,2707 @@
+{
+  "metadata": {
+    "task_id": 75,
+    "task_title": "Change the video speed",
+    "instruction": "Open video Task ID 75.mp4 in Documents > Task 75 folder on Media Player. Play the video in 1.5x speed.",
+    "context": "I'm watching a video on Media Player, but I'm on a time crunch so I want to speed through it.",
+    "task_group": "Media",
+    "applications": "Windows Media Player",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756911129.8090978,
+      "ended_at": 1756911205.6990445,
+      "duration": 75.89
+    },
+    "statistics": {
+      "total_events": 48,
+      "apps_used": [
+        "explorer.exe",
+        "ApplicationFrameHost.exe"
+      ],
+      "by_type": {
+        "key_press": 44,
+        "hotkey": 4
+      },
+      "by_app": {
+        "explorer.exe": 19,
+        "ApplicationFrameHost.exe": 29
+      },
+      "keystrokes": {
+        "total_hotkeys": 3,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 40,
+        "hotkeys": {
+          "Ctrl+Left": 2,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 13,
+          "Tab": 10,
+          "Enter": 6,
+          "Space": 5,
+          "PageDown": 2,
+          "Up": 2,
+          "Right": 1,
+          "Shift": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Win key opens the system/start window so the user can launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Win+R opens the Run dialog so the user can launch the next window."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.159,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Win key opens the system/start window so the user can launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Win+R opens the Run dialog so the user can launch the next window."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.3067,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.98,
+          "rationale": "Win key opens the system/start window so the user can launch Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Win+R opens the Run dialog so the user can launch the next window."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 1.2592,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl in the Run edit field is part of cursor navigation within text."
+        },
+        "l4": {
+          "tag": "Navigate <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the caret within the Run input field before submitting it."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 1.3627,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl in the Run edit field is part of cursor navigation within text."
+        },
+        "l4": {
+          "tag": "Navigate <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the caret within the Run input field before submitting it."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 1.4273,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl in the Run edit field is part of cursor navigation within text."
+        },
+        "l4": {
+          "tag": "Navigate <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the caret within the Run input field before submitting it."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 1.4936,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl in the Run edit field is part of cursor navigation within text."
+        },
+        "l4": {
+          "tag": "Navigate <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the caret within the Run input field before submitting it."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 1.5455,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl in the Run edit field is part of cursor navigation within text."
+        },
+        "l4": {
+          "tag": "Navigate <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the caret within the Run input field before submitting it."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 2.3508,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.93,
+          "rationale": "Enter in Run executes the command and opens the next window."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Enter submits the Run command and opens Documents/File Explorer."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 3.3706,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.93,
+          "rationale": "Enter in Run executes the command and opens the next window."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Enter submits the Run command and opens Documents/File Explorer."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 5.5031,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.89,
+          "rationale": "PageDown scrolls the Documents window content."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 5.783,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 71",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.89,
+          "rationale": "PageDown scrolls the Documents window content."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 6.9433,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 72",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves keyboard focus to the next file list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 7.1331,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 73",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves keyboard focus to the next file list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 8.6461,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Down arrow moves keyboard focus to the next file list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 12.1218,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Enter opens the selected Task 75 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "PageDown and Down move through Documents to reach the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 14.9411,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.93,
+          "rationale": "Down arrow navigates within the Task 75 folder list."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 15.7131,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.93,
+          "rationale": "Down arrow navigates within the Task 75 folder list."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 18.4325,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75 video file."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 24.953,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Repeat: Off",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the next media player button."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 25.748,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Repeat: Off",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the next media player button."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 25.8818,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Pause",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the next media player button."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 26.0208,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Pause",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the next media player button."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 28.0655,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Play",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.97,
+          "rationale": "Space activates the Play button to start playback."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task ID 75.mp4 video file from the Task 75 folder."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "Initial application/window navigation and text/path handling to reach the Documents/Task 75 location before confirming it."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 29.2666,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Repeat: Off",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to another button in the control bar."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 30.3928,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Languages and subtitles",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to another button in the control bar."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 31.6324,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Volume",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to another button in the control bar."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 32.784,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Mini player",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to another button in the control bar."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 34.684,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.95,
+          "rationale": "Tab moves focus to another button in the control bar."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 36.3128,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Space activates More options and opens its menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 37.6133,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Space activates More options and opens its menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 38.7201,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Space activates More options and opens its menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 40.9995,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Edit with Clipchamp",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 41.974,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Equalizer",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 42.8289,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Speed",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 43.4166,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Cast to device",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 43.9518,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Speed",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 44.8423,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "0.25 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.83,
+          "rationale": "Right arrow opens the speed submenu from the highlighted speed item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 45.979,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "0.5 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 46.2986,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "1 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 46.7972,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 47.7302,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "2 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 48.1469,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Down arrow moves focus to the next speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 49.0812,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.99,
+          "rationale": "Enter selects the 1.5× playback speed option."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Tabbing reaches More options and Space or Enter opens its menu in Media Player."
+        },
+        "l5": {
+          "tag": "Open playback speed controls",
+          "confidence": 0.82,
+          "rationale": "Uses button and menu navigation to reach the video playback speed settings inside Windows Media Player."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 51.3958,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1277,
+        246
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1277,
+          "y": 246
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "Tab moves focus from Home to the next control in the player."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.9,
+          "rationale": "Tab reaches the Seek slider and Space toggles playback after the speed change."
+        },
+        "l5": {
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.88,
+          "rationale": "Moves to the speed slider and toggles the video, applying the faster playback setting and starting playback."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 53.8608,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Seek",
+        "control_type": "SliderControl"
+      },
+      "cursor_position": [
+        1249,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <Slider>",
+          "confidence": 0.91,
+          "rationale": "Tab moves focus to the Seek slider control."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.9,
+          "rationale": "Tab reaches the Seek slider and Space toggles playback after the speed change."
+        },
+        "l5": {
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.88,
+          "rationale": "Moves to the speed slider and toggles the video, applying the faster playback setting and starting playback."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 55.3756,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Seek",
+        "control_type": "SliderControl"
+      },
+      "cursor_position": [
+        1249,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Toggle <Video>",
+          "confidence": 0.6,
+          "rationale": "Space toggles video playback while the media is focused."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.9,
+          "rationale": "Tab reaches the Seek slider and Space toggles playback after the speed change."
+        },
+        "l5": {
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.88,
+          "rationale": "Moves to the speed slider and toggles the video, applying the faster playback setting and starting playback."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 60.7295,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "focused_element": {
+        "name": "Seek",
+        "control_type": "SliderControl"
+      },
+      "cursor_position": [
+        1249,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1249,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Toggle <Video>",
+          "confidence": 0.6,
+          "rationale": "Space toggles video playback while the media is focused."
+        },
+        "l4": {
+          "tag": "Confirm <Video>",
+          "confidence": 0.9,
+          "rationale": "Tab reaches the Seek slider and Space toggles playback after the speed change."
+        },
+        "l5": {
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.88,
+          "rationale": "Moves to the speed slider and toggles the video, applying the faster playback setting and starting playback."
+        }
+      },
+      "index": 47
+    }
+  ]
+}

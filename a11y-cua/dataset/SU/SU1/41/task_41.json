@@ -1,0 +1,4613 @@
+{
+  "metadata": {
+    "task_id": 41,
+    "task_title": "Change the theme in Power Point Slide",
+    "instruction": "Open Powerpoint Slide \"Task ID 41.pptx\" in Documents > Task ID 41 folder, and change the presentation theme to \"Gallery\".",
+    "context": "I want to change my presentation's theme to a colorful one.",
+    "task_group": "Document Editing",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU1",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1755554870.648354,
+      "ended_at": 1755554941.0460787,
+      "duration": 70.4
+    },
+    "statistics": {
+      "total_events": 79,
+      "apps_used": [
+        "python3.13.exe",
+        "explorer.exe",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "mouse_move": 34,
+        "mouse_click": 39,
+        "drag_drop": 1,
+        "key_press": 5
+      },
+      "by_app": {
+        "python3.13.exe": 8,
+        "explorer.exe": 10,
+        "POWERPNT.EXE": 61
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 5,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "e": 2,
+          "h": 1,
+          "m": 1,
+          "t": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        902,
+        978
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 902,
+          "y": 978
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.92,
+          "rationale": "Mouse moved toward the File Explorer taskbar button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.7738,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        1141,
+        1029
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Explorer",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.Windows.Explorer"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1141,
+          "y": 1029
+        },
+        "element_bounds": {
+          "left": 1096,
+          "top": 1008,
+          "right": 1162,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicked the File Explorer button to open the app."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 1.8041,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        1141,
+        1028
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1141,
+          "y": 1028
+        },
+        "element_bounds": {
+          "left": 1096,
+          "top": 1008,
+          "right": 1162,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.7,
+          "rationale": "Hovered within the File Explorer window area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 3.4406,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        840,
+        615
+      ],
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 840,
+          "y": 615
+        },
+        "element_bounds": {
+          "left": 777,
+          "top": 579,
+          "right": 872,
+          "bottom": 627
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Opened the Documents pinned folder in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 3.9811,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        840,
+        615
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 840,
+          "y": 615
+        },
+        "element_bounds": {
+          "left": 777,
+          "top": 579,
+          "right": 872,
+          "bottom": 627
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.72,
+          "rationale": "Moved the pointer over the folder list area in Documents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 4.8753,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1339,
+        651
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1339,
+          "y": 651
+        },
+        "element_bounds": {
+          "left": 1265,
+          "top": 638,
+          "right": 1670,
+          "bottom": 667
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 5,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.66,
+          "rationale": "Clicked a folder/file entry name in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 5.3348,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1339,
+        651
+      ],
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1339,
+          "y": 651
+        },
+        "element_bounds": {
+          "left": 1265,
+          "top": 638,
+          "right": 1670,
+          "bottom": 667
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 5,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Second click on the same entry to open it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 5.6089,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "cursor_position": [
+        1339,
+        651
+      ],
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Items View",
+        "control_type": "ListControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1339,
+          "y": 651
+        },
+        "element_bounds": {
+          "left": 1211,
+          "top": 282,
+          "right": 1877,
+          "bottom": 928
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.58,
+          "rationale": "Clicked inside the items view to focus the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 5.7998,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "cursor_position": [
+        1339,
+        651
+      ],
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1339,
+          "y": 651
+        },
+        "element_bounds": {
+          "left": 1211,
+          "top": 282,
+          "right": 1877,
+          "bottom": 928
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.98,
+          "rationale": "Hovered over the Task ID 41 item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 6.4982,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "cursor_position": [
+        1344,
+        367
+      ],
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1344,
+          "y": 367
+        },
+        "element_bounds": {
+          "left": 1232,
+          "top": 332,
+          "right": 2245,
+          "bottom": 369
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 9,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.9,
+          "rationale": "Selected the Task ID 41 presentation file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 6.6678,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "cursor_position": [
+        1344,
+        367
+      ],
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1344,
+          "y": 367
+        },
+        "element_bounds": {
+          "left": 1232,
+          "top": 332,
+          "right": 2245,
+          "bottom": 369
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 9,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Opened the Task ID 41 presentation file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 6.9212,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "cursor_position": [
+        1344,
+        367
+      ],
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        7,
+        -11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1344,
+          "y": 367
+        },
+        "element_bounds": {
+          "left": 1232,
+          "top": 332,
+          "right": 2245,
+          "bottom": 369
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.75,
+          "rationale": "Hovered over the file entry again."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 11.4239,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1273,
+        1043
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Python 3.13 - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Python 3.13 - 1 running window",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0!Python"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1273,
+          "y": 1043
+        },
+        "element_bounds": {
+          "left": 1261,
+          "top": 1008,
+          "right": 1327,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Switch <Button>",
+          "confidence": 0.95,
+          "rationale": "Clicked the taskbar window button to switch applications."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 12.239,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        1273,
+        1043
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Python 3.13 - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1273,
+          "y": 1043
+        },
+        "element_bounds": {
+          "left": 1261,
+          "top": 1008,
+          "right": 1327,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the pointer within the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 13.5581,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        394,
+        834
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 394,
+          "y": 834
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.64,
+          "rationale": "Clicked the logger workspace area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 13.7677,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        394,
+        834
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -4,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 394,
+          "y": 834
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Hovered over the PowerPoint window after switching back."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 14.7342,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        533,
+        91
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Animations",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Animations",
+        "control_type": "TabItemControl",
+        "automation_id": "TabAnimations"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 533,
+          "y": 91
+        },
+        "element_bounds": {
+          "left": 464,
+          "top": 72,
+          "right": 593,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Animations tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 15.021,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        534,
+        91
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "Animations",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        26,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 534,
+          "y": 91
+        },
+        "element_bounds": {
+          "left": 464,
+          "top": 72,
+          "right": 593,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 15.7908,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        679,
+        81
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "Slide Show",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Slide Show",
+        "control_type": "TabItemControl",
+        "automation_id": "TabSlideShow"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 679,
+          "y": 81
+        },
+        "element_bounds": {
+          "left": 594,
+          "top": 72,
+          "right": 720,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Slide Show tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 16.5412,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        679,
+        81
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Slide Show",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 679,
+          "y": 81
+        },
+        "element_bounds": {
+          "left": 594,
+          "top": 72,
+          "right": 720,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 17.4876,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        749,
+        89
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Record",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Record",
+        "control_type": "TabItemControl",
+        "automation_id": "TabRecording"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 749,
+          "y": 89
+        },
+        "element_bounds": {
+          "left": 721,
+          "top": 72,
+          "right": 809,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Record tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 17.9154,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        750,
+        89
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Record",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        4,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 750,
+          "y": 89
+        },
+        "element_bounds": {
+          "left": 721,
+          "top": 72,
+          "right": 809,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 18.3231,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        853,
+        85
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Review",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Review",
+        "control_type": "TabItemControl",
+        "automation_id": "TabReview"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 853,
+          "y": 85
+        },
+        "element_bounds": {
+          "left": 810,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Review tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 18.5685,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        854,
+        85
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Review",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        20,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 854,
+          "y": 85
+        },
+        "element_bounds": {
+          "left": 810,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 18.992,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        952,
+        95
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "View",
+        "control_type": "TabItemControl",
+        "automation_id": "TabView"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 952,
+          "y": 95
+        },
+        "element_bounds": {
+          "left": 900,
+          "top": 72,
+          "right": 970,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the View tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 19.2082,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        952,
+        95
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 952,
+          "y": 95
+        },
+        "element_bounds": {
+          "left": 900,
+          "top": 72,
+          "right": 970,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 20.4078,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        44,
+        91
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "File Tab",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Tab",
+        "control_type": "ButtonControl",
+        "automation_id": "FileTabButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 44,
+          "y": 91
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 72,
+          "right": 87,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.98,
+          "rationale": "Opened the File tab backstage view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 21.3904,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        44,
+        91
+      ],
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Back",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -12,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 44,
+          "y": 91
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 72,
+          "right": 210,
+          "bottom": 140
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.76,
+          "rationale": "Moved toward the Back control in backstage view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 24.0061,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        35,
+        107
+      ],
+      "focused_element": {
+        "name": "Home",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Back",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Back",
+        "control_type": "ListItemControl",
+        "automation_id": "FileTabButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 35,
+          "y": 107
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 72,
+          "right": 210,
+          "bottom": 140
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.95,
+          "rationale": "Clicked Back to exit backstage view."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 24.2805,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        35,
+        107
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "File Tab",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 35,
+          "y": 107
+        },
+        "element_bounds": {
+          "left": 6,
+          "top": 72,
+          "right": 87,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.76,
+          "rationale": "Hovered near the Home tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 24.99,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        130,
+        100
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Home",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Home",
+        "control_type": "TabItemControl",
+        "automation_id": "TabHome"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 130,
+          "y": 100
+        },
+        "element_bounds": {
+          "left": 87,
+          "top": 72,
+          "right": 169,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Home tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 41, and opened the Task ID 41.pptx file."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 25.1852,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        130,
+        99
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "Home",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -11,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 130,
+          "y": 99
+        },
+        "element_bounds": {
+          "left": 87,
+          "top": 72,
+          "right": 169,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.6,
+          "rationale": "Moved the pointer within the PowerPoint window area."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 26.3329,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        435,
+        346
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 435,
+          "y": 346
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 26.5351,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        438,
+        347
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        3,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 438,
+          "y": 347
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.9,
+          "rationale": "Hovered over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 26.8485,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        647,
+        384
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 647,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 34,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas again."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 27.2881,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        647,
+        384
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 647,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 34,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas again."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 27.6246,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        647,
+        384
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 647,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas again."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 28.1875,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        647,
+        384
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        12,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 647,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.9,
+          "rationale": "Hovered over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 29.2786,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        607,
+        420
+      ],
+      "focused_element": {
+        "name": "Grid and Guides...",
+        "control_type": "SplitButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 607,
+          "y": 420
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.58,
+          "rationale": "Clicked in the workspace/guide area on the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 29.5723,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        607,
+        418
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -8,
+        -12
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 607,
+          "y": 418
+        },
+        "element_bounds": {
+          "left": -11,
+          "top": 117,
+          "right": 1931,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.85,
+          "rationale": "Moved the pointer over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Clicked around the slide workspace and guide area on the canvas to focus the editing surface."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 31.8559,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1230,
+        134
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1230,
+          "y": 134
+        },
+        "element_bounds": {
+          "left": 1135,
+          "top": 120,
+          "right": 1275,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicked Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Clicked Enable Editing to exit Protected View and allow changes to the presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.97,
+          "rationale": "Covers file/backstage navigation through Documents > Task ID 41, selecting Task ID 41.pptx, and confirming open to load the presentation."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 33.5329,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1219,
+        180
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Shape Outline",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -10,
+        26
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1219,
+          "y": 180
+        },
+        "element_bounds": {
+          "left": 1220,
+          "top": 162,
+          "right": 1256,
+          "bottom": 198
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.86,
+          "rationale": "Hovered within the PowerPoint window near the right side."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 35.9357,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1696,
+        224
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Designer",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Designer",
+        "control_type": "ButtonControl",
+        "automation_id": "DesignerPane"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1696,
+          "y": 224
+        },
+        "element_bounds": {
+          "left": 1686,
+          "top": 123,
+          "right": 1763,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Designer button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 37.0038,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1696,
+        224
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Designer",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Designer",
+        "control_type": "ButtonControl",
+        "automation_id": "DesignerPane"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1696,
+          "y": 224
+        },
+        "element_bounds": {
+          "left": 1686,
+          "top": 123,
+          "right": 1763,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Designer button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 37.5813,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1695,
+        224
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Designer",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1695,
+          "y": 224
+        },
+        "element_bounds": {
+          "left": 1686,
+          "top": 123,
+          "right": 1763,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.86,
+          "rationale": "Hovered near the Designer control."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 38.1683,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        863,
+        102
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Review",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Review",
+        "control_type": "TabItemControl",
+        "automation_id": "TabReview"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 863,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 810,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the Review tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 38.6671,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        864,
+        102
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Review",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        12,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 864,
+          "y": 102
+        },
+        "element_bounds": {
+          "left": 810,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.75,
+          "rationale": "Hovered near the ribbon tab area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 39.3134,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        935,
+        96
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "View",
+        "control_type": "TabItemControl",
+        "automation_id": "TabView"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 935,
+          "y": 96
+        },
+        "element_bounds": {
+          "left": 900,
+          "top": 72,
+          "right": 970,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activated the View tab."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.86,
+          "rationale": "Opened Designer and continued browsing ribbon tabs to reach design-related options."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 40.824,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        935,
+        94
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 935,
+          "y": 94
+        },
+        "element_bounds": {
+          "left": 900,
+          "top": 72,
+          "right": 970,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Cursor To <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Moved the pointer toward the Microsoft search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 41.2798,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        906,
+        39
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Microsoft search",
+        "control_type": "EditControl",
+        "automation_id": "TellMeTextBoxAutomationId"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 906,
+          "y": 39
+        },
+        "element_bounds": {
+          "left": 818,
+          "top": 21,
+          "right": 1256,
+          "bottom": 53
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.98,
+          "rationale": "Clicked into the Microsoft search box to type."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 42.4402,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        900,
+        39
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "‪Task ID 41‬  -  Saved to this PC",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -6,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 900,
+          "y": 39
+        },
+        "element_bounds": {
+          "left": 686,
+          "top": 2,
+          "right": 980,
+          "bottom": 74
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Cursor To <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Pointer remained near the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 44.125,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1641,
+        720
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41 - PowerPoint",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Task ID 41 - PowerPoint",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1641,
+          "y": 720
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 0,
+          "right": 1665,
+          "bottom": 727
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.62,
+          "rationale": "Clicked the PowerPoint window area to focus it."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 44.1478,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1641,
+        721
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41 - PowerPoint",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1641,
+          "y": 721
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 0,
+          "right": 1665,
+          "bottom": 727
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.74,
+          "rationale": "Hovered within the PowerPoint window."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 52
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 44.967,
+      "button": "Button.left",
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1775,
+        979
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41 - PowerPoint",
+        "control_type": "WindowControl"
+      },
+      "from": {
+        "application": "POWERPNT.EXE",
+        "window_title": "Task ID 41 - PowerPoint",
+        "cursor_position": [
+          1641,
+          720
+        ],
+        "element_under_cursor": {
+          "name": "Task ID 41 - PowerPoint",
+          "control_type": "WindowControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "to": {
+        "application": "POWERPNT.EXE",
+        "window_title": "Task ID 41 - PowerPoint",
+        "cursor_position": [
+          1775,
+          979
+        ],
+        "element_under_cursor": {
+          "name": "Task ID 41 - PowerPoint",
+          "control_type": "WindowControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "drag_distance": 291,
+      "duration_ms": 703,
+      "coordinates": {
+        "cursor": {
+          "x": 1775,
+          "y": 979
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 0,
+          "right": 1799,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move <Canvas>",
+          "confidence": 0.45,
+          "rationale": "Drag gesture within the PowerPoint editing area."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 45.0968,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1775,
+        979
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 41 - PowerPoint",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        14,
+        20
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1775,
+          "y": 979
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 0,
+          "right": 1799,
+          "bottom": 986
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.74,
+          "rationale": "Hovered again within the PowerPoint window."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 45.9888,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Microsoft search",
+        "control_type": "EditControl",
+        "automation_id": "TellMeTextBoxAutomationId"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1393,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.98,
+          "rationale": "Clicked the Microsoft search box again."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 47.3743,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1393,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the letter t into the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 47.8743,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1363,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the letter t into the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 48.1293,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1363,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the letter t into the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 48.2071,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1363,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the letter t into the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 48.2757,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1363,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.99,
+          "rationale": "Typed the letter t into the search box."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 48.5217,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1091,
+        43
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        5,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 43
+        },
+        "element_bounds": {
+          "left": 1054,
+          "top": 23,
+          "right": 1363,
+          "bottom": 55
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.91,
+          "rationale": "Moved the pointer toward the Themes result."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 49.0985,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1160,
+        191
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Themes",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Themes",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1160,
+          "y": 191
+        },
+        "element_bounds": {
+          "left": 995,
+          "top": 166,
+          "right": 1447,
+          "bottom": 216
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Clicked the Themes result."
+        },
+        "l4": {
+          "tag": "Search <Application>",
+          "confidence": 0.98,
+          "rationale": "Used the Tell Me search box to search for 'theme' and chose the Themes command from the results."
+        },
+        "l5": {
+          "tag": "Find Gallery theme",
+          "confidence": 0.91,
+          "rationale": "Uses application navigation plus the search box to locate the Gallery theme option before applying it."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 49.1159,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        1160,
+        191
+      ],
+      "focused_element": {
+        "name": "Microsoft search",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Themes",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        19
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1160,
+          "y": 191
+        },
+        "element_bounds": {
+          "left": 995,
+          "top": 166,
+          "right": 1447,
+          "bottom": 216
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Hovered over the theme list item area."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Selected the Gallery theme from the themes list, changing the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 55.1785,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        734,
+        410
+      ],
+      "focused_element": {
+        "name": "Gallery",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Gallery",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Gallery",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 734,
+          "y": 410
+        },
+        "element_bounds": {
+          "left": 687,
+          "top": 353,
+          "right": 827,
+          "bottom": 437
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.98,
+          "rationale": "Selected the Gallery theme."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Selected the Gallery theme from the themes list, changing the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 56.9684,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        734,
+        410
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 734,
+          "y": 410
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.78,
+          "rationale": "Hovered after choosing the theme."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Selected the Gallery theme from the themes list, changing the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 58.0649,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        201,
+        420
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 201,
+          "y": 420
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.95,
+          "rationale": "Clicked the logger window to switch to it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.8,
+          "rationale": "Switched to the logger window and clicked its workspace area."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 58.3146,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        201,
+        420
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -11,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 201,
+          "y": 420
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Hovered within the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.8,
+          "rationale": "Switched to the logger window and clicked its workspace area."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 59.1193,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        376,
+        744
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 376,
+          "y": 744
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.64,
+          "rationale": "Clicked the logger workspace area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.8,
+          "rationale": "Switched to the logger window and clicked its workspace area."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 59.369,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        376,
+        744
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 376,
+          "y": 744
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.86,
+          "rationale": "Moved the pointer over the PowerPoint slide area."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 60.3067,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        300,
+        397
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 300,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 60.5376,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        301,
+        397
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        11,
+        16
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 301,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.86,
+          "rationale": "Hovered over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 60.8491,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        332,
+        474
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 332,
+          "y": 474
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 61.2341,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        332,
+        475
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        7
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 332,
+          "y": 475
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.86,
+          "rationale": "Hovered over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 61.6185,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        323,
+        568
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 568
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.93,
+          "rationale": "Clicked the slide workspace canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 62.3447,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        323,
+        568
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 568
+        },
+        "element_bounds": {
+          "left": 225,
+          "top": 224,
+          "right": 1282,
+          "bottom": 953
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.86,
+          "rationale": "Hovered over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Clicked around the PowerPoint slide canvas after applying the theme."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 64.1671,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "cursor_position": [
+        203,
+        465
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 203,
+          "y": 465
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.95,
+          "rationale": "Clicked the logger window to switch back."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.79,
+          "rationale": "Switched back to the logger window and clicked its button."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 64.7721,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        203,
+        466
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -9,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 203,
+          "y": 466
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Hovered within the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.79,
+          "rationale": "Switched back to the logger window and clicked its button."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 67.0392,
+      "application": "python3.13.exe",
+      "window_title": "Computer Use Logger",
+      "cursor_position": [
+        625,
+        600
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 625,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 498,
+          "top": 585,
+          "right": 728,
+          "bottom": 634
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.55,
+          "rationale": "Clicked the unnamed logger button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.79,
+          "rationale": "Switched back to the logger window and clicked its button."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.94,
+          "rationale": "Covers formatting/theme selection actions and follow-up navigation needed to select and confirm the Gallery presentation theme."
+        }
+      },
+      "index": 78
+    }
+  ]
+}

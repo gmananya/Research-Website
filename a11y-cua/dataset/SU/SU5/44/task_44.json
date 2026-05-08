@@ -1,0 +1,4634 @@
+{
+  "metadata": {
+    "task_id": 44,
+    "task_title": "Add a formula in Excel",
+    "instruction": "Open Task ID 44.xlsx in Documents > Task 44 folder, calculate the average of \"# Days to finish\" using mathematical functions available in Excel.",
+    "context": "I am tracking all the books I've read in an excel sheet. I have columns for \"Book Title\", \"# Days to Finish\", and \"Rating (1-10)\". I want to know how many days I took to read a book on average.",
+    "task_group": "Document Editing",
+    "applications": "Excel",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU5",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1756259699.380355,
+      "ended_at": 1756259795.6273577,
+      "duration": 96.25
+    },
+    "statistics": {
+      "total_events": 79,
+      "apps_used": [
+        "explorer.exe",
+        "EXCEL.EXE"
+      ],
+      "by_type": {
+        "mouse_move": 18,
+        "mouse_click": 18,
+        "drag_drop": 3,
+        "scroll": 15,
+        "key_press": 23,
+        "hotkey": 2
+      },
+      "by_app": {
+        "explorer.exe": 10,
+        "EXCEL.EXE": 69
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 25,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Backspace": 4,
+          "a": 3,
+          "e": 3,
+          "(": 2,
+          ")": 2,
+          "Enter": 2,
+          "Shift": 2,
+          "=": 1,
+          "g": 1,
+          "Left": 1,
+          "m": 1,
+          "n": 1,
+          "r": 1,
+          "v": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        1003,
+        1013
+      ],
+      "focused_element": {
+        "name": "Recommended ",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        -13
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1003,
+          "y": 1013
+        },
+        "element_bounds": {
+          "left": 982,
+          "top": 1008,
+          "right": 1048,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the pointer over the File Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 2.1368,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        807,
+        499
+      ],
+      "focused_element": {
+        "name": "Recommended ",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 807,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 809,
+          "top": 482,
+          "right": 904,
+          "bottom": 530
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Opened the Documents location from the pinned navigation item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 3.7603,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        808,
+        499
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        3,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 808,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 809,
+          "top": 482,
+          "right": 904,
+          "bottom": 530
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Moved the pointer over the Documents folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 9.0893,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1077,
+        733
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 733
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 718,
+          "right": 1430,
+          "bottom": 747
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.84,
+          "rationale": "Selected the Task 44 item in the folder list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 9.3468,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1077,
+        733
+      ],
+      "focused_element": {
+        "name": "Task 44",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 733
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 718,
+          "right": 1430,
+          "bottom": 747
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Opened the Task 44 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 12.2017,
+      "application": "explorer.exe",
+      "window_title": "Task 44 - File Explorer",
+      "cursor_position": [
+        1075,
+        719
+      ],
+      "focused_element": {
+        "name": "Task ID",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -5,
+        -15
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1075,
+          "y": 719
+        },
+        "element_bounds": {
+          "left": 971,
+          "top": 233,
+          "right": 1909,
+          "bottom": 883
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.91,
+          "rationale": "Moved the pointer over the Task ID workbook item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 14.5193,
+      "application": "explorer.exe",
+      "window_title": "Task 44 - File Explorer",
+      "cursor_position": [
+        1083,
+        303
+      ],
+      "focused_element": {
+        "name": "Task ID",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1083,
+          "y": 303
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 288,
+          "right": 1430,
+          "bottom": 317
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.84,
+          "rationale": "Selected the workbook file in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 14.8148,
+      "application": "explorer.exe",
+      "window_title": "Task 44 - File Explorer",
+      "cursor_position": [
+        1083,
+        303
+      ],
+      "focused_element": {
+        "name": "Task ID",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1083,
+          "y": 303
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 288,
+          "right": 1430,
+          "bottom": 317
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Opened the workbook file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Used File Explorer to navigate through Documents > Task 44 and open the workbook file."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 18.5279,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID  -  Protected View - Excel",
+      "cursor_position": [
+        1087,
+        296
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Formula Bar",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        9,
+        -27
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1087,
+          "y": 296
+        },
+        "element_bounds": {
+          "left": 339,
+          "top": 278,
+          "right": 1561,
+          "bottom": 335
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.96,
+          "rationale": "Moved the pointer over cell A1 in Excel Protected View."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Confirmed Enable Editing in Excel Protected View so the workbook could be modified."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 24.4017,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID  -  Protected View - Excel",
+      "cursor_position": [
+        1233,
+        252
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 252
+        },
+        "element_bounds": {
+          "left": 1148,
+          "top": 236,
+          "right": 1289,
+          "bottom": 275
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked Enable Editing to allow workbook changes."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Confirmed Enable Editing in Excel Protected View so the workbook could be modified."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.95,
+          "rationale": "Navigated through the file browser/application folders and opened Task 44.xlsx, then confirmed the spreadsheet loaded."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 25.9628,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        672,
+        800
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -543,
+        534
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 672,
+          "y": 800
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.95,
+          "rationale": "Moved the pointer over the worksheet cell area."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 28.3045,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        696,
+        660
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 696,
+          "y": 660
+        },
+        "element_bounds": {
+          "left": 34,
+          "top": 148,
+          "right": 1606,
+          "bottom": 671
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.8,
+          "rationale": "Activated the Excel window."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 28.5649,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        693,
+        666
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -8,
+        20
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 693,
+          "y": 666
+        },
+        "element_bounds": {
+          "left": 34,
+          "top": 148,
+          "right": 1606,
+          "bottom": 671
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.97,
+          "rationale": "Moved the pointer over cell A1."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 12
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 29.0545,
+      "button": "Button.left",
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        619,
+        1007
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl"
+      },
+      "from": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          696,
+          660
+        ],
+        "element_under_cursor": {
+          "name": "Task ID - Excel",
+          "control_type": "WindowControl"
+        },
+        "focused_element": {
+          "name": "A1",
+          "control_type": "DataItemControl"
+        }
+      },
+      "to": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          619,
+          1007
+        ],
+        "element_under_cursor": {
+          "name": "Task ID - Excel",
+          "control_type": "WindowControl"
+        },
+        "focused_element": {
+          "name": "A1",
+          "control_type": "DataItemControl"
+        }
+      },
+      "drag_distance": 355,
+      "duration_ms": 687,
+      "coordinates": {
+        "cursor": {
+          "x": 619,
+          "y": 1007
+        },
+        "element_bounds": {
+          "left": 34,
+          "top": 148,
+          "right": 1606,
+          "bottom": 1018
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move <Scrollbar>",
+          "confidence": 0.36,
+          "rationale": "Dragged the workbook scrollbar area near the bottom of the window."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 29.3538,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        618,
+        991
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        -17
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 618,
+          "y": 991
+        },
+        "element_bounds": {
+          "left": 34,
+          "top": 0,
+          "right": 1606,
+          "bottom": 1017
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Moved the pointer back over the worksheet cell area."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 30.9876,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        542
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 542
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 15,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.97,
+          "rationale": "Scrolled the Excel worksheet content."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 31.0545,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        542
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 542
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 15,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.97,
+          "rationale": "Scrolled the Excel worksheet content."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 31.0963,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        542
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 542
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 15,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.97,
+          "rationale": "Scrolled the Excel worksheet content."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 31.1328,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        542
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 542
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 15,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.97,
+          "rationale": "Scrolled the Excel worksheet content."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 31.169,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        542
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 542
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 15,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.97,
+          "rationale": "Scrolled the Excel worksheet content."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 31.7535,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        483,
+        543
+      ],
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "C5",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        30,
+        -167
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 483,
+          "y": 543
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 469,
+          "right": 502,
+          "bottom": 569
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Moved the pointer over the worksheet cell area."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 32.1899,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        400,
+        625
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "C17",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 625
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 597,
+          "right": 502,
+          "bottom": 628
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 21,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the Excel sheet/pane."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 34.3988,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        400,
+        625
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "C17",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 625
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 597,
+          "right": 502,
+          "bottom": 628
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 21,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the Excel sheet/pane."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 34.4639,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        400,
+        625
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "C17",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 625
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 597,
+          "right": 502,
+          "bottom": 628
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 21,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the Excel sheet/pane."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 34.5044,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        400,
+        625
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "C17",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 625
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 597,
+          "right": 502,
+          "bottom": 628
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 21,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the Excel sheet/pane."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 34.9177,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        395,
+        632
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "C17",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -88,
+        89
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 395,
+          "y": 632
+        },
+        "element_bounds": {
+          "left": 363,
+          "top": 597,
+          "right": 502,
+          "bottom": 628
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.87,
+          "rationale": "Moved the pointer over the worksheet area."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Scrolled and moved around the worksheet to reach the area where the formula would be entered."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.89,
+          "rationale": "Scrolled within the worksheet to reach the book table and the \"# Days to Finish\" data needed for the calculation."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 35.8783,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B13",
+        "control_type": "DataItemControl",
+        "automation_id": "B13"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 363,
+          "bottom": 737
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.98,
+          "rationale": "Selected cell B13 to enter the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 36.5337,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B13",
+        "control_type": "DataItemControl",
+        "automation_id": "B13"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 363,
+          "bottom": 737
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 27,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.98,
+          "rationale": "Selected cell B13 to enter the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 36.7668,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B13",
+        "control_type": "DataItemControl",
+        "automation_id": "B13"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 363,
+          "bottom": 737
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 27,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.98,
+          "rationale": "Selected cell B13 to enter the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 38.0572,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "=",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 39.7011,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 39.7976,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 40.8459,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 42.8034,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 45.5818,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 45.8451,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "(",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 45.9177,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        716
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+(",
+      "mods": [
+        "Shift"
+      ],
+      "key": "(",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the equals sign to start a formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 47.1151,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        308,
+        713
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        9,
+        -11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 308,
+          "y": 713
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 706,
+          "right": 362,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.83,
+          "rationale": "Moved the pointer over the worksheet while entering the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 47.771,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 47.8338,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 47.8775,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 47.9139,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 47.9505,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 47.9928,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        549
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 549
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 38,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Table>",
+          "confidence": 0.95,
+          "rationale": "Scrolled the worksheet content."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 48.9952,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        323,
+        540
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B9",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        -16
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 323,
+          "y": 540
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 531,
+          "right": 363,
+          "bottom": 556
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.82,
+          "rationale": "Moved the pointer over the worksheet area."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 50.1022,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        331,
+        394
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B2",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B2",
+        "control_type": "DataItemControl",
+        "automation_id": "B2"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 331,
+          "y": 394
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 382,
+          "right": 363,
+          "bottom": 413
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.97,
+          "rationale": "Selected cell B2 as the start of the data range."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 50.314,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        331,
+        400
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B2",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        17
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 331,
+          "y": 400
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 382,
+          "right": 363,
+          "bottom": 413
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.78,
+          "rationale": "Moved the pointer while preparing to drag-select the range."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 46
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 53.2663,
+      "button": "Button.left",
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        324,
+        770
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "from": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          331,
+          394
+        ],
+        "element_under_cursor": {
+          "name": "B2",
+          "control_type": "DataItemControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "to": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          324,
+          770
+        ],
+        "element_under_cursor": {
+          "name": "B12",
+          "control_type": "DataItemControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "drag_distance": 376,
+      "duration_ms": 3085,
+      "coordinates": {
+        "cursor": {
+          "x": 324,
+          "y": 770
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Select <Table>",
+          "confidence": 0.67,
+          "rationale": "Dragged across the worksheet to select the range of days values for the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 54.3713,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        324,
+        770
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 324,
+          "y": 770
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the closing-parenthesis modifier as part of the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 54.6381,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        324,
+        770
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": ")",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 324,
+          "y": 770
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the closing-parenthesis modifier as part of the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 54.6831,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        324,
+        770
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+)",
+      "mods": [
+        "Shift"
+      ],
+      "key": ")",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 324,
+          "y": 770
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the closing-parenthesis modifier as part of the formula."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 55.5141,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        324,
+        770
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 324,
+          "y": 770
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Committed the formula and moved focus to the next cell."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.91,
+          "rationale": "Selected cell B13, entered the formula to calculate the average days, selected the data range, and committed the formula."
+        },
+        "l5": {
+          "tag": "Enter average formula",
+          "confidence": 0.84,
+          "rationale": "Selected an output cell and typed a formula to compute the average days value using Excel's mathematical functions."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 56.5372,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        320,
+        777
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -9,
+        37
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 320,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 726,
+          "right": 363,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.96,
+          "rationale": "Moved the pointer over cell B14."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 57.6001,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        322,
+        837
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl"
+      },
+      "target": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl",
+        "automation_id": "automation id"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 322,
+          "y": 837
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 363,
+          "bottom": 857
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.34,
+          "rationale": "Clicked the invalid-name error popup."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 58.3138,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        322,
+        837
+      ],
+      "focused_element": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl"
+      },
+      "target": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl",
+        "automation_id": "automation id"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 322,
+          "y": 837
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 363,
+          "bottom": 857
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 54,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.34,
+          "rationale": "Clicked the invalid-name error popup."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 58.5482,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        322,
+        837
+      ],
+      "focused_element": {
+        "name": "B13",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl"
+      },
+      "target": {
+        "name": "Invalid Name Error",
+        "control_type": "CustomControl",
+        "automation_id": "automation id"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 322,
+          "y": 837
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 363,
+          "bottom": 857
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 54,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.34,
+          "rationale": "Clicked the invalid-name error popup."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 59.2189,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        318,
+        838
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -3,
+        -10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 318,
+          "y": 838
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 501,
+          "bottom": 856
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.83,
+          "rationale": "Moved the pointer over the worksheet area."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 60.2697,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        286,
+        840
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Task ID - Excel",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 286,
+          "y": 840
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 501,
+          "bottom": 856
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.74,
+          "rationale": "Activated the Excel window while recovering from the formula error."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 60.5594,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        293,
+        838
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        11,
+        -8
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 293,
+          "y": 838
+        },
+        "element_bounds": {
+          "left": 224,
+          "top": 826,
+          "right": 501,
+          "bottom": 856
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Cursor To <Table>",
+          "confidence": 0.83,
+          "rationale": "Moved the pointer over the worksheet area."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 58
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 61.0966,
+      "button": "Button.left",
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "from": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          286,
+          840
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "PaneControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "to": {
+        "application": "EXCEL.EXE",
+        "window_title": "Task ID - Excel",
+        "cursor_position": [
+          580,
+          760
+        ],
+        "element_under_cursor": {
+          "name": "D12",
+          "control_type": "DataItemControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "drag_distance": 304,
+      "duration_ms": 769,
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.47,
+          "rationale": "Dragged to select text in the formula/content area for editing."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 61.8834,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.42,
+          "rationale": "Moved the text cursor left within the edited formula/text."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 62.7599,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Deleted one character from the formula/text."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 62.9488,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Deleted one character from the formula/text."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 63.5086,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Deleted one character from the formula/text."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 64.013,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Deleted one character from the formula/text."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 64.8117,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 65.1341,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "v",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 65.3821,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 67.1371,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 67.4692,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 67.6647,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 67.8482,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Typed the replacement formula name."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 71.482,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        580,
+        760
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 580,
+          "y": 760
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <Cell>",
+          "confidence": 0.9,
+          "rationale": "Committed the edited formula and moved to the next cell."
+        },
+        "l4": {
+          "tag": "Edit <Spreadsheet>",
+          "confidence": 0.9,
+          "rationale": "After the invalid-name error, edited the formula text by deleting the गलत function name and replacing it with AVERAGE, then committed the correction."
+        },
+        "l5": {
+          "tag": "Choose formula range",
+          "confidence": 0.77,
+          "rationale": "Re-entered the formula text by deleting the prior entry and typing an adjusted reference or expression to finalize the average."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 72.1032,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        570,
+        763
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "D12",
+        "control_type": "DataItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        277,
+        -75
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 570,
+          "y": 763
+        },
+        "element_bounds": {
+          "left": 502,
+          "top": 726,
+          "right": 641,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Cursor To <Cell>",
+          "confidence": 0.95,
+          "rationale": "Moved the pointer over cell B14."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.62,
+          "rationale": "Moved the pointer back over the worksheet cell after finishing the formula correction."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 77.7878,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID - Excel",
+      "cursor_position": [
+        1572,
+        26
+      ],
+      "focused_element": {
+        "name": "B14",
+        "control_type": "DataItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1572,
+          "y": 26
+        },
+        "element_bounds": {
+          "left": 1523,
+          "top": 2,
+          "right": 1595,
+          "bottom": 74
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Close button in Excel."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Closed Excel and clicked Save to confirm and preserve the workbook changes."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 78.6322,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "cursor_position": [
+        1570,
+        28
+      ],
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -10,
+        11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1570,
+          "y": 28
+        },
+        "element_bounds": {
+          "left": 1523,
+          "top": 2,
+          "right": 1595,
+          "bottom": 74
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.98,
+          "rationale": "Moved the pointer over the Save button."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Closed Excel and clicked Save to confirm and preserve the workbook changes."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 80.0603,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "cursor_position": [
+        795,
+        931
+      ],
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 795,
+          "y": 931
+        },
+        "element_bounds": {
+          "left": 746,
+          "top": 911,
+          "right": 851,
+          "bottom": 947
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked Save to persist the workbook changes."
+        },
+        "l4": {
+          "tag": "Confirm <Spreadsheet>",
+          "confidence": 0.95,
+          "rationale": "Closed Excel and clicked Save to confirm and preserve the workbook changes."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 81.1474,
+      "application": "explorer.exe",
+      "window_title": "Task 44 - File Explorer",
+      "cursor_position": [
+        791,
+        924
+      ],
+      "focused_element": {
+        "name": "Task ID",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -5,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 791,
+          "y": 924
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.89,
+          "rationale": "Moved the pointer back over the file item in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.58,
+          "rationale": "Returned to File Explorer and interacted with a button control after saving the workbook."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 82.6319,
+      "application": "explorer.exe",
+      "window_title": "Task 44 - File Explorer",
+      "cursor_position": [
+        630,
+        733
+      ],
+      "focused_element": {
+        "name": "Task ID",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 630,
+          "y": 733
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 717,
+          "right": 804,
+          "bottom": 748
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.43,
+          "rationale": "Clicked the unnamed button in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.58,
+          "rationale": "Returned to File Explorer and interacted with a button control after saving the workbook."
+        },
+        "l5": {
+          "tag": "Save and exit workbook",
+          "confidence": 0.91,
+          "rationale": "Closed the workbook, confirmed saving changes, and returned to the application/file list."
+        }
+      },
+      "index": 78
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "metadata": {
+    "task_id": 29,
+    "task_title": "Force quit an application",
+    "instruction": "Open Chrome and close the application from Task Manager",
+    "context": "I'm browsing on Chrome but it is frozen.",
+    "task_group": "System Operations",
+    "applications": "Task Manager, Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756667244.218087,
+      "ended_at": 1756667284.045161,
+      "duration": 39.83
+    },
+    "statistics": {
+      "total_events": 16,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe",
+        "Taskmgr.exe"
+      ],
+      "by_type": {
+        "key_press": 15,
+        "hotkey": 1
+      },
+      "by_app": {
+        "explorer.exe": 1,
+        "chrome.exe": 4,
+        "Taskmgr.exe": 11
+      },
+      "keystrokes": {
+        "total_hotkeys": 1,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 13,
+        "hotkeys": {
+          "Ctrl+Shift+Esc": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Up": 5,
+          "Down": 4,
+          "Enter": 2,
+          "Menu": 1,
+          "Shift": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Pressing Enter on the Google Chrome list item launches the app."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.91,
+          "rationale": "Pressing Enter on the Google Chrome list item confirms the selected app launch from Program Manager."
+        },
+        "l5": {
+          "tag": "Open Task Manager",
+          "confidence": 0.52,
+          "rationale": "Initial confirm/open action likely launches or focuses Task Manager before process management."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 2.8673,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Modifier key as part of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 3.0309,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Modifier key as part of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 3.3493,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Modifier key as part of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 3.4199,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Shift+Esc",
+      "mods": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Esc",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Modifier key as part of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 8.0083,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: Code",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 9.7015,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: TeamViewer",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 11.296,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: Taskmgr",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 13.1315,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: python",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 14.7044,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: obs64",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 16.204,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.94,
+          "rationale": "Down arrow moves focus to the next process entry in Task Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "The Ctrl+Shift+Esc shortcut opens Task Manager so the user can move to the system utility needed to manage the frozen app."
+        },
+        "l5": {
+          "tag": "Locate Chrome process",
+          "confidence": 0.78,
+          "rationale": "Window opening and repeated list-item focus moves indicate scanning and selecting the Chrome row."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 19.7714,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Menu",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.72,
+          "rationale": "Menu key opens the context menu for the selected chrome process."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opening the context menu and activating the End task command confirms termination of the Chrome process."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.96,
+          "rationale": "Opening a menu, moving to a menu item, and selecting it matches choosing End task."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 20.8857,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus within the open context menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opening the context menu and activating the End task command confirms termination of the Chrome process."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.96,
+          "rationale": "Opening a menu, moving to a menu item, and selecting it matches choosing End task."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 22.1479,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus within the open context menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opening the context menu and activating the End task command confirms termination of the Chrome process."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.96,
+          "rationale": "Opening a menu, moving to a menu item, and selecting it matches choosing End task."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 23.1962,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Application",
+        "control_type": "MenuBarControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus within the open context menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opening the context menu and activating the End task command confirms termination of the Chrome process."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.96,
+          "rationale": "Opening a menu, moving to a menu item, and selecting it matches choosing End task."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 24.7075,
+      "application": "Taskmgr.exe",
+      "window_title": "Task Manager",
+      "focused_element": {
+        "name": "Process: chrome",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        1184,
+        163
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1184,
+          "y": 163
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Enter activates the highlighted context-menu command to terminate chrome."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.98,
+          "rationale": "Opening the context menu and activating the End task command confirms termination of the Chrome process."
+        },
+        "l5": {
+          "tag": "End Chrome task",
+          "confidence": 0.96,
+          "rationale": "Opening a menu, moving to a menu item, and selecting it matches choosing End task."
+        }
+      },
+      "index": 15
+    }
+  ]
+}

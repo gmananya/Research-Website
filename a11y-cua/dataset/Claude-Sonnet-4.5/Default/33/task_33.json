@@ -1,0 +1,802 @@
+{
+  "metadata": {
+    "task_id": 33,
+    "task_title": "Use calculator application to perform multiplication",
+    "instruction": "Compute the product of 20 and 483 on Calculator",
+    "context": "I want to do a multiplication calculation using my the calculator application.",
+    "task_group": "System Application",
+    "applications": "Calculator",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763657162.2185943,
+      "ended_at": 1763657367.498195,
+      "duration": 205.28
+    },
+    "statistics": {
+      "total_events": 13,
+      "apps_used": [
+        "explorer.exe",
+        "Code.exe",
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::Calculator"
+      ],
+      "by_type": {
+        "mouse_click": 13
+      },
+      "by_app": {
+        "explorer.exe": 2,
+        "Code.exe": 4,
+        "ApplicationFrameHost.exe": 7
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        693,
+        1162
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "ButtonControl",
+        "automation_id": "SearchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 693,
+          "y": 1162
+        },
+        "element_bounds": {
+          "left": 664,
+          "top": 1140,
+          "right": 993,
+          "bottom": 1188
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicked the Search button in Program Manager."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 14.2123,
+      "application": "Code.exe",
+      "window_title": "Visual Studio Code",
+      "focused_element": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1315,
+        448
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1315,
+          "y": 448
+        },
+        "element_bounds": {
+          "left": -1080,
+          "top": -307,
+          "right": 1920,
+          "bottom": 1613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.79,
+          "rationale": "Clicked the Desktop item in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 23.1118,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1143,
+        610
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "CommandButton_100"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1143,
+          "y": 610
+        },
+        "element_bounds": {
+          "left": 1092,
+          "top": 592,
+          "right": 1197,
+          "bottom": 629
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.98,
+          "rationale": "Clicked the close control for the Program Manager window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 36.1072,
+      "application": "Code.exe",
+      "window_title": "readme.md - Computer-Use-Agents - Visual Studio Code - Untracked [Administrator]",
+      "focused_element": {
+        "name": "Terminal 3, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        693,
+        1162
+      ],
+      "element_under_cursor": {
+        "name": "Search",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Search",
+        "control_type": "ButtonControl",
+        "automation_id": "SearchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 693,
+          "y": 1162
+        },
+        "element_bounds": {
+          "left": 664,
+          "top": 1140,
+          "right": 993,
+          "bottom": 1188
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Search button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 63.8926,
+      "application": "Code.exe",
+      "window_title": "Visual Studio Code",
+      "focused_element": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1143,
+        610
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "CommandButton_100"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1143,
+          "y": 610
+        },
+        "element_bounds": {
+          "left": 1092,
+          "top": 592,
+          "right": 1197,
+          "bottom": 629
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.99,
+          "rationale": "Clicked the close control for the Visual Studio Code window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 96.3786,
+      "application": "Code.exe",
+      "window_title": "readme.md - Computer-Use-Agents - Visual Studio Code - Untracked [Administrator]",
+      "focused_element": {
+        "name": "Terminal 3, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        627,
+        1162
+      ],
+      "element_under_cursor": {
+        "name": "Start",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Start",
+        "control_type": "ButtonControl",
+        "automation_id": "StartButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 627,
+          "y": 1162
+        },
+        "element_bounds": {
+          "left": 593,
+          "top": 1128,
+          "right": 661,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.57,
+          "rationale": "The user moves through multiple app windows and controls (Program Manager and Visual Studio Code), closing them and using search/start controls to reach the calculator application."
+        },
+        "l5": {
+          "tag": "Open Calculator",
+          "confidence": 0.94,
+          "rationale": "Navigation actions used to launch or bring Calculator into focus before computation."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 126.7072,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Display is 0",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        250,
+        723
+      ],
+      "element_under_cursor": {
+        "name": "Two",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Two",
+        "control_type": "ButtonControl",
+        "automation_id": "num2Button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 250,
+          "y": 723
+        },
+        "element_bounds": {
+          "left": 194,
+          "top": 685,
+          "right": 308,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 134.4941,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Two",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        250,
+        799
+      ],
+      "element_under_cursor": {
+        "name": "Zero",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Zero",
+        "control_type": "ButtonControl",
+        "automation_id": "num0Button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 250,
+          "y": 799
+        },
+        "element_bounds": {
+          "left": 194,
+          "top": 764,
+          "right": 308,
+          "bottom": 840
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 141.5422,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Zero",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        487,
+        562
+      ],
+      "element_under_cursor": {
+        "name": "Multiply by",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Multiply by",
+        "control_type": "ButtonControl",
+        "automation_id": "multiplyButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 487,
+          "y": 562
+        },
+        "element_bounds": {
+          "left": 431,
+          "top": 526,
+          "right": 545,
+          "bottom": 602
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 150.5905,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Multiply by",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        133,
+        643
+      ],
+      "element_under_cursor": {
+        "name": "Four",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Four",
+        "control_type": "ButtonControl",
+        "automation_id": "num4Button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 133,
+          "y": 643
+        },
+        "element_bounds": {
+          "left": 77,
+          "top": 605,
+          "right": 192,
+          "bottom": 681
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 158.974,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Four",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        250,
+        562
+      ],
+      "element_under_cursor": {
+        "name": "Eight",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Eight",
+        "control_type": "ButtonControl",
+        "automation_id": "num8Button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 250,
+          "y": 562
+        },
+        "element_bounds": {
+          "left": 194,
+          "top": 526,
+          "right": 308,
+          "bottom": 603
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 167.3591,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Eight",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        367,
+        723
+      ],
+      "element_under_cursor": {
+        "name": "Three",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Three",
+        "control_type": "ButtonControl",
+        "automation_id": "num3Button"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 367,
+          "y": 723
+        },
+        "element_bounds": {
+          "left": 312,
+          "top": 685,
+          "right": 426,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.98,
+          "rationale": "The user inputs the multiplication expression 20 × 483 into Calculator by pressing the number and multiply buttons."
+        },
+        "l5": {
+          "tag": "Enter Multiplication Expression",
+          "confidence": 0.93,
+          "rationale": "Typing actions enter the 20 × 483 calculation into Calculator."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 175.7731,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Calculator",
+      "focused_element": {
+        "name": "Three",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        487,
+        799
+      ],
+      "element_under_cursor": {
+        "name": "Equals",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Equals",
+        "control_type": "ButtonControl",
+        "automation_id": "equalButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 487,
+          "y": 799
+        },
+        "element_bounds": {
+          "left": 431,
+          "top": 763,
+          "right": 545,
+          "bottom": 840
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Clicked the Start button in Visual Studio Code."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Pressing Equals finalizes the calculation in Calculator and produces the result."
+        },
+        "l5": {
+          "tag": "Compute Result",
+          "confidence": 0.89,
+          "rationale": "Final action confirms the calculation and completes the product lookup/display."
+        }
+      },
+      "index": 12
+    }
+  ]
+}

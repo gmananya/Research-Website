@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "task_id": 77,
+    "task_title": "Adjust brightness on photo",
+    "instruction": "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1.",
+    "context": "The default brightness setting of The Eiffel Tower photo is too high",
+    "task_group": "Media",
+    "applications": "Photos",
+    "success": false,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Magnifier",
+      "condition": "low-vision"
+    },
+    "session": {
+      "started_at": 1764893093.5572603,
+      "ended_at": 1764893097.283295,
+      "duration": 3.73
+    },
+    "statistics": {
+      "total_events": 0,
+      "apps_used": [],
+      "by_type": {},
+      "by_app": {},
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": []
+}

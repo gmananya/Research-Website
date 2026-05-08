@@ -1,0 +1,974 @@
+{
+  "metadata": {
+    "task_id": 77,
+    "task_title": "Adjust brightness on photo",
+    "instruction": "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1.",
+    "context": "The default brightness setting of The Eiffel Tower photo is too high",
+    "task_group": "Media",
+    "applications": "Photos",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763841470.3498816,
+      "ended_at": 1763841635.1565843,
+      "duration": 164.81
+    },
+    "statistics": {
+      "total_events": 16,
+      "apps_used": [
+        "Code.exe",
+        "explorer.exe",
+        "Photos.exe"
+      ],
+      "by_type": {
+        "mouse_click": 14,
+        "scroll": 2
+      },
+      "by_app": {
+        "Code.exe": 1,
+        "explorer.exe": 11,
+        "Photos.exe": 4
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "Code.exe",
+      "window_title": "claude-cua-low-vision.py - Computer-Use-Agents - Visual Studio Code - Untracked [Administrator]",
+      "focused_element": {
+        "name": "Terminal 9, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1855,
+        976
+      ],
+      "element_under_cursor": {
+        "name": "Dismiss this notification",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Dismiss this notification",
+        "control_type": "ButtonControl",
+        "automation_id": "DismissButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1855,
+          "y": 976
+        },
+        "element_bounds": {
+          "left": 1826,
+          "top": 948,
+          "right": 1886,
+          "bottom": 1007
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.97,
+          "rationale": "Dismissed the notification via its Dismiss button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.44,
+          "rationale": "Dismissed transient notifications so the user could proceed with the file task."
+        },
+        "l5": {
+          "tag": "Open Photos app",
+          "confidence": 0.81,
+          "rationale": "These actions are application-level confirmation/closure steps that bring the Photos app into focus before browsing for the target file."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 10.4705,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        1855,
+        976
+      ],
+      "element_under_cursor": {
+        "name": "Dismiss this notification",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Dismiss this notification",
+        "control_type": "ButtonControl",
+        "automation_id": "DismissButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1855,
+          "y": 976
+        },
+        "element_bounds": {
+          "left": 1826,
+          "top": 948,
+          "right": 1886,
+          "bottom": 1007
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.97,
+          "rationale": "Dismissed the notification via its Dismiss button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.44,
+          "rationale": "Dismissed transient notifications so the user could proceed with the file task."
+        },
+        "l5": {
+          "tag": "Open Photos app",
+          "confidence": 0.81,
+          "rationale": "These actions are application-level confirmation/closure steps that bring the Photos app into focus before browsing for the target file."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 16.0136,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        505,
+        648
+      ],
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 505,
+          "y": 648
+        },
+        "element_bounds": {
+          "left": 459,
+          "top": 625,
+          "right": 554,
+          "bottom": 673
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Opened the Documents folder from the navigation pane."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 28.384,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 598,
+          "right": 1080,
+          "bottom": 627
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.94,
+          "rationale": "Scrolled the Documents File Explorer window content."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 34.4846,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 642,
+          "top": 564,
+          "right": 1655,
+          "bottom": 601
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.94,
+          "rationale": "Scrolled the Documents File Explorer window content."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 39.6316,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        705,
+        754
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 754
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 741,
+          "right": 1080,
+          "bottom": 770
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 5,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.82,
+          "rationale": "Selected the Task 77 folder row in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 39.8863,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        705,
+        754
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 754
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 741,
+          "right": 1080,
+          "bottom": 770
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 5,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.88,
+          "rationale": "Opened the Task 77 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 48.4017,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        705,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 383,
+          "right": 891,
+          "bottom": 412
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.84,
+          "rationale": "Selected the Task 77.jpg file in the folder."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 56.034,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        705,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 705,
+          "top": 11,
+          "right": 1202,
+          "bottom": 957
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 8,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.93,
+          "rationale": "Closed the small popup using its Close button."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 56.2413,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        705,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 705,
+          "top": 11,
+          "right": 1202,
+          "bottom": 957
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 8,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.93,
+          "rationale": "Closed the small popup using its Close button."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 62.6358,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Popup",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        802,
+        864
+      ],
+      "element_under_cursor": {
+        "name": "Photos",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Photos",
+        "control_type": "MenuItemControl",
+        "automation_id": "32023"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 802,
+          "y": 864
+        },
+        "element_bounds": {
+          "left": 715,
+          "top": 841,
+          "right": 1194,
+          "bottom": 889
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.86,
+          "rationale": "Chose Photos from the Open with menu."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 76.4453,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Edit with Photos",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1332,
+        870
+      ],
+      "element_under_cursor": {
+        "name": "Edit with Photos",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Edit with Photos",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1332,
+          "y": 870
+        },
+        "element_bounds": {
+          "left": 1258,
+          "top": 855,
+          "right": 1452,
+          "bottom": 883
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Open <Text>",
+          "confidence": 0.68,
+          "rationale": "Activated the Edit with Photos command to launch editing."
+        },
+        "l4": {
+          "tag": "Navigate <Image>",
+          "confidence": 0.81,
+          "rationale": "Browsed through Documents and Task 77, then used Open with Photos/Edit with Photos to reach the target JPG in the Photos app."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.95,
+          "rationale": "This span is the navigation phase: scrolling, selecting list items, and opening menu/window elements to reach Documents > Task 77 and open Task ID 77.jpg."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 101.2617,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        808,
+        355
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Task 77.jpg",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 808,
+          "y": 355
+        },
+        "element_bounds": {
+          "left": 239,
+          "top": 300,
+          "right": 1657,
+          "bottom": 1034
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.78,
+          "rationale": "Focused the opened photo window in Photos."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.96,
+          "rationale": "Opened the photo editing controls and adjusted the brightness slider down to -1."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.98,
+          "rationale": "These final actions open the image adjustment controls and move the brightness slider to lower the photo brightness as requested."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 111.081,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1345,
+        619
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Task 77.jpg",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1345,
+          "y": 619
+        },
+        "element_bounds": {
+          "left": 239,
+          "top": 300,
+          "right": 1657,
+          "bottom": 1034
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.7,
+          "rationale": "Opened the editing controls in Photos."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.96,
+          "rationale": "Opened the photo editing controls and adjusted the brightness slider down to -1."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.98,
+          "rationale": "These final actions open the image adjustment controls and move the brightness slider to lower the photo brightness as requested."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 119.7306,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1360,
+        358
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Task 77.jpg",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1360,
+          "y": 358
+        },
+        "element_bounds": {
+          "left": 239,
+          "top": 300,
+          "right": 1657,
+          "bottom": 1034
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.63,
+          "rationale": "Selected the adjustments control needed for brightness editing."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.96,
+          "rationale": "Opened the photo editing controls and adjusted the brightness slider down to -1."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.98,
+          "rationale": "These final actions open the image adjustment controls and move the brightness slider to lower the photo brightness as requested."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 128.8965,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1294,
+        465
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Task 77.jpg",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1294,
+          "y": 465
+        },
+        "element_bounds": {
+          "left": 239,
+          "top": 300,
+          "right": 1657,
+          "bottom": 1034
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Select <Slider>",
+          "confidence": 0.74,
+          "rationale": "Adjusted the brightness slider down toward -1."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.96,
+          "rationale": "Opened the photo editing controls and adjusted the brightness slider down to -1."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.98,
+          "rationale": "These final actions open the image adjustment controls and move the brightness slider to lower the photo brightness as requested."
+        }
+      },
+      "index": 15
+    }
+  ]
+}

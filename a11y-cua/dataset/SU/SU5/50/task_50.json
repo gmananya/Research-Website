@@ -1,0 +1,6500 @@
+{
+  "metadata": {
+    "task_id": 50,
+    "task_title": "Capitalize the starting letter of every word in Word and add page numbers",
+    "instruction": "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title and add the page numbers",
+    "context": "I am writing an article on Word and I want to modify the title format based on the guidelines.",
+    "task_group": "Document Editing",
+    "applications": "Word",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU5",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1756261828.8672826,
+      "ended_at": 1756261947.3903515,
+      "duration": 118.52
+    },
+    "statistics": {
+      "total_events": 114,
+      "apps_used": [
+        "explorer.exe",
+        "WINWORD.EXE"
+      ],
+      "by_type": {
+        "mouse_move": 16,
+        "mouse_click": 15,
+        "key_press": 37,
+        "hotkey": 3,
+        "scroll": 43
+      },
+      "by_app": {
+        "explorer.exe": 10,
+        "WINWORD.EXE": 104
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 40,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Right": 25,
+          "Shift": 5,
+          "s": 4,
+          "Backspace": 3,
+          "t": 2,
+          "Left": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        1018,
+        1048
+      ],
+      "focused_element": {
+        "name": "Recommended ",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -10,
+        -14
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1018,
+          "y": 1048
+        },
+        "element_bounds": {
+          "left": 982,
+          "top": 1008,
+          "right": 1048,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.93,
+          "rationale": "Move pointer over File Explorer Home."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 2.735,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        861,
+        503
+      ],
+      "focused_element": {
+        "name": "Recommended ",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 861,
+          "y": 503
+        },
+        "element_bounds": {
+          "left": 809,
+          "top": 482,
+          "right": 904,
+          "bottom": 530
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Open Documents from the navigation pane."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 4.3533,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        869,
+        498
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        8,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 869,
+          "y": 498
+        },
+        "element_bounds": {
+          "left": 809,
+          "top": 482,
+          "right": 904,
+          "bottom": 530
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.9,
+          "rationale": "Move pointer within the Documents window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 6.4889,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1055,
+        761
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1055,
+          "y": 761
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 748,
+          "right": 1430,
+          "bottom": 777
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.78,
+          "rationale": "Select the Task 50 folder entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 6.7525,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1055,
+        761
+      ],
+      "focused_element": {
+        "name": "Task 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1055,
+          "y": 761
+        },
+        "element_bounds": {
+          "left": 1025,
+          "top": 748,
+          "right": 1430,
+          "bottom": 777
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Open the Task 50 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 7.5369,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "cursor_position": [
+        1054,
+        750
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        -11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1054,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 971,
+          "top": 233,
+          "right": 1909,
+          "bottom": 883
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Move pointer toward Task ID 50."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 9.034,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "cursor_position": [
+        1057,
+        318
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1057,
+          "y": 318
+        },
+        "element_bounds": {
+          "left": 992,
+          "top": 283,
+          "right": 2005,
+          "bottom": 320
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.92,
+          "rationale": "Select the Task ID 50 document."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 9.3287,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "cursor_position": [
+        1057,
+        318
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1057,
+          "y": 318
+        },
+        "element_bounds": {
+          "left": 992,
+          "top": 283,
+          "right": 2005,
+          "bottom": 320
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Open the selected document."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.98,
+          "rationale": "The user navigates through File Explorer from Home to Documents, opens the Task 50 folder, and launches Task ID 50.docx."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 15.2798,
+      "application": "WINWORD.EXE",
+      "window_title": "",
+      "cursor_position": [
+        1057,
+        318
+      ],
+      "focused_element": {
+        "name": "OK",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1",
+        "control_type": "CustomControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1057,
+          "y": 318
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 188,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.67,
+          "rationale": "Move keyboard focus within the dialog buttons."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.95,
+          "rationale": "In Word's protected-view prompt, the user moves focus to the dialog controls and clicks Enable Editing to continue."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 16.9958,
+      "application": "WINWORD.EXE",
+      "window_title": "",
+      "cursor_position": [
+        1061,
+        313
+      ],
+      "focused_element": {
+        "name": "OK",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1",
+        "control_type": "CustomControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        4,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1061,
+          "y": 313
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 188,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.95,
+          "rationale": "Move pointer over the OK button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.95,
+          "rationale": "In Word's protected-view prompt, the user moves focus to the dialog controls and clicks Enable Editing to continue."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 18.0483,
+      "application": "WINWORD.EXE",
+      "window_title": "",
+      "cursor_position": [
+        1210,
+        137
+      ],
+      "focused_element": {
+        "name": "OK",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1210,
+          "y": 137
+        },
+        "element_bounds": {
+          "left": 1137,
+          "top": 120,
+          "right": 1278,
+          "bottom": 159
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Activate Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.95,
+          "rationale": "In Word's protected-view prompt, the user moves focus to the dialog controls and clicks Enable Editing to continue."
+        },
+        "l5": {
+          "tag": "Open target document",
+          "confidence": 0.96,
+          "rationale": "Navigates through the folder hierarchy and confirms opening Task ID 50.docx."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 19.7763,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        744,
+        551
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -300,
+        287
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 744,
+          "y": 551
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.94,
+          "rationale": "Move pointer into the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 21.3096,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.24,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 22.5126,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.24,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 22.8225,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50  -  Protected View - Word",
+      "cursor_position": [
+        1044,
+        264
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 50  -  Read-Only",
+        "control_type": "DocumentControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -197,
+        180
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1044,
+          "y": 264
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 117,
+          "right": 1894,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 23.3335,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 23.8458,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 23.958,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 24.0379,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 24.1134,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 24.1956,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 24.261,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 24.3468,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 24.4184,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 24.4947,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 24.5715,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 24.8236,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 25.509,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Delete the character at the cursor."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 26.1236,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 26.2456,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 26.3218,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+T",
+      "mods": [
+        "Shift"
+      ],
+      "key": "t",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 27.1973,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 27.4008,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 27.6444,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 27.9428,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 29.0147,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Delete the character at the cursor."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 29.6587,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 29.733,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 29.802,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+S",
+      "mods": [
+        "Shift"
+      ],
+      "key": "s",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 30.4538,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 30.95,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 31.0351,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 31.1157,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 31.1944,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 31.3569,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 31.4794,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 31.5737,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 32.4225,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.97,
+          "rationale": "Move the text cursor right."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 32.7675,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Delete the character at the cursor."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 33.4298,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 33.5338,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 33.6292,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        722,
+        571
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+S",
+      "mods": [
+        "Shift"
+      ],
+      "key": "s",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 722,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.91,
+          "rationale": "Shift key for capital typing."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 34.8671,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        721,
+        567
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -23,
+        16
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 721,
+          "y": 567
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 437,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.94,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Edit <Text Document>",
+          "confidence": 0.97,
+          "rationale": "Inside the document, the user repeatedly moves the cursor, deletes lowercase letters, and types Shift+letter combinations to capitalize the title words."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 38.1268,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        846,
+        105
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "View",
+        "control_type": "TabItemControl",
+        "automation_id": "TabView"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 846,
+          "y": 105
+        },
+        "element_bounds": {
+          "left": 828,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Switch <Button>",
+          "confidence": 0.96,
+          "rationale": "Switch to the View ribbon tab."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.84,
+          "rationale": "The user switches to the View tab and toggles the Show group, adjusting how the document is displayed."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 40.9869,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        852,
+        103
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "View",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        6,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 852,
+          "y": 103
+        },
+        "element_bounds": {
+          "left": 828,
+          "top": 72,
+          "right": 899,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.9,
+          "rationale": "Move pointer over the ribbon controls."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.84,
+          "rationale": "The user switches to the View tab and toggles the Show group, adjusting how the document is displayed."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 53.0569,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        785,
+        249
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Show",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Show",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 785,
+          "y": 249
+        },
+        "element_bounds": {
+          "left": 678,
+          "top": 120,
+          "right": 871,
+          "bottom": 263
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.55,
+          "rationale": "Activate the Show area on the View tab."
+        },
+        "l4": {
+          "tag": "View <Text Document>",
+          "confidence": 0.84,
+          "rationale": "The user switches to the View tab and toggles the Show group, adjusting how the document is displayed."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 53.9116,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        780,
+        252
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Show",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -4,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 780,
+          "y": 252
+        },
+        "element_bounds": {
+          "left": 678,
+          "top": 120,
+          "right": 871,
+          "bottom": 263
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.9,
+          "rationale": "Move pointer over the ribbon controls."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 57.7819,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        236,
+        83
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Insert",
+        "control_type": "TabItemControl",
+        "automation_id": "TabInsert"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 236,
+          "y": 83
+        },
+        "element_bounds": {
+          "left": 171,
+          "top": 72,
+          "right": 251,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Switch <Button>",
+          "confidence": 0.96,
+          "rationale": "Switch to the Insert ribbon tab."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 68.5555,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        228,
+        85
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -21,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 228,
+          "y": 85
+        },
+        "element_bounds": {
+          "left": 171,
+          "top": 72,
+          "right": 251,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.9,
+          "rationale": "Move pointer over the ribbon controls."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 78.0752,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1215,
+        208
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page Number",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Page Number",
+        "control_type": "MenuItemControl",
+        "automation_id": "HeaderFooterPageNumberInsert"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1215,
+          "y": 208
+        },
+        "element_bounds": {
+          "left": 1115,
+          "top": 201,
+          "right": 1290,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Open the Page Number menu."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 79.6522,
+      "application": "WINWORD.EXE",
+      "window_title": "",
+      "cursor_position": [
+        1216,
+        210
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Page Number",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        23,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1216,
+          "y": 210
+        },
+        "element_bounds": {
+          "left": 1115,
+          "top": 201,
+          "right": 1290,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Move pointer over the page number choices."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 83.9386,
+      "application": "WINWORD.EXE",
+      "window_title": "",
+      "cursor_position": [
+        886,
+        730
+      ],
+      "focused_element": {
+        "name": "Plain Number 3",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Plain Number 3",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Plain Number 3",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 886,
+          "y": 730
+        },
+        "element_bounds": {
+          "left": 489,
+          "top": 656,
+          "right": 1089,
+          "bottom": 820
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.98,
+          "rationale": "Select Plain Number 3."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 86.207,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        887,
+        726
+      ],
+      "focused_element": {
+        "name": "Footer -Section 1-",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        17,
+        -11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 887,
+          "y": 726
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 805
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Move pointer into the footer text area."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 87.9743,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1704,
+        148
+      ],
+      "focused_element": {
+        "name": "Footer -Section 1-",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Close Header and Footer",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close Header and Footer",
+        "control_type": "ButtonControl",
+        "automation_id": "HeaderFooterClose"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1704,
+          "y": 148
+        },
+        "element_bounds": {
+          "left": 1629,
+          "top": 123,
+          "right": 1742,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.98,
+          "rationale": "Close Header and Footer mode."
+        },
+        "l4": {
+          "tag": "Insert <Text Document>",
+          "confidence": 0.98,
+          "rationale": "The user switches to Insert, opens Page Number, chooses Plain Number 3, and closes header/footer mode after placing the page number."
+        },
+        "l5": {
+          "tag": "Capitalize title words",
+          "confidence": 0.82,
+          "rationale": "Covers the text edits and menu interactions used to change the title so each word starts with a capital letter."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 89.3593,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1693,
+        164
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Add-ins",
+        "control_type": "GroupControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -20,
+        25
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1693,
+          "y": 164
+        },
+        "element_bounds": {
+          "left": 1702,
+          "top": 120,
+          "right": 1797,
+          "bottom": 264
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Move pointer back into the document body."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 90.0817,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 90.162,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 90.2752,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 90.3946,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 90.4702,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 90.5366,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 90.6084,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 90.6671,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 90.7324,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 90.8004,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 90.8755,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 90.9352,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 91.0077,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 91.0753,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 91.1353,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 91.2343,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 91.3,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 91.3634,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 975
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 91.4342,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 971
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 91.5219,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 957
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 91.656,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 916
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 91.724,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 895
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 91.7912,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 883
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 91.8427,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 883
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 91.9085,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 876
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 91.9742,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 867
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 92.0419,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 865
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 92.1354,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 865
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 92.1977,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 865
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 92.2631,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 803
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 92.3314,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 789
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 92.4072,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 789
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 92.4832,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 782
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 97
+    },
+    {
+      "timestamp": 92.6597,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 763
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 98
+    },
+    {
+      "timestamp": 92.8031,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 751
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 99
+    },
+    {
+      "timestamp": 92.8856,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 751
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 100
+    },
+    {
+      "timestamp": 92.9701,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 826
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 101
+    },
+    {
+      "timestamp": 93.044,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 764
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 102
+    },
+    {
+      "timestamp": 93.1151,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 751
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 103
+    },
+    {
+      "timestamp": 93.1971,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 751
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 104
+    },
+    {
+      "timestamp": 93.2841,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 739
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 105
+    },
+    {
+      "timestamp": 93.3595,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 731
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 106
+    },
+    {
+      "timestamp": 93.4349,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1463,
+        698
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1463,
+          "y": 698
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 731
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 65,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.99,
+          "rationale": "Scroll the document view."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 107
+    },
+    {
+      "timestamp": 93.5154,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1458,
+        668
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Page 1 content",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -235,
+        504
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1458,
+          "y": 668
+        },
+        "element_bounds": {
+          "left": 335,
+          "top": 266,
+          "right": 1559,
+          "bottom": 728
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 108,
+          "endIndex": 108
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.93,
+          "rationale": "Move pointer within the document body."
+        },
+        "l4": {
+          "tag": "Review <Text Document>",
+          "confidence": 0.91,
+          "rationale": "The user scrolls through the document to inspect the layout and verify the inserted page numbers."
+        },
+        "l5": {
+          "tag": "Review edited title",
+          "confidence": 0.89,
+          "rationale": "Scrolls through the document to inspect the updated title and verify the formatting change."
+        }
+      },
+      "index": 108
+    },
+    {
+      "timestamp": 95.3464,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        245,
+        41
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": "FileSave"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 245,
+          "y": 41
+        },
+        "element_bounds": {
+          "left": 222,
+          "top": 14,
+          "right": 264,
+          "bottom": 57
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 109,
+          "endIndex": 109
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.98,
+          "rationale": "Save the document."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "The user saves the edited document and closes Word, finalizing the file changes."
+        },
+        "l5": {
+          "tag": "Save and close document",
+          "confidence": 0.97,
+          "rationale": "Saves the edited document, closes it, and switches back to the previous window."
+        }
+      },
+      "index": 109
+    },
+    {
+      "timestamp": 96.1322,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        255,
+        36
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        15,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 255,
+          "y": 36
+        },
+        "element_bounds": {
+          "left": 222,
+          "top": 14,
+          "right": 264,
+          "bottom": 57
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 110,
+          "endIndex": 110
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.62,
+          "rationale": "Move pointer near the top of the Word window."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "The user saves the edited document and closes Word, finalizing the file changes."
+        },
+        "l5": {
+          "tag": "Save and close document",
+          "confidence": 0.97,
+          "rationale": "Saves the edited document, closes it, and switches back to the previous window."
+        }
+      },
+      "index": 110
+    },
+    {
+      "timestamp": 98.0535,
+      "application": "WINWORD.EXE",
+      "window_title": "Task ID 50 - Word",
+      "cursor_position": [
+        1905,
+        4
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "DocumentControl"
+      },
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1905,
+          "y": 4
+        },
+        "element_bounds": {
+          "left": 1848,
+          "top": 0,
+          "right": 1920,
+          "bottom": 72
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 111,
+          "endIndex": 111
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.98,
+          "rationale": "Close the Word window."
+        },
+        "l4": {
+          "tag": "Confirm <Text Document>",
+          "confidence": 0.96,
+          "rationale": "The user saves the edited document and closes Word, finalizing the file changes."
+        },
+        "l5": {
+          "tag": "Save and close document",
+          "confidence": 0.97,
+          "rationale": "Saves the edited document, closes it, and switches back to the previous window."
+        }
+      },
+      "index": 111
+    },
+    {
+      "timestamp": 99.0532,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "cursor_position": [
+        1901,
+        3
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        35,
+        -31
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1901,
+          "y": 3
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 112,
+          "endIndex": 112
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.9,
+          "rationale": "Move pointer over the File Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "After finishing, the user switches windows to return to the logger application."
+        },
+        "l5": {
+          "tag": "Save and close document",
+          "confidence": 0.97,
+          "rationale": "Saves the edited document, closes it, and switches back to the previous window."
+        }
+      },
+      "index": 112
+    },
+    {
+      "timestamp": 100.8455,
+      "application": "explorer.exe",
+      "window_title": "Task 50 - File Explorer",
+      "cursor_position": [
+        437,
+        574
+      ],
+      "focused_element": {
+        "name": "Task ID 50",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 437,
+          "y": 574
+        },
+        "element_bounds": {
+          "left": 201,
+          "top": 235,
+          "right": 1101,
+          "bottom": 735
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 113,
+          "endIndex": 113
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.92,
+          "rationale": "Switch to the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.89,
+          "rationale": "After finishing, the user switches windows to return to the logger application."
+        },
+        "l5": {
+          "tag": "Save and close document",
+          "confidence": 0.97,
+          "rationale": "Saves the edited document, closes it, and switches back to the previous window."
+        }
+      },
+      "index": 113
+    }
+  ]
+}

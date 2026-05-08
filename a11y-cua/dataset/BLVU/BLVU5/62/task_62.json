@@ -1,0 +1,6412 @@
+{
+  "metadata": {
+    "task_id": 62,
+    "task_title": "Adding an image to a PowerPoint Presentation Slide",
+    "instruction": "Add the photo Task ID 62.jpg to Task ID 62.pptx, both in Document > Task 62 folder.",
+    "context": "I want to add a picture of myself to the presentation",
+    "task_group": "Workflow",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756910231.8694954,
+      "ended_at": 1756910340.0648792,
+      "duration": 108.2
+    },
+    "statistics": {
+      "total_events": 115,
+      "apps_used": [
+        "explorer.exe",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "key_press": 108,
+        "hotkey": 7
+      },
+      "by_app": {
+        "explorer.exe": 67,
+        "POWERPNT.EXE": 48
+      },
+      "keystrokes": {
+        "total_hotkeys": 7,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 91,
+        "hotkeys": {
+          "Ctrl+End": 2,
+          "Alt+Shift+Tab": 1,
+          "Alt+Tab": 1,
+          "Ctrl+\u0003": 1,
+          "Ctrl+\u0016": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 12,
+          "Enter": 12,
+          "Esc": 12,
+          "Tab": 12,
+          "Backspace": 8,
+          "F6": 6,
+          "Left": 5,
+          "End": 2,
+          "Right": 2,
+          "c": 1,
+          "d": 1,
+          "e": 1,
+          "m": 1,
+          "n": 1,
+          "o": 1,
+          "PageDown": 1,
+          "s": 1,
+          "t": 1,
+          "u": 1,
+          "Up": 1,
+          "ؤ": 1,
+          "ة": 1,
+          "ث": 1,
+          "خ": 1,
+          "س": 1,
+          "ع": 1,
+          "ف": 1,
+          "ى": 1,
+          "ي": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key opens the launcher/start interface."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.1167,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "JAWS 2025",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key opens the launcher/start interface."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.2561,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key opens the launcher/start interface."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 1.2594,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ي",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 1.3743,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "خ",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 1.4769,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ؤ",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 1.5714,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ع",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 1.7299,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ة",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 1.8259,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ث",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 1.9417,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ى",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 2.0206,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "ف",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 2.1431,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "س",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing into the Run box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 2.4817,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "OK",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.78,
+          "rationale": "Enter activates the OK button in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 2.5844,
+      "application": "explorer.exe",
+      "window_title": "يخؤعةثىفس",
+      "focused_element": {
+        "name": "OK",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.78,
+          "rationale": "Enter activates the OK button in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 4.7844,
+      "application": "explorer.exe",
+      "window_title": "يخؤعةثىفس",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.72,
+          "rationale": "Enter runs the entered command from the Run combo box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 5.6925,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 5.7905,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 5.8987,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 5.9758,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 6.0513,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 6.1335,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 6.2024,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 6.2777,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Backspace",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Delete <Text>",
+          "confidence": 0.98,
+          "rationale": "Backspace deletes characters in the Run field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 6.5958,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.42,
+          "rationale": "Modifier key used while changing input context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 6.6701,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.42,
+          "rationale": "Modifier key used while changing input context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 7.0073,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.42,
+          "rationale": "Modifier key used while changing input context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 7.1165,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.42,
+          "rationale": "Modifier key used while changing input context."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 7.7768,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 7.9215,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "o",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 8.0932,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 8.2021,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 8.32,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 8.4161,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 8.5437,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 8.6248,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 8.7379,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the Documents path in Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 8.9282,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the Documents location."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 9.3254,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.97,
+          "rationale": "Enter opens the Documents location."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 11.5663,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.72,
+          "rationale": "PageDown scrolls the file list in Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 14.2878,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 14.4331,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 14.5726,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 52",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 14.7006,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 14.8679,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 58",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 15.006,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 15.1706,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 60",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 15.3399,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 61",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 15.5045,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Arrow navigation through file items."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 19.0212,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task 62 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "Uses Run and File Explorer to reach the Documents location and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.84,
+          "rationale": "This span opens windows, types paths/queries, scrolls, and selects the image file in Document > Task 62, preparing the source photo for the insert task."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 21.5432,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.61,
+          "rationale": "Navigating file columns in details view."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 21.7425,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Type",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.61,
+          "rationale": "Navigating file columns in details view."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 23.2015,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Type",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.61,
+          "rationale": "Navigating file columns in details view."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 24.4289,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Date modified",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <Column>",
+          "confidence": 0.61,
+          "rationale": "Navigating file columns in details view."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 24.6623,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Moving back to the file item list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 24.8652,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Moving back to the file item list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 25.0734,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Moving back to the file item list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 25.3861,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Moving back to the file item list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 25.7738,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Moving back to the file item list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 26.6539,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Copy <List Item>",
+          "confidence": 0.98,
+          "rationale": "Starting the copy shortcut on the selected file."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 26.8762,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0003",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Copy <List Item>",
+          "confidence": 0.98,
+          "rationale": "Starting the copy shortcut on the selected file."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 26.9868,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0003",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0003",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Copy <List Item>",
+          "confidence": 0.98,
+          "rationale": "Starting the copy shortcut on the selected file."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.66,
+          "rationale": "Moves focus to the photo file Task ID 62.jpg and copies it in preparation for inserting the image later."
+        },
+        "l5": {
+          "tag": "Copy photo file",
+          "confidence": 0.93,
+          "rationale": "The user focuses the file list and issues a copy action on the chosen image, capturing the photo from the source folder."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 27.4756,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Moving to the next file item."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Opens Task ID 62.pptx and confirms Enable Editing to leave Protected View and work on the presentation."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.76,
+          "rationale": "These actions switch focus back toward the PowerPoint file and confirm the presentation context after copying the photo."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 28.574,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the PowerPoint file."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Opens Task ID 62.pptx and confirms Enable Editing to leave Protected View and work on the presentation."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.76,
+          "rationale": "These actions switch focus back toward the PowerPoint file and confirm the presentation context after copying the photo."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 35.882,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <Link>",
+          "confidence": 0.72,
+          "rationale": "F6 lands on the protected-view hyperlink."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Opens Task ID 62.pptx and confirms Enable Editing to leave Protected View and work on the presentation."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.76,
+          "rationale": "These actions switch focus back toward the PowerPoint file and confirm the presentation context after copying the photo."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 38.2099,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.99,
+          "rationale": "Tab moves focus to Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Opens Task ID 62.pptx and confirms Enable Editing to leave Protected View and work on the presentation."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.76,
+          "rationale": "These actions switch focus back toward the PowerPoint file and confirm the presentation context after copying the photo."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 39.3354,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Enter activates Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Presentation>",
+          "confidence": 0.97,
+          "rationale": "Opens Task ID 62.pptx and confirms Enable Editing to leave Protected View and work on the presentation."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.76,
+          "rationale": "These actions switch focus back toward the PowerPoint file and confirm the presentation context after copying the photo."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 43.934,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide 2 - About me",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.62,
+          "rationale": "Moving within the slide thumbnail list."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 45.5353,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Title TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.8,
+          "rationale": "Tab reaches the title text box."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 47.4973,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "View Indicator Slide 2 of 2",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.8,
+          "rationale": "Tab reaches the title text box."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 49.2428,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Home",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.83,
+          "rationale": "F6 reaches the Home ribbon tab."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 51.0922,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.72,
+          "rationale": "F6 reaches the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 53.7181,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 53.8012,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 54.9927,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 55.0961,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 56.5367,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 56.6431,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 57.3751,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.66,
+          "rationale": "Tab moves focus back into the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 77
+    },
+    {
+      "timestamp": 57.4468,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 78,
+          "endIndex": 78
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.66,
+          "rationale": "Tab moves focus back into the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 78
+    },
+    {
+      "timestamp": 59.8015,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 79,
+          "endIndex": 79
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 79
+    },
+    {
+      "timestamp": 59.9059,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 80,
+          "endIndex": 80
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 80
+    },
+    {
+      "timestamp": 61.025,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 81,
+          "endIndex": 81
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 81
+    },
+    {
+      "timestamp": 61.1137,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 82,
+          "endIndex": 82
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 82
+    },
+    {
+      "timestamp": 61.2078,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 83,
+          "endIndex": 83
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 83
+    },
+    {
+      "timestamp": 61.2753,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 84,
+          "endIndex": 84
+        },
+        "l3": {
+          "tag": "Cancel <Window>",
+          "confidence": 0.62,
+          "rationale": "Esc dismisses the current mode or pane."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 84
+    },
+    {
+      "timestamp": 61.7723,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 85,
+          "endIndex": 85
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 85
+    },
+    {
+      "timestamp": 62.1796,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 86,
+          "endIndex": 86
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 86
+    },
+    {
+      "timestamp": 62.2914,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 87,
+          "endIndex": 87
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 87
+    },
+    {
+      "timestamp": 62.4439,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 88,
+          "endIndex": 88
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 88
+    },
+    {
+      "timestamp": 62.5386,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 89,
+          "endIndex": 89
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 89
+    },
+    {
+      "timestamp": 62.9503,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "Zoom Out",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Shift+Tab",
+      "mods": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 90,
+          "endIndex": 90
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.99,
+          "rationale": "Alt starts the app/window switch sequence."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 90
+    },
+    {
+      "timestamp": 71.4053,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide About me",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 91,
+          "endIndex": 91
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.81,
+          "rationale": "F6 returns focus to the slide thumbnail list."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 91
+    },
+    {
+      "timestamp": 74.1488,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 92,
+          "endIndex": 92
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.72,
+          "rationale": "Tab lands on the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 92
+    },
+    {
+      "timestamp": 74.2509,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 93,
+          "endIndex": 93
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.72,
+          "rationale": "Tab lands on the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 93
+    },
+    {
+      "timestamp": 76.8491,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 94,
+          "endIndex": 94
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.72,
+          "rationale": "Tab lands on the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 94
+    },
+    {
+      "timestamp": 76.9472,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide Notes",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 95,
+          "endIndex": 95
+        },
+        "l3": {
+          "tag": "Move Focus To <Image>",
+          "confidence": 0.72,
+          "rationale": "Tab lands on the Slide Notes area."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 95
+    },
+    {
+      "timestamp": 80.4265,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Slide 2 - About me",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 96,
+          "endIndex": 96
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.85,
+          "rationale": "F6 returns to the slide editing canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Moves through PowerPoint panes and shortcuts to return focus to the slide editing canvas."
+        },
+        "l5": {
+          "tag": "Navigate to target slide",
+          "confidence": 0.8,
+          "rationale": "This span navigates within the presentation interface, moving focus through lists, menus, images, and canvas to reach the intended slide area for placement."
+        }
+      },
+      "index": 96
+    },
+    {
+      "timestamp": 82.4014,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Title TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 97,
+          "endIndex": 97
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.84,
+          "rationale": "Tab moves to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 97
+    },
+    {
+      "timestamp": 82.5015,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "Title TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 98,
+          "endIndex": 98
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.84,
+          "rationale": "Tab moves to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 98
+    },
+    {
+      "timestamp": 83.6663,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 99,
+          "endIndex": 99
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.84,
+          "rationale": "Tab moves to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 99
+    },
+    {
+      "timestamp": 83.7723,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 100,
+          "endIndex": 100
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.84,
+          "rationale": "Tab moves to the title text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 100
+    },
+    {
+      "timestamp": 86.853,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 101,
+          "endIndex": 101
+        },
+        "l3": {
+          "tag": "Open <Text>",
+          "confidence": 0.7,
+          "rationale": "Enter enters the text box for editing."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 101
+    },
+    {
+      "timestamp": 86.9437,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 102,
+          "endIndex": 102
+        },
+        "l3": {
+          "tag": "Open <Text>",
+          "confidence": 0.7,
+          "rationale": "Enter enters the text box for editing."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 102
+    },
+    {
+      "timestamp": 87.8104,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 103,
+          "endIndex": 103
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 103
+    },
+    {
+      "timestamp": 87.907,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 104,
+          "endIndex": 104
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 104
+    },
+    {
+      "timestamp": 88.0226,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+End",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "End",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 105,
+          "endIndex": 105
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 105
+    },
+    {
+      "timestamp": 88.1,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 106,
+          "endIndex": 106
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 106
+    },
+    {
+      "timestamp": 88.185,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+End",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "End",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 107,
+          "endIndex": 107
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 107
+    },
+    {
+      "timestamp": 88.9056,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 108,
+          "endIndex": 108
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 108
+    },
+    {
+      "timestamp": 89.0053,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "End",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 109,
+          "endIndex": 109
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.82,
+          "rationale": "Ctrl begins a text-navigation shortcut in the box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 109
+    },
+    {
+      "timestamp": 89.2673,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 110,
+          "endIndex": 110
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.62,
+          "rationale": "Enter inserts a new line in the text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 110
+    },
+    {
+      "timestamp": 89.3504,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 111,
+          "endIndex": 111
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.62,
+          "rationale": "Enter inserts a new line in the text box."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 111
+    },
+    {
+      "timestamp": 90.0424,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 112,
+          "endIndex": 112
+        },
+        "l3": {
+          "tag": "Paste <Canvas>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the paste shortcut for the copied image."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 112
+    },
+    {
+      "timestamp": 90.2536,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0016",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 113,
+          "endIndex": 113
+        },
+        "l3": {
+          "tag": "Paste <Canvas>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the paste shortcut for the copied image."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 113
+    },
+    {
+      "timestamp": 90.3377,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 62 - PowerPoint",
+      "focused_element": {
+        "name": "TextBox",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        1159,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0016",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0016",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1159,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 114,
+          "endIndex": 114
+        },
+        "l3": {
+          "tag": "Paste <Canvas>",
+          "confidence": 0.99,
+          "rationale": "Ctrl begins the paste shortcut for the copied image."
+        },
+        "l4": {
+          "tag": "Insert <Presentation>",
+          "confidence": 0.98,
+          "rationale": "Positions the cursor in the slide text area and pastes the copied photo into the presentation."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.97,
+          "rationale": "The final actions focus the slide content area and paste the clipboard contents, completing insertion of the photo into the presentation."
+        }
+      },
+      "index": 114
+    }
+  ]
+}
