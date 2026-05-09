@@ -309,6 +309,7 @@
 
     function highlightActiveAction(currentTime) {
         const items = actionsListEl.querySelectorAll(".action-item");
+        const wrapper = document.getElementById("actions-list-wrapper");
         let activeIdx = -1;
         items.forEach((item, i) => {
             if (parseFloat(item.dataset.timestamp) <= currentTime) activeIdx = i;
@@ -317,7 +318,11 @@
             const wasActive = item.classList.contains("is-active");
             item.classList.toggle("is-active", i === activeIdx);
             if (i === activeIdx && !wasActive) {
-                item.scrollIntoView({ block: "nearest", behavior: "smooth" });
+                const itemTop = item.getBoundingClientRect().top - wrapper.getBoundingClientRect().top + wrapper.scrollTop;
+                const itemBottom = itemTop + item.offsetHeight;
+                if (itemTop < wrapper.scrollTop || itemBottom > wrapper.scrollTop + wrapper.clientHeight) {
+                    wrapper.scrollTop = Math.max(0, itemTop - wrapper.clientHeight / 2);
+                }
             }
         });
     }
@@ -390,6 +395,9 @@
     }
 
     videoEl.addEventListener("timeupdate", () => {
+        highlightActiveAction(videoEl.currentTime);
+    });
+    videoEl.addEventListener("seeking", () => {
         highlightActiveAction(videoEl.currentTime);
     });
 
