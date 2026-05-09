@@ -25,6 +25,7 @@
         <div class="paper-links-section">
             <a href="https://doi.org/10.1145/3772318.3791896" class="paper-link">📄 Paper</a>
             <a href="https://huggingface.co/datasets/berkeley-hci/A11y-CUA" class="paper-link">🗂 Dataset</a>
+            <a href="dataset-explorer.html" class="paper-link">🔎 Data Explorer</a>
             <a href="https://github.com/gmananya/computer-use-logger" class="paper-link">💻 Computer Use Recorder Code</a>
         </div>
 
@@ -151,33 +152,6 @@
                 </div>
             </div>
         </section>
-
-        <section id="dataset-viewer">
-            <h2>Dataset Viewer</h2>
-            <p>
-                Select a user and task to preview a task execution video.
-            </p>
-            <div style="display: flex; gap: 16px; flex-wrap: wrap; width: 100%; margin-bottom: 14px;">
-                <div style="flex: 1; min-width: 240px;">
-                    <label for="viewer-user" style="display:block; margin-bottom: 6px; font-weight: 600;">User</label>
-                    <select id="viewer-user" style="width: 100%; padding: 10px; border: 1px solid #ccd4df; border-radius: 6px;">
-                    </select>
-                </div>
-                <div style="flex: 1; min-width: 240px;">
-                    <label for="viewer-task" style="display:block; margin-bottom: 6px; font-weight: 600;">Task</label>
-                    <select id="viewer-task" style="width: 100%; padding: 10px; border: 1px solid #ccd4df; border-radius: 6px;">
-                    </select>
-                </div>
-            </div>
-            <div id="viewer-meta" style="margin: 8px 0 14px; color: #555;"></div>
-            <video id="viewer-video" controls poster="media/default-cua-demo-thumb.jpg" style="width: 100%; max-width: 100%; border-radius: 8px; background: #000;">
-                Your browser does not support the video tag.
-            </video>
-            <p id="viewer-empty" style="margin-top: 10px; color: #555;">
-                No video available for this user/task yet. Add an entry in the manifest inside this page.
-            </p>
-        </section>
-
 
         <section id="table-2">
             <h2>Recorder Event Types</h2>
@@ -373,87 +347,4 @@
         </section>
     </div>
 </body>
-<script>
-const DATASET_VIDEO_MANIFEST = {
-    "SU1": {
-        "17": {
-            title: "Task 17 - Search flight and select cheapest option",
-            video: "media/a11y-cua/SU1/task-17.mp4"
-        }
-    },
-    "BLVU6": {
-        "90": {
-            title: "Task 90 - Compress JPG to 40 percent",
-            video: "media/a11y-cua/BLVU6/task-90.mp4"
-        }
-    }
-};
-
-const userSelect = document.getElementById("viewer-user");
-const taskSelect = document.getElementById("viewer-task");
-const videoEl = document.getElementById("viewer-video");
-const emptyMsg = document.getElementById("viewer-empty");
-const metaEl = document.getElementById("viewer-meta");
-
-function setTasksForUser(userId) {
-    const tasks = Object.keys(DATASET_VIDEO_MANIFEST[userId] || {}).sort((a, b) => Number(a) - Number(b));
-    taskSelect.innerHTML = "";
-    tasks.forEach((taskId) => {
-        const option = document.createElement("option");
-        option.value = taskId;
-        option.textContent = `Task ${taskId}`;
-        taskSelect.appendChild(option);
-    });
-    if (tasks.length === 0) {
-        const option = document.createElement("option");
-        option.value = "";
-        option.textContent = "No tasks configured";
-        taskSelect.appendChild(option);
-    }
-}
-
-function renderVideo() {
-    const userId = userSelect.value;
-    const taskId = taskSelect.value;
-    const entry = DATASET_VIDEO_MANIFEST[userId] && DATASET_VIDEO_MANIFEST[userId][taskId];
-    if (!entry || !entry.video) {
-        videoEl.removeAttribute("src");
-        videoEl.load();
-        emptyMsg.style.display = "block";
-        metaEl.textContent = "";
-        return;
-    }
-    videoEl.src = entry.video;
-    videoEl.load();
-    emptyMsg.style.display = "none";
-    metaEl.textContent = `${entry.title || `Task ${taskId}`} (${userId})`;
-}
-
-function initViewer() {
-    const users = Object.keys(DATASET_VIDEO_MANIFEST).sort();
-    userSelect.innerHTML = "";
-    users.forEach((userId) => {
-        const option = document.createElement("option");
-        option.value = userId;
-        option.textContent = userId;
-        userSelect.appendChild(option);
-    });
-    if (users.length === 0) {
-        const option = document.createElement("option");
-        option.value = "";
-        option.textContent = "No users configured";
-        userSelect.appendChild(option);
-    }
-    setTasksForUser(userSelect.value);
-    renderVideo();
-}
-
-userSelect.addEventListener("change", () => {
-    setTasksForUser(userSelect.value);
-    renderVideo();
-});
-
-taskSelect.addEventListener("change", renderVideo);
-initViewer();
-</script>
 </html>

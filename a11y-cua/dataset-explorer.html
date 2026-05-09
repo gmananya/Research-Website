@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A11y-CUA Data Explorer</title>
+    <link rel="stylesheet" href="a11y-cua.css">
+</head>
+<body class="explorer-page">
+    <div class="explorer-container">
+        <header>
+            <p class="explorer-back-link"><a href="a11y-cua.html" class="paper-link">← Back to Project Page</a></p>
+            <h1>A11y-CUA Data Explorer</h1>
+            <p class="institution">
+                Explore task recordings from the A11y-CUA website dataset subset by selecting a participant or CUA condition and a task.
+            </p>
+        </header>
+
+
+        <div class="explorer-toolbar">
+            <label for="viewer-user">User</label>
+            <select id="viewer-user"></select>
+        </div>
+
+        <main class="data-explorer">
+            <aside class="task-sidebar" aria-label="Task categories">
+                <div id="task-groups"></div>
+            </aside>
+
+            <section class="recording-panel" aria-label="Selected recording">
+                <div class="recording-card">
+                    <h2>Recording</h2>
+                    <video id="viewer-video" controls poster="media/default-cua-demo-thumb.jpg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p id="viewer-empty" class="viewer-empty">
+                        A video file is not available for this task in the website dataset subset.
+                    </p>
+                </div>
+
+                <div class="details-card instruction-card">
+                    <p id="task-id-line"><strong>Task ID:</strong> <span id="task-id">-</span></p>
+                    <p id="task-instruction">Select a task to view its instruction.</p>
+                </div>
+
+                <p class="recording-note">Recordings were collected with the A11y-CUA dataset.</p>
+            </section>
+        </main>
+    </div>
+
+    <script>
+    const DATASET_TASKS = [
+        {
+            id: "6",
+            title: "Search for a product on an online store",
+            group: "Browsing and Web",
+            instruction: "Visit walmart.com on Chrome. Search for a frying pan, then click on the first product with a pan size of exactly 10 inches and add it to cart."
+        },
+        {
+            id: "14",
+            title: "Save webpage as PDF",
+            group: "Browsing and Web",
+            instruction: "Find the lyrics to \"Baby Shark\" song on Chrome. Once you find the lyrics, save the webpage as a PDF so I can print it."
+        },
+        {
+            id: "16",
+            title: "Translating the language of a webpage",
+            group: "Browsing and Web",
+            instruction: "Visit www.france24.com/fr. Translate the news page in French on this webpage to English using Google Translate."
+        },
+        {
+            id: "18",
+            title: "Change default search engine",
+            group: "Browsing and Web",
+            instruction: "Set DuckDuckGo as the default search engine on Chrome."
+        },
+        {
+            id: "20",
+            title: "Set an alarm on Clock",
+            group: "System Operations",
+            instruction: "Set an alarm for 8.30 AM that repeats every Monday."
+        },
+        {
+            id: "29",
+            title: "Force quit an application",
+            group: "System Operations",
+            instruction: "Open Chrome and close the application from Task Manager."
+        },
+        {
+            id: "33",
+            title: "Use calculator application to perform multiplication",
+            group: "System Operations",
+            instruction: "Compute the product of 20 and 483 on Calculator."
+        },
+        {
+            id: "41",
+            title: "Change the theme in PowerPoint Slide",
+            group: "Document Editing",
+            instruction: "Open Powerpoint Slide \"Task ID 41.pptx\" in Documents > Task ID 41 folder, and change the presentation theme to \"Gallery\"."
+        },
+        {
+            id: "43",
+            title: "Create a chart in Excel",
+            group: "Document Editing",
+            instruction: "Open Task ID 43.xlsx in Documents > Task 43 folder, create a bar chart where the x-axis is \"Book Title\" and the y-axis is the \"Days to Finish\"."
+        },
+        {
+            id: "44",
+            title: "Add a formula in Excel",
+            group: "Document Editing",
+            instruction: "Open Task ID 44.xlsx in Documents > Task 44 folder, calculate the average of \"# Days to finish\" using mathematical functions available in Excel."
+        },
+        {
+            id: "50",
+            title: "Capitalize the starting letter of every word in Word and add page number",
+            group: "Document Editing",
+            instruction: "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title and add the page number."
+        },
+        {
+            id: "55",
+            title: "Copy text from Word to the Notes section in PowerPoint",
+            group: "Workflow",
+            instruction: "Copy presentation notes from word document located in Task ID 55.docx to my presentation slide Task ID 55.pptx, both in Documents > Task 55 folder."
+        },
+        {
+            id: "59",
+            title: "Convert an Excel file into a CSV file",
+            group: "Workflow",
+            instruction: "Export the Task ID 59.xlsx in Documents > Task 59 folder to .csv and move it to Desktop."
+        },
+        {
+            id: "62",
+            title: "Adding an image to a PowerPoint Presentation Slide",
+            group: "Workflow",
+            instruction: "Add the photo Task ID 62.jpg to Task ID 62.pptx, both in Document > Task 62 folder."
+        },
+        {
+            id: "63",
+            title: "Save a chart from Excel as an image and insert into PowerPoint",
+            group: "Workflow",
+            instruction: "Insert the bar chart visualization from Task ID 63.xlsx into PowerPoint Task ID 63.pptx, both in Documents > Task 63 Folder."
+        },
+        {
+            id: "75",
+            title: "Change the video speed",
+            group: "Media",
+            instruction: "Open video Task ID 75.mp4 in Documents > Task 75 folder on Media Player. Play the video in 1.5x speed."
+        },
+        {
+            id: "76",
+            title: "Add a song to a playlist",
+            group: "Media",
+            instruction: "Create the playlist \"Fun with Kids\" on Media Player and add Task ID 76.mp3 in Documents > Task 76 folder to the playlist."
+        },
+        {
+            id: "77",
+            title: "Adjust brightness on photo",
+            group: "Media",
+            instruction: "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1."
+        },
+        {
+            id: "79",
+            title: "Recover a photo from Trash",
+            group: "System Operations",
+            instruction: "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder."
+        },
+        {
+            id: "90",
+            title: "Compress a JPG to a smaller size",
+            group: "Media",
+            instruction: "Open Task ID 90.jpg in Documents > Task 90 folder on Photos app. Reduce the image size to 40%."
+        }
+    ];
+
+    const DATASET_USERS = [
+        { id: "SU1", label: "SU1 (Sighted User)", path: "SU/SU1" },
+        { id: "SU5", label: "SU5 (Sighted User)", path: "SU/SU5" },
+        { id: "BLVU1", label: "BLVU1 (Blind and Low-Vision User)", path: "BLVU/BLVU1" },
+        { id: "BLVU5", label: "BLVU5 (Blind and Low-Vision User)", path: "BLVU/BLVU5" },
+        { id: "Claude-Default", label: "Claude Sonnet 4.5 - Default-CUA", path: "Claude-Sonnet-4.5/Default" },
+        { id: "Claude-Screen-Reader", label: "Claude Sonnet 4.5 - Screen-Reader-CUA", path: "Claude-Sonnet-4.5/Screen Reader" },
+        { id: "Claude-Magnifier", label: "Claude Sonnet 4.5 - Magnifier-CUA", path: "Claude-Sonnet-4.5/Magnifier" }
+    ];
+
+    const VIDEO_TASK_IDS = new Set(["6", "14", "16", "18", "20", "29", "33", "41", "43", "44", "50", "55", "59"]);
+    const userSelect = document.getElementById("viewer-user");
+    const taskGroupsEl = document.getElementById("task-groups");
+    const videoEl = document.getElementById("viewer-video");
+    const emptyMsg = document.getElementById("viewer-empty");
+    const taskIdEl = document.getElementById("task-id");
+    const taskInstructionEl = document.getElementById("task-instruction");
+    let selectedTaskId = "6";
+
+    function encodeDatasetPath(path) {
+        return path.split("/").map(encodeURIComponent).join("/");
+    }
+
+    function getSelectedUser() {
+        return DATASET_USERS.find((user) => user.id === userSelect.value) || DATASET_USERS[0];
+    }
+
+    function getTask(taskId) {
+        return DATASET_TASKS.find((task) => task.id === taskId) || DATASET_TASKS[0];
+    }
+
+    function getDatasetVideoPath(user, taskId) {
+        return `dataset/${encodeDatasetPath(user.path)}/${taskId}/${taskId}.mp4`;
+    }
+
+    function renderUsers() {
+        DATASET_USERS.forEach((user) => {
+            const option = document.createElement("option");
+            option.value = user.id;
+            option.textContent = user.label;
+            userSelect.appendChild(option);
+        });
+    }
+
+    function renderTaskGroups() {
+        const groupedTasks = DATASET_TASKS.reduce((groups, task) => {
+            groups[task.group] = groups[task.group] || [];
+            groups[task.group].push(task);
+            return groups;
+        }, {});
+
+        Object.entries(groupedTasks).forEach(([group, tasks], index) => {
+            const groupEl = document.createElement("div");
+            groupEl.className = "task-group";
+
+            const header = document.createElement("button");
+            header.className = "task-group-header";
+            header.type = "button";
+            header.setAttribute("aria-expanded", index === 0 ? "true" : "false");
+            header.innerHTML = `<span>${group}</span><span class="group-toggle">${index === 0 ? "-" : "+"}</span>`;
+
+            const list = document.createElement("div");
+            list.className = `task-list${index === 0 ? " is-open" : ""}`;
+
+            tasks.forEach((task) => {
+                const taskButton = document.createElement("button");
+                taskButton.className = "task-item";
+                taskButton.type = "button";
+                taskButton.dataset.taskId = task.id;
+                taskButton.textContent = `Task ${task.id}: ${task.title}`;
+                taskButton.addEventListener("click", () => {
+                    selectedTaskId = task.id;
+                    updateActiveTask();
+                    renderSelection();
+                });
+                list.appendChild(taskButton);
+            });
+
+            header.addEventListener("click", () => {
+                const isOpen = list.classList.toggle("is-open");
+                header.setAttribute("aria-expanded", String(isOpen));
+                header.querySelector(".group-toggle").textContent = isOpen ? "-" : "+";
+            });
+
+            groupEl.appendChild(header);
+            groupEl.appendChild(list);
+            taskGroupsEl.appendChild(groupEl);
+        });
+    }
+
+    function updateActiveTask() {
+        document.querySelectorAll(".task-item").forEach((button) => {
+            button.classList.toggle("is-active", button.dataset.taskId === selectedTaskId);
+        });
+    }
+
+    function renderSelection() {
+        const user = getSelectedUser();
+        const task = getTask(selectedTaskId);
+        const videoPath = getDatasetVideoPath(user, task.id);
+        const hasVideo = VIDEO_TASK_IDS.has(task.id);
+
+        taskIdEl.textContent = task.id;
+        taskInstructionEl.textContent = task.instruction;
+        emptyMsg.style.display = hasVideo ? "none" : "block";
+
+        if (hasVideo) {
+            videoEl.src = videoPath;
+            videoEl.style.display = "block";
+            videoEl.load();
+        } else {
+            videoEl.removeAttribute("src");
+            videoEl.style.display = "none";
+            videoEl.load();
+        }
+    }
+
+    renderUsers();
+    renderTaskGroups();
+    updateActiveTask();
+    renderSelection();
+    userSelect.addEventListener("change", renderSelection);
+    </script>
+</body>
+</html>
