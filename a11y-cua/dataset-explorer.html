@@ -40,7 +40,13 @@
 
                 <div class="details-card instruction-card">
                     <p id="task-id-line"><strong>Task ID:</strong> <span id="task-id">-</span></p>
+                    <h3 class="section-label">Instruction</h3>
                     <p id="task-instruction">Select a task to view its instruction.</p>
+                    <h3 class="section-label actions-heading">Actions</h3>
+                    <div id="actions-list-wrapper">
+                        <p id="actions-status" class="actions-status">Select a task to view actions.</p>
+                        <ol id="actions-list"></ol>
+                    </div>
                 </div>
 
                 <p class="recording-note">Recordings were collected with the A11y-CUA dataset.</p>
@@ -189,7 +195,10 @@
     const emptyMsg = document.getElementById("viewer-empty");
     const taskIdEl = document.getElementById("task-id");
     const taskInstructionEl = document.getElementById("task-instruction");
+    const actionsListEl = document.getElementById("actions-list");
+    const actionsStatusEl = document.getElementById("actions-status");
     let selectedTaskId = "6";
+    let currentActions = [];
 
     function encodeDatasetPath(path) {
         return path.split("/").map(encodeURIComponent).join("/");
@@ -268,6 +277,95 @@
         });
     }
 
+    function formatAction(action) {
+        const [x, y] = action.cursor_position || [0, 0];
+        switch (action.event) {
+            case "mouse_click": {
+                const btn = action.button ? action.button.replace("Button.", "").toUpperCase() : "LEFT";
+                return `CLICK(${x}, ${y})(button: ${btn})`;
+            }
+            case "mouse_move":
+                return `MOVE_TO(${x}, ${y})`;
+            case "key_press": {
+                const mods = (action.modifiers || []).filter(m => m !== action.key);
+                const combo = mods.length > 0 ? mods.join("+") + "+" + action.key : action.key;
+                return `PRESS(${combo})`;
+            }
+            case "hotkey":
+                return `PRESS(${action.combo})`;
+            case "scroll": {
+                const [dx, dy] = action.delta || [0, 0];
+                return `SCROLL(${x}, ${y})(delta: ${dx}, ${dy})`;
+            }
+            case "drag_drop": {
+                const fx = action.from && action.from.cursor_position ? action.from.cursor_position[0] : x;
+                const fy = action.from && action.from.cursor_position ? action.from.cursor_position[1] : y;
+                return `DRAG(${fx}, ${fy} → ${x}, ${y})`;
+            }
+            default:
+                return action.event.toUpperCase().replace(/_/g, " ");
+        }
+    }
+
+    function highlightActiveAction(currentTime) {
+        const items = actionsListEl.querySelectorAll(".action-item");
+        let activeIdx = -1;
+        items.forEach((item, i) => {
+            if (parseFloat(item.dataset.timestamp) <= currentTime) activeIdx = i;
+        });
+        items.forEach((item, i) => {
+            const wasActive = item.classList.contains("is-active");
+            item.classList.toggle("is-active", i === activeIdx);
+            if (i === activeIdx && !wasActive) {
+                item.scrollIntoView({ block: "nearest", behavior: "smooth" });
+            }
+        });
+    }
+
+    async function loadAndRenderActions(user, taskId) {
+        actionsListEl.innerHTML = "";
+        actionsStatusEl.textContent = "Loading actions…";
+        actionsStatusEl.style.display = "block";
+        currentActions = [];
+
+        const path = `dataset/${encodeDatasetPath(user.path)}/${taskId}/task_${taskId}.json`;
+        try {
+            const resp = await fetch(path);
+            if (!resp.ok) throw new Error("not found");
+            const data = await resp.json();
+            currentActions = data.actions || [];
+
+            if (currentActions.length === 0) {
+                actionsStatusEl.textContent = "No actions recorded for this task.";
+                return;
+            }
+            actionsStatusEl.style.display = "none";
+
+            currentActions.forEach((action, i) => {
+                const li = document.createElement("li");
+                li.className = "action-item";
+                li.dataset.timestamp = action.timestamp;
+                li.dataset.index = i;
+
+                const label = document.createElement("span");
+                label.className = "action-label";
+                label.textContent = formatAction(action);
+
+                const ts = document.createElement("span");
+                ts.className = "action-ts";
+                ts.textContent = action.timestamp.toFixed(2) + "s";
+
+                li.appendChild(label);
+                li.appendChild(ts);
+                actionsListEl.appendChild(li);
+            });
+
+            highlightActiveAction(videoEl.currentTime || 0);
+        } catch (e) {
+            actionsStatusEl.textContent = "Actions not available for this recording.";
+        }
+    }
+
     function renderSelection() {
         const user = getSelectedUser();
         const task = getTask(selectedTaskId);
@@ -287,7 +385,13 @@
             videoEl.style.display = "none";
             videoEl.load();
         }
+
+        loadAndRenderActions(user, task.id);
     }
+
+    videoEl.addEventListener("timeupdate", () => {
+        highlightActiveAction(videoEl.currentTime);
+    });
 
     renderUsers();
     renderTaskGroups();
