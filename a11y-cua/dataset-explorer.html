@@ -57,121 +57,121 @@
     <script>
     const DATASET_TASKS = [
         {
-            id: "6",
+            id: "4",
             title: "Search for a product on an online store",
             group: "Browsing and Web",
             instruction: "Visit walmart.com on Chrome. Search for a frying pan, then click on the first product with a pan size of exactly 10 inches and add it to cart."
         },
         {
-            id: "14",
+            id: "9",
             title: "Save webpage as PDF",
             group: "Browsing and Web",
             instruction: "Find the lyrics to \"Baby Shark\" song on Chrome. Once you find the lyrics, save the webpage as a PDF so I can print it."
         },
         {
-            id: "16",
+            id: "10",
             title: "Translating the language of a webpage",
             group: "Browsing and Web",
             instruction: "Visit www.france24.com/fr. Translate the news page in French on this webpage to English using Google Translate."
         },
         {
-            id: "18",
+            id: "12",
             title: "Change default search engine",
             group: "Browsing and Web",
             instruction: "Set DuckDuckGo as the default search engine on Chrome."
         },
         {
-            id: "20",
+            id: "13",
             title: "Set an alarm on Clock",
             group: "System Operations",
             instruction: "Set an alarm for 8.30 AM that repeats every Monday."
         },
         {
-            id: "29",
+            id: "18",
             title: "Force quit an application",
             group: "System Operations",
             instruction: "Open Chrome and close the application from Task Manager."
         },
         {
-            id: "33",
+            id: "22",
             title: "Use calculator application to perform multiplication",
             group: "System Operations",
             instruction: "Compute the product of 20 and 483 on Calculator."
         },
         {
-            id: "41",
+            id: "28",
             title: "Change the theme in PowerPoint Slide",
             group: "Document Editing",
             instruction: "Open Powerpoint Slide \"Task ID 41.pptx\" in Documents > Task ID 41 folder, and change the presentation theme to \"Gallery\"."
         },
         {
-            id: "43",
+            id: "30",
             title: "Create a chart in Excel",
             group: "Document Editing",
             instruction: "Open Task ID 43.xlsx in Documents > Task 43 folder, create a bar chart where the x-axis is \"Book Title\" and the y-axis is the \"Days to Finish\"."
         },
         {
-            id: "44",
+            id: "31",
             title: "Add a formula in Excel",
             group: "Document Editing",
             instruction: "Open Task ID 44.xlsx in Documents > Task 44 folder, calculate the average of \"# Days to finish\" using mathematical functions available in Excel."
         },
         {
-            id: "50",
+            id: "35",
             title: "Capitalize the starting letter of every word in Word and add page number",
             group: "Document Editing",
             instruction: "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title and add the page number."
         },
         {
-            id: "55",
+            id: "37",
             title: "Copy text from Word to the Notes section in PowerPoint",
             group: "Workflow",
             instruction: "Copy presentation notes from word document located in Task ID 55.docx to my presentation slide Task ID 55.pptx, both in Documents > Task 55 folder."
         },
         {
-            id: "59",
+            id: "39",
             title: "Convert an Excel file into a CSV file",
             group: "Workflow",
             instruction: "Export the Task ID 59.xlsx in Documents > Task 59 folder to .csv and move it to Desktop."
         },
         {
-            id: "62",
+            id: "42",
             title: "Adding an image to a PowerPoint Presentation Slide",
             group: "Workflow",
             instruction: "Add the photo Task ID 62.jpg to Task ID 62.pptx, both in Document > Task 62 folder."
         },
         {
-            id: "63",
+            id: "43",
             title: "Save a chart from Excel as an image and insert into PowerPoint",
             group: "Workflow",
             instruction: "Insert the bar chart visualization from Task ID 63.xlsx into PowerPoint Task ID 63.pptx, both in Documents > Task 63 Folder."
         },
         {
-            id: "75",
+            id: "50",
             title: "Change the video speed",
             group: "Media",
             instruction: "Open video Task ID 75.mp4 in Documents > Task 75 folder on Media Player. Play the video in 1.5x speed."
         },
         {
-            id: "76",
+            id: "51",
             title: "Add a song to a playlist",
             group: "Media",
             instruction: "Create the playlist \"Fun with Kids\" on Media Player and add Task ID 76.mp3 in Documents > Task 76 folder to the playlist."
         },
         {
-            id: "77",
+            id: "52",
             title: "Adjust brightness on photo",
             group: "Media",
             instruction: "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1."
         },
         {
-            id: "79",
+            id: "21",
             title: "Recover a photo from Trash",
             group: "System Operations",
             instruction: "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder."
         },
         {
-            id: "90",
+            id: "60",
             title: "Compress a JPG to a smaller size",
             group: "Media",
             instruction: "Open Task ID 90.jpg in Documents > Task 90 folder on Photos app. Reduce the image size to 40%."
@@ -188,7 +188,7 @@
         { id: "Claude-Magnifier", label: "Claude Sonnet 4.5 - Magnifier-CUA", path: "Claude-Sonnet-4.5/Magnifier" }
     ];
 
-    const VIDEO_TASK_IDS = new Set(["6", "14", "16", "18", "20", "29", "33", "41", "43", "44", "50", "55", "59"]);
+    const VIDEO_TASK_IDS = new Set(["4", "9", "10", "12", "13", "18", "21", "22", "28", "30", "31", "35", "37", "39", "42", "43", "50", "51", "52", "60"]);
     const userSelect = document.getElementById("viewer-user");
     const taskGroupsEl = document.getElementById("task-groups");
     const videoEl = document.getElementById("viewer-video");
@@ -197,7 +197,7 @@
     const taskInstructionEl = document.getElementById("task-instruction");
     const actionsListEl = document.getElementById("actions-list");
     const actionsStatusEl = document.getElementById("actions-status");
-    let selectedTaskId = "6";
+    let selectedTaskId = "4";
     let currentActions = [];
 
     function encodeDatasetPath(path) {
@@ -213,7 +213,7 @@
     }
 
     function getDatasetVideoPath(user, taskId) {
-        return `dataset/${encodeDatasetPath(user.path)}/${taskId}/${taskId}.mp4`;
+        return `dataset/${encodeDatasetPath(user.path)}/${taskId}/screen.mp4`;
     }
 
     function renderUsers() {
