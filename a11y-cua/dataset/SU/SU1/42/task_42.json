@@ -1,0 +1,4493 @@
+{
+  "metadata": {
+    "task_id": 42,
+    "task_title": "Adding an image to a PowerPoint Presentation Slide",
+    "instruction": "Add the photo Task ID 62.jpg to Task ID 62.pptx, both in Document > Task 62 folder.",
+    "context": "I want to add a picture of myself to the presentation",
+    "task_group": "Workflow",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU1",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1755563209.272851,
+      "ended_at": 1755563260.4389699,
+      "duration": 51.17
+    },
+    "statistics": {
+      "total_events": 77,
+      "apps_used": [
+        "explorer.exe",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "mouse_move": 31,
+        "mouse_click": 25,
+        "scroll": 20,
+        "drag_drop": 1
+      },
+      "by_app": {
+        "explorer.exe": 18,
+        "POWERPNT.EXE": 59
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "cursor_position": [
+        1137,
+        1024
+      ],
+      "focused_element": {
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -5,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1137,
+          "y": 1024
+        },
+        "element_bounds": {
+          "left": 1096,
+          "top": 1008,
+          "right": 1162,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.72,
+          "rationale": "Move the pointer within File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.2945,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        851,
+        622
+      ],
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 851,
+          "y": 622
+        },
+        "element_bounds": {
+          "left": 748,
+          "top": 591,
+          "right": 843,
+          "bottom": 639
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Documents pinned item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 1.6781,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        851,
+        621
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 851,
+          "y": 621
+        },
+        "element_bounds": {
+          "left": 748,
+          "top": 591,
+          "right": 843,
+          "bottom": 639
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.91,
+          "rationale": "Hover over the Documents item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 2.0778,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1145,
+        705
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1145,
+          "y": 705
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 693,
+          "right": 1431,
+          "bottom": 722
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 3,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 2.1242,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1143,
+        708
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1143,
+          "y": 708
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 3,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 2.1741,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1143,
+        708
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1143,
+          "y": 708
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 3,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 2.2157,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1146,
+        716
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -4,
+        17
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1146,
+          "y": 716
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.68,
+          "rationale": "Move the pointer in the Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 2.379,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1147,
+        719
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1147,
+          "y": 719
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 7,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 2.4277,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1147,
+        720
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1147,
+          "y": 720
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 7,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 2.4723,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1148,
+        721
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1148,
+          "y": 721
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.68,
+          "rationale": "Move the pointer in the Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 2.5025,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1147,
+        720
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1147,
+          "y": 720
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 10,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 2.5497,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1147,
+        720
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1147,
+          "y": 720
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 10,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll the Explorer contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 2.7477,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1148,
+        724
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1148,
+          "y": 724
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 707,
+          "right": 1431,
+          "bottom": 736
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.68,
+          "rationale": "Move the pointer in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 3.5977,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1160,
+        685
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1160,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 664,
+          "right": 1431,
+          "bottom": 693
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 13,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.77,
+          "rationale": "Select the Task 62 folder entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 3.7896,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        1160,
+        685
+      ],
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1160,
+          "y": 685
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 664,
+          "right": 1431,
+          "bottom": 693
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 13,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Open the Task 62 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.97,
+          "rationale": "Used File Explorer to reach the Documents area and open the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Locate task folder",
+          "confidence": 0.96,
+          "rationale": "File browsing, scrolling, and opening list items to reach the Document > Task 62 folder."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 4.3219,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "cursor_position": [
+        1160,
+        684
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        11,
+        -17
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1160,
+          "y": 684
+        },
+        "element_bounds": {
+          "left": 972,
+          "top": 294,
+          "right": 1848,
+          "bottom": 940
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.91,
+          "rationale": "Hover over the Task ID 48 file entry."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Opened the PowerPoint presentation file from the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "Selects and opens Task 62.pptx from the folder list."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 5.5981,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "cursor_position": [
+        1123,
+        417
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1123,
+          "y": 417
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 392,
+          "right": 1431,
+          "bottom": 421
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 16,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.78,
+          "rationale": "Select the presentation file."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Opened the PowerPoint presentation file from the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "Selects and opens Task 62.pptx from the folder list."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 5.7784,
+      "application": "explorer.exe",
+      "window_title": "Task 62 - File Explorer",
+      "cursor_position": [
+        1123,
+        417
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1123,
+          "y": 417
+        },
+        "element_bounds": {
+          "left": 1026,
+          "top": 392,
+          "right": 1431,
+          "bottom": 421
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 16,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Open the presentation file."
+        },
+        "l4": {
+          "tag": "Navigate <Presentation>",
+          "confidence": 0.92,
+          "rationale": "Opened the PowerPoint presentation file from the Task 62 folder."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "Selects and opens Task 62.pptx from the folder list."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 7.6812,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1011,
+        429
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -111,
+        11
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1011,
+          "y": 429
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 113,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Move the pointer over the PowerPoint workspace."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 8.5509,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        442,
+        383
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 442,
+          "y": 383
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.7,
+          "rationale": "Activate the slide workspace."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 9.2909,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        442,
+        382
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 442,
+          "y": 382
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Move the pointer over the slide area."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 9.6581,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        446,
+        309
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 446,
+          "y": 309
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.7,
+          "rationale": "Click the slide workspace."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 10.3792,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        446,
+        310
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 446,
+          "y": 310
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Move the pointer over the slide area."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 10.5851,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        415,
+        417
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 415,
+          "y": 417
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.7,
+          "rationale": "Click the slide workspace."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 10.8742,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        415,
+        419
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        12
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 415,
+          "y": 419
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.76,
+          "rationale": "Move the pointer over the PowerPoint canvas."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 11.2647,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        215,
+        515
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 215,
+          "y": 515
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.73,
+          "rationale": "Switch focus to the logger window."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 13.9946,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        383,
+        745
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 383,
+          "y": 745
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Move the pointer over the slide area."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 14.3983,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1199,
+        594
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1199,
+          "y": 594
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.69,
+          "rationale": "Click the workspace again."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 14.6948,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1199,
+        594
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        10,
+        -2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1199,
+          "y": 594
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 158,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.74,
+          "rationale": "Move the pointer over the slide area."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 15.8013,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48  -  Protected View - PowerPoint",
+      "cursor_position": [
+        1454,
+        172
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1454,
+          "y": 172
+        },
+        "element_bounds": {
+          "left": 1404,
+          "top": 161,
+          "right": 1544,
+          "bottom": 200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.98,
+          "rationale": "Click Enable Editing."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.73,
+          "rationale": "Interacted with the PowerPoint protected-view workspace and clicked Enable Editing to enter editing mode."
+        },
+        "l5": {
+          "tag": "Prepare slide canvas",
+          "confidence": 0.74,
+          "rationale": "Moves between canvas and windows to bring the presentation into focus before editing."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 17.282,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        1370,
+        258
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "More Options",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -33,
+        67
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1370,
+          "y": 258
+        },
+        "element_bounds": {
+          "left": 1317,
+          "top": 221,
+          "right": 1379,
+          "bottom": 278
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.64,
+          "rationale": "Move the pointer in the PowerPoint window."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 18.855,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        510,
+        132
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Insert",
+        "control_type": "TabItemControl",
+        "automation_id": "TabInsert"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 510,
+          "y": 132
+        },
+        "element_bounds": {
+          "left": 439,
+          "top": 113,
+          "right": 518,
+          "bottom": 158
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.93,
+          "rationale": "Activate the Insert tab."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 19.1173,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        510,
+        132
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -10,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 510,
+          "y": 132
+        },
+        "element_bounds": {
+          "left": 439,
+          "top": 113,
+          "right": 518,
+          "bottom": 158
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.84,
+          "rationale": "Hover over the Insert tab."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 19.8499,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        571,
+        255
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Images",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Images",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 571,
+          "y": 255
+        },
+        "element_bounds": {
+          "left": 524,
+          "top": 161,
+          "right": 608,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the Images menu."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 20.0491,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        571,
+        255
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "Images",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 571,
+          "y": 255
+        },
+        "element_bounds": {
+          "left": 524,
+          "top": 161,
+          "right": 608,
+          "bottom": 304
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Hover over the Images menu item."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 20.4577,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        560,
+        334
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "element_under_cursor": {
+        "name": "Pictures",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Pictures",
+        "control_type": "MenuItemControl",
+        "automation_id": "FlyoutAnchorInsertPictures"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 560,
+          "y": 334
+        },
+        "element_bounds": {
+          "left": 535,
+          "top": 306,
+          "right": 597,
+          "bottom": 420
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.92,
+          "rationale": "Open the Pictures submenu."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 20.6428,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        560,
+        335
+      ],
+      "focused_element": {
+        "name": "Pictures",
+        "control_type": "MenuControl"
+      },
+      "element_under_cursor": {
+        "name": "Pictures",
+        "control_type": "MenuItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 560,
+          "y": 335
+        },
+        "element_bounds": {
+          "left": 535,
+          "top": 306,
+          "right": 597,
+          "bottom": 420
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.9,
+          "rationale": "Hover over the Pictures menu item."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 21.0905,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "cursor_position": [
+        607,
+        488
+      ],
+      "focused_element": {
+        "name": "This Device...",
+        "control_type": "MenuItemControl"
+      },
+      "element_under_cursor": {
+        "name": "This Device...",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "This Device...",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 607,
+          "y": 488
+        },
+        "element_bounds": {
+          "left": 537,
+          "top": 469,
+          "right": 755,
+          "bottom": 513
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Open <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Open the This Device file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 22.0129,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        681,
+        493
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        73,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 681,
+          "y": 493
+        },
+        "element_bounds": {
+          "left": 520,
+          "top": 209,
+          "right": 1218,
+          "bottom": 617
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Move to the file name input field."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 23.344,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        417,
+        396
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 417,
+          "y": 396
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 353,
+          "right": 452,
+          "bottom": 401
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Open the Downloads pinned folder."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 23.5889,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        417,
+        396
+      ],
+      "focused_element": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 417,
+          "y": 396
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 353,
+          "right": 452,
+          "bottom": 401
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Hover over the Downloads folder entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 23.7579,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        409,
+        407
+      ],
+      "focused_element": {
+        "name": "Downloads (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 409,
+          "y": 407
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 401,
+          "right": 453,
+          "bottom": 449
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.9,
+          "rationale": "Open the Documents pinned folder."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Open picture insert dialog",
+          "confidence": 0.83,
+          "rationale": "Uses ribbon and menu controls to start the image insertion flow and reach a file-picker chooser."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 24.1063,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        409,
+        407
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 409,
+          "y": 407
+        },
+        "element_bounds": {
+          "left": 358,
+          "top": 401,
+          "right": 453,
+          "bottom": 449
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Hover over the Documents folder entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 24.8043,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        629,
+        476
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 629,
+          "y": 476
+        },
+        "element_bounds": {
+          "left": 541,
+          "top": 474,
+          "right": 1554,
+          "bottom": 511
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 24.857,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        629,
+        477
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 629,
+          "y": 477
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.78,
+          "rationale": "Hover over the folder list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 24.8994,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        629,
+        476
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 629,
+          "y": 476
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 45,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Continue scrolling the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 24.952,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        629,
+        477
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 629,
+          "y": 477
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 45,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Continue scrolling the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 25.269,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        631,
+        484
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        7
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 631,
+          "y": 484
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.78,
+          "rationale": "Hover over the folder list."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 25.9654,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        255,
+        464
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 255,
+          "y": 464
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.72,
+          "rationale": "Switch focus to the logger window."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 27.3928,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        936,
+        63
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "TitleBarControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        12,
+        -19
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 936,
+          "y": 63
+        },
+        "element_bounds": {
+          "left": 304,
+          "top": 44,
+          "right": 1218,
+          "bottom": 86
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.67,
+          "rationale": "Move the pointer in the file dialog."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 27.4513,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 27.5087,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 27.5676,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 27.6204,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 27.671,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 27.725,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 27.7828,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 27.8335,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        896,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 896,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 50,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 27.8845,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        895,
+        480
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -41,
+        417
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 895,
+          "y": 480
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 470,
+          "right": 979,
+          "bottom": 499
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.78,
+          "rationale": "Hover over the folder list entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 28.3683,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        808,
+        461
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 808,
+          "y": 461
+        },
+        "element_bounds": {
+          "left": 520,
+          "top": 209,
+          "right": 1218,
+          "bottom": 617
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 59,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 28.4317,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        808,
+        461
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task 71",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 808,
+          "y": 461
+        },
+        "element_bounds": {
+          "left": 541,
+          "top": 425,
+          "right": 1554,
+          "bottom": 462
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 59,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.9,
+          "rationale": "Scroll within the file picker."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 28.8048,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        807,
+        460
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task 66",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -12,
+        -12
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 807,
+          "y": 460
+        },
+        "element_bounds": {
+          "left": 541,
+          "top": 425,
+          "right": 1554,
+          "bottom": 462
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Hover over the Task 62 folder entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Find photo file",
+          "confidence": 0.9,
+          "rationale": "Scrolls through lists and windows to navigate the chooser until the target image is visible."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 29.3756,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        751,
+        323
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 751,
+          "y": 323
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 301,
+          "right": 979,
+          "bottom": 330
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.8,
+          "rationale": "Select the Task 62 folder entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 29.5825,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        751,
+        323
+      ],
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 751,
+          "y": 323
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 301,
+          "right": 979,
+          "bottom": 330
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Hover over the Task 62 entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 29.6146,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        751,
+        323
+      ],
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 751,
+          "y": 323
+        },
+        "element_bounds": {
+          "left": 574,
+          "top": 301,
+          "right": 979,
+          "bottom": 330
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.95,
+          "rationale": "Open the Task 62 folder."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 29.8222,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        751,
+        323
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Items View",
+        "control_type": "ListControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 751,
+          "y": 323
+        },
+        "element_bounds": {
+          "left": 520,
+          "top": 209,
+          "right": 1218,
+          "bottom": 617
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Hover over the Task ID 48 file entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 30.5474,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        639,
+        306
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 639,
+          "y": 306
+        },
+        "element_bounds": {
+          "left": 541,
+          "top": 218,
+          "right": 699,
+          "bottom": 395
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.83,
+          "rationale": "Select the Task ID 48 image file."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 30.7311,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        642,
+        307
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        71,
+        -4
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 642,
+          "y": 307
+        },
+        "element_bounds": {
+          "left": 541,
+          "top": 218,
+          "right": 699,
+          "bottom": 395
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Hover over the selected file entry."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 31.3145,
+      "application": "POWERPNT.EXE",
+      "window_title": "Insert Picture",
+      "cursor_position": [
+        960,
+        706
+      ],
+      "focused_element": {
+        "name": "Task ID 48",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "SplitButtonControl"
+      },
+      "target": {
+        "name": "Insert",
+        "control_type": "SplitButtonControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 706
+        },
+        "element_bounds": {
+          "left": 910,
+          "top": 685,
+          "right": 1042,
+          "bottom": 724
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.97,
+          "rationale": "Click Insert to place the image."
+        },
+        "l4": {
+          "tag": "Insert <Image>",
+          "confidence": 0.95,
+          "rationale": "Started picture insertion in PowerPoint, navigated the file picker to the Task 62 JPG, and clicked Insert to add it to the slide."
+        },
+        "l5": {
+          "tag": "Insert photo into slide",
+          "confidence": 0.95,
+          "rationale": "Selects the photo and presses the button to insert it into the slide."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 32.3495,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        1001,
+        688
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        41,
+        -18
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1001,
+          "y": 688
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1889,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.77,
+          "rationale": "Move the pointer over the slide canvas."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 34.6446,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        956,
+        519
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 956,
+          "y": 519
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.7,
+          "rationale": "Click the slide workspace."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 34.7499,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        957,
+        519
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        1,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 957,
+          "y": 519
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.77,
+          "rationale": "Move the pointer over the slide canvas."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 71
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 37.4507,
+      "button": "Button.left",
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        1219,
+        525
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "from": {
+        "application": "POWERPNT.EXE",
+        "window_title": "Task ID 48 - PowerPoint",
+        "cursor_position": [
+          956,
+          519
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "PaneControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "to": {
+        "application": "POWERPNT.EXE",
+        "window_title": "Task ID 48 - PowerPoint",
+        "cursor_position": [
+          1219,
+          525
+        ],
+        "element_under_cursor": {
+          "name": "",
+          "control_type": "PaneControl"
+        },
+        "focused_element": {
+          "name": "",
+          "control_type": "PaneControl"
+        }
+      },
+      "drag_distance": 263,
+      "duration_ms": 2752,
+      "coordinates": {
+        "cursor": {
+          "x": 1219,
+          "y": 525
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move <Image>",
+          "confidence": 0.79,
+          "rationale": "Drag the inserted picture to reposition it."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 37.551,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        1219,
+        526
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1219,
+          "y": 526
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.77,
+          "rationale": "Move the pointer over the slide area."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 39.6966,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        892,
+        873
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Workspace",
+        "control_type": "PaneControl",
+        "automation_id": "3244"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 892,
+          "y": 873
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.7,
+          "rationale": "Click the slide workspace."
+        },
+        "l4": {
+          "tag": "Arrange <Image>",
+          "confidence": 0.9,
+          "rationale": "Dragged the inserted photo to reposition it on the slide."
+        },
+        "l5": {
+          "tag": "Position photo on slide",
+          "confidence": 0.94,
+          "rationale": "Selects the canvas and moves the inserted image to adjust placement on the slide."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 40.4,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        892,
+        873
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 892,
+          "y": 873
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 263,
+          "right": 1372,
+          "bottom": 992
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Move Cursor To <Canvas>",
+          "confidence": 0.77,
+          "rationale": "Move the pointer over the slide canvas."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.68,
+          "rationale": "Switched away from PowerPoint to the logger window after finishing the edit."
+        },
+        "l5": {
+          "tag": "Return to file browser",
+          "confidence": 0.8,
+          "rationale": "Switches away from the presentation window after the edit is complete."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 41.981,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 48 - PowerPoint",
+      "cursor_position": [
+        244,
+        537
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Computer Use Logger",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 244,
+          "y": 537
+        },
+        "element_bounds": {
+          "left": 163,
+          "top": 197,
+          "right": 1063,
+          "bottom": 697
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.72,
+          "rationale": "Switch focus to the logger window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.68,
+          "rationale": "Switched away from PowerPoint to the logger window after finishing the edit."
+        },
+        "l5": {
+          "tag": "Return to file browser",
+          "confidence": 0.8,
+          "rationale": "Switches away from the presentation window after the edit is complete."
+        }
+      },
+      "index": 76
+    }
+  ]
+}

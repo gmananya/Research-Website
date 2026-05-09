@@ -1,0 +1,3667 @@
+{
+  "metadata": {
+    "task_id": 30,
+    "task_title": "Create a chart in Excel",
+    "instruction": "Open Task ID 43.xlsx in Documents > Task 43 folder, create a bar chart where the x-axis is \"Book Title\" and the y-axis is the \"Days to Finish\". The title of the chart is \"Summer Reading",
+    "context": "I am tracking all the books I've read in an excel sheet. I have columns for \"Book Title\", \"# Days to Finish\", and \"Rating (1-10)\". I want to make a bar chart for how many days I took to read all the books.",
+    "task_group": "Document Editing",
+    "applications": "Excel",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763658109.5172093,
+      "ended_at": 1763658465.702034,
+      "duration": 356.18
+    },
+    "statistics": {
+      "total_events": 63,
+      "apps_used": [
+        "explorer.exe",
+        "EXCEL.EXE"
+      ],
+      "by_type": {
+        "mouse_click": 26,
+        "scroll": 2,
+        "key_press": 30,
+        "hotkey": 5
+      },
+      "by_app": {
+        "explorer.exe": 6,
+        "EXCEL.EXE": 57
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 35,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "1": 2,
+          "2": 1,
+          "Shift": 10,
+          "a": 3,
+          "r": 3,
+          ";": 2,
+          "b": 2,
+          "e": 2,
+          "m": 2,
+          "s": 2,
+          "d": 1,
+          "g": 1,
+          "i": 1,
+          "n": 1,
+          "Space": 1,
+          "u": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1095,
+        1162
+      ],
+      "element_under_cursor": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "File Explorer pinned",
+        "control_type": "ButtonControl",
+        "automation_id": "Appid: Microsoft.Windows.Explorer"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1095,
+          "y": 1162
+        },
+        "element_bounds": {
+          "left": 1063,
+          "top": 1128,
+          "right": 1129,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.99,
+          "rationale": "Launch File Explorer from the pinned app button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 12.2114,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        505,
+        648
+      ],
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 505,
+          "y": 648
+        },
+        "element_bounds": {
+          "left": 459,
+          "top": 625,
+          "right": 554,
+          "bottom": 673
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Open the Documents navigation item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 17.8452,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        705,
+        741
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 741
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 727,
+          "right": 1080,
+          "bottom": 756
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.83,
+          "rationale": "Select the Task 43 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 18.1279,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 43",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        705,
+        741
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 741
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 727,
+          "right": 1080,
+          "bottom": 756
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.94,
+          "rationale": "Open the Task 43 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 23.6971,
+      "application": "explorer.exe",
+      "window_title": "Task 43 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 43",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        717,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 717,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 383,
+          "right": 1080,
+          "bottom": 412
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.89,
+          "rationale": "Select the Task ID 43.xlsx file item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 23.9852,
+      "application": "explorer.exe",
+      "window_title": "Task 43 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 43",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        717,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 717,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 383,
+          "right": 1080,
+          "bottom": 412
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.95,
+          "rationale": "Open the workbook file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.96,
+          "rationale": "Opened File Explorer, navigated through Documents > Task 43, and launched the Excel workbook."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.99,
+          "rationale": "These actions navigate through Documents > Task 43 and open the target Excel file before any chart work begins."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 42.0918,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "F6",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 822,
+          "top": 582,
+          "right": 961,
+          "bottom": 613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.97,
+          "rationale": "Scroll the worksheet view."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 57.1023,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        195,
+        444
+      ],
+      "element_under_cursor": {
+        "name": "A10",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "A10",
+        "control_type": "DataItemControl",
+        "automation_id": "A10"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 195,
+          "y": 444
+        },
+        "element_bounds": {
+          "left": 127,
+          "top": 427,
+          "right": 266,
+          "bottom": 458
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.99,
+          "rationale": "Select cell A10."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 79.2848,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A10",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "F15",
+        "control_type": "DataItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 822,
+          "top": 582,
+          "right": 961,
+          "bottom": 613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.97,
+          "rationale": "Scroll the worksheet view."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 91.1613,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A10",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        172,
+        430
+      ],
+      "element_under_cursor": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "A1",
+        "control_type": "DataItemControl",
+        "automation_id": "A1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 430
+        },
+        "element_bounds": {
+          "left": 127,
+          "top": 427,
+          "right": 266,
+          "bottom": 458
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.99,
+          "rationale": "Select cell A1."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 99.4418,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        394,
+        786
+      ],
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B12",
+        "control_type": "DataItemControl",
+        "automation_id": "B12"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 394,
+          "y": 786
+        },
+        "element_bounds": {
+          "left": 266,
+          "top": 768,
+          "right": 405,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.99,
+          "rationale": "Select cell A1."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 108.0163,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        172,
+        445
+      ],
+      "element_under_cursor": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "A1",
+        "control_type": "DataItemControl",
+        "automation_id": "A1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 445
+        },
+        "element_bounds": {
+          "left": 127,
+          "top": 427,
+          "right": 266,
+          "bottom": 458
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.99,
+          "rationale": "Select cell A1."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 117.1098,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A1",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        394,
+        786
+      ],
+      "element_under_cursor": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B12",
+        "control_type": "DataItemControl",
+        "automation_id": "B12"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 394,
+          "y": 786
+        },
+        "element_bounds": {
+          "left": 266,
+          "top": 768,
+          "right": 405,
+          "bottom": 799
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.99,
+          "rationale": "Select cell A1."
+        },
+        "l4": {
+          "tag": "Navigate <Spreadsheet>",
+          "confidence": 0.74,
+          "rationale": "Scrolled and clicked around the worksheet to move within the sheet and locate the relevant data area."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 127.7852,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "B12",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name Box",
+        "control_type": "EditControl",
+        "automation_id": "1001"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.97,
+          "rationale": "Focus the Name Box to enter a range."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 137.7707,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 137.8631,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 137.934,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+A",
+      "mods": [
+        "Shift"
+      ],
+      "key": "a",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 137.9771,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 138.0123,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "1",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 138.0452,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 138.0757,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": ";",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 138.1051,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+;",
+      "mods": [
+        "Shift"
+      ],
+      "key": ";",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 138.1351,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 138.1661,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 138.1964,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 138.224,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+B",
+      "mods": [
+        "Shift"
+      ],
+      "key": "b",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 138.254,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 138.2863,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "1",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 138.3155,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        172,
+        373
+      ],
+      "element_under_cursor": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "2",
+      "coordinates": {
+        "cursor": {
+          "x": 172,
+          "y": 373
+        },
+        "element_bounds": {
+          "left": 103,
+          "top": 361,
+          "right": 221,
+          "bottom": 389
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.9,
+          "rationale": "Enter the A1:B12 range in the Name Box."
+        },
+        "l4": {
+          "tag": "Enter <Spreadsheet>",
+          "confidence": 0.93,
+          "rationale": "Focused the Name Box and typed the A1:B12 range to select the chart data range."
+        },
+        "l5": {
+          "tag": "Select chart data",
+          "confidence": 0.74,
+          "rationale": "The trace scrolls, selects cells, then types into a spreadsheet text field, which together most likely define the source range or data setup for the chart."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 153.7405,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        295,
+        172
+      ],
+      "element_under_cursor": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Insert",
+        "control_type": "TabItemControl",
+        "automation_id": "TabInsert"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 295,
+          "y": 172
+        },
+        "element_bounds": {
+          "left": 258,
+          "top": 150,
+          "right": 338,
+          "bottom": 195
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.9,
+          "rationale": "Activate the Insert ribbon tab."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 163.8187,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        661,
+        256
+      ],
+      "element_under_cursor": {
+        "name": "Insert Statistic Chart",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Insert Statistic Chart",
+        "control_type": "MenuItemControl",
+        "automation_id": "ChartTypeStatisticalInsertGallery"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 661,
+          "y": 256
+        },
+        "element_bounds": {
+          "left": 619,
+          "top": 240,
+          "right": 679,
+          "bottom": 276
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.93,
+          "rationale": "Choose the Statistic Chart menu item."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 180.9412,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Insert Statistic Chart",
+        "control_type": "MenuControl"
+      },
+      "cursor_position": [
+        450,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "C6",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "C6",
+        "control_type": "DataItemControl",
+        "automation_id": "C6"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 450,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 405,
+          "top": 582,
+          "right": 544,
+          "bottom": 613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.98,
+          "rationale": "Select cell C6."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 190.2511,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        642,
+        220
+      ],
+      "element_under_cursor": {
+        "name": "Insert Hierarchy Chart",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Insert Hierarchy Chart",
+        "control_type": "MenuItemControl",
+        "automation_id": "ChartTypeHierarchyInsertGallery"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 642,
+          "y": 220
+        },
+        "element_bounds": {
+          "left": 619,
+          "top": 201,
+          "right": 679,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.93,
+          "rationale": "Choose the Hierarchy Chart menu item."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 207.1037,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Insert Hierarchy Chart",
+        "control_type": "MenuControl"
+      },
+      "cursor_position": [
+        300,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "B6",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "B6",
+        "control_type": "DataItemControl",
+        "automation_id": "B6"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 300,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 266,
+          "top": 582,
+          "right": 405,
+          "bottom": 613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.98,
+          "rationale": "Select cell B6."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 219.216,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        598,
+        220
+      ],
+      "element_under_cursor": {
+        "name": "Insert Column or Bar Chart",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Insert Column or Bar Chart",
+        "control_type": "MenuItemControl",
+        "automation_id": "ChartTypeColumnInsertGallery"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 598,
+          "y": 220
+        },
+        "element_bounds": {
+          "left": 556,
+          "top": 201,
+          "right": 616,
+          "bottom": 237
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.93,
+          "rationale": "Choose the Column or Bar Chart menu item."
+        },
+        "l4": {
+          "tag": "Insert <Spreadsheet>",
+          "confidence": 0.98,
+          "rationale": "Activated the Insert tab and chose the column/bar chart option to create a chart in the workbook."
+        },
+        "l5": {
+          "tag": "Insert bar chart",
+          "confidence": 0.91,
+          "rationale": "This span uses spreadsheet insert/menu actions to add the chart object after the data has been prepared."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 232.2124,
+      "application": "EXCEL.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        597,
+        606
+      ],
+      "element_under_cursor": {
+        "name": "Clustered Bar",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 597,
+          "y": 606
+        },
+        "element_bounds": {
+          "left": 558,
+          "top": 566,
+          "right": 642,
+          "bottom": 650
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.88,
+          "rationale": "Select the inserted chart area."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 244.9872,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Name Box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.88,
+          "rationale": "Select the inserted chart area."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 255.068,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Chart Title",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 37,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.78,
+          "rationale": "Select the chart title text for editing."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 255.4648,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 37,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.78,
+          "rationale": "Select the chart title text for editing."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 255.8978,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.78,
+          "rationale": "Select the chart title text for editing."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 266.22,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 266.3211,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 266.3655,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+S",
+      "mods": [
+        "Shift"
+      ],
+      "key": "s",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 266.4466,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 266.4934,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "u",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 266.5807,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 266.6172,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "m",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 266.692,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 266.73,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 266.765,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 266.8006,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 266.8311,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 266.8567,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+R",
+      "mods": [
+        "Shift"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 266.8865,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 266.922,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "e",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 266.9571,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 266.9961,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 267.0322,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 267.0644,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 267.1008,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        798,
+        456
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "g",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 456
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.99,
+          "rationale": "Type the chart title Summer Reading."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 275.6379,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "cursor_position": [
+        750,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Chart Area",
+        "control_type": "GroupControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 750,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 440,
+          "top": 425,
+          "right": 1159,
+          "bottom": 800
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.87,
+          "rationale": "Click back on the chart area after editing the title."
+        },
+        "l4": {
+          "tag": "Edit <Canvas>",
+          "confidence": 0.95,
+          "rationale": "Selected the inserted chart, activated the chart title, typed \"Summer Reading,\" and clicked away to commit the title change."
+        },
+        "l5": {
+          "tag": "Set chart title",
+          "confidence": 0.78,
+          "rationale": "Selecting the canvas/text and typing on the chart canvas indicates editing the chart text, primarily to set the title to 'Summer Reading'."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 298.0695,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "Vertical (Category) Axis",
+        "control_type": "HeaderControl"
+      },
+      "cursor_position": [
+        225,
+        675
+      ],
+      "element_under_cursor": {
+        "name": "A9",
+        "control_type": "DataItemControl"
+      },
+      "target": {
+        "name": "A9",
+        "control_type": "DataItemControl",
+        "automation_id": "A9"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 225,
+          "y": 675
+        },
+        "element_bounds": {
+          "left": 127,
+          "top": 674,
+          "right": 266,
+          "bottom": 705
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Select <Cell>",
+          "confidence": 0.95,
+          "rationale": "Select cell A9, likely as part of chart data or axis interaction."
+        },
+        "l4": {
+          "tag": "Review <Spreadsheet>",
+          "confidence": 0.57,
+          "rationale": "Briefly clicked a worksheet cell and returned to the chart, likely checking the final workbook after the chart was created."
+        },
+        "l5": {
+          "tag": "Verify final chart",
+          "confidence": 0.66,
+          "rationale": "The final selections on the canvas/cell look like a brief check of the finished spreadsheet and chart after editing is complete."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 321.7159,
+      "application": "EXCEL.EXE",
+      "window_title": "Task ID 43 - Excel",
+      "focused_element": {
+        "name": "A9",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        798,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "target": {
+        "name": "Chart Area",
+        "control_type": "GroupControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 798,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 794,
+          "top": 497,
+          "right": 796,
+          "bottom": 770
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Select <Canvas>",
+          "confidence": 0.87,
+          "rationale": "Return focus to the chart area."
+        },
+        "l4": {
+          "tag": "Review <Spreadsheet>",
+          "confidence": 0.57,
+          "rationale": "Briefly clicked a worksheet cell and returned to the chart, likely checking the final workbook after the chart was created."
+        },
+        "l5": {
+          "tag": "Verify final chart",
+          "confidence": 0.66,
+          "rationale": "The final selections on the canvas/cell look like a brief check of the finished spreadsheet and chart after editing is complete."
+        }
+      },
+      "index": 62
+    }
+  ]
+}

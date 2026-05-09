@@ -1,0 +1,4251 @@
+{
+  "metadata": {
+    "task_id": 13,
+    "task_title": "Set an alarm on Clock",
+    "instruction": "Set an alarm for 8.30 AM that repeats every Monday",
+    "context": "I need an alarm to remind me to badge in to work.",
+    "task_group": "System Operations",
+    "applications": "Clock",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756667592.6098776,
+      "ended_at": 1756667700.3923185,
+      "duration": 107.78
+    },
+    "statistics": {
+      "total_events": 76,
+      "apps_used": [
+        "explorer.exe",
+        "ApplicationFrameHost.exe"
+      ],
+      "by_type": {
+        "key_press": 70,
+        "hotkey": 6
+      },
+      "by_app": {
+        "explorer.exe": 1,
+        "ApplicationFrameHost.exe": 75
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 75,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "0": 1,
+          "3": 1,
+          "Tab": 37,
+          "Down": 10,
+          "Up": 8,
+          "Left": 6,
+          "Shift": 5,
+          "Enter": 3,
+          "Space": 3,
+          "Right": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.55,
+          "rationale": "Win key opens the Start/window interface."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 8.297,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.76,
+          "rationale": "Tab moves focus from the current button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 9.4634,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.76,
+          "rationale": "Tab advances keyboard focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 10.5557,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.76,
+          "rationale": "Tab advances keyboard focus to the next button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 11.7436,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.76,
+          "rationale": "Tab advances keyboard focus to the next button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 13.0198,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.75,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 14.2899,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.73,
+          "rationale": "Tab advances focus from the sign-in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 15.2748,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.73,
+          "rationale": "Tab advances focus from the sign-in button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 15.3579,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab moves focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 15.4643,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab moves focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 16.9567,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab moves focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 17.0699,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 17.1373,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 18.2551,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 18.3732,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Get started",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 19.4861,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 20.4231,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.88,
+          "rationale": "Space activates the Focus sessions list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 22.3743,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Up arrow moves focus within the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 23.1539,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Up arrow moves focus within the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 23.7344,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Up arrow moves focus within the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 24.0651,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Up arrow moves focus within the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 24.559,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus from a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 25.6183,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus from a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 25.74,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.7,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 25.8241,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "World clock",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.7,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 27.5018,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.7,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 28.5544,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.7,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 30.0901,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Toggle navigation",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.94,
+          "rationale": "Enter activates the Toggle navigation button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 31.9895,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.68,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 33.9164,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 35.0537,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 36.3084,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Edit alarm, Good morning, 7‎:‎00‎AM, Every day, ",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 40.2804,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Edit alarm, Good morning, 7‎:‎00‎AM, Every day, ",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 41.6743,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Edit alarm, Good morning, 7‎:‎00‎AM, Every day, ",
+        "control_type": "DataItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.69,
+          "rationale": "Tab advances focus to a list item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 42.1378,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm On Off",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 43.8075,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Edit alarms",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 46.0322,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.72,
+          "rationale": "Tab advances focus to a button."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 47.9386,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.95,
+          "rationale": "Enter activates Add an alarm."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.91,
+          "rationale": "The user opens the Clock app environment and uses keyboard navigation to move through the app’s sections until reaching and activating the Add an alarm control."
+        },
+        "l5": {
+          "tag": "Open alarm app",
+          "confidence": 0.93,
+          "rationale": "Opens the app and navigates through menus to reach the alarm setup area."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 52.9663,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "Tab moves focus to the minutes field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 54.5534,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "Tab moves focus to the minutes field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 54.6643,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "Tab moves focus to the minutes field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 54.7672,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "Tab moves focus to the minutes field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 56.0169,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the hour value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 57.6168,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.7,
+          "rationale": "Tab moves focus to the minutes field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 60.6686,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 61.5797,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 62.2526,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 62.5531,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 62.7864,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 63.0495,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 63.4338,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 63.7265,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 63.975,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 64.1523,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 64.325,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Select <Text>",
+          "confidence": 0.62,
+          "rationale": "Up arrow adjusts the minutes value."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 64.9184,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "3",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.97,
+          "rationale": "Types the minute digit 3."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 65.0381,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "minutes",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "0",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.97,
+          "rationale": "Types the minute digit 3."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set alarm time",
+          "confidence": 0.98,
+          "rationale": "Focuses the time field and types the requested 8:30 AM alarm time."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 66.6744,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "period",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.66,
+          "rationale": "Tab moves focus to the period selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 68.058,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm name",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.73,
+          "rationale": "Tab moves focus to the alarm name field."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 69.9042,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Repeat alarm",
+        "control_type": "CheckBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Focus To <Checkbox>",
+          "confidence": 0.75,
+          "rationale": "Tab moves focus to the Repeat alarm checkbox."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 71.8405,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Repeat alarm",
+        "control_type": "CheckBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Toggle <Checkbox>",
+          "confidence": 0.98,
+          "rationale": "Space toggles the Repeat alarm checkbox."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 72.7702,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sunday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.67,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 74.2085,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm sound, after expansion, please use the space bar to play the sound, use the enter key to select the sound",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.66,
+          "rationale": "Tab moves focus to the alarm sound selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 76.2221,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm sound, after expansion, please use the space bar to play the sound, use the enter key to select the sound",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.66,
+          "rationale": "Tab moves focus to the alarm sound selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 76.3438,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Saturday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 76.445,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Saturday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 78.1028,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Friday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 79.2029,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Thursday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 79.4388,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Wednesday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 79.6851,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Tuesday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 80.6545,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Monday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus to a day-of-week list item."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 81.8912,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Monday",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.96,
+          "rationale": "Space selects Monday as a repeat day."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Set Monday repeat",
+          "confidence": 0.96,
+          "rationale": "Enables repetition and selects Monday to make the alarm recur weekly."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 84.9035,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Alarm sound, after expansion, please use the space bar to play the sound, use the enter key to select the sound",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab moves focus to the alarm sound selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Save alarm",
+          "confidence": 0.97,
+          "rationale": "Moves to the final button and confirms the alarm settings."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 85.8544,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Snooze time",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab moves focus to the alarm sound selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Save alarm",
+          "confidence": 0.97,
+          "rationale": "Moves to the final button and confirms the alarm settings."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 87.2259,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.74,
+          "rationale": "Tab moves focus to the alarm sound selector."
+        },
+        "l4": {
+          "tag": "Schedule <Application>",
+          "confidence": 0.97,
+          "rationale": "The user sets the alarm time to 8:30 AM and configures recurrence by enabling repeat and selecting Monday, along with the related alarm options on the alarm setup screen."
+        },
+        "l5": {
+          "tag": "Save alarm",
+          "confidence": 0.97,
+          "rationale": "Moves to the final button and confirms the alarm settings."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 88.3378,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1274,
+        241
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1274,
+          "y": 241
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.99,
+          "rationale": "Enter activates Save."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "The user activates Save to finalize the new alarm settings."
+        },
+        "l5": {
+          "tag": "Save alarm",
+          "confidence": 0.97,
+          "rationale": "Moves to the final button and confirms the alarm settings."
+        }
+      },
+      "index": 75
+    }
+  ]
+}

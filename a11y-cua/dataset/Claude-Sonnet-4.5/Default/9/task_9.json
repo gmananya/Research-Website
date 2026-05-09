@@ -1,0 +1,4501 @@
+{
+  "metadata": {
+    "task_id": 9,
+    "task_title": "Save webage as PDF",
+    "instruction": "Find the lyrics to \"Baby Shark\" song on Chrome. Once you find the lyrics, save the webpage as a PDF so I can print it.",
+    "context": "I want to print the lyrics to \"Baby Shark\" song.",
+    "task_group": "Browsing and Web",
+    "applications": "Chrome",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763649052.96367,
+      "ended_at": 1763649602.471188,
+      "duration": 549.51
+    },
+    "statistics": {
+      "total_events": 78,
+      "apps_used": [
+        "explorer.exe",
+        "chrome.exe"
+      ],
+      "by_type": {
+        "mouse_click": 14,
+        "key_press": 44,
+        "hotkey": 5,
+        "scroll": 15
+      },
+      "by_app": {
+        "explorer.exe": 3,
+        "chrome.exe": 75
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 49,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Shift": 10,
+          "b": 6,
+          "s": 6,
+          "a": 4,
+          "r": 4,
+          "Space": 4,
+          "y": 4,
+          "l": 3,
+          "c": 2,
+          "h": 2,
+          "i": 2,
+          "k": 2
+        }
+      }
+    },
+    "web": {
+      "tabs": [
+        {
+          "order": 1,
+          "first_ts": 54.2325,
+          "url": "https://www.google.com/search?q=baby+shark+lyrics&rlz=1C1CHBF_enUS1184US1187&oq=Baby+Shark+lyrics&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgiwAgHxBRFt2Fcv8cZb&sourceid=chrome&ie=UTF-8",
+          "title": "baby shark lyrics - Google Search",
+          "file": "/task_logs/14/web_logs/web_tab1_1763649131301.json",
+          "dom_url": "/task_logs/User 18/14/web_logs/web_tab1_1763649131301.html",
+          "a11y_url": "/task_logs/User 18/14/web_logs/web_tab1_1763649131301_a11y_tree.json"
+        },
+        {
+          "order": 2,
+          "first_ts": 95.2015,
+          "url": "https://www.google.com/search?q=baby+shark+lyrics&rlz=1C1CHBF_enUS1184US1187&oq=Baby+Shark+lyrics&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQo0ODQ3N2owajE1qAIIsAIB8QURbdhXL_HGWw&sourceid=chrome&ie=UTF-8",
+          "title": "baby shark lyrics - Google Search",
+          "file": "/task_logs/14/web_logs/web_tab2_1763649172270.json",
+          "dom_url": "/task_logs/User 18/14/web_logs/web_tab2_1763649172270.html",
+          "a11y_url": "/task_logs/User 18/14/web_logs/web_tab2_1763649172270_a11y_tree.json"
+        },
+        {
+          "order": 3,
+          "first_ts": 96.2945,
+          "url": "https://supersimple.com/song/baby-shark/?sl=English",
+          "title": "Baby Shark - Super Simple Songs",
+          "file": "/task_logs/14/web_logs/web_tab3_1763649173363.json",
+          "dom_url": "/task_logs/User 18/14/web_logs/web_tab3_1763649173363.html",
+          "a11y_url": "/task_logs/User 18/14/web_logs/web_tab3_1763649173363_a11y_tree.json"
+        }
+      ],
+      "total_events": 27,
+      "by_tab": {
+        "1::54.2325": 1,
+        "2::95.2015": 3,
+        "3::96.2945": 23
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        166,
+        66
+      ],
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 166,
+          "y": 66
+        },
+        "element_bounds": {
+          "left": 112,
+          "top": 5,
+          "right": 224,
+          "bottom": 134
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Launch Google Chrome from the app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Launching Chrome from the app list and dismissing the restore prompt to reach the browser workspace."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.98,
+          "rationale": "Initial browser/application navigation and closing setup screens to begin searching for the Baby Shark lyrics."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 14.7893,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        166,
+        66
+      ],
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 166,
+          "y": 66
+        },
+        "element_bounds": {
+          "left": 112,
+          "top": 5,
+          "right": 224,
+          "bottom": 134
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Launch Google Chrome from the app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Launching Chrome from the app list and dismissing the restore prompt to reach the browser workspace."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.98,
+          "rationale": "Initial browser/application navigation and closing setup screens to begin searching for the Baby Shark lyrics."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 15.0372,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        166,
+        66
+      ],
+      "element_under_cursor": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 166,
+          "y": 66
+        },
+        "element_bounds": {
+          "left": 112,
+          "top": 5,
+          "right": 224,
+          "bottom": 134
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.98,
+          "rationale": "Launch Google Chrome from the app list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Launching Chrome from the app list and dismissing the restore prompt to reach the browser workspace."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.98,
+          "rationale": "Initial browser/application navigation and closing setup screens to begin searching for the Baby Shark lyrics."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 28.7893,
+      "application": "chrome.exe",
+      "window_title": "Restore pages?",
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1606,
+        175
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1606,
+          "y": 175
+        },
+        "element_bounds": {
+          "left": 1588,
+          "top": 157,
+          "right": 1625,
+          "bottom": 191
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.88,
+          "rationale": "Dismiss the restore-pages prompt."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Launching Chrome from the app list and dismissing the restore prompt to reach the browser workspace."
+        },
+        "l5": {
+          "tag": "Open Chrome",
+          "confidence": 0.98,
+          "rationale": "Initial browser/application navigation and closing setup screens to begin searching for the Baby Shark lyrics."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 37.1351,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Address and search bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl",
+        "automation_id": "input"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 277,
+          "top": 187,
+          "right": 1658,
+          "bottom": 1103
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <Search Box>",
+          "confidence": 0.96,
+          "rationale": "Focus the address/search bar to start a search."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 45.2509,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 396,
+          "top": 580,
+          "right": 1515,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 45.3357,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 45.389,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+B",
+      "mods": [
+        "Shift"
+      ],
+      "key": "b",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 45.4212,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 45.446,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 45.4713,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 45.5031,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 45.5349,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 45.5607,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 45.5865,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 45.6139,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+S",
+      "mods": [
+        "Shift"
+      ],
+      "key": "s",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 45.6423,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 45.6718,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 45.7028,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 45.7357,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 45.7602,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 45.7896,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 45.8137,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 45.8335,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 45.8516,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 45.8691,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 45.8868,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 45.9135,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        960,
+        618
+      ],
+      "element_under_cursor": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 618
+        },
+        "element_bounds": {
+          "left": 407,
+          "top": 580,
+          "right": 1527,
+          "bottom": 652
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Type <Search Box>",
+          "confidence": 0.92,
+          "rationale": "Begin typing the search query."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 85.5907,
+      "application": "chrome.exe",
+      "window_title": "New Tab - Google Chrome",
+      "focused_element": {
+        "name": "Search Google or type a URL",
+        "control_type": "ComboBoxControl"
+      },
+      "cursor_position": [
+        561,
+        687
+      ],
+      "element_under_cursor": {
+        "name": "Apple",
+        "control_type": "HyperlinkControl"
+      },
+      "target": {
+        "name": "",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 561,
+          "y": 687
+        },
+        "element_bounds": {
+          "left": 535,
+          "top": 679,
+          "right": 704,
+          "bottom": 847
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.74,
+          "rationale": "Open the selected search suggestion or result."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 95.1004,
+      "application": "chrome.exe",
+      "window_title": "baby shark lyrics - Google Search - Google Chrome",
+      "focused_element": {
+        "name": "baby shark lyrics - Google Search",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        394,
+        690
+      ],
+      "element_under_cursor": {
+        "name": "Baby Shark",
+        "control_type": "TextControl"
+      },
+      "target": {
+        "name": "Baby Shark",
+        "control_type": "TextControl",
+        "automation_id": "_nyYfadnKAp7Bwt0PhZfp6AE_46"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 394,
+          "y": 690
+        },
+        "element_bounds": {
+          "left": 319,
+          "top": 664,
+          "right": 469,
+          "bottom": 711
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.81,
+          "rationale": "Open the Baby Shark search result."
+        },
+        "l4": {
+          "tag": "Search <Web>",
+          "confidence": 0.97,
+          "rationale": "Focusing the Chrome search bar, entering 'baby shark lyrics', and opening the search result to find the lyrics online."
+        },
+        "l5": {
+          "tag": "Search Baby Shark lyrics",
+          "confidence": 0.99,
+          "rationale": "Focused web search in the browser to find a page containing the Baby Shark song lyrics."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 121.5123,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Super Simple App",
+        "control_type": "ImageControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": 505,
+          "right": 1616,
+          "bottom": 654
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 135.6812,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Super Simple App",
+        "control_type": "ImageControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": 55,
+          "right": 1616,
+          "bottom": 204
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 149.2331,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -217,
+          "right": 1616,
+          "bottom": 525
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 161.3442,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -998,
+          "right": 1616,
+          "bottom": 4012
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 171.6423,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -1448,
+          "right": 1616,
+          "bottom": 3562
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 182.1054,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "FLASHCARDS (2)",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 310,
+          "top": 108,
+          "right": 1601,
+          "bottom": 186
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 194.9692,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -2348,
+          "right": 1616,
+          "bottom": 2662
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 207.4705,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -2798,
+          "right": 1616,
+          "bottom": 2212
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 219.3029,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -3548,
+          "right": 1616,
+          "bottom": 1462
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 235.8612,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Cardboard Tube Family Craft",
+        "control_type": "HyperlinkControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 810,
+          "top": -168,
+          "right": 1087,
+          "bottom": -137
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 251.4699,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 295,
+          "top": -5048,
+          "right": 1616,
+          "bottom": -38
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 268.1087,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "Find Finny – Interactive Storybook",
+        "control_type": "TextControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 746,
+          "top": -175,
+          "right": 1152,
+          "bottom": -129
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 30,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Scroll the song page to locate the lyrics."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 285.2487,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Baby Shark - Super Simple Songs",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        955,
+        1039
+      ],
+      "element_under_cursor": {
+        "name": "SHOW MORE ↓",
+        "control_type": "HyperlinkControl"
+      },
+      "target": {
+        "name": "SHOW MORE ↓",
+        "control_type": "HyperlinkControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 955,
+          "y": 1039
+        },
+        "element_bounds": {
+          "left": 865,
+          "top": 1017,
+          "right": 1046,
+          "bottom": 1059
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Open <Link>",
+          "confidence": 0.89,
+          "rationale": "Expand the page contents with the show-more link."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 302.2926,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "SHOW LESS ↑",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 277,
+          "top": 298,
+          "right": 1634,
+          "bottom": 4062
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 43,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Continue scrolling through the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 316.9278,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "SHOW LESS ↑",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 277,
+          "top": -152,
+          "right": 1634,
+          "bottom": 3612
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 43,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Continue scrolling through the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 333.1848,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "SHOW LESS ↑",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 277,
+          "top": -602,
+          "right": 1634,
+          "bottom": 3162
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 43,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Scroll <Webpage>",
+          "confidence": 0.98,
+          "rationale": "Continue scrolling through the lyrics page."
+        },
+        "l4": {
+          "tag": "View <Website>",
+          "confidence": 0.96,
+          "rationale": "Scrolling and expanding the song page to reveal and inspect the lyrics content on the website."
+        },
+        "l5": {
+          "tag": "Review lyrics page",
+          "confidence": 0.96,
+          "rationale": "Browsing and scrolling the website content to reach the lyrics page and confirm the text needed for printing."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 372.449,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "SHOW LESS ↑",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1624,
+        100
+      ],
+      "element_under_cursor": {
+        "name": "Chrome",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Chrome",
+        "control_type": "ButtonControl",
+        "automation_id": "view_1007"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1624,
+          "y": 100
+        },
+        "element_bounds": {
+          "left": 1599,
+          "top": 75,
+          "right": 1650,
+          "bottom": 126
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.79,
+          "rationale": "Open the Chrome menu to access printing."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.98,
+          "rationale": "Opening Chrome’s menu, choosing Print, and sending the webpage into the print/export workflow."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.98,
+          "rationale": "Opened the print/export controls to turn the lyrics webpage into a printable PDF."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 391.022,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1308,
+        769
+      ],
+      "element_under_cursor": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl"
+      },
+      "target": {
+        "name": "Print… Ctrl+P",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1308,
+          "y": 769
+        },
+        "element_bounds": {
+          "left": 1200,
+          "top": 748,
+          "right": 1650,
+          "bottom": 791
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Print <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Choose the Print command from the menu."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.98,
+          "rationale": "Opening Chrome’s menu, choosing Print, and sending the webpage into the print/export workflow."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.98,
+          "rationale": "Opened the print/export controls to turn the lyrics webpage into a printable PDF."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 429.7913,
+      "application": "chrome.exe",
+      "window_title": "Baby Shark - Super Simple Songs - Google Chrome",
+      "focused_element": {
+        "name": "Print",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1414,
+        1003
+      ],
+      "element_under_cursor": {
+        "name": "Print",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Print",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1414,
+          "y": 1003
+        },
+        "element_bounds": {
+          "left": 1363,
+          "top": 975,
+          "right": 1464,
+          "bottom": 1029
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Print <Button>",
+          "confidence": 0.97,
+          "rationale": "Send the page to the print workflow."
+        },
+        "l4": {
+          "tag": "Export <Website>",
+          "confidence": 0.98,
+          "rationale": "Opening Chrome’s menu, choosing Print, and sending the webpage into the print/export workflow."
+        },
+        "l5": {
+          "tag": "Save webpage as PDF",
+          "confidence": 0.98,
+          "rationale": "Opened the print/export controls to turn the lyrics webpage into a printable PDF."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 467.2474,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "File name:",
+        "control_type": "EditControl",
+        "automation_id": "1001"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Focus the file-name field in the save dialog."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 484.9836,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 485.0439,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 485.0776,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+B",
+      "mods": [
+        "Shift"
+      ],
+      "key": "b",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 485.1084,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 485.1402,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 485.1718,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "b",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 485.2044,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 485.236,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 485.2677,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 485.3008,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 485.3351,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+S",
+      "mods": [
+        "Shift"
+      ],
+      "key": "s",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 485.3671,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 485.3987,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "h",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 485.4337,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 485.4662,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 485.4988,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 485.5275,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Space",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 485.5576,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 485.5856,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 68,
+          "endIndex": 68
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 485.6142,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+L",
+      "mods": [
+        "Shift"
+      ],
+      "key": "l",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 69,
+          "endIndex": 69
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 485.642,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 70,
+          "endIndex": 70
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 485.6714,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "y",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 485.7002,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 485.7318,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "i",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 73,
+          "endIndex": 73
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 73
+    },
+    {
+      "timestamp": 485.7622,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "c",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 74,
+          "endIndex": 74
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 74
+    },
+    {
+      "timestamp": 485.7928,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        843,
+        499
+      ],
+      "element_under_cursor": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 843,
+          "y": 499
+        },
+        "element_bounds": {
+          "left": 480,
+          "top": 487,
+          "right": 1190,
+          "bottom": 514
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 75,
+          "endIndex": 75
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Begin typing the PDF file name."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 75
+    },
+    {
+      "timestamp": 502.1058,
+      "application": "chrome.exe",
+      "window_title": "Save Print Output As",
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        984,
+        670
+      ],
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 984,
+          "y": 670
+        },
+        "element_bounds": {
+          "left": 919,
+          "top": 650,
+          "right": 1051,
+          "bottom": 689
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 76,
+          "endIndex": 76
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.98,
+          "rationale": "Save the file as a PDF."
+        },
+        "l4": {
+          "tag": "Enter <Application>",
+          "confidence": 0.94,
+          "rationale": "Entering the PDF file name in the save dialog and clicking Save to write out the print output."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 76
+    },
+    {
+      "timestamp": 519.9123,
+      "application": "chrome.exe",
+      "window_title": "Confirm Save As",
+      "focused_element": {
+        "name": "No",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1029,
+        583
+      ],
+      "element_under_cursor": {
+        "name": "Yes",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Yes",
+        "control_type": "ButtonControl",
+        "automation_id": "CommandButton_6"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1029,
+          "y": 583
+        },
+        "element_bounds": {
+          "left": 978,
+          "top": 565,
+          "right": 1083,
+          "bottom": 602
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 77,
+          "endIndex": 77
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.9,
+          "rationale": "Confirm the overwrite/save prompt."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Confirming the save/overwrite prompt to finalize creation of the PDF file."
+        },
+        "l5": {
+          "tag": "Save PDF file",
+          "confidence": 0.97,
+          "rationale": "Entered text in the save dialog to name the PDF before completing the export."
+        }
+      },
+      "index": 77
+    }
+  ]
+}

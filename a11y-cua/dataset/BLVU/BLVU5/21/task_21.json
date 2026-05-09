@@ -1,0 +1,3733 @@
+{
+  "metadata": {
+    "task_id": 21,
+    "task_title": "Recover a photo from Trash",
+    "instruction": "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder.",
+    "context": "I accidentally deleted a file with the name Task ID 79.jpg.",
+    "task_group": "System Operation",
+    "applications": "Recycle bin",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756667331.6895938,
+      "ended_at": 1756667403.247316,
+      "duration": 71.56
+    },
+    "statistics": {
+      "total_events": 67,
+      "apps_used": [
+        "explorer.exe"
+      ],
+      "by_type": {
+        "key_press": 63,
+        "hotkey": 4
+      },
+      "by_app": {
+        "explorer.exe": 67
+      },
+      "keystrokes": {
+        "total_hotkeys": 4,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 56,
+        "hotkeys": {
+          "Ctrl+Left": 2,
+          "Ctrl+\u0017": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 40,
+          "Enter": 5,
+          "Up": 5,
+          "a": 1,
+          "k": 1,
+          "Menu": 1,
+          "r": 1,
+          "s": 1,
+          "t": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.77,
+          "rationale": "Type-ahead on the desktop list selects Recycle Bin."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.1526,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Recycle Bin",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Enter opens the focused Recycle Bin item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 4.3316,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "18",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves focus within the Recycle Bin list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 5.6085,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "6",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves focus within the Recycle Bin list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 6.5209,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "18",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves focus within the Recycle Bin list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 6.748,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves focus within the Recycle Bin list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Opened Recycle Bin and moved through the item list to focus the deleted file Task ID 79."
+        },
+        "l5": {
+          "tag": "Open Recycle Bin",
+          "confidence": 0.92,
+          "rationale": "These actions navigate into the Recycle Bin area and focus the deleted-item list, setting up recovery."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 8.6656,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Menu",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.82,
+          "rationale": "Menu key opens the context menu for the selected item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 10.2686,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 11.4466,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Cut",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 12.5301,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Delete",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 12.721,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Send to My Phone",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 14.2517,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Share",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 15.1499,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 15.3925,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Compress to...",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 15.9066,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Properties",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 16.3156,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Compress to...",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 16.5376,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves to the Delete menu item."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 18.1299,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "Restore",
+        "control_type": "MenuItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.99,
+          "rationale": "Enter activates Restore from the context menu."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.99,
+          "rationale": "Opened the context menu on Task ID 79 and selected Restore to recover it."
+        },
+        "l5": {
+          "tag": "Restore selected file",
+          "confidence": 0.89,
+          "rationale": "The window/menu interactions match choosing the restore command for the selected deleted file."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 20.8671,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "18",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.86,
+          "rationale": "Ctrl+W-style shortcut closes the current Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 21.1355,
+      "application": "explorer.exe",
+      "window_title": "Recycle Bin - File Explorer",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "\u0017",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.86,
+          "rationale": "Ctrl+W-style shortcut closes the current Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 21.2301,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+\u0017",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "\u0017",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Close <Window>",
+          "confidence": 0.86,
+          "rationale": "Ctrl+W-style shortcut closes the current Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 21.8693,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins the Win+R shortcut to open Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 22.0281,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins the Win+R shortcut to open Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 22.1832,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.99,
+          "rationale": "Win key begins the Win+R shortcut to open Run."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 23.1341,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the cursor within the Run edit box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 23.2394,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the cursor within the Run edit box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 23.3187,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the cursor within the Run edit box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 23.3928,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the cursor within the Run edit box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 23.4714,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl+Left moves the cursor within the Run edit box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 24.3937,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.91,
+          "rationale": "Enter executes the default Open action in the Run dialog."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 25.4367,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.74,
+          "rationale": "Enter activates the Documents File Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 26.6349,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "t",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.72,
+          "rationale": "Typing t type-selects a matching Task folder in Documents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 26.7999,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "a",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.72,
+          "rationale": "Typing t type-selects a matching Task folder in Documents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 26.8862,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "s",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.72,
+          "rationale": "Typing t type-selects a matching Task folder in Documents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 26.9704,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "k",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.72,
+          "rationale": "Typing t type-selects a matching Task folder in Documents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 27.8892,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 12",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 28.1475,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 29.4728,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 31",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 30.7565,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 34",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 31.6518,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 32.2121,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 38",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 32.9687,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 33.4048,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 42",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 33.6789,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 43",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 33.8699,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 44",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 34.6007,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 46",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 35.2408,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 35.4974,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 36.1156,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 50",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 37.0855,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 52",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 37.6549,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 55",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 38.4412,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 58",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 39.1479,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 59",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 39.6911,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 60",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 40.349,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 61",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 41.512,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 62",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 42.5625,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 63",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 42.8923,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 64",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 44.0448,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 70",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 44.3479,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 72",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 45.3593,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 73",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 60,
+          "endIndex": 60
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 46.6868,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 61,
+          "endIndex": 61
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 48.0102,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 49.3177,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 63,
+          "endIndex": 63
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 50.6152,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 79",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 64,
+          "endIndex": 64
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.97,
+          "rationale": "Up arrow moves focus within the Documents item list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "Closed the Recycle Bin window to leave it and continue."
+        },
+        "l5": {
+          "tag": "Navigate to Task 79 folder",
+          "confidence": 0.84,
+          "rationale": "The trace opens File Explorer and navigates through location controls and folder items toward Documents > Task 79 to check the original destination."
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 51.9395,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 79",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 65,
+          "endIndex": 65
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.99,
+          "rationale": "Enter opens the Task 79 folder."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.87,
+          "rationale": "Opened the Task 79 folder and moved to Task ID 79 to verify the restored file is present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.72,
+          "rationale": "Final focus/review actions appear to inspect the folder contents and confirm the file is present."
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 56.1018,
+      "application": "explorer.exe",
+      "window_title": "Task 79 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 79",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1091,
+        104
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1091,
+          "y": 104
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 66,
+          "endIndex": 66
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.96,
+          "rationale": "Down arrow moves focus to Task ID 79 inside the folder for verification."
+        },
+        "l4": {
+          "tag": "Review <Application>",
+          "confidence": 0.87,
+          "rationale": "Opened the Task 79 folder and moved to Task ID 79 to verify the restored file is present."
+        },
+        "l5": {
+          "tag": "Verify restored file location",
+          "confidence": 0.72,
+          "rationale": "Final focus/review actions appear to inspect the folder contents and confirm the file is present."
+        }
+      },
+      "index": 66
+    }
+  ]
+}

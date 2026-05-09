@@ -1,0 +1,2385 @@
+{
+  "metadata": {
+    "task_id": 28,
+    "task_title": "Change the theme in Power Point Slide",
+    "instruction": "Open Powerpoint Slide \"Task ID 41.pptx\" in Documents > Task ID 41 folder, and change the presentation theme to \"Gallery\".",
+    "context": "I want to change my presentation's theme to a colorful one.",
+    "task_group": "Document Editing",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756743650.415326,
+      "ended_at": 1756743743.638003,
+      "duration": 93.22
+    },
+    "statistics": {
+      "total_events": 42,
+      "apps_used": [
+        "explorer.exe",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "key_press": 38,
+        "hotkey": 4
+      },
+      "by_app": {
+        "explorer.exe": 28,
+        "POWERPNT.EXE": 14
+      },
+      "keystrokes": {
+        "total_hotkeys": 4,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 30,
+        "hotkeys": {
+          "Ctrl+Left": 2,
+          "Alt+Tab": 1,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 13,
+          "Enter": 7,
+          "Right": 5,
+          "Tab": 2,
+          "Up": 2,
+          "F6": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.62,
+          "rationale": "Tabbing within the task switcher moves focus among windows."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.142,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+Tab",
+      "mods": [
+        "Alt"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "task_switch"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.97,
+          "rationale": "Alt+Tab switches to the selected window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.3991,
+      "application": "explorer.exe",
+      "window_title": "Task Switching",
+      "focused_element": {
+        "name": "Scene",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1280,
+          "bottom": 672
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.58,
+          "rationale": "Tab moves focus to the next item in the task switcher list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 7.5386,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.8,
+          "rationale": "Pressing the Windows key opens the Start or launcher window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 7.841,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.98,
+          "rationale": "Typing the letter r into the Run dialog input."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 8.1382,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.84,
+          "rationale": "Win+R opens the Run dialog window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 9.4053,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.7,
+          "rationale": "Starting caret navigation inside the Run text field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 9.519,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.7,
+          "rationale": "Starting caret navigation inside the Run text field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 9.5928,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.7,
+          "rationale": "Starting caret navigation inside the Run text field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 9.6763,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.7,
+          "rationale": "Starting caret navigation inside the Run text field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 9.737,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.7,
+          "rationale": "Starting caret navigation inside the Run text field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 10.4403,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.76,
+          "rationale": "Enter executes the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 11.1235,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.76,
+          "rationale": "Enter executes the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 13.5541,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 12",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 13.7221,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 21",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 13.9147,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 31",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 14.0867,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 34",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 14.4454,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 36",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 14.5291,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 38",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 14.6263,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 14.7822,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 42",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 14.9145,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 43",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 16.3375,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 42",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 17.7515,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves to the next folder item in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 18.81,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.91,
+          "rationale": "Enter opens the selected Task 41 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 20.2722,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.83,
+          "rationale": "Down arrow moves focus within the Task 41 folder contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 20.743,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.83,
+          "rationale": "Down arrow moves focus within the Task 41 folder contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 21.456,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.92,
+          "rationale": "Enter opens the selected PowerPoint file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.92,
+          "rationale": "The user moves through system windows, opens File Explorer, browses to Documents > Task 41, and opens the PowerPoint file to reach the target presentation."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 32.7017,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Be careful—files from the Internet can contain viruses. Unless you need to edit, it's safer to stay in Protected View.",
+        "control_type": "HyperlinkControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "F6",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.58,
+          "rationale": "F6 cycles focus within PowerPoint and moves toward the protected view controls."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "In Protected View, the user confirms the file should be editable by activating Enable Editing so changes can be made in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 35.5123,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.94,
+          "rationale": "Tab moves focus to the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "In Protected View, the user confirms the file should be editable by activating Enable Editing so changes can be made in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 36.7761,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41  -  Protected View - PowerPoint",
+      "focused_element": {
+        "name": "Enable Editing",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.96,
+          "rationale": "Enter activates the Enable Editing button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "In Protected View, the user confirms the file should be editable by activating Enable Editing so changes can be made in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.95,
+          "rationale": "This span covers navigating through the application and file dialogs to reach Documents > Task ID 41 and open Task ID 41.pptx, which is the file-launch phase of the task."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 43.2447,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Slide 1 - Animals ",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <Window>",
+          "confidence": 0.66,
+          "rationale": "Alt shifts keyboard focus to the ribbon and access keys."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 46.3998,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Insert",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.82,
+          "rationale": "Right arrow moves among ribbon tabs toward Design."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 46.9492,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Design",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.82,
+          "rationale": "Right arrow moves among ribbon tabs toward Design."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 47.0664,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Design",
+        "control_type": "TabItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Move Focus To <Menu Item>",
+          "confidence": 0.82,
+          "rationale": "Right arrow moves among ribbon tabs toward Design."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 48.4154,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Themes",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.67,
+          "rationale": "Down on the Themes button opens the theme gallery."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 53.0888,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Themes",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.42,
+          "rationale": "Down continues navigation within the themes control."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 55.2131,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "Themes",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.74,
+          "rationale": "Enter opens the themes gallery from the Themes button."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 59.6038,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Office Theme",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus into the theme gallery list."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 63.7628,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Facet",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus into the theme gallery list."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 67.8021,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Gallery",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Tab moves focus into the theme gallery list."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 71.74,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1233,
+        209
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1233,
+          "y": 209
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.95,
+          "rationale": "Enter applies the focused Gallery theme."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.98,
+          "rationale": "The user navigates to the Design tab, opens the Themes gallery, and selects Gallery to change the presentation's theme appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This final span covers the presentation formatting controls used to choose the theme and apply Gallery, matching the requested theme change."
+        }
+      },
+      "index": 41
+    }
+  ]
+}

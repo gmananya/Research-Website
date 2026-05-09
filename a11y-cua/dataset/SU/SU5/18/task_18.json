@@ -1,11 +1,11 @@
 {
   "metadata": {
     "task_id": 18,
-    "task_title": "Change default search engine",
-    "instruction": "Set DuckDuckGo as the default search engine on Chrome",
-    "context": "I prefer a privacy-focused search engine and want to use DuckDuckGo by default.",
-    "task_group": "Browsing and Web",
-    "applications": "Chrome",
+    "task_title": "Force quit an application",
+    "instruction": "Open Chrome and close the application from Task Manager",
+    "context": "I'm browsing on Chrome but it is frozen.",
+    "task_group": "System Operations",
+    "applications": "Task Manager, Chrome",
     "success": true,
     "user_info": {
       "user_type": "SU",
@@ -13,24 +13,23 @@
       "condition": "sighted"
     },
     "session": {
-      "started_at": 1756075011.6619997,
-      "ended_at": 1756075150.0112073,
-      "duration": 138.35
+      "started_at": 1756175628.1157691,
+      "ended_at": 1756175678.187125,
+      "duration": 50.07
     },
     "statistics": {
-      "total_events": 55,
+      "total_events": 9,
       "apps_used": [
         "explorer.exe",
         "chrome.exe"
       ],
       "by_type": {
-        "mouse_click": 21,
-        "mouse_move": 20,
-        "scroll": 14
+        "mouse_click": 5,
+        "mouse_move": 4
       },
       "by_app": {
-        "explorer.exe": 1,
-        "chrome.exe": 54
+        "explorer.exe": 7,
+        "chrome.exe": 2
       },
       "keystrokes": {
         "total_hotkeys": 0,
@@ -48,8 +47,8 @@
       "application": "explorer.exe",
       "window_title": "Program Manager",
       "cursor_position": [
-        72,
-        215
+        28,
+        195
       ],
       "focused_element": {
         "name": "Google Chrome",
@@ -67,8 +66,8 @@
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 72,
-          "y": 215
+          "x": 28,
+          "y": 195
         },
         "element_bounds": {
           "left": 0,
@@ -85,29 +84,29 @@
         },
         "l3": {
           "tag": "Open <List Item>",
-          "confidence": 0.96,
-          "rationale": "Clicked the Google Chrome list item to launch Chrome."
+          "confidence": 0.97,
+          "rationale": "Clicked the Google Chrome app entry in Program Manager to launch/open Chrome."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.96,
-          "rationale": "Launched Google Chrome from Program Manager, opening the browser application."
+          "confidence": 0.98,
+          "rationale": "Selected the Google Chrome list item in Program Manager to launch the Chrome application."
         },
         "l5": {
           "tag": "Open Chrome",
-          "confidence": 0.96,
-          "rationale": "Launches the browser from the app list so the user can start changing Chrome's default search engine."
+          "confidence": 0.63,
+          "rationale": "The list-item open action followed by moving to the search box fits the initial step of locating and launching Chrome."
         }
       },
       "index": 0
     },
     {
-      "timestamp": 1.4999,
+      "timestamp": 1.5976,
       "application": "chrome.exe",
       "window_title": "New Tab - Google Chrome",
       "cursor_position": [
-        85,
-        208
+        41,
+        199
       ],
       "focused_element": {
         "name": "Address and search bar",
@@ -119,13 +118,13 @@
       },
       "event": "mouse_move",
       "delta": [
-        21,
-        54
+        13,
+        5
       ],
       "coordinates": {
         "cursor": {
-          "x": 85,
-          "y": 208
+          "x": 41,
+          "y": 199
         },
         "element_bounds": {
           "left": 0,
@@ -142,54 +141,54 @@
         },
         "l3": {
           "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer toward the address/search bar."
+          "confidence": 0.9,
+          "rationale": "Moved the mouse over Chrome's address/search bar area."
         },
         "l4": {
           "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "confidence": 0.74,
+          "rationale": "Moved the cursor to the Chrome address/search bar area, navigating within the browser interface."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Open Chrome",
+          "confidence": 0.63,
+          "rationale": "The list-item open action followed by moving to the search box fits the initial step of locating and launching Chrome."
         }
       },
       "index": 1
     },
     {
-      "timestamp": 6.1147,
+      "timestamp": 3.756,
       "application": "chrome.exe",
       "window_title": "New Tab - Google Chrome",
       "cursor_position": [
-        1755,
-        117
+        1553,
+        1042
       ],
       "focused_element": {
         "name": "Address and search bar",
         "control_type": "EditControl"
       },
       "element_under_cursor": {
-        "name": "Chrome",
+        "name": "Show Hidden Icons",
         "control_type": "ButtonControl"
       },
       "target": {
-        "name": "Chrome",
+        "name": "Show Hidden Icons",
         "control_type": "ButtonControl",
-        "automation_id": "view_1007"
+        "automation_id": "SystemTrayIcon"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1755,
-          "y": 117
+          "x": 1553,
+          "y": 1042
         },
         "element_bounds": {
-          "left": 1746,
-          "top": 102,
-          "right": 1797,
-          "bottom": 153
+          "left": 1531,
+          "top": 1008,
+          "right": 1579,
+          "bottom": 1080
         }
       },
       "semantic_tags": {
@@ -200,53 +199,53 @@
         },
         "l3": {
           "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the Chrome menu button to open browser options."
+          "confidence": 0.96,
+          "rationale": "Clicked the Show Hidden Icons button to open the system tray overflow."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
         }
       },
       "index": 2
     },
     {
-      "timestamp": 10.1062,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
+      "timestamp": 5.9391,
+      "application": "explorer.exe",
+      "window_title": "System tray overflow window.",
       "cursor_position": [
-        1752,
-        121
+        1545,
+        1042
       ],
       "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
+        "name": "OBS Studio",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Chrome",
+        "name": "Show Hidden Icons Hide",
         "control_type": "ButtonControl"
       },
       "event": "mouse_move",
       "delta": [
-        -3,
-        5
+        -8,
+        -1
       ],
       "coordinates": {
         "cursor": {
-          "x": 1752,
-          "y": 121
+          "x": 1545,
+          "y": 1042
         },
         "element_bounds": {
-          "left": 1746,
-          "top": 102,
-          "right": 1797,
-          "bottom": 153
+          "left": 1531,
+          "top": 1008,
+          "right": 1579,
+          "bottom": 1080
         }
       },
       "semantic_tags": {
@@ -256,55 +255,55 @@
           "endIndex": 3
         },
         "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer over the address/search bar again."
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.88,
+          "rationale": "Moved the cursor toward the OBS Studio tray button in the overflow window."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
         }
       },
       "index": 3
     },
     {
-      "timestamp": 16.1025,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
+      "timestamp": 8.8318,
+      "application": "explorer.exe",
+      "window_title": "System tray overflow window.",
       "cursor_position": [
-        1600,
-        256
+        1475,
+        1038
       ],
       "focused_element": {
-        "name": "New Incognito window Ctrl+Shift+N",
-        "control_type": "MenuItemControl"
+        "name": "OBS Studio",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "New Incognito window Ctrl+Shift+N",
-        "control_type": "MenuItemControl"
+        "name": "",
+        "control_type": "PaneControl"
       },
       "target": {
-        "name": "New Incognito window Ctrl+Shift+N",
-        "control_type": "MenuItemControl",
+        "name": "DesktopWindowXamlSource",
+        "control_type": "PaneControl",
         "automation_id": ""
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1600,
-          "y": 256
+          "x": 1475,
+          "y": 1038
         },
         "element_bounds": {
-          "left": 1347,
-          "top": 255,
-          "right": 1797,
-          "bottom": 297
+          "left": 0,
+          "top": 1008,
+          "right": 1920,
+          "bottom": 1080
         }
       },
       "semantic_tags": {
@@ -314,34 +313,34 @@
           "endIndex": 4
         },
         "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.97,
-          "rationale": "Activated the New Incognito window menu item."
+          "tag": "Select <Window>",
+          "confidence": 0.63,
+          "rationale": "Clicked inside the tray overflow popup/window area to activate it."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
         }
       },
       "index": 4
     },
     {
-      "timestamp": 19.0694,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
+      "timestamp": 10.1127,
+      "application": "explorer.exe",
+      "window_title": "",
       "cursor_position": [
-        1600,
-        265
+        1478,
+        1031
       ],
       "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
+        "name": "Task Manager",
+        "control_type": "MenuItemControl"
       },
       "element_under_cursor": {
         "name": "",
@@ -349,19 +348,19 @@
       },
       "event": "mouse_move",
       "delta": [
-        -1,
-        9
+        2,
+        -8
       ],
       "coordinates": {
         "cursor": {
-          "x": 1600,
-          "y": 265
+          "x": 1478,
+          "y": 1031
         },
         "element_bounds": {
-          "left": 262,
-          "top": 229,
-          "right": 1820,
-          "bottom": 1019
+          "left": 0,
+          "top": 1008,
+          "right": 1920,
+          "bottom": 1080
         }
       },
       "semantic_tags": {
@@ -371,55 +370,55 @@
           "endIndex": 5
         },
         "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer to the address/search bar in the incognito window."
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.94,
+          "rationale": "Moved the cursor to the Task Manager menu item."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
         }
       },
       "index": 5
     },
     {
-      "timestamp": 22.3535,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
+      "timestamp": 11.2626,
+      "application": "explorer.exe",
+      "window_title": "",
       "cursor_position": [
-        1782,
-        142
+        1592,
+        933
       ],
       "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
+        "name": "Task Manager",
+        "control_type": "MenuItemControl"
       },
       "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
+        "name": "Task Manager",
+        "control_type": "TextControl"
       },
       "target": {
-        "name": "Chrome",
-        "control_type": "ButtonControl",
-        "automation_id": "view_1007"
+        "name": "Task Manager",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1782,
-          "y": 142
+          "x": 1592,
+          "y": 933
         },
         "element_bounds": {
-          "left": 1761,
-          "top": 117,
-          "right": 1812,
-          "bottom": 168
+          "left": 1542,
+          "top": 913,
+          "right": 1690,
+          "bottom": 941
         }
       },
       "semantic_tags": {
@@ -429,2775 +428,137 @@
           "endIndex": 6
         },
         "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the Chrome menu button again."
+          "tag": "Open <Menu Item>",
+          "confidence": 0.97,
+          "rationale": "Clicked the Task Manager menu item to open Task Manager."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "Opened the system tray overflow and selected the Task Manager menu item to reach and launch Task Manager."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "Select Chrome process",
+          "confidence": 0.78,
+          "rationale": "The run through application, window, button, and menu-item controls matches finding the frozen Chrome process and choosing its end-task action in Task Manager."
         }
       },
       "index": 6
     },
     {
-      "timestamp": 30.2247,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
+      "timestamp": 35.7993,
+      "application": "explorer.exe",
+      "window_title": "",
       "cursor_position": [
-        1782,
-        142
+        1196,
+        103
       ],
       "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
+        "name": "",
+        "control_type": "PaneControl"
       },
       "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
+        "name": "Desktop",
+        "control_type": "ListControl"
       },
-      "target": {
-        "name": "Chrome",
-        "control_type": "ButtonControl",
-        "automation_id": "view_1007"
-      },
-      "event": "mouse_click",
+      "event": "mouse_move",
+      "delta": [
+        -397,
+        -820
+      ],
       "coordinates": {
         "cursor": {
-          "x": 1782,
-          "y": 142
+          "x": 1196,
+          "y": 103
         },
         "element_bounds": {
-          "left": 1761,
-          "top": 117,
-          "right": 1812,
-          "bottom": 168
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "B",
+          "tag": "P",
           "startIndex": 7,
           "endIndex": 7
         },
         "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the Chrome menu button again."
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.62,
+          "rationale": "Moved the cursor within the Task Manager window in preparation for ending the task."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Used Task Manager's End task button to finalize force-closing Chrome."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "End Chrome task",
+          "confidence": 0.85,
+          "rationale": "The final window focus and delete-button action complete the confirmation needed to close Chrome."
         }
       },
       "index": 7
     },
     {
-      "timestamp": 30.6187,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
+      "timestamp": 36.8379,
+      "application": "explorer.exe",
+      "window_title": "",
       "cursor_position": [
-        1778,
-        142
+        545,
+        458
       ],
       "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
+        "name": "",
+        "control_type": "PaneControl"
       },
       "element_under_cursor": {
-        "name": "Chrome",
+        "name": "",
         "control_type": "ButtonControl"
       },
-      "event": "mouse_move",
-      "delta": [
-        -7,
-        8
-      ],
+      "target": {
+        "name": "",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1778,
-          "y": 142
+          "x": 545,
+          "y": 458
         },
         "element_bounds": {
-          "left": 1761,
-          "top": 117,
-          "right": 1812,
-          "bottom": 168
+          "left": 384,
+          "top": 443,
+          "right": 614,
+          "bottom": 492
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "P",
+          "tag": "B",
           "startIndex": 8,
           "endIndex": 8
         },
         "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer over the address/search bar."
+          "tag": "Delete <Button>",
+          "confidence": 0.7,
+          "rationale": "Clicked the Task Manager action button used to terminate/remove the Chrome process (End task)."
         },
         "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
+          "tag": "Confirm <Application>",
+          "confidence": 0.96,
+          "rationale": "Used Task Manager's End task button to finalize force-closing Chrome."
         },
         "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
+          "tag": "End Chrome task",
+          "confidence": 0.85,
+          "rationale": "The final window focus and delete-button action complete the confirmation needed to close Chrome."
         }
       },
       "index": 8
-    },
-    {
-      "timestamp": 32.5162,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        661,
-        74
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "New Tab",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 661,
-          "y": 74
-        },
-        "element_bounds": {
-          "left": 637,
-          "top": 48,
-          "right": 680,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the New Tab button to open a tab."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 32.9119,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        677,
-        71
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        10,
-        -5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 677,
-          "y": 71
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1004,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer toward the address/search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 36.1003,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        957,
-        82
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "New Incognito Tab - Google Chrome (Incognito)",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 957,
-          "y": 82
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1004,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.84,
-          "rationale": "Clicked the tab/pane area to switch the active tab/window."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 36.604,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        950,
-        80
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -8,
-        -2
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 950,
-          "y": 80
-        },
-        "element_bounds": {
-          "left": 697,
-          "top": 48,
-          "right": 1614,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer over the address/search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 37.5482,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        660,
-        75
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "New Tab",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 660,
-          "y": 75
-        },
-        "element_bounds": {
-          "left": 637,
-          "top": 48,
-          "right": 680,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the New Tab button again."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 38.7394,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        656,
-        75
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -5,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 656,
-          "y": 75
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1004,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer to the address/search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 39.5155,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        608,
-        79
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "New Incognito Tab - Google Chrome (Incognito)",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 608,
-          "y": 79
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1004,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.84,
-          "rationale": "Clicked the incognito tab/pane area to activate it."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 40.2166,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        624,
-        77
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        16,
-        -2
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 624,
-          "y": 77
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 647,
-          "bottom": 110
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer over the address/search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 41.7263,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1794,
-        134
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Chrome",
-        "control_type": "ButtonControl",
-        "automation_id": "view_1007"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1794,
-          "y": 134
-        },
-        "element_bounds": {
-          "left": 1761,
-          "top": 117,
-          "right": 1812,
-          "bottom": 168
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked the Chrome menu button to open options."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 42.4296,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1790,
-        147
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -7,
-        13
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1790,
-          "y": 147
-        },
-        "element_bounds": {
-          "left": 1761,
-          "top": 117,
-          "right": 1812,
-          "bottom": 168
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer toward the address/search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 57.1448,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "SeparatorControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 681,
-          "right": 1812,
-          "bottom": 707
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 57.1946,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "New window Ctrl+N",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Print… Ctrl+P",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 675,
-          "right": 1812,
-          "bottom": 717
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 57.2366,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Print… Ctrl+P",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Search with Google Lens",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 648,
-          "right": 1812,
-          "bottom": 690
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 57.2797,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Search with Google Lens",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 684,
-          "right": 1812,
-          "bottom": 726
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 57.3298,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 57.3705,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 57.4666,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 57.5278,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 57.5665,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 57.6059,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 57.6636,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 57.7019,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 57.7377,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 57.7785,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1591,
-        689
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1591,
-          "y": 689
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 19,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolled the Chrome window/menu to reveal more items."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 32
-    },
-    {
-      "timestamp": 58.0637,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1589,
-        712
-      ],
-      "focused_element": {
-        "name": "Find and edit",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Translate…",
-        "control_type": "MenuItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        47,
-        436
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1589,
-          "y": 712
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 670,
-          "right": 1812,
-          "bottom": 713
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 33,
-          "endIndex": 33
-        },
-        "l3": {
-          "tag": "Move Cursor To <Menu Item>",
-          "confidence": 0.9,
-          "rationale": "Moved the pointer to the Settings menu item."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 33
-    },
-    {
-      "timestamp": 59.0009,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1520,
-        931
-      ],
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Settings",
-        "control_type": "MenuItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1520,
-          "y": 931
-        },
-        "element_bounds": {
-          "left": 1362,
-          "top": 906,
-          "right": 1812,
-          "bottom": 948
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 34,
-          "endIndex": 34
-        },
-        "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.97,
-          "rationale": "Opened Chrome Settings from the menu item."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.9,
-          "rationale": "Navigated through Chrome's browser controls and menus, including opening the menu, incognito window, tabs, and scrolling to reach Settings."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.84,
-          "rationale": "Uses Chrome navigation, repeated search-box focus, menu actions, and scrolling to get to the search engine settings area."
-        }
-      },
-      "index": 34
-    },
-    {
-      "timestamp": 61.4184,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1514,
-        921
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings",
-        "control_type": "DocumentControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -9,
-        -16
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1514,
-          "y": 921
-        },
-        "element_bounds": {
-          "left": 247,
-          "top": 163,
-          "right": 1804,
-          "bottom": 1003
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 35,
-          "endIndex": 35
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer to the Search settings field."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 35
-    },
-    {
-      "timestamp": 66.6889,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        440,
-        644
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search engine",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Search engine",
-        "control_type": "MenuItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 440,
-          "y": 644
-        },
-        "element_bounds": {
-          "left": 248,
-          "top": 608,
-          "right": 620,
-          "bottom": 668
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 36,
-          "endIndex": 36
-        },
-        "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.92,
-          "rationale": "Opened the Search engine settings item."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 36
-    },
-    {
-      "timestamp": 69.2199,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        450,
-        629
-      ],
-      "focused_element": {
-        "name": "Search engine",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Search engine",
-        "control_type": "MenuItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        10,
-        -17
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 450,
-          "y": 629
-        },
-        "element_bounds": {
-          "left": 248,
-          "top": 608,
-          "right": 620,
-          "bottom": 668
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 37,
-          "endIndex": 37
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "Moved the pointer over the settings page content."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 37
-    },
-    {
-      "timestamp": 71.3676,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        788,
-        229
-      ],
-      "focused_element": {
-        "name": "Search engine",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 788,
-          "y": 229
-        },
-        "element_bounds": {
-          "left": 682,
-          "top": 178,
-          "right": 1721,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 38,
-          "endIndex": 38
-        },
-        "l3": {
-          "tag": "Select <Webpage>",
-          "confidence": 0.69,
-          "rationale": "Clicked page content on the Search engine settings page."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 38
-    },
-    {
-      "timestamp": 72.1243,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        788,
-        222
-      ],
-      "focused_element": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 788,
-          "y": 222
-        },
-        "element_bounds": {
-          "left": 682,
-          "top": 178,
-          "right": 1721,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 39,
-          "endIndex": 39
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "Moved the pointer over the settings page content."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 39
-    },
-    {
-      "timestamp": 73.1396,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        786,
-        186
-      ],
-      "focused_element": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 786,
-          "y": 186
-        },
-        "element_bounds": {
-          "left": 682,
-          "top": 178,
-          "right": 1721,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 40,
-          "endIndex": 40
-        },
-        "l3": {
-          "tag": "Select <Webpage>",
-          "confidence": 0.69,
-          "rationale": "Clicked page content on the Search engine settings page."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 40
-    },
-    {
-      "timestamp": 73.753,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        786,
-        193
-      ],
-      "focused_element": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -3,
-        15
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 786,
-          "y": 193
-        },
-        "element_bounds": {
-          "left": 682,
-          "top": 178,
-          "right": 1721,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 41,
-          "endIndex": 41
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "Moved the pointer over the settings page content."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 41
-    },
-    {
-      "timestamp": 74.5725,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        821,
-        210
-      ],
-      "focused_element": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Search settings",
-        "control_type": "EditControl",
-        "automation_id": "searchInput"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 821,
-          "y": 210
-        },
-        "element_bounds": {
-          "left": 733,
-          "top": 188,
-          "right": 1712,
-          "bottom": 222
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 42,
-          "endIndex": 42
-        },
-        "l3": {
-          "tag": "Select <Search Box>",
-          "confidence": 0.94,
-          "rationale": "Clicked the Search settings input to focus it."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 42
-    },
-    {
-      "timestamp": 75.5163,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        831,
-        213
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        14,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 831,
-          "y": 213
-        },
-        "element_bounds": {
-          "left": 733,
-          "top": 188,
-          "right": 1712,
-          "bottom": 222
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 43,
-          "endIndex": 43
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.93,
-          "rationale": "Moved the pointer over the Search settings input."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 43
-    },
-    {
-      "timestamp": 79.1216,
-      "application": "chrome.exe",
-      "window_title": "Settings - Search engine - Google Chrome",
-      "cursor_position": [
-        1227,
-        575
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Settings - Search engine",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1227,
-          "y": 575
-        },
-        "element_bounds": {
-          "left": 691,
-          "top": 535,
-          "right": 1712,
-          "bottom": 608
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 44,
-          "endIndex": 44
-        },
-        "l3": {
-          "tag": "Open <Link>",
-          "confidence": 0.83,
-          "rationale": "Activated the link that opens Manage search engines and site search."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.91,
-          "rationale": "Moved within Chrome Settings from the search settings area to the Search engine section and opened Manage search engines and site search."
-        },
-        "l5": {
-          "tag": "Find DuckDuckGo option",
-          "confidence": 0.75,
-          "rationale": "Interacts with the settings webpage and related links/selection controls to open the DuckDuckGo search engine entry or details."
-        }
-      },
-      "index": 44
-    },
-    {
-      "timestamp": 84.7961,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        1237,
-        574
-      ],
-      "focused_element": {
-        "name": "Manage search engines and site search subpage back button",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings - Manage search engines and site search",
-        "control_type": "DocumentControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        13,
-        20
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1237,
-          "y": 574
-        },
-        "element_bounds": {
-          "left": 247,
-          "top": 163,
-          "right": 1804,
-          "bottom": 1003
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 45,
-          "endIndex": 45
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.92,
-          "rationale": "Moved the pointer to the back button on the subpage."
-        },
-        "l4": {
-          "tag": "Confirm <Website>",
-          "confidence": 0.98,
-          "rationale": "Opened DuckDuckGo's more actions menu and selected Make default to finalize DuckDuckGo as the default search engine."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.89,
-          "rationale": "Uses button and menu-item selection to confirm DuckDuckGo as the chosen default search engine."
-        }
-      },
-      "index": 45
-    },
-    {
-      "timestamp": 85.7214,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        1655,
-        520
-      ],
-      "focused_element": {
-        "name": "Manage search engines and site search subpage back button",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "More actions for DuckDuckGo",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "More actions for DuckDuckGo",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1655,
-          "y": 520
-        },
-        "element_bounds": {
-          "left": 1627,
-          "top": 506,
-          "right": 1676,
-          "bottom": 555
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 46,
-          "endIndex": 46
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.98,
-          "rationale": "Opened the More actions menu for DuckDuckGo."
-        },
-        "l4": {
-          "tag": "Confirm <Website>",
-          "confidence": 0.98,
-          "rationale": "Opened DuckDuckGo's more actions menu and selected Make default to finalize DuckDuckGo as the default search engine."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.89,
-          "rationale": "Uses button and menu-item selection to confirm DuckDuckGo as the chosen default search engine."
-        }
-      },
-      "index": 46
-    },
-    {
-      "timestamp": 87.235,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        1651,
-        525
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "MenuControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings - Manage search engines and site search",
-        "control_type": "DocumentControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -7,
-        13
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1651,
-          "y": 525
-        },
-        "element_bounds": {
-          "left": 247,
-          "top": 163,
-          "right": 1804,
-          "bottom": 1003
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 47,
-          "endIndex": 47
-        },
-        "l3": {
-          "tag": "Move Cursor To <Menu Item>",
-          "confidence": 0.82,
-          "rationale": "Moved the pointer within the actions menu toward a menu item."
-        },
-        "l4": {
-          "tag": "Confirm <Website>",
-          "confidence": 0.98,
-          "rationale": "Opened DuckDuckGo's more actions menu and selected Make default to finalize DuckDuckGo as the default search engine."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.89,
-          "rationale": "Uses button and menu-item selection to confirm DuckDuckGo as the chosen default search engine."
-        }
-      },
-      "index": 47
-    },
-    {
-      "timestamp": 88.2953,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        1602,
-        579
-      ],
-      "focused_element": {
-        "name": "Make default",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Make default",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Make default",
-        "control_type": "MenuItemControl",
-        "automation_id": "makeDefault"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1602,
-          "y": 579
-        },
-        "element_bounds": {
-          "left": 1483,
-          "top": 551,
-          "right": 1676,
-          "bottom": 606
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 48,
-          "endIndex": 48
-        },
-        "l3": {
-          "tag": "Select <Menu Item>",
-          "confidence": 0.99,
-          "rationale": "Selected Make default to set DuckDuckGo as the default search engine."
-        },
-        "l4": {
-          "tag": "Confirm <Website>",
-          "confidence": 0.98,
-          "rationale": "Opened DuckDuckGo's more actions menu and selected Make default to finalize DuckDuckGo as the default search engine."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.89,
-          "rationale": "Uses button and menu-item selection to confirm DuckDuckGo as the chosen default search engine."
-        }
-      },
-      "index": 48
-    },
-    {
-      "timestamp": 92.6452,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        1592,
-        569
-      ],
-      "focused_element": {
-        "name": "Settings - Manage search engines and site search",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -11,
-        -12
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1592,
-          "y": 569
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 0,
-          "bottom": 0
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 49,
-          "endIndex": 49
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "Moved the pointer over the settings page after making the change."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 49
-    },
-    {
-      "timestamp": 100.8324,
-      "application": "chrome.exe",
-      "window_title": "Settings - Manage search engines and site search - Google Chrome",
-      "cursor_position": [
-        943,
-        63
-      ],
-      "focused_element": {
-        "name": "Settings - Manage search engines and site search",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "Settings - Manage search engines and site search - Google Chrome",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 943,
-          "y": 63
-        },
-        "element_bounds": {
-          "left": 247,
-          "top": 33,
-          "right": 989,
-          "bottom": 95
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 50,
-          "endIndex": 50
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.81,
-          "rationale": "Clicked the tab area to switch back to another Chrome window/tab."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 50
-    },
-    {
-      "timestamp": 104.5055,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        949,
-        56
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        8,
-        -8
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 949,
-          "y": 56
-        },
-        "element_bounds": {
-          "left": 682,
-          "top": 33,
-          "right": 1599,
-          "bottom": 95
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 51,
-          "endIndex": 51
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.91,
-          "rationale": "Moved the pointer to the address/search bar in the New Tab window."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 51
-    },
-    {
-      "timestamp": 106.1075,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        1779,
-        71
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "New Tab - Google Chrome",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1779,
-          "y": 71
-        },
-        "element_bounds": {
-          "left": 247,
-          "top": 33,
-          "right": 1805,
-          "bottom": 215
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 52,
-          "endIndex": 52
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.81,
-          "rationale": "Clicked the tab area to switch to the incognito window/tab."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 52
-    },
-    {
-      "timestamp": 106.8155,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1774,
-        67
-      ],
-      "focused_element": {
-        "name": "New Incognito Tab",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -5,
-        -4
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1774,
-          "y": 67
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1820,
-          "bottom": 230
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 53,
-          "endIndex": 53
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.77,
-          "rationale": "Moved the pointer over the incognito page content."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 53
-    },
-    {
-      "timestamp": 108.905,
-      "application": "chrome.exe",
-      "window_title": "New Incognito Tab - Google Chrome",
-      "cursor_position": [
-        1788,
-        72
-      ],
-      "focused_element": {
-        "name": "New Incognito Tab",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "New Incognito Tab - Google Chrome (Incognito)",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1788,
-          "y": 72
-        },
-        "element_bounds": {
-          "left": 262,
-          "top": 48,
-          "right": 1820,
-          "bottom": 230
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 54,
-          "endIndex": 54
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.8,
-          "rationale": "Clicked the incognito tab/pane area again to activate it."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.85,
-          "rationale": "Switched among Chrome tabs/windows after the change, staying within the browser interface."
-        },
-        "l5": {
-          "tag": "Return to browser",
-          "confidence": 0.71,
-          "rationale": "Switches windows after the selection is made, indicating the setup is finished and focus is returning to the browser."
-        }
-      },
-      "index": 54
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "metadata": {
     "task_id": 50,
-    "task_title": "Capitalize the starting letter of every word in Word",
-    "instruction": "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title.",
-    "context": "I am writing an article on Word and I want to modify the title format based on the guidelines.",
-    "task_group": "Document Editing",
-    "applications": "Word",
+    "task_title": "Change the video speed",
+    "instruction": "Open video Task ID 75.mp4 in Documents > Task 75 folder on Windows Media Player. Play the video in 1.5x speed.",
+    "context": "I'm watching a video on Windows Media Player, but I'm on a time crunch so I want to speed through it.",
+    "task_group": "Media",
+    "applications": "Windows Media Player",
     "success": true,
     "user_info": {
       "user_type": "SU",
@@ -13,42 +13,33 @@
       "condition": "sighted"
     },
     "session": {
-      "started_at": 1755557284.6814203,
-      "ended_at": 1755557308.6279807,
-      "duration": 23.95
+      "started_at": 1755787682.706908,
+      "ended_at": 1755787716.8768141,
+      "duration": 34.17
     },
     "statistics": {
-      "total_events": 62,
+      "total_events": 27,
       "apps_used": [
         "explorer.exe",
-        "WINWORD.EXE"
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::MediaPlayer"
       ],
       "by_type": {
-        "mouse_move": 8,
-        "mouse_click": 7,
-        "scroll": 2,
-        "key_press": 41,
-        "hotkey": 4
+        "mouse_move": 13,
+        "mouse_click": 13,
+        "drag_drop": 1
       },
       "by_app": {
-        "explorer.exe": 12,
-        "WINWORD.EXE": 50
+        "explorer.exe": 9,
+        "ApplicationFrameHost.exe": 18
       },
       "keystrokes": {
         "total_hotkeys": 0,
         "total_screen_reader_commands": 0,
-        "total_other_keys": 45,
+        "total_other_keys": 0,
         "hotkeys": {},
         "screen_reader_commands": {},
-        "other_keys": {
-          "Right": 26,
-          "Backspace": 4,
-          "s": 4,
-          "Shift": 4,
-          "Left": 3,
-          "c": 2,
-          "t": 2
-        }
+        "other_keys": {}
       }
     }
   },
@@ -58,8 +49,8 @@
       "application": "explorer.exe",
       "window_title": "Home - File Explorer",
       "cursor_position": [
-        1126,
-        1029
+        1121,
+        1053
       ],
       "focused_element": {
         "name": "",
@@ -71,13 +62,13 @@
       },
       "event": "mouse_move",
       "delta": [
-        -7,
-        0
+        16,
+        23
       ],
       "coordinates": {
         "cursor": {
-          "x": 1126,
-          "y": 1029
+          "x": 1121,
+          "y": 1053
         },
         "element_bounds": {
           "left": 1096,
@@ -95,28 +86,28 @@
         "l3": {
           "tag": "Move Cursor To <Window>",
           "confidence": 0.95,
-          "rationale": "Hovering in the File Explorer home window."
+          "rationale": "Mouse moves within the File Explorer window."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 0
     },
     {
-      "timestamp": 1.454,
+      "timestamp": 0.9643,
       "application": "explorer.exe",
       "window_title": "Home - File Explorer",
       "cursor_position": [
-        986,
-        611
+        792,
+        648
       ],
       "focused_element": {
         "name": "Recommended",
@@ -134,14 +125,14 @@
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 986,
-          "y": 611
+          "x": 792,
+          "y": 648
         },
         "element_bounds": {
-          "left": 777,
-          "top": 579,
-          "right": 872,
-          "bottom": 627
+          "left": 740,
+          "top": 609,
+          "right": 835,
+          "bottom": 657
         }
       },
       "semantic_tags": {
@@ -153,28 +144,28 @@
         "l3": {
           "tag": "Open <List Item>",
           "confidence": 0.96,
-          "rationale": "Clicking Documents in the navigation pane to open it."
+          "rationale": "Clicking the Documents pinned entry opens the Documents folder."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 1
     },
     {
-      "timestamp": 1.9789,
+      "timestamp": 1.4902,
       "application": "explorer.exe",
       "window_title": "Documents - File Explorer",
       "cursor_position": [
-        987,
-        610
+        793,
+        648
       ],
       "focused_element": {
         "name": "Documents (pinned)",
@@ -186,19 +177,19 @@
       },
       "event": "mouse_move",
       "delta": [
-        1,
-        -4
+        8,
+        1
       ],
       "coordinates": {
         "cursor": {
-          "x": 987,
-          "y": 610
+          "x": 793,
+          "y": 648
         },
         "element_bounds": {
-          "left": 777,
-          "top": 579,
-          "right": 872,
-          "bottom": 627
+          "left": 740,
+          "top": 609,
+          "right": 835,
+          "bottom": 657
         }
       },
       "semantic_tags": {
@@ -208,30 +199,30 @@
           "endIndex": 2
         },
         "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.95,
-          "rationale": "Hovering in the Documents File Explorer window."
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Cursor hovers over the Documents navigation item area."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 2
     },
     {
-      "timestamp": 2.3846,
+      "timestamp": 4.5549,
       "application": "explorer.exe",
       "window_title": "Documents - File Explorer",
       "cursor_position": [
-        1364,
-        729
+        1098,
+        702
       ],
       "focused_element": {
         "name": "Documents (pinned)",
@@ -241,172 +232,117 @@
         "name": "Name",
         "control_type": "EditControl"
       },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1364,
-          "y": 729
+          "x": 1098,
+          "y": 702
         },
         "element_bounds": {
-          "left": 1265,
-          "top": 724,
-          "right": 1670,
-          "bottom": 753
+          "left": 1018,
+          "top": 674,
+          "right": 1423,
+          "bottom": 703
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "S",
+          "tag": "DB",
           "startIndex": 3,
-          "endIndex": 3
+          "endIndex": 4
         },
         "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolling the Documents view."
+          "tag": "Select <List Item>",
+          "confidence": 0.84,
+          "rationale": "Click selects the Task 75 folder/item in Documents."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 3
     },
     {
-      "timestamp": 2.4337,
+      "timestamp": 4.7535,
       "application": "explorer.exe",
       "window_title": "Documents - File Explorer",
       "cursor_position": [
-        1364,
-        729
+        1098,
+        702
       ],
       "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
+        "name": "Task 75",
+        "control_type": "ListItemControl"
       },
       "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
+        "name": "Name",
+        "control_type": "EditControl"
       },
-      "event": "mouse_move",
-      "delta": [
-        -2,
-        18
-      ],
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1364,
-          "y": 729
+          "x": 1098,
+          "y": 702
         },
         "element_bounds": {
-          "left": 1211,
-          "top": 282,
-          "right": 1877,
-          "bottom": 928
+          "left": 1018,
+          "top": 674,
+          "right": 1423,
+          "bottom": 703
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "P",
-          "startIndex": 4,
+          "tag": "DB",
+          "startIndex": 3,
           "endIndex": 4
         },
         "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.95,
-          "rationale": "Hovering over the file list area."
+          "tag": "Open <List Item>",
+          "confidence": 0.93,
+          "rationale": "Second click opens the Task 75 folder."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 4
     },
     {
-      "timestamp": 2.4701,
+      "timestamp": 5.3909,
       "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
+      "window_title": "Task 75 - File Explorer",
       "cursor_position": [
-        1364,
-        729
+        1098,
+        701
       ],
       "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1364,
-          "y": 729
-        },
-        "element_bounds": {
-          "left": 1211,
-          "top": 282,
-          "right": 1877,
-          "bottom": 928
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Scroll <Window>",
-          "confidence": 0.9,
-          "rationale": "Scrolling the file list view."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
-        },
-        "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 2.7799,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1364,
-        730
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
       },
       "element_under_cursor": {
         "name": "Items View",
@@ -414,176 +350,118 @@
       },
       "event": "mouse_move",
       "delta": [
-        0,
-        1
+        1,
+        -28
       ],
       "coordinates": {
         "cursor": {
-          "x": 1364,
-          "y": 730
+          "x": 1098,
+          "y": 701
         },
         "element_bounds": {
-          "left": 1211,
-          "top": 282,
-          "right": 1877,
-          "bottom": 928
+          "left": 964,
+          "top": 312,
+          "right": 1840,
+          "bottom": 958
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "P",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.92,
+          "rationale": "Cursor hovers over the Task ID 75 file item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 6.3415,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
+      "cursor_position": [
+        1070,
+        411
+      ],
+      "focused_element": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1070,
+          "y": 411
+        },
+        "element_bounds": {
+          "left": 985,
+          "top": 321,
+          "right": 1143,
+          "bottom": 498
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
           "startIndex": 6,
           "endIndex": 6
         },
         "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.95,
-          "rationale": "Hovering in the Documents list area."
+          "tag": "Select <List Item>",
+          "confidence": 0.85,
+          "rationale": "Click selects the video file Task ID 75."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 6
     },
     {
-      "timestamp": 3.4454,
+      "timestamp": 6.4791,
       "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
+      "window_title": "Task 75 - File Explorer",
       "cursor_position": [
-        1296,
-        828
+        1070,
+        411
       ],
       "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1296,
-          "y": 828
-        },
-        "element_bounds": {
-          "left": 1265,
-          "top": 824,
-          "right": 1670,
-          "bottom": 853
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 7,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.88,
-          "rationale": "First click selects the Task 50 folder item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
-        },
-        "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 3.6297,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1296,
-        828
-      ],
-      "focused_element": {
-        "name": "Task 50",
+        "name": "Task ID 75",
         "control_type": "ListItemControl"
       },
       "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1296,
-          "y": 828
-        },
-        "element_bounds": {
-          "left": 1265,
-          "top": 824,
-          "right": 1670,
-          "bottom": 853
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 7,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.94,
-          "rationale": "Second click opens the Task 50 folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
-        },
-        "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 3.8785,
-      "application": "explorer.exe",
-      "window_title": "Task 50 - File Explorer",
-      "cursor_position": [
-        1296,
-        828
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
+        "name": "Task ID 75",
         "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
       },
       "event": "mouse_move",
       "delta": [
@@ -592,14 +470,129 @@
       ],
       "coordinates": {
         "cursor": {
-          "x": 1296,
-          "y": 828
+          "x": 1070,
+          "y": 411
         },
         "element_bounds": {
-          "left": 1211,
-          "top": 282,
-          "right": 1877,
-          "bottom": 928
+          "left": 985,
+          "top": 321,
+          "right": 1143,
+          "bottom": 498
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.91,
+          "rationale": "Cursor remains over the same video file item before opening it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 6.6172,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
+      "cursor_position": [
+        1070,
+        411
+      ],
+      "focused_element": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 75",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1070,
+          "y": 411
+        },
+        "element_bounds": {
+          "left": 985,
+          "top": 321,
+          "right": 1143,
+          "bottom": 498
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.97,
+          "rationale": "Click opens Task ID 75.mp4 in Media Player."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+        },
+        "l5": {
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 7.5098,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "cursor_position": [
+        1069,
+        410
+      ],
+      "focused_element": {
+        "name": "Media Player",
+        "control_type": "WindowControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1069,
+          "y": 410
+        },
+        "element_bounds": {
+          "left": 129,
+          "top": 49,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
@@ -609,2701 +602,839 @@
           "endIndex": 9
         },
         "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.94,
-          "rationale": "Hovering over the Task ID 50 file item."
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.95,
+          "rationale": "Mouse moves into the Media Player window."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 9
     },
     {
-      "timestamp": 4.5664,
-      "application": "explorer.exe",
-      "window_title": "Task 50 - File Explorer",
+      "timestamp": 10.2705,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1358,
-        354
+        1455,
+        857
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "ListItemControl"
+        "name": "Pause",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
+        "name": "",
+        "control_type": "GroupControl"
       },
       "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1358,
-          "y": 354
+          "x": 1455,
+          "y": 857
         },
         "element_bounds": {
-          "left": 1265,
-          "top": 337,
-          "right": 1670,
-          "bottom": 366
+          "left": 129,
+          "top": 773,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "DB",
+          "tag": "B",
           "startIndex": 10,
-          "endIndex": 11
+          "endIndex": 10
         },
         "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.9,
-          "rationale": "First click selects the file."
+          "tag": "Select <Window>",
+          "confidence": 0.7,
+          "rationale": "Click activates the Media Player window."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
+          "confidence": 0.93,
+          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
+          "tag": "Open target video file",
+          "confidence": 0.97,
+          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
         }
       },
       "index": 10
     },
     {
-      "timestamp": 4.7409,
-      "application": "explorer.exe",
-      "window_title": "Task 50 - File Explorer",
+      "timestamp": 10.3763,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1358,
-        354
+        1455,
+        858
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "ListItemControl"
+        "name": "Pause",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1358,
-          "y": 354
-        },
-        "element_bounds": {
-          "left": 1265,
-          "top": 337,
-          "right": 1670,
-          "bottom": 366
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 10,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.96,
-          "rationale": "Second click opens the Word document."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "The user browses File Explorer from the Home view into Documents, opens the Task 50 folder, and launches Task ID 50.docx, which is navigation through the application to reach the file."
-        },
-        "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "The initial navigation, scrolling, selection, and item opening steps are all part of locating and opening Task ID 50.docx from the Task 50 folder."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 6.0254,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1358,
-        353
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1",
-        "control_type": "CustomControl"
+        "name": "",
+        "control_type": "GroupControl"
       },
       "event": "mouse_move",
       "delta": [
-        8,
-        -25
+        0,
+        0
       ],
       "coordinates": {
         "cursor": {
-          "x": 1358,
-          "y": 353
+          "x": 1455,
+          "y": 858
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 312,
-          "right": 1876,
-          "bottom": 947
+          "left": 129,
+          "top": 773,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "P",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.96,
+          "rationale": "Cursor hovers over the Pause control."
+        },
+        "l4": {
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+        },
+        "l5": {
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 10.7478,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
+      "cursor_position": [
+        1452,
+        879
+      ],
+      "focused_element": {
+        "name": "Pause",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Volume",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Volume",
+        "control_type": "ButtonControl",
+        "automation_id": "VolumeMuteButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1452,
+          "y": 879
+        },
+        "element_bounds": {
+          "left": 1424,
+          "top": 859,
+          "right": 1478,
+          "bottom": 913
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
           "startIndex": 12,
           "endIndex": 12
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.9,
-          "rationale": "Hovering in the Word document text area."
+          "tag": "Toggle <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicking the volume button toggles mute/unmute."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 12
     },
     {
-      "timestamp": 9.0933,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 10.8948,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1450,
+        880
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        6
+      ],
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1450,
+          "y": 880
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1424,
+          "top": 859,
+          "right": 1478,
+          "bottom": 913
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "P",
           "startIndex": 13,
           "endIndex": 13
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.9,
-          "rationale": "Hovering in the Word document text area."
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.95,
+          "rationale": "Cursor hovers over the volume control button."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 13
     },
     {
-      "timestamp": 9.6923,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 11.6211,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1393,
+        800
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Unmute",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
-      "event": "key_press",
-      "key": "Backspace",
+      "target": {
+        "name": "Volume",
+        "control_type": "SliderControl",
+        "automation_id": "VolumeSlider"
+      },
+      "slider": {
+        "name": "Volume",
+        "control_type": "SliderControl",
+        "automation_id": "VolumeSlider",
+        "before": {
+          "value": 0,
+          "min": 0,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        }
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1393,
+          "y": 800
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1327,
+          "top": 782,
+          "right": 1600,
+          "bottom": 830
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "B",
           "startIndex": 14,
           "endIndex": 14
         },
         "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.96,
-          "rationale": "Backspace deletes the previous character."
+          "tag": "Select <Slider>",
+          "confidence": 0.73,
+          "rationale": "Clicking the volume slider interacts with the current volume level."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 14
     },
     {
-      "timestamp": 9.7604,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 11.7857,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1393,
+        800
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
-      "event": "key_press",
-      "key": "Shift",
-      "modifiers": [
-        "Shift"
+      "event": "mouse_move",
+      "delta": [
+        -54,
+        -20
       ],
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1393,
+          "y": 800
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1330,
+          "top": 782,
+          "right": 1600,
+          "bottom": 830
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "P",
           "startIndex": 15,
           "endIndex": 15
         },
         "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
+          "tag": "Move Cursor To <Slider>",
+          "confidence": 0.96,
+          "rationale": "Cursor hovers over the volume slider track."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 15
     },
     {
-      "timestamp": 9.9329,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 12.0764,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1418,
+        803
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
-      "event": "key_press",
-      "key": "c",
-      "modifiers": [
-        "Shift"
-      ],
+      "target": {
+        "name": "Volume",
+        "control_type": "SliderControl",
+        "automation_id": "VolumeSlider"
+      },
+      "button": "Button.left",
+      "event": "drag_drop",
+      "from": {
+        "application": "ApplicationFrameHost.exe",
+        "window_title": "Media Player",
+        "cursor_position": [
+          1393,
+          800
+        ],
+        "element_under_cursor": {
+          "name": "Volume",
+          "control_type": "SliderControl"
+        },
+        "focused_element": {
+          "name": "Unmute",
+          "control_type": "ButtonControl"
+        }
+      },
+      "drag_distance": 25,
+      "duration_ms": 392,
+      "slider": {
+        "name": "Volume",
+        "control_type": "SliderControl",
+        "automation_id": "VolumeSlider",
+        "before": {
+          "value": 0,
+          "min": 0,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        },
+        "after": {
+          "value": 31,
+          "min": 0,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        }
+      },
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1418,
+          "y": 803
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1330,
+          "top": 782,
+          "right": 1600,
+          "bottom": 830
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "D",
           "startIndex": 16,
           "endIndex": 16
         },
         "l3": {
-          "tag": "Type <Text>",
+          "tag": "Move <Slider>",
           "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
+          "rationale": "Drag and drop adjusts the slider value to change volume."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 16
     },
     {
-      "timestamp": 9.9946,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 12.1545,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1418,
+        804
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
-      "event": "hotkey",
-      "combo": "Shift+C",
-      "mods": [
-        "Shift"
+      "event": "mouse_move",
+      "delta": [
+        25,
+        4
       ],
-      "key": "c",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1418,
+          "y": 804
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1330,
+          "top": 782,
+          "right": 1600,
+          "bottom": 830
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "H",
+          "tag": "P",
           "startIndex": 17,
           "endIndex": 17
         },
         "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
+          "tag": "Move Cursor To <Slider>",
+          "confidence": 0.95,
+          "rationale": "Cursor hovers over the adjusted volume slider."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 17
     },
     {
-      "timestamp": 10.2541,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 12.5512,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1268,
+        893
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "SliderControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Close",
+        "control_type": "ButtonControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1268,
+          "y": 893
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 129,
+          "top": 1,
+          "right": 1683,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "B",
           "startIndex": 18,
           "endIndex": 18
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
+          "tag": "Close <Button>",
+          "confidence": 0.96,
+          "rationale": "Clicking the light-dismiss close button closes the volume popup."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 18
     },
     {
-      "timestamp": 10.744,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 12.6541,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1268,
+        893
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "",
+        "control_type": "GroupControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "event": "mouse_move",
+      "delta": [
+        -14,
+        14
+      ],
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1268,
+          "y": 893
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 129,
+          "top": 773,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "P",
           "startIndex": 19,
           "endIndex": 19
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.95,
+          "rationale": "Cursor hovers over the volume button again."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 19
     },
     {
-      "timestamp": 10.8308,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 14.8571,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1071,
+        551
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Media Player",
+        "control_type": "WindowControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "target": {
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1071,
+          "y": 551
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 129,
+          "top": 1,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "B",
           "startIndex": 20,
           "endIndex": 20
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
+          "tag": "Select <Window>",
+          "confidence": 0.69,
+          "rationale": "Clicking the Media Player window brings it back into focus."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Audio>",
+          "confidence": 0.91,
+          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 20
     },
     {
-      "timestamp": 10.8868,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 15.4387,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1503,
-        467
+        1071,
+        550
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Open file(s)",
+        "control_type": "MenuItemControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Close",
+        "control_type": "ButtonControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "event": "mouse_move",
+      "delta": [
+        6,
+        -23
+      ],
       "coordinates": {
         "cursor": {
-          "x": 1503,
-          "y": 467
+          "x": 1071,
+          "y": 550
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 129,
+          "top": 1,
+          "right": 1683,
+          "bottom": 969
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "P",
           "startIndex": 21,
           "endIndex": 21
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
+          "tag": "Move Cursor To <Menu Item>",
+          "confidence": 0.96,
+          "rationale": "Cursor moves to the Open file(s) menu item."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Video>",
+          "confidence": 0.97,
+          "rationale": "Changes the video's playback speed to 1.5× in Media Player."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 21
     },
     {
-      "timestamp": 10.9598,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 17.7628,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
         1503,
-        467
+        773
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "0.25 ×",
+        "control_type": "MenuItemControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl"
       },
-      "event": "key_press",
-      "key": "Right",
+      "target": {
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
           "x": 1503,
-          "y": 467
+          "y": 773
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 1418,
+          "top": 740,
+          "right": 1633,
+          "bottom": 792
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "K",
+          "tag": "B",
           "startIndex": 22,
           "endIndex": 22
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
+          "tag": "Select <Menu Item>",
+          "confidence": 0.98,
+          "rationale": "Click selects the 1.5× playback speed menu item."
         },
         "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
+          "tag": "Edit <Video>",
+          "confidence": 0.97,
+          "rationale": "Changes the video's playback speed to 1.5× in Media Player."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
       "index": 22
     },
     {
-      "timestamp": 11.0269,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 20.6447,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
         1503,
-        467
+        773
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 11.0944,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 24,
-          "endIndex": 24
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 11.1645,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 25,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 11.2293,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 26,
-          "endIndex": 26
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 11.2845,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 27,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 11.346,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 28,
-          "endIndex": 28
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 11.4041,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 29,
-          "endIndex": 29
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 11.4596,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 30,
-          "endIndex": 30
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 11.5159,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 31,
-          "endIndex": 31
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 11.583,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 32,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 32
-    },
-    {
-      "timestamp": 11.6341,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Left",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 33,
-          "endIndex": 33
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 33
-    },
-    {
-      "timestamp": 11.693,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Left",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 34,
-          "endIndex": 34
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 34
-    },
-    {
-      "timestamp": 11.8351,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Left",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 35,
-          "endIndex": 35
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 35
-    },
-    {
-      "timestamp": 12.1979,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Backspace",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 36,
-          "endIndex": 36
-        },
-        "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.96,
-          "rationale": "Backspace deletes the previous character."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 36
-    },
-    {
-      "timestamp": 12.2847,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Shift",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 37,
-          "endIndex": 37
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 37
-    },
-    {
-      "timestamp": 12.3938,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "t",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 38,
-          "endIndex": 38
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 38
-    },
-    {
-      "timestamp": 12.4606,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "hotkey",
-      "combo": "Shift+T",
-      "mods": [
-        "Shift"
-      ],
-      "key": "t",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 39,
-          "endIndex": 39
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 39
-    },
-    {
-      "timestamp": 12.55,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 40,
-          "endIndex": 40
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 40
-    },
-    {
-      "timestamp": 12.7419,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 41,
-          "endIndex": 41
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 41
-    },
-    {
-      "timestamp": 12.8987,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 42,
-          "endIndex": 42
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 42
-    },
-    {
-      "timestamp": 13.0426,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 43,
-          "endIndex": 43
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 43
-    },
-    {
-      "timestamp": 13.4615,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Backspace",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 44,
-          "endIndex": 44
-        },
-        "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.96,
-          "rationale": "Backspace deletes the previous character."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 44
-    },
-    {
-      "timestamp": 13.5651,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Shift",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 45,
-          "endIndex": 45
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 45
-    },
-    {
-      "timestamp": 13.6606,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "s",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 46,
-          "endIndex": 46
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 46
-    },
-    {
-      "timestamp": 13.6993,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "hotkey",
-      "combo": "Shift+S",
-      "mods": [
-        "Shift"
-      ],
-      "key": "s",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 47,
-          "endIndex": 47
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 47
-    },
-    {
-      "timestamp": 13.9291,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 48,
-          "endIndex": 48
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 48
-    },
-    {
-      "timestamp": 14.2279,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 49,
-          "endIndex": 49
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 49
-    },
-    {
-      "timestamp": 14.3988,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 50,
-          "endIndex": 50
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 50
-    },
-    {
-      "timestamp": 14.542,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 51,
-          "endIndex": 51
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 51
-    },
-    {
-      "timestamp": 14.7118,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 52,
-          "endIndex": 52
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 52
-    },
-    {
-      "timestamp": 14.8546,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 53,
-          "endIndex": 53
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.89,
-          "rationale": "Right arrow moves the caret forward."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 53
-    },
-    {
-      "timestamp": 15.1858,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Backspace",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 54,
-          "endIndex": 54
-        },
-        "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.96,
-          "rationale": "Backspace deletes the previous character."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 54
-    },
-    {
-      "timestamp": 15.2797,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Shift",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 55,
-          "endIndex": 55
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 55
-    },
-    {
-      "timestamp": 15.394,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "s",
-      "modifiers": [
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 56,
-          "endIndex": 56
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 56
-    },
-    {
-      "timestamp": 15.4593,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "hotkey",
-      "combo": "Shift+S",
-      "mods": [
-        "Shift"
-      ],
-      "key": "s",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 57,
-          "endIndex": 57
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.97,
-          "rationale": "Shift modifier used while typing a capital letter."
-        },
-        "l4": {
-          "tag": "Edit <Text Document>",
-          "confidence": 0.99,
-          "rationale": "In Word, the user moves within the document title, deletes lowercase initials, and types capitalized letters to capitalize the first letter of each word in the title."
-        },
-        "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.99,
-          "rationale": "This span contains the repeated cursor moves, deletions, and typing needed to rewrite the document title so each word starts with a capital letter."
-        }
-      },
-      "index": 57
-    },
-    {
-      "timestamp": 16.5067,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "cursor_position": [
-        1503,
-        467
-      ],
-      "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "",
+        "control_type": "GroupControl"
       },
       "event": "mouse_move",
       "delta": [
@@ -3313,165 +1444,165 @@
       "coordinates": {
         "cursor": {
           "x": 1503,
-          "y": 467
+          "y": 773
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 129,
+          "top": 773,
+          "right": 1682,
+          "bottom": 949
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "P",
-          "startIndex": 58,
-          "endIndex": 58
+          "startIndex": 23,
+          "endIndex": 23
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.92,
-          "rationale": "Hovering in the Word document after editing."
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.95,
+          "rationale": "Cursor hovers over the volume button."
         },
         "l4": {
-          "tag": "Review <Text Document>",
-          "confidence": 0.74,
-          "rationale": "After editing, the user hovers and clicks within the Word page to inspect the result without making further content changes."
+          "tag": "Confirm <Video>",
+          "confidence": 0.87,
+          "rationale": "Uses the play/pause control to start video playback at the selected speed."
         },
         "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.83,
-          "rationale": "The cursor moves to the text without further edits, indicating a final inspection of the updated title formatting."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
-      "index": 58
+      "index": 23
     },
     {
-      "timestamp": 16.751,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 24.0658,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1324,
-        667
+        913,
+        871
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Volume",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Pause",
+        "control_type": "ButtonControl"
       },
       "target": {
-        "name": "Page 1 content",
-        "control_type": "EditControl",
-        "automation_id": "Body"
+        "name": "Pause",
+        "control_type": "ButtonControl",
+        "automation_id": "MTCPlayPauseButton.Pause"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1324,
-          "y": 667
+          "x": 913,
+          "y": 871
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 868,
+          "top": 849,
+          "right": 942,
+          "bottom": 924
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "B",
-          "startIndex": 59,
-          "endIndex": 59
+          "startIndex": 24,
+          "endIndex": 24
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.92,
-          "rationale": "Hovering in the Word document after editing."
+          "tag": "Toggle <Button>",
+          "confidence": 0.91,
+          "rationale": "Clicking the play/pause control toggles playback state."
         },
         "l4": {
-          "tag": "Review <Text Document>",
-          "confidence": 0.74,
-          "rationale": "After editing, the user hovers and clicks within the Word page to inspect the result without making further content changes."
+          "tag": "Confirm <Video>",
+          "confidence": 0.87,
+          "rationale": "Uses the play/pause control to start video playback at the selected speed."
         },
         "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.83,
-          "rationale": "The cursor moves to the text without further edits, indicating a final inspection of the updated title formatting."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
-      "index": 59
+      "index": 24
     },
     {
-      "timestamp": 16.9695,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 24.4932,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        1324,
-        667
+        912,
+        871
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Play",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Play",
+        "control_type": "ButtonControl"
       },
       "event": "mouse_move",
       "delta": [
-        -32,
-        22
+        -1,
+        0
       ],
       "coordinates": {
         "cursor": {
-          "x": 1324,
-          "y": 667
+          "x": 912,
+          "y": 871
         },
         "element_bounds": {
-          "left": 1023,
-          "top": 456,
-          "right": 1876,
-          "bottom": 921
+          "left": 868,
+          "top": 849,
+          "right": 942,
+          "bottom": 924
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "P",
-          "startIndex": 60,
-          "endIndex": 60
+          "startIndex": 25,
+          "endIndex": 25
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.92,
-          "rationale": "Hovering in the Word document after editing."
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.95,
+          "rationale": "Cursor hovers over the Play control."
         },
         "l4": {
-          "tag": "Review <Text Document>",
-          "confidence": 0.74,
-          "rationale": "After editing, the user hovers and clicks within the Word page to inspect the result without making further content changes."
+          "tag": "Navigate <Application>",
+          "confidence": 0.77,
+          "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
         },
         "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.83,
-          "rationale": "The cursor moves to the text without further edits, indicating a final inspection of the updated title formatting."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
-      "index": 60
+      "index": 25
     },
     {
-      "timestamp": 18.0497,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 25.2097,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "cursor_position": [
-        327,
-        575
+        95,
+        388
       ],
       "focused_element": {
-        "name": "Task ID 50",
-        "control_type": "DocumentControl"
+        "name": "Play",
+        "control_type": "ButtonControl"
       },
       "element_under_cursor": {
         "name": "",
@@ -3485,39 +1616,39 @@
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 327,
-          "y": 575
+          "x": 95,
+          "y": 388
         },
         "element_bounds": {
-          "left": 163,
-          "top": 197,
-          "right": 1063,
-          "bottom": 697
+          "left": 49,
+          "top": 83,
+          "right": 949,
+          "bottom": 583
         }
       },
       "semantic_tags": {
         "l2": {
           "tag": "B",
-          "startIndex": 61,
-          "endIndex": 61
+          "startIndex": 26,
+          "endIndex": 26
         },
         "l3": {
           "tag": "Switch <Window>",
-          "confidence": 0.93,
-          "rationale": "Clicking the Computer Use Logger window switches focus to it."
+          "confidence": 0.78,
+          "rationale": "Click switches focus to the Computer Use Logger window."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.88,
-          "rationale": "The final click switches focus from Word to the Computer Use Logger window, which is a window/application navigation action."
+          "confidence": 0.77,
+          "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
         },
         "l5": {
-          "tag": "Post-edit navigation",
-          "confidence": 0.66,
-          "rationale": "The final window switch is a separate wrap-up action after reviewing the document."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.93,
+          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
         }
       },
-      "index": 61
+      "index": 26
     }
   ]
 }

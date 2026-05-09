@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "task_id": 28,
+    "task_title": "Change the theme in Power Point Slide",
+    "instruction": "Open Powerpoint Slide \"Task ID 41.pptx\" in Documents > Task ID 41 folder, and change the presentation theme to \"Gallery\".",
+    "context": "I want to change my presentation's theme to a colorful one.",
+    "task_group": "Document Editing",
+    "applications": "PowerPoint",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Default",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1763584788.7863286,
+      "ended_at": 1763584936.293312,
+      "duration": 147.51
+    },
+    "statistics": {
+      "total_events": 12,
+      "apps_used": [
+        "explorer.exe",
+        "POWERPNT.EXE"
+      ],
+      "by_type": {
+        "mouse_click": 9,
+        "scroll": 3
+      },
+      "by_app": {
+        "explorer.exe": 6,
+        "POWERPNT.EXE": 6
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Recommended",
+        "control_type": "GroupControl"
+      },
+      "cursor_position": [
+        1855,
+        958
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1855,
+          "y": 958
+        },
+        "element_bounds": {
+          "left": -1080,
+          "top": -307,
+          "right": 1920,
+          "bottom": 1613
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.8,
+          "rationale": "Clicked the Desktop shortcut in File Explorer to open that location."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 6.8425,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "A11y-CUA Dataset",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        505,
+        648
+      ],
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 505,
+          "y": 648
+        },
+        "element_bounds": {
+          "left": 459,
+          "top": 625,
+          "right": 554,
+          "bottom": 673
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.8,
+          "rationale": "Clicked the Desktop shortcut in File Explorer to open that location."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 12.1514,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "cursor_position": [
+        705,
+        699
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 699
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 684,
+          "right": 1080,
+          "bottom": 713
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.74,
+          "rationale": "Clicked the Task 41 folder item, selecting it in the file list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 12.3816,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        705,
+        699
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 705,
+          "y": 699
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 684,
+          "right": 1080,
+          "bottom": 713
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 2,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.75,
+          "rationale": "Clicked the same folder item again to open Task 41."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 18.2797,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        717,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 717,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 383,
+          "right": 1080,
+          "bottom": 412
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.76,
+          "rationale": "Clicked the Task ID 41.pptx file item, selecting it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 18.5288,
+      "application": "explorer.exe",
+      "window_title": "Task 41 - File Explorer",
+      "focused_element": {
+        "name": "Task ID 41",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        717,
+        397
+      ],
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 717,
+          "y": 397
+        },
+        "element_bounds": {
+          "left": 675,
+          "top": 383,
+          "right": 1080,
+          "bottom": 412
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 4,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.82,
+          "rationale": "Clicked the file again to open it in PowerPoint."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.94,
+          "rationale": "The user navigates through File Explorer from Desktop to Documents, then into the Task 41 folder and opens Task ID 41.pptx in PowerPoint."
+        },
+        "l5": {
+          "tag": "Open presentation file",
+          "confidence": 0.98,
+          "rationale": "These actions navigate through the file list to locate and open the requested PowerPoint in Documents > Task ID 41."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 34.0451,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        370,
+        94
+      ],
+      "element_under_cursor": {
+        "name": "Design",
+        "control_type": "TabItemControl"
+      },
+      "target": {
+        "name": "Design",
+        "control_type": "TabItemControl",
+        "automation_id": "TabDesign"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 370,
+          "y": 94
+        },
+        "element_bounds": {
+          "left": 326,
+          "top": 72,
+          "right": 416,
+          "bottom": 117
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Select <Menu Item>",
+          "confidence": 0.86,
+          "rationale": "Selected the Design ribbon tab."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 41.8953,
+      "application": "POWERPNT.EXE",
+      "window_title": "Task ID 41 - PowerPoint",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        750,
+        177
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "ImageControl"
+      },
+      "target": {
+        "name": "Themes",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 750,
+          "y": 177
+        },
+        "element_bounds": {
+          "left": 746,
+          "top": 173,
+          "right": 758,
+          "bottom": 185
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.89,
+          "rationale": "Opened the Themes gallery from the Design tab."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 51.3374,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Organic",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        400,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Droplet",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 312,
+          "top": 405,
+          "right": 452,
+          "bottom": 489
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 8,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.71,
+          "rationale": "Scrolled within the Themes gallery."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 59.0757,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Organic",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        400,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Droplet",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 312,
+          "top": 405,
+          "right": 452,
+          "bottom": 489
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 8,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.71,
+          "rationale": "Scrolled within the Themes gallery."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 67.6209,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Organic",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        400,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Droplet",
+        "control_type": "ListItemControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        5
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 400,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 312,
+          "top": 405,
+          "right": 452,
+          "bottom": 489
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 8,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.71,
+          "rationale": "Scrolled within the Themes gallery."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 108.0906,
+      "application": "POWERPNT.EXE",
+      "window_title": "",
+      "focused_element": {
+        "name": "Gallery",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        381,
+        361
+      ],
+      "element_under_cursor": {
+        "name": "Gallery",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Gallery",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 381,
+          "y": 361
+        },
+        "element_bounds": {
+          "left": 312,
+          "top": 321,
+          "right": 452,
+          "bottom": 405
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.93,
+          "rationale": "Selected the Gallery theme item."
+        },
+        "l4": {
+          "tag": "Format <Presentation>",
+          "confidence": 0.97,
+          "rationale": "In PowerPoint, the user opens the Design tab, expands the Themes gallery, scrolls to the desired option, and selects the Gallery theme to change the presentation's appearance."
+        },
+        "l5": {
+          "tag": "Apply Gallery theme",
+          "confidence": 0.97,
+          "rationale": "This span opens the theme controls, scrolls through available themes, and selects Gallery to change the presentation theme."
+        }
+      },
+      "index": 11
+    }
+  ]
+}

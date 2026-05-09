@@ -1,0 +1,2184 @@
+{
+  "metadata": {
+    "task_id": 60,
+    "task_title": "Compress a JPG to a smaller size",
+    "instruction": "Open Task ID 90.jpg in Documents > Task 90 folder on Photos app. Reduce the image size to 40%",
+    "context": "I have a picture but is too large to share as an email attachment. I need a smaller JPEG.",
+    "task_group": "Media",
+    "applications": "Photos",
+    "success": true,
+    "user_info": {
+      "user_type": "SU",
+      "user_id": "SU1",
+      "condition": "sighted"
+    },
+    "session": {
+      "started_at": 1755980155.3484404,
+      "ended_at": 1755980202.6542563,
+      "duration": 47.31
+    },
+    "statistics": {
+      "total_events": 36,
+      "apps_used": [
+        "explorer.exe",
+        "Photos.exe",
+        "PickerHost.exe"
+      ],
+      "by_type": {
+        "mouse_move": 17,
+        "mouse_click": 18,
+        "drag_drop": 1
+      },
+      "by_app": {
+        "explorer.exe": 12,
+        "Photos.exe": 18,
+        "PickerHost.exe": 6
+      },
+      "keystrokes": {
+        "total_hotkeys": 0,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 0,
+        "hotkeys": {},
+        "screen_reader_commands": {},
+        "other_keys": {}
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        1066,
+        1039
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "File Explorer - 1 running window",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -4,
+        10
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1066,
+          "y": 1039
+        },
+        "element_bounds": {
+          "left": 1030,
+          "top": 1008,
+          "right": 1096,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the mouse over the File Explorer window area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.8985,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "cursor_position": [
+        138,
+        460
+      ],
+      "focused_element": {
+        "name": "Quick access",
+        "control_type": "GroupControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 138,
+          "y": 460
+        },
+        "element_bounds": {
+          "left": 78,
+          "top": 442,
+          "right": 173,
+          "bottom": 490
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.91,
+          "rationale": "Clicked the Documents folder entry in the navigation pane to open it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 2.729,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        139,
+        461
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 139,
+          "y": 461
+        },
+        "element_bounds": {
+          "left": 78,
+          "top": 442,
+          "right": 173,
+          "bottom": 490
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Hovered over the Documents item in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 4.5187,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        455,
+        939
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 455,
+          "y": 939
+        },
+        "element_bounds": {
+          "left": 294,
+          "top": 937,
+          "right": 699,
+          "bottom": 966
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.8,
+          "rationale": "Single click on the Task 90 folder item to select it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 4.7743,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        455,
+        939
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "target": {
+        "name": "Name",
+        "control_type": "EditControl",
+        "automation_id": "System.ItemNameDisplay"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 455,
+          "y": 939
+        },
+        "element_bounds": {
+          "left": 294,
+          "top": 937,
+          "right": 699,
+          "bottom": 966
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 3,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.86,
+          "rationale": "Second click on the Task 90 folder item to open the folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 4.9453,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "cursor_position": [
+        455,
+        939
+      ],
+      "focused_element": {
+        "name": "Task 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Name",
+        "control_type": "EditControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -3,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 455,
+          "y": 939
+        },
+        "element_bounds": {
+          "left": 294,
+          "top": 937,
+          "right": 699,
+          "bottom": 966
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.88,
+          "rationale": "Moved the mouse over the Task 90 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 6.4093,
+      "application": "explorer.exe",
+      "window_title": "Task 90 - File Explorer",
+      "cursor_position": [
+        383,
+        318
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 383,
+          "y": 318
+        },
+        "element_bounds": {
+          "left": 261,
+          "top": 202,
+          "right": 419,
+          "bottom": 379
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Select <List Item>",
+          "confidence": 0.8,
+          "rationale": "Single click on the Task ID 90 image file to select it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 6.6902,
+      "application": "explorer.exe",
+      "window_title": "Task 90 - File Explorer",
+      "cursor_position": [
+        383,
+        318
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 383,
+          "y": 318
+        },
+        "element_bounds": {
+          "left": 261,
+          "top": 202,
+          "right": 419,
+          "bottom": 379
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 6,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.87,
+          "rationale": "Second click on the Task ID 90 file to open it in Photos."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 9.4191,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        389,
+        320
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        5,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 389,
+          "y": 320
+        },
+        "element_bounds": {
+          "left": 261,
+          "top": 202,
+          "right": 419,
+          "bottom": 379
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the cursor over the Photos window area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 11.0673,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        498,
+        321
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90.jpg",
+        "control_type": "WindowControl"
+      },
+      "target": {
+        "name": "Task ID 90.jpg",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 498,
+          "y": 321
+        },
+        "element_bounds": {
+          "left": 489,
+          "top": 151,
+          "right": 1429,
+          "bottom": 925
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.78,
+          "rationale": "Clicked the Photos window to activate it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 11.1627,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        497,
+        321
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90.jpg",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 497,
+          "y": 321
+        },
+        "element_bounds": {
+          "left": 489,
+          "top": 151,
+          "right": 1429,
+          "bottom": 925
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the mouse within the Photos window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Navigated through File Explorer to Documents > Task 90, opened Task ID 90.jpg, and activated the Photos window to reach the image workspace."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.97,
+          "rationale": "These navigation actions browse through the Documents > Task 90 folder and open the requested image in Photos."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 14.0328,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        587,
+        186
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "More options",
+        "control_type": "ButtonControl",
+        "automation_id": "MoreButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 587,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 552,
+          "top": 151,
+          "right": 624,
+          "bottom": 223
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.95,
+          "rationale": "Clicked More options to open the menu."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 14.1498,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        588,
+        186
+      ],
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        4,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 588,
+          "y": 186
+        },
+        "element_bounds": {
+          "left": 552,
+          "top": 151,
+          "right": 624,
+          "bottom": 223
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.89,
+          "rationale": "Hovered over the More options button."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 16.1567,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        459,
+        384
+      ],
+      "focused_element": {
+        "name": "Less app bar",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Resize image",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Resize image",
+        "control_type": "ButtonControl",
+        "automation_id": "ResizeButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 459,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 375,
+          "right": 621,
+          "bottom": 422
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Clicked Resize image to open the resize controls."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 17.0201,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        459,
+        384
+      ],
+      "focused_element": {
+        "name": "Width and height are in pixel units",
+        "control_type": "RadioButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -1,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 459,
+          "y": 384
+        },
+        "element_bounds": {
+          "left": 451,
+          "top": 194,
+          "right": 1081,
+          "bottom": 870
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Move Cursor To <Radio Button>",
+          "confidence": 0.84,
+          "rationale": "Moved the mouse over the size-units radio option."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 18.0119,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        726,
+        564
+      ],
+      "focused_element": {
+        "name": "Width and height are in pixel units",
+        "control_type": "RadioButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "target": {
+        "name": "Quality",
+        "control_type": "SliderControl",
+        "automation_id": "QualitySlider"
+      },
+      "slider": {
+        "name": "Quality",
+        "control_type": "SliderControl",
+        "automation_id": "QualitySlider",
+        "before": {
+          "value": 80,
+          "min": 10,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        }
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 726,
+          "y": 564
+        },
+        "element_bounds": {
+          "left": 511,
+          "top": 535,
+          "right": 811,
+          "bottom": 583
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Select <Slider>",
+          "confidence": 0.74,
+          "rationale": "Clicked the quality slider to focus or prepare it for adjustment."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 18.0381,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        725,
+        564
+      ],
+      "focused_element": {
+        "name": "Width and height are in pixel units",
+        "control_type": "RadioButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -17,
+        38
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 725,
+          "y": 564
+        },
+        "element_bounds": {
+          "left": 511,
+          "top": 535,
+          "right": 811,
+          "bottom": 583
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Cursor To <Radio Button>",
+          "confidence": 0.84,
+          "rationale": "Hovered over the size-units radio option again."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 16
+    },
+    {
+      "event": "drag_drop",
+      "timestamp": 19.8512,
+      "button": "Button.left",
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        606,
+        570
+      ],
+      "focused_element": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "element_under_cursor": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "from": {
+        "application": "Photos.exe",
+        "window_title": "Task ID 90.jpg",
+        "cursor_position": [
+          726,
+          564
+        ],
+        "element_under_cursor": {
+          "name": "Quality",
+          "control_type": "SliderControl"
+        },
+        "focused_element": {
+          "name": "Width and height are in pixel units",
+          "control_type": "RadioButtonControl"
+        }
+      },
+      "to": {
+        "application": "Photos.exe",
+        "window_title": "Task ID 90.jpg",
+        "cursor_position": [
+          606,
+          570
+        ],
+        "element_under_cursor": {
+          "name": "Quality",
+          "control_type": "SliderControl"
+        },
+        "focused_element": {
+          "name": "Quality",
+          "control_type": "SliderControl"
+        }
+      },
+      "drag_distance": 120,
+      "duration_ms": 1723,
+      "slider": {
+        "name": "Quality",
+        "control_type": "SliderControl",
+        "automation_id": "QualitySlider",
+        "before": {
+          "value": 80,
+          "min": 10,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        },
+        "after": {
+          "value": 40,
+          "min": 10,
+          "max": 100,
+          "small_change": 1,
+          "large_change": 10,
+          "is_read_only": false
+        }
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 606,
+          "y": 570
+        },
+        "element_bounds": {
+          "left": 511,
+          "top": 535,
+          "right": 811,
+          "bottom": 583
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "D",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.93,
+          "rationale": "Dragged the quality slider to change the image compression setting."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 19.9511,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        606,
+        571
+      ],
+      "focused_element": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "element_under_cursor": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        2
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 606,
+          "y": 571
+        },
+        "element_bounds": {
+          "left": 511,
+          "top": 535,
+          "right": 811,
+          "bottom": 583
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Move Cursor To <Slider>",
+          "confidence": 0.86,
+          "rationale": "Moved the mouse over the quality slider after adjustment."
+        },
+        "l4": {
+          "tag": "Edit <Image>",
+          "confidence": 0.93,
+          "rationale": "Opened Photos resize controls and adjusted the size/quality slider to reduce the image to the desired smaller version."
+        },
+        "l5": {
+          "tag": "Resize image to 40",
+          "confidence": 0.98,
+          "rationale": "This span uses the edit controls and slider to change the image scale, matching the task requirement to reduce it to 40%."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 21.3744,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        625,
+        819
+      ],
+      "focused_element": {
+        "name": "Quality",
+        "control_type": "SliderControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 625,
+          "y": 819
+        },
+        "element_bounds": {
+          "left": 481,
+          "top": 792,
+          "right": 759,
+          "bottom": 840
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.97,
+          "rationale": "Clicked Save in Photos to continue saving the resized image."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 22.7096,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        625,
+        819
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Save As",
+        "control_type": "WindowControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -12,
+        42
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 625,
+          "y": 819
+        },
+        "element_bounds": {
+          "left": 113,
+          "top": 151,
+          "right": 1073,
+          "bottom": 871
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.87,
+          "rationale": "Moved the cursor to the file name field in the Save As dialog."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 26.0073,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        265,
+        582
+      ],
+      "focused_element": {
+        "name": "File name:",
+        "control_type": "EditControl"
+      },
+      "element_under_cursor": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 265,
+          "y": 582
+        },
+        "element_bounds": {
+          "left": 202,
+          "top": 568,
+          "right": 297,
+          "bottom": 611
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.92,
+          "rationale": "Clicked Documents in the Save As dialog to navigate there."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 27.3213,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        265,
+        582
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Pictures (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -2,
+        39
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 265,
+          "y": 582
+        },
+        "element_bounds": {
+          "left": 202,
+          "top": 559,
+          "right": 267,
+          "bottom": 607
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.87,
+          "rationale": "Hovered over the Documents entry in the Save As dialog."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 27.8954,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        292,
+        439
+      ],
+      "focused_element": {
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "target": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 292,
+          "y": 439
+        },
+        "element_bounds": {
+          "left": 202,
+          "top": 415,
+          "right": 273,
+          "bottom": 463
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.91,
+          "rationale": "Clicked the Desktop pinned entry to change the save location."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 28.1864,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        292,
+        439
+      ],
+      "focused_element": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 292,
+          "y": 439
+        },
+        "element_bounds": {
+          "left": 202,
+          "top": 415,
+          "right": 273,
+          "bottom": 463
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.87,
+          "rationale": "Hovered over the Desktop pinned entry."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 28.967,
+      "application": "PickerHost.exe",
+      "window_title": "Save As",
+      "cursor_position": [
+        830,
+        803
+      ],
+      "focused_element": {
+        "name": "Start of Quick Access - Desktop (pinned)",
+        "control_type": "TreeItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Save",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Save",
+        "control_type": "ButtonControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 830,
+          "y": 803
+        },
+        "element_bounds": {
+          "left": 754,
+          "top": 795,
+          "right": 886,
+          "bottom": 834
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Save <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicked Save in the Save As dialog to write the file."
+        },
+        "l4": {
+          "tag": "Export <Image>",
+          "confidence": 0.97,
+          "rationale": "Saved the resized image from Photos and completed the Save As flow to create the smaller JPEG file in the chosen location."
+        },
+        "l5": {
+          "tag": "Save resized JPEG",
+          "confidence": 0.95,
+          "rationale": "These actions invoke the save/export flow and confirm saving the edited JPEG after resizing."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 29.681,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        831,
+        803
+      ],
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "CustomControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        37,
+        20
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 831,
+          "y": 803
+        },
+        "element_bounds": {
+          "left": 559,
+          "top": 223,
+          "right": 972,
+          "bottom": 842
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.82,
+          "rationale": "Moved the mouse over the Photos toolbar area after saving."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 31.4469,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        1218,
+        316
+      ],
+      "focused_element": {
+        "name": "More options",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "CloseButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1218,
+          "y": 316
+        },
+        "element_bounds": {
+          "left": 1183,
+          "top": 293,
+          "right": 1240,
+          "bottom": 349
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Close <Button>",
+          "confidence": 0.98,
+          "rationale": "Clicked Close to exit the Photos window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 31.5573,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        1218,
+        316
+      ],
+      "focused_element": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1218,
+          "y": 316
+        },
+        "element_bounds": {
+          "left": 1183,
+          "top": 293,
+          "right": 1240,
+          "bottom": 349
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Cursor To <Button>",
+          "confidence": 0.84,
+          "rationale": "Moved the cursor over the close area of the Photos window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 32.6046,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        1407,
+        182
+      ],
+      "focused_element": {
+        "name": "Show Filmstrip",
+        "control_type": "ButtonControl"
+      },
+      "element_under_cursor": {
+        "name": "Non Client Input Sink Window",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Non Client Input Sink Window",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1407,
+          "y": 182
+        },
+        "element_bounds": {
+          "left": 113,
+          "top": 151,
+          "right": 1418,
+          "bottom": 223
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.7,
+          "rationale": "Clicked the Photos window content area to activate it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 32.9154,
+      "application": "explorer.exe",
+      "window_title": "Task 90 - File Explorer",
+      "cursor_position": [
+        1407,
+        181
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Rotate right",
+        "control_type": "ButtonControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        2,
+        -41
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1407,
+          "y": 181
+        },
+        "element_bounds": {
+          "left": 1267,
+          "top": 123,
+          "right": 1433,
+          "bottom": 190
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.87,
+          "rationale": "Hovered over the Task ID 90 file entry in File Explorer."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 34.2355,
+      "application": "explorer.exe",
+      "window_title": "Task 90 - File Explorer",
+      "cursor_position": [
+        1754,
+        21
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Minimize",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Minimize",
+        "control_type": "ButtonControl",
+        "automation_id": "Minimize-Restore"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1754,
+          "y": 21
+        },
+        "element_bounds": {
+          "left": 1707,
+          "top": 0,
+          "right": 1778,
+          "bottom": 43
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Minimize <Window>",
+          "confidence": 0.98,
+          "rationale": "Clicked Minimize on the File Explorer window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 36.7922,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        59,
+        194
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 59,
+          "y": 194
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 269
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Switch <Window>",
+          "confidence": 0.84,
+          "rationale": "Clicked the Task ID 90 window/task entry to restore or switch back to it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 37.1348,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "cursor_position": [
+        59,
+        194
+      ],
+      "focused_element": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "element_under_cursor": {
+        "name": "Task ID 90",
+        "control_type": "ListItemControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        0,
+        0
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 59,
+          "y": 194
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 165,
+          "right": 112,
+          "bottom": 269
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Cursor To <List Item>",
+          "confidence": 0.86,
+          "rationale": "Hovered over the Task ID 90 task/window entry."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 39.6715,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        1394,
+        187
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Non Client Input Sink Window",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Non Client Input Sink Window",
+        "control_type": "PaneControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1394,
+          "y": 187
+        },
+        "element_bounds": {
+          "left": 113,
+          "top": 151,
+          "right": 1418,
+          "bottom": 223
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Select <Window>",
+          "confidence": 0.7,
+          "rationale": "Clicked the Photos window background to activate it."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 39.8003,
+      "application": "Photos.exe",
+      "window_title": "Task ID 90.jpg",
+      "cursor_position": [
+        1394,
+        187
+      ],
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "element_under_cursor": {
+        "name": "Non Client Input Sink Window",
+        "control_type": "PaneControl"
+      },
+      "event": "mouse_move",
+      "delta": [
+        -3,
+        -1
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1394,
+          "y": 187
+        },
+        "element_bounds": {
+          "left": 113,
+          "top": 151,
+          "right": 1418,
+          "bottom": 223
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "P",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Cursor To <Window>",
+          "confidence": 0.88,
+          "rationale": "Moved the mouse over the Photos window area."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.76,
+          "rationale": "Performed post-save window management by closing Photos, minimizing File Explorer, and switching back and forth between application windows."
+        },
+        "l5": {
+          "tag": "Return after saving",
+          "confidence": 0.82,
+          "rationale": "This final span closes or switches away from the image/editor and returns focus to the surrounding file/app windows after the save is complete."
+        }
+      },
+      "index": 35
+    }
+  ]
+}

@@ -1,0 +1,3118 @@
+{
+  "metadata": {
+    "task_id": 13,
+    "task_title": "Set an alarm on Clock",
+    "instruction": "Set an alarm for 8.30 AM that repeats every Monday",
+    "context": "I need an alarm to remind me to badge in to work.",
+    "task_group": "System Operations",
+    "applications": "Clock",
+    "success": false,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Magnifier",
+      "condition": "low-vision"
+    },
+    "session": {
+      "started_at": 1764883194.1963136,
+      "ended_at": 1764884365.0374014,
+      "duration": 1170.84
+    },
+    "statistics": {
+      "total_events": 74,
+      "apps_used": [
+        "Code.exe",
+        "explorer.exe",
+        "msedge.exe",
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::HWND_11799770",
+        "explorer.exe"
+      ],
+      "by_type": {
+        "key_press": 42,
+        "mouse_click": 26,
+        "hotkey": 3,
+        "scroll": 3
+      },
+      "by_app": {
+        "Code.exe": 5,
+        "explorer.exe": 8,
+        "msedge.exe": 2,
+        "ApplicationFrameHost.exe": 59
+      },
+      "keystrokes": {
+        "total_hotkeys": 3,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 30,
+        "hotkeys": {
+          "Alt+F4": 1,
+          "Ctrl+3": 1,
+          "Ctrl+N": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Tab": 24,
+          "Enter": 4,
+          "Esc": 1,
+          "Up": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0.0,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        463,
+        1138
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 463,
+          "y": 1138
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 9.3584,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1020,
+        810
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1020,
+          "y": 810
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 9.3584,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1020,
+        810
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1020,
+          "y": 810
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 1,
+          "endIndex": 2
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 21.6388,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1020,
+        810
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1020,
+          "y": 810
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 21.6388,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1020,
+        810
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1020,
+          "y": 810
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 50.1353,
+      "application": "msedge.exe",
+      "window_title": "clock - Search - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "clock - Search",
+        "control_type": "DocumentControl"
+      },
+      "cursor_position": [
+        762,
+        483
+      ],
+      "element_under_cursor": {
+        "name": "SponsoredSee Clock33% off$19.95$29.99Amazon.com10K+Bernhard Products Black Wall Clock, Large 13-Inch Silent Non Ticking Quartz …Battery Operated Round Easy To Read Classroom/Home/School/Office Clock$15.99Amazon.com283Foxtop Black Wall Clock Silent Non-Ticking 12 Inch Quartz Battery Operated Round …Analog Wall Clock For Classroom School Office Living Room Bedroom$34.95Amazon.com302Bernhard Products Black Wall Clock, Silent Non Ticking - 16 Inch Extra Large …Quality Quartz Battery Operated Round Easy To Read Home/Office/Business/$21.49WebstaurantStore$3cash backHamilton Beach HCR330 AM/FM Black Alarm Clock Radio - 120V32% off$37.77$55.99Kohl's$7Off $70La Crosse Technology Atomic Digital Clock With Temperature & …Moon Phase, Dark Red$21.59Quill$2cash backEquity By La Crosse 33100 Electric Analog Alarm Clock, White | Quill$44.95Global Industrial$1cash backLorell 12-1/2\" Slimline Wall Clock, Plastic Case, Black, LLR61008$29.95Quill$2cash backLa Crosse Technology 10 Inch Atomic Analog Wall Clock, Black (WT-3102B) | Quill$61.95Quill$6cash backLa Crosse Technology Atomic Wall Clock, Metal, 16 Dia. (WT-3161WH) | Quill$800.00Lightology$53cash backArne Jacobsen Station Wall Clock, Stainless Steel, RD-436WS63Sale$33.33$39.99Kohl's$7Off $70La Crosse Technology Atomic Digital Silver Wall Clock With Temperature$800.00Lightology$53cash backArne Jacobsen Roman Wall Clock, Aluminum, RD-436WR52$58.95Global Industrial$2cash backLorell 14-1/2\" Self-Set Wall Clock, Plastic Case, Black, LLR61009$159.95Vermont Country StoreVermont Country …$15cash backNorwalk Triple-Chime Tambour Mantel Clock - The Vermont Country Store$79.99Sharper ImageLarge Display 8\" LCD Digital Clock By Sharper Image - Easy To Read - Day Of Week And Day Of Week An…Date Displayed - Best Clock For Seniors$65.99Kohl's$8Off $70La Crosse Technology Digital Atomic Clock With Forecast, Black$34.95Vermont Country StoreVermont Country …$6cash backNight-Light Alarm Clock - The Vermont Country Store$478.95Williams SonomaEngstler Battery-Operated Cuckoo Clock, ChaletSee all",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 762,
+          "y": 483
+        },
+        "element_bounds": {
+          "left": 31,
+          "top": 416,
+          "right": 1551,
+          "bottom": 941
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 56.4928,
+      "application": "msedge.exe",
+      "window_title": "clock - Search - School - Microsoft​ Edge",
+      "focused_element": {
+        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        762,
+        483
+      ],
+      "element_under_cursor": {
+        "error": "(-2147220991, 'An event was unable to invoke any of the subscribers', (None, None, None, 0, None))"
+      },
+      "event": "key_press",
+      "key": "Alt",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 762,
+          "y": 483
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 56.5247,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        762,
+        483
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "WindowControl"
+      },
+      "event": "key_press",
+      "key": "F4",
+      "modifiers": [
+        "Alt"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 762,
+          "y": 483
+        },
+        "element_bounds": {
+          "left": 504,
+          "top": 21,
+          "right": 1548,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 7,
+          "endIndex": 7
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 56.5664,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        762,
+        483
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "WindowControl"
+      },
+      "event": "hotkey",
+      "combo": "Alt+F4",
+      "mods": [
+        "Alt"
+      ],
+      "key": "F4",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "close_window"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 762,
+          "y": 483
+        },
+        "element_bounds": {
+          "left": 504,
+          "top": 21,
+          "right": 1548,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 8,
+          "endIndex": 8
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 62.2684,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        651,
+        90
+      ],
+      "element_under_cursor": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "target": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl",
+        "automation_id": "23516304"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 651,
+          "y": 90
+        },
+        "element_bounds": {
+          "left": 504,
+          "top": 21,
+          "right": 1548,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 9,
+          "endIndex": 9
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 77.2636,
+      "application": "Code.exe",
+      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        651,
+        90
+      ],
+      "element_under_cursor": {
+        "name": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+        "control_type": "DocumentControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 651,
+          "y": 90
+        },
+        "element_bounds": {
+          "left": 504,
+          "top": 21,
+          "right": 1548,
+          "bottom": 762
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 10,
+          "endIndex": 10
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 116.4363,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 116.4363,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "Search box",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        960,
+        1198
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 1198
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 1128,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 12,
+          "endIndex": 12
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 148.798,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1543,
+        816
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1543,
+          "y": 816
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 13,
+          "endIndex": 13
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 168.3638,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 14,
+          "endIndex": 14
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 211.1572,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1200,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1200,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 15,
+          "endIndex": 15
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 219.3061,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1200,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1200,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 228.4161,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1200,
+        750
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1200,
+          "y": 750
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 248.7121,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1876,
+        724
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1876,
+          "y": 724
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 18,
+          "endIndex": 18
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 267.93,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1878,
+        724
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1878,
+          "y": 724
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 19,
+          "endIndex": 19
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 285.7428,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1875,
+        720
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1875,
+          "y": 720
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 20,
+          "endIndex": 20
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 307.1591,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 595,
+          "top": 126,
+          "right": 1099,
+          "bottom": 775
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 307.1852,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "n",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 595,
+          "top": 126,
+          "right": 1099,
+          "bottom": 775
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 307.2035,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+N",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "n",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "new"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 595,
+          "top": 126,
+          "right": 1099,
+          "bottom": 775
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 23,
+          "endIndex": 23
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 333.1428,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        276,
+        285
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 276,
+          "y": 285
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 24,
+          "endIndex": 24
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 386.637,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Sign in",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 25,
+          "endIndex": 25
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 397.5094,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 397.534,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 397.551,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 397.5684,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 408.6708,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1450,
+        1102
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1450,
+          "y": 1102
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 30,
+          "endIndex": 30
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 433.3676,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1887,
+        721
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1887,
+          "y": 721
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 31,
+          "endIndex": 32
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 433.3676,
+      "application": "explorer.exe",
+      "window_title": "",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1887,
+        721
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1887,
+          "y": 721
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 31,
+          "endIndex": 32
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 456.2943,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 33,
+          "endIndex": 33
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 456.3333,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 456.3524,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 456.3728,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 456.3934,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Settings",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 467.6405,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 478.6459,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        1050,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1050,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 595,
+          "top": 126,
+          "right": 1099,
+          "bottom": 775
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 508.2636,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        270,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 270,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 40,
+          "endIndex": 40
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 542.2759,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 41,
+          "endIndex": 41
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 553.9716,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 554.0013,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 554.0192,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 554.0386,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 554.0582,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 554.0782,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 565.5827,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        960,
+        600
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 960,
+          "y": 600
+        },
+        "element_bounds": {
+          "left": 595,
+          "top": 126,
+          "right": 1099,
+          "bottom": 775
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 580.0848,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        450,
+        450
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 450,
+          "y": 450
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 49,
+          "endIndex": 49
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 594.0933,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 50,
+          "endIndex": 50
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 606.6854,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 606.7151,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 606.737,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 606.7654,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 606.7874,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 606.8122,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Add an alarm",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Timer",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 119,
+          "right": 314,
+          "bottom": 172
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 617.9124,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        271,
+        150
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 150
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 637.9815,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        450,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "event": "scroll",
+      "delta": [
+        0,
+        3
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 450,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "S",
+          "startIndex": 58,
+          "endIndex": 58
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 652.103,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "hours",
+        "control_type": "CustomControl"
+      },
+      "cursor_position": [
+        271,
+        285
+      ],
+      "element_under_cursor": {
+        "name": "Close",
+        "control_type": "ButtonControl"
+      },
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 285
+        },
+        "element_bounds": {
+          "left": 247,
+          "top": 1,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 59,
+          "endIndex": 60
+        }
+      },
+      "index": 59
+    },
+    {
+      "timestamp": 652.2837,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        271,
+        285
+      ],
+      "element_under_cursor": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl",
+        "automation_id": "StopwatchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 285
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 238,
+          "right": 314,
+          "bottom": 292
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 59,
+          "endIndex": 60
+        }
+      },
+      "index": 60
+    },
+    {
+      "timestamp": 652.4701,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        271,
+        285
+      ],
+      "element_under_cursor": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl"
+      },
+      "target": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl",
+        "automation_id": "StopwatchButton"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 285
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 194,
+          "right": 314,
+          "bottom": 293
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 61,
+          "endIndex": 61
+        }
+      },
+      "index": 61
+    },
+    {
+      "timestamp": 666.558,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        271,
+        285
+      ],
+      "element_under_cursor": {
+        "name": "Stopwatch",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Esc",
+      "coordinates": {
+        "cursor": {
+          "x": 271,
+          "y": 285
+        },
+        "element_bounds": {
+          "left": 254,
+          "top": 238,
+          "right": 314,
+          "bottom": 292
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 62,
+          "endIndex": 62
+        }
+      },
+      "index": 62
+    },
+    {
+      "timestamp": 706.8334,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Focus sessions",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1519,
+        1029
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1519,
+          "y": 1029
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 63,
+          "endIndex": 63
+        }
+      },
+      "index": 63
+    },
+    {
+      "timestamp": 855.924,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1519,
+        1029
+      ],
+      "element_under_cursor": {
+        "name": "Desktop",
+        "control_type": "ListControl"
+      },
+      "target": {
+        "name": "Desktop",
+        "control_type": "ListControl",
+        "automation_id": "1"
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 1519,
+          "y": 1029
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1200
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 64,
+          "endIndex": 64
+        }
+      },
+      "index": 64
+    },
+    {
+      "timestamp": 1019.733,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 65,
+          "endIndex": 65
+        }
+      },
+      "index": 65
+    },
+    {
+      "timestamp": 1054.7631,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 66,
+          "endIndex": 66
+        }
+      },
+      "index": 66
+    },
+    {
+      "timestamp": 1071.36,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        300
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 300
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 67,
+          "endIndex": 67
+        }
+      },
+      "index": 67
+    },
+    {
+      "timestamp": 1088.2163,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "B",
+          "startIndex": 68,
+          "endIndex": 68
+        }
+      },
+      "index": 68
+    },
+    {
+      "timestamp": 1120.8793,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 69,
+          "endIndex": 70
+        }
+      },
+      "index": 69
+    },
+    {
+      "timestamp": 1120.9943,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "target": {
+        "name": "Clock",
+        "control_type": "WindowControl",
+        "automation_id": ""
+      },
+      "event": "mouse_click",
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "DB",
+          "startIndex": 69,
+          "endIndex": 70
+        }
+      },
+      "index": 70
+    },
+    {
+      "timestamp": 1138.2429,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 71,
+          "endIndex": 71
+        }
+      },
+      "index": 71
+    },
+    {
+      "timestamp": 1138.2721,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "key_press",
+      "key": "3",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 72,
+          "endIndex": 72
+        }
+      },
+      "index": 72
+    },
+    {
+      "timestamp": 1138.2912,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Clock",
+      "focused_element": {
+        "name": "Expand",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        426,
+        297
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+3",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "3",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 426,
+          "y": 297
+        },
+        "element_bounds": {
+          "left": 321,
+          "top": 55,
+          "right": 1447,
+          "bottom": 949
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 73,
+          "endIndex": 73
+        }
+      },
+      "index": 73
+    }
+  ]
+}

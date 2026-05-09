@@ -1,0 +1,3370 @@
+{
+  "metadata": {
+    "task_id": 52,
+    "task_title": "Adjust brightness on photo",
+    "instruction": "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1.",
+    "context": "The default brightness setting of The Eiffel Tower photo is too high",
+    "task_group": "Media",
+    "applications": "Photos",
+    "success": true,
+    "user_info": {
+      "user_type": "BLVU",
+      "user_id": "BLVU5",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1756911649.8413374,
+      "ended_at": 1756911735.9644313,
+      "duration": 86.12
+    },
+    "statistics": {
+      "total_events": 60,
+      "apps_used": [
+        "explorer.exe",
+        "Photos.exe"
+      ],
+      "by_type": {
+        "key_press": 56,
+        "hotkey": 4
+      },
+      "by_app": {
+        "explorer.exe": 28,
+        "Photos.exe": 32
+      },
+      "keystrokes": {
+        "total_hotkeys": 3,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 47,
+        "hotkeys": {
+          "Ctrl+Left": 2,
+          "Win+R": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "Down": 12,
+          "Tab": 12,
+          "Enter": 7,
+          "Right": 6,
+          "Left": 5,
+          "PageDown": 3,
+          "Shift": 1,
+          "Up": 1
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 0.5058,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 0.5614,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 0.6071,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 0.6592,
+      "application": "explorer.exe",
+      "window_title": "Program Manager",
+      "focused_element": {
+        "name": "Google Chrome",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 0.815,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Win",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.78,
+          "rationale": "Win key opens the Start/launcher window from the desktop."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 1.0821,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "r",
+      "modifiers": [
+        "Win"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.75,
+          "rationale": "Typing the next character into the Run input field."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 6
+    },
+    {
+      "timestamp": 1.1774,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Win+R",
+      "mods": [
+        "Win"
+      ],
+      "key": "r",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 7,
+          "endIndex": 7
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.95,
+          "rationale": "Win+R opens the Run window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 7
+    },
+    {
+      "timestamp": 1.7062,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 8,
+          "endIndex": 8
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.8,
+          "rationale": "Ctrl key as part of cursor navigation in the Run text box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 8
+    },
+    {
+      "timestamp": 1.7855,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 9,
+          "endIndex": 9
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.8,
+          "rationale": "Ctrl key as part of cursor navigation in the Run text box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 9
+    },
+    {
+      "timestamp": 1.8432,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 10,
+          "endIndex": 10
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.8,
+          "rationale": "Ctrl key as part of cursor navigation in the Run text box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 10
+    },
+    {
+      "timestamp": 1.9244,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 11,
+          "endIndex": 11
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.8,
+          "rationale": "Ctrl key as part of cursor navigation in the Run text box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 11
+    },
+    {
+      "timestamp": 1.9984,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "Open:",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+Left",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "Left",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 12,
+          "endIndex": 12
+        },
+        "l3": {
+          "tag": "Move Cursor To <Text>",
+          "confidence": 0.8,
+          "rationale": "Ctrl key as part of cursor navigation in the Run text box."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 12
+    },
+    {
+      "timestamp": 2.7785,
+      "application": "explorer.exe",
+      "window_title": "Run",
+      "focused_element": {
+        "name": "",
+        "control_type": "TextControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 13,
+          "endIndex": 13
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.8,
+          "rationale": "Enter submits the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 13
+    },
+    {
+      "timestamp": 3.8275,
+      "application": "explorer.exe",
+      "window_title": "File Explorer",
+      "focused_element": {
+        "name": "Documents - File Explorer",
+        "control_type": "WindowControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 14,
+          "endIndex": 14
+        },
+        "l3": {
+          "tag": "Open <Window>",
+          "confidence": 0.8,
+          "rationale": "Enter submits the Run command and opens the next window."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 14
+    },
+    {
+      "timestamp": 4.7995,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 15,
+          "endIndex": 15
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.72,
+          "rationale": "PageDown scrolls the Documents file list/window content."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 15
+    },
+    {
+      "timestamp": 5.9477,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 16,
+          "endIndex": 16
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Down arrow moves focus to the next folder item in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 16
+    },
+    {
+      "timestamp": 6.515,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 48",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Up",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 17,
+          "endIndex": 17
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.84,
+          "rationale": "Down arrow moves focus to the next folder item in the list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 17
+    },
+    {
+      "timestamp": 6.7724,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 49",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 18,
+          "endIndex": 18
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.72,
+          "rationale": "PageDown scrolls further through the folder contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 18
+    },
+    {
+      "timestamp": 8.9731,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 72",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "PageDown",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 19,
+          "endIndex": 19
+        },
+        "l3": {
+          "tag": "Scroll <Window>",
+          "confidence": 0.72,
+          "rationale": "PageDown scrolls further through the folder contents."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 19
+    },
+    {
+      "timestamp": 10.3233,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 73",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 20,
+          "endIndex": 20
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus to the next item in the Documents list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 20
+    },
+    {
+      "timestamp": 10.5025,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 75",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 21,
+          "endIndex": 21
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus to the next item in the Documents list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 21
+    },
+    {
+      "timestamp": 11.7915,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 76",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 22,
+          "endIndex": 22
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus to the next item in the Documents list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 22
+    },
+    {
+      "timestamp": 13.1327,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 23,
+          "endIndex": 23
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.9,
+          "rationale": "Down arrow moves focus to the next item in the Documents list."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 23
+    },
+    {
+      "timestamp": 14.3355,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 24,
+          "endIndex": 24
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Enter opens the Task 77 folder item."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 24
+    },
+    {
+      "timestamp": 17.4025,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 25,
+          "endIndex": 25
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.82,
+          "rationale": "Down arrow moves to the next item inside the Task 77 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 25
+    },
+    {
+      "timestamp": 18.0133,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 26,
+          "endIndex": 26
+        },
+        "l3": {
+          "tag": "Move Focus To <List Item>",
+          "confidence": 0.82,
+          "rationale": "Down arrow moves to the next item inside the Task 77 folder."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 26
+    },
+    {
+      "timestamp": 18.5719,
+      "application": "explorer.exe",
+      "window_title": "Task 77 - File Explorer",
+      "focused_element": {
+        "name": "Task 77",
+        "control_type": "ListItemControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 27,
+          "endIndex": 27
+        },
+        "l3": {
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Enter opens the Task 77.jpg image file."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Used Run and File Explorer to reach Documents > Task 77 and open Task 77.jpg."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 27
+    },
+    {
+      "timestamp": 22.3179,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 28,
+          "endIndex": 28
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 28
+    },
+    {
+      "timestamp": 23.5687,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Edit",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 29,
+          "endIndex": 29
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 29
+    },
+    {
+      "timestamp": 23.689,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Rotate",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 30,
+          "endIndex": 30
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 30
+    },
+    {
+      "timestamp": 24.9518,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Rotate",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 31,
+          "endIndex": 31
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 31
+    },
+    {
+      "timestamp": 25.0452,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Edit",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 32,
+          "endIndex": 32
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 32
+    },
+    {
+      "timestamp": 25.1299,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Edit",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+Tab",
+      "mods": [
+        "Shift"
+      ],
+      "key": "Tab",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 33,
+          "endIndex": 33
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.9,
+          "rationale": "Tab moves focus from the image pane to the Edit button in Photos."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 33
+    },
+    {
+      "timestamp": 26.1266,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Edit",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 34,
+          "endIndex": 34
+        },
+        "l3": {
+          "tag": "Select <Button>",
+          "confidence": 0.94,
+          "rationale": "Enter activates the Edit button."
+        },
+        "l4": {
+          "tag": "Confirm <Application>",
+          "confidence": 0.92,
+          "rationale": "Tabbed to the Edit button in Photos and activated it to enter editing mode."
+        },
+        "l5": {
+          "tag": "Open target photo",
+          "confidence": 0.91,
+          "rationale": "Covers launching Photos, navigating/searching through Documents > Task 77, and confirming the selected Task ID 77.jpg so the image is opened."
+        }
+      },
+      "index": 34
+    },
+    {
+      "timestamp": 28.7156,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "Back",
+        "control_type": "ButtonControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 35,
+          "endIndex": 35
+        },
+        "l3": {
+          "tag": "Move Focus To <Button>",
+          "confidence": 0.88,
+          "rationale": "Tab moves focus to the Back button."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 35
+    },
+    {
+      "timestamp": 29.9588,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 36,
+          "endIndex": 36
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.52,
+          "rationale": "Tab continues into the main photo editing area/panel."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 36
+    },
+    {
+      "timestamp": 32.4352,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 37,
+          "endIndex": 37
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.52,
+          "rationale": "Tab continues into the main photo editing area/panel."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 37
+    },
+    {
+      "timestamp": 32.5345,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 38,
+          "endIndex": 38
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.52,
+          "rationale": "Tab continues into the main photo editing area/panel."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 38
+    },
+    {
+      "timestamp": 33.7558,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 39,
+          "endIndex": 39
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.52,
+          "rationale": "Tab continues into the main photo editing area/panel."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 39
+    },
+    {
+      "timestamp": 33.8417,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 40,
+          "endIndex": 40
+        },
+        "l3": {
+          "tag": "Move Focus To <Canvas>",
+          "confidence": 0.52,
+          "rationale": "Tab continues into the main photo editing area/panel."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 40
+    },
+    {
+      "timestamp": 37.1139,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 41,
+          "endIndex": 41
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 41
+    },
+    {
+      "timestamp": 39.3596,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 42,
+          "endIndex": 42
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 42
+    },
+    {
+      "timestamp": 41.0184,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 43,
+          "endIndex": 43
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 43
+    },
+    {
+      "timestamp": 42.5146,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 44,
+          "endIndex": 44
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 44
+    },
+    {
+      "timestamp": 43.1018,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 45,
+          "endIndex": 45
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 45
+    },
+    {
+      "timestamp": 44.2843,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 46,
+          "endIndex": 46
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 46
+    },
+    {
+      "timestamp": 45.6427,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Right",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 47,
+          "endIndex": 47
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 47
+    },
+    {
+      "timestamp": 49.8098,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 48,
+          "endIndex": 48
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 48
+    },
+    {
+      "timestamp": 50.0367,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 49,
+          "endIndex": 49
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 49
+    },
+    {
+      "timestamp": 50.2261,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 50,
+          "endIndex": 50
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 50
+    },
+    {
+      "timestamp": 50.4104,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Left",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 51,
+          "endIndex": 51
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.76,
+          "rationale": "Right arrow adjusts the brightness slider upward or moves its thumb."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 51
+    },
+    {
+      "timestamp": 53.0338,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 52,
+          "endIndex": 52
+        },
+        "l3": {
+          "tag": "Select <Slider>",
+          "confidence": 0.42,
+          "rationale": "Enter confirms the current adjustment on the slider/control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 52
+    },
+    {
+      "timestamp": 55.7129,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Tab",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 53,
+          "endIndex": 53
+        },
+        "l3": {
+          "tag": "Move Focus To <Slider>",
+          "confidence": 0.6,
+          "rationale": "Tab moves focus to the next adjustment slider/control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 53
+    },
+    {
+      "timestamp": 57.5447,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 54,
+          "endIndex": 54
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.82,
+          "rationale": "Down arrow decreases the selected brightness/value control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 54
+    },
+    {
+      "timestamp": 58.5737,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 55,
+          "endIndex": 55
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.82,
+          "rationale": "Down arrow decreases the selected brightness/value control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 55
+    },
+    {
+      "timestamp": 60.8183,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 56,
+          "endIndex": 56
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.82,
+          "rationale": "Down arrow decreases the selected brightness/value control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 56
+    },
+    {
+      "timestamp": 62.3803,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 57,
+          "endIndex": 57
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.82,
+          "rationale": "Down arrow decreases the selected brightness/value control."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 57
+    },
+    {
+      "timestamp": 65.1651,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Enter",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 58,
+          "endIndex": 58
+        },
+        "l3": {
+          "tag": "Select <Slider>",
+          "confidence": 0.42,
+          "rationale": "Enter confirms the adjusted brightness value."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 58
+    },
+    {
+      "timestamp": 67.5984,
+      "application": "Photos.exe",
+      "window_title": "Task 77.jpg",
+      "focused_element": {
+        "name": "",
+        "control_type": "PaneControl"
+      },
+      "cursor_position": [
+        1077,
+        93
+      ],
+      "element_under_cursor": {
+        "name": "",
+        "control_type": "GroupControl"
+      },
+      "event": "key_press",
+      "key": "Down",
+      "coordinates": {
+        "cursor": {
+          "x": 1077,
+          "y": 93
+        },
+        "element_bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 59,
+          "endIndex": 59
+        },
+        "l3": {
+          "tag": "Move <Slider>",
+          "confidence": 0.7,
+          "rationale": "Final Down arrow continues fine adjustment of the slider value."
+        },
+        "l4": {
+          "tag": "Format <Image>",
+          "confidence": 0.9,
+          "rationale": "Moved through the editing controls and adjusted the brightness slider/values to lower the photo’s brightness, then confirmed the setting."
+        },
+        "l5": {
+          "tag": "Lower brightness",
+          "confidence": 0.97,
+          "rationale": "Covers the image-formatting controls and moving the brightness slider downward until the photo’s brightness is reduced to the target level."
+        }
+      },
+      "index": 59
+    }
+  ]
+}

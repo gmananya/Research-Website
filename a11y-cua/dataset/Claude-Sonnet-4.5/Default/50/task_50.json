@@ -1,11 +1,11 @@
 {
   "metadata": {
     "task_id": 50,
-    "task_title": "Capitalize the starting letter of every word in Word and add page number",
-    "instruction": "Open Task ID 50.docx in Document > Task 50 folder, capitalize the first letter of every word in the title and add the page number",
-    "context": "I am writing an article on Word and I want to modify the title format based on the guidelines.",
-    "task_group": "Document Editing",
-    "applications": "Word",
+    "task_title": "Change the video speed",
+    "instruction": "Open video Task ID 75.mp4 in Documents > Task 75 folder on Media Player. Play the video in 1.5x speed.",
+    "context": "I'm watching a video on Media Player, but I'm on a time crunch so I want to speed through it.",
+    "task_group": "Media",
+    "applications": "Windows Media Player",
     "success": true,
     "user_info": {
       "user_type": "Claude-Sonnet-4.5",
@@ -13,23 +13,24 @@
       "condition": "sighted"
     },
     "session": {
-      "started_at": 1763657789.9970212,
-      "ended_at": 1763658105.2691705,
-      "duration": 315.27
+      "started_at": 1763837470.2842648,
+      "ended_at": 1763837731.8233137,
+      "duration": 261.54
     },
     "statistics": {
-      "total_events": 28,
+      "total_events": 17,
       "apps_used": [
         "explorer.exe",
-        "WINWORD.EXE"
+        "ApplicationFrameHost.exe",
+        "ApplicationFrameHost.exe::MediaPlayer"
       ],
       "by_type": {
-        "mouse_click": 16,
-        "scroll": 12
+        "mouse_click": 15,
+        "scroll": 2
       },
       "by_app": {
-        "explorer.exe": 4,
-        "WINWORD.EXE": 24
+        "explorer.exe": 8,
+        "ApplicationFrameHost.exe": 9
       },
       "keystrokes": {
         "total_hotkeys": 0,
@@ -45,35 +46,35 @@
     {
       "timestamp": 0,
       "application": "explorer.exe",
-      "window_title": "Program Manager",
+      "window_title": "Home - File Explorer",
       "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
+        "name": "Recommended",
+        "control_type": "GroupControl"
       },
       "cursor_position": [
-        1095,
-        1162
+        1855,
+        976
       ],
       "element_under_cursor": {
-        "name": "File Explorer pinned",
+        "name": "Dismiss this notification",
         "control_type": "ButtonControl"
       },
       "target": {
-        "name": "File Explorer pinned",
+        "name": "Dismiss this notification",
         "control_type": "ButtonControl",
-        "automation_id": "Appid: Microsoft.Windows.Explorer"
+        "automation_id": "DismissButton"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1095,
-          "y": 1162
+          "x": 1855,
+          "y": 976
         },
         "element_bounds": {
-          "left": 1063,
-          "top": 1128,
-          "right": 1129,
-          "bottom": 1200
+          "left": 1826,
+          "top": 948,
+          "right": 1886,
+          "bottom": 1007
         }
       },
       "semantic_tags": {
@@ -83,55 +84,55 @@
           "endIndex": 0
         },
         "l3": {
-          "tag": "Open <Button>",
+          "tag": "Close <Button>",
           "confidence": 0.98,
-          "rationale": "Clicked the File Explorer pinned button to launch/open the app."
+          "rationale": "Dismisses the notification popup using the Dismiss button."
         },
         "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Opened File Explorer and then opened Task ID 50.docx from the Task 50 folder, which navigates to the target document in the application."
+          "tag": "View <Application>",
+          "confidence": 0.84,
+          "rationale": "Dismisses the notification popup so the File Explorer window is visible and usable."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "This span navigates through the application to reach and open Task 50.docx from the folder hierarchy."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 0
     },
     {
-      "timestamp": 12.7131,
+      "timestamp": 12.0056,
       "application": "explorer.exe",
       "window_title": "Home - File Explorer",
       "focused_element": {
-        "name": "Recommended",
-        "control_type": "GroupControl"
+        "name": "Home - File Explorer",
+        "control_type": "WindowControl"
       },
       "cursor_position": [
-        862,
-        621
+        505,
+        648
       ],
       "element_under_cursor": {
-        "name": "Task ID 50",
-        "control_type": "TextControl"
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
       },
       "target": {
-        "name": "Task ID 50",
-        "control_type": "TextControl",
-        "automation_id": "DisplayNameTextBlock"
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl",
+        "automation_id": ""
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 862,
-          "y": 621
+          "x": 505,
+          "y": 648
         },
         "element_bounds": {
-          "left": 804,
-          "top": 598,
-          "right": 922,
-          "bottom": 622
+          "left": 459,
+          "top": 625,
+          "right": 554,
+          "bottom": 673
         }
       },
       "semantic_tags": {
@@ -142,286 +143,284 @@
         },
         "l3": {
           "tag": "Open <List Item>",
-          "confidence": 0.82,
-          "rationale": "Clicked the Task ID 50 item in File Explorer to open it."
+          "confidence": 0.94,
+          "rationale": "Opens the Documents location from the File Explorer navigation pane."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Opened File Explorer and then opened Task ID 50.docx from the Task 50 folder, which navigates to the target document in the application."
+          "confidence": 0.95,
+          "rationale": "Moves through File Explorer by opening Documents, scrolling, and opening the Task 75 folder to reach the target file."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "This span navigates through the application to reach and open Task 50.docx from the folder hierarchy."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 1
     },
     {
-      "timestamp": 17.7315,
+      "timestamp": 21.4577,
       "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
+      "window_title": "Documents - File Explorer",
       "focused_element": {
-        "name": "Task ID 50 ",
-        "control_type": "ListItemControl"
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
       },
       "cursor_position": [
-        862,
-        621
+        960,
+        675
       ],
       "element_under_cursor": {
-        "name": "Task ID 50",
-        "control_type": "TextControl"
+        "name": "Items View",
+        "control_type": "ListControl"
       },
-      "target": {
-        "name": "Task ID 50",
-        "control_type": "TextControl",
-        "automation_id": "DisplayNameTextBlock"
-      },
-      "event": "mouse_click",
+      "event": "scroll",
+      "delta": [
+        0,
+        -5
+      ],
       "coordinates": {
         "cursor": {
-          "x": 862,
-          "y": 621
+          "x": 960,
+          "y": 675
         },
         "element_bounds": {
-          "left": 804,
-          "top": 598,
-          "right": 922,
-          "bottom": 622
+          "left": 621,
+          "top": 328,
+          "right": 1559,
+          "bottom": 974
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "DB",
+          "tag": "S",
           "startIndex": 2,
           "endIndex": 3
         },
         "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.82,
-          "rationale": "Clicked the Task ID 50 item in File Explorer to open it."
+          "tag": "Scroll <Window>",
+          "confidence": 0.88,
+          "rationale": "Scrolls the File Explorer window content."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Opened File Explorer and then opened Task ID 50.docx from the Task 50 folder, which navigates to the target document in the application."
+          "confidence": 0.95,
+          "rationale": "Moves through File Explorer by opening Documents, scrolling, and opening the Task 75 folder to reach the target file."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "This span navigates through the application to reach and open Task 50.docx from the folder hierarchy."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 2
     },
     {
-      "timestamp": 18.0342,
+      "timestamp": 28.2933,
       "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
+      "window_title": "Documents - File Explorer",
       "focused_element": {
-        "name": "Task ID 50 ",
-        "control_type": "ListItemControl"
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
       },
       "cursor_position": [
-        862,
-        621
+        960,
+        675
       ],
       "element_under_cursor": {
-        "name": "Task ID 50",
-        "control_type": "TextControl"
+        "name": "Name",
+        "control_type": "EditControl"
       },
-      "target": {
-        "name": "Task ID 50",
-        "control_type": "TextControl",
-        "automation_id": "DisplayNameTextBlock"
-      },
-      "event": "mouse_click",
+      "event": "scroll",
+      "delta": [
+        0,
+        -3
+      ],
       "coordinates": {
         "cursor": {
-          "x": 862,
-          "y": 621
+          "x": 960,
+          "y": 675
         },
         "element_bounds": {
-          "left": 804,
-          "top": 598,
-          "right": 922,
-          "bottom": 622
+          "left": 675,
+          "top": 655,
+          "right": 1080,
+          "bottom": 684
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "DB",
+          "tag": "S",
           "startIndex": 2,
           "endIndex": 3
         },
         "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.82,
-          "rationale": "Clicked the Task ID 50 item in File Explorer to open it."
+          "tag": "Scroll <Window>",
+          "confidence": 0.88,
+          "rationale": "Scrolls the File Explorer window content."
         },
         "l4": {
           "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Opened File Explorer and then opened Task ID 50.docx from the Task 50 folder, which navigates to the target document in the application."
+          "confidence": 0.95,
+          "rationale": "Moves through File Explorer by opening Documents, scrolling, and opening the Task 75 folder to reach the target file."
         },
         "l5": {
-          "tag": "Open target document",
-          "confidence": 0.98,
-          "rationale": "This span navigates through the application to reach and open Task 50.docx from the folder hierarchy."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 3
     },
     {
-      "timestamp": 30.7802,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 37.3467,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Documents (pinned)",
+        "control_type": "TreeItemControl"
       },
       "cursor_position": [
-        1207,
-        498
+        705,
+        670
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
+        "name": "Name",
         "control_type": "EditControl"
       },
       "target": {
-        "name": "Page 1 content",
+        "name": "Name",
         "control_type": "EditControl",
-        "automation_id": "Body"
+        "automation_id": "System.ItemNameDisplay"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1207,
-          "y": 498
+          "x": 705,
+          "y": 670
         },
         "element_bounds": {
-          "left": 597,
-          "top": 437,
-          "right": 1821,
-          "bottom": 1095
+          "left": 675,
+          "top": 655,
+          "right": 1080,
+          "bottom": 684
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "B",
+          "tag": "DB",
           "startIndex": 4,
-          "endIndex": 4
+          "endIndex": 5
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.86,
-          "rationale": "Clicked inside the Word document body to place the cursor in the text area."
+          "tag": "Select <List Item>",
+          "confidence": 0.79,
+          "rationale": "Selects the Task 75 folder/item in Documents."
         },
         "l4": {
-          "tag": "Format <Text Document>",
-          "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moves through File Explorer by opening Documents, scrolling, and opening the Task 75 folder to reach the target file."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 4
     },
     {
-      "timestamp": 32.1265,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 37.6475,
+      "application": "explorer.exe",
+      "window_title": "Documents - File Explorer",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Task 75",
+        "control_type": "ListItemControl"
       },
       "cursor_position": [
-        1207,
-        498
+        705,
+        670
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
+        "name": "Name",
         "control_type": "EditControl"
       },
       "target": {
-        "name": "Page 1 content",
+        "name": "Name",
         "control_type": "EditControl",
-        "automation_id": "Body"
+        "automation_id": "System.ItemNameDisplay"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1207,
-          "y": 498
+          "x": 705,
+          "y": 670
         },
         "element_bounds": {
-          "left": 597,
-          "top": 437,
-          "right": 1821,
-          "bottom": 1095
+          "left": 675,
+          "top": 655,
+          "right": 1080,
+          "bottom": 684
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "B",
-          "startIndex": 5,
+          "tag": "DB",
+          "startIndex": 4,
           "endIndex": 5
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.86,
-          "rationale": "Clicked inside the Word document body to place the cursor in the text area."
+          "tag": "Open <List Item>",
+          "confidence": 0.92,
+          "rationale": "Opens the selected Task 75 folder."
         },
         "l4": {
-          "tag": "Format <Text Document>",
-          "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "tag": "Navigate <Application>",
+          "confidence": 0.95,
+          "rationale": "Moves through File Explorer by opening Documents, scrolling, and opening the Task 75 folder to reach the target file."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 5
     },
     {
-      "timestamp": 39.3915,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 44.7509,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
       },
       "cursor_position": [
-        1207,
-        498
+        720,
+        427
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
       },
       "target": {
-        "name": "Page 1 content",
-        "control_type": "EditControl",
-        "automation_id": "Body"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1207,
-          "y": 498
+          "x": 720,
+          "y": 427
         },
         "element_bounds": {
-          "left": 597,
-          "top": 437,
-          "right": 1821,
-          "bottom": 1095
+          "left": 642,
+          "top": 337,
+          "right": 800,
+          "bottom": 514
         }
       },
       "semantic_tags": {
@@ -431,55 +430,55 @@
           "endIndex": 7
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.86,
-          "rationale": "Clicked inside the Word document body to place the cursor in the text area."
+          "tag": "Select <List Item>",
+          "confidence": 0.8,
+          "rationale": "Selects the Task ID 75 video file in the Task 75 folder."
         },
         "l4": {
-          "tag": "Format <Text Document>",
+          "tag": "Confirm <Video>",
           "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "rationale": "Selects and opens Task ID 75.mp4, confirming the chosen video file to launch playback."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 6
     },
     {
-      "timestamp": 39.7215,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 45.0341,
+      "application": "explorer.exe",
+      "window_title": "Task 75 - File Explorer",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
       },
       "cursor_position": [
-        1207,
-        498
+        720,
+        427
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl"
       },
       "target": {
-        "name": "Page 1 content",
-        "control_type": "EditControl",
-        "automation_id": "Body"
+        "name": "Task ID 75",
+        "control_type": "ListItemControl",
+        "automation_id": "0"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1207,
-          "y": 498
+          "x": 720,
+          "y": 427
         },
         "element_bounds": {
-          "left": 597,
-          "top": 437,
-          "right": 1821,
-          "bottom": 1095
+          "left": 642,
+          "top": 337,
+          "right": 800,
+          "bottom": 514
         }
       },
       "semantic_tags": {
@@ -489,55 +488,55 @@
           "endIndex": 7
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.86,
-          "rationale": "Clicked inside the Word document body to place the cursor in the text area."
+          "tag": "Open <List Item>",
+          "confidence": 0.96,
+          "rationale": "Opens the Task ID 75 video file for playback."
         },
         "l4": {
-          "tag": "Format <Text Document>",
+          "tag": "Confirm <Video>",
           "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "rationale": "Selects and opens Task ID 75.mp4, confirming the chosen video file to launch playback."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Open target video file",
+          "confidence": 0.95,
+          "rationale": "The first actions close an initial UI element, navigate through Documents > Task 75, select Task ID 75.mp4, and open it in the media player."
         }
       },
       "index": 7
     },
     {
-      "timestamp": 40.033,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 80.6879,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Pause",
+        "control_type": "ButtonControl"
       },
       "cursor_position": [
-        1207,
-        498
+        787,
+        600
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Media Player",
+        "control_type": "WindowControl"
       },
       "target": {
-        "name": "Page 1 content",
-        "control_type": "EditControl",
-        "automation_id": "Body"
+        "name": "Media Player",
+        "control_type": "WindowControl",
+        "automation_id": ""
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1207,
-          "y": 498
+          "x": 787,
+          "y": 600
         },
         "element_bounds": {
-          "left": 597,
-          "top": 437,
-          "right": 1821,
-          "bottom": 1095
+          "left": 188,
+          "top": 145,
+          "right": 1388,
+          "bottom": 1093
         }
       },
       "semantic_tags": {
@@ -547,55 +546,55 @@
           "endIndex": 8
         },
         "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.86,
-          "rationale": "Clicked inside the Word document body to place the cursor in the text area."
+          "tag": "Switch <Window>",
+          "confidence": 0.78,
+          "rationale": "Activates the Media Player window after the video opens."
         },
         "l4": {
-          "tag": "Format <Text Document>",
-          "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 8
     },
     {
-      "timestamp": 51.722,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 92.5028,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "Pause",
+        "control_type": "ButtonControl"
       },
       "cursor_position": [
-        373,
-        217
+        1354,
+        1029
       ],
       "element_under_cursor": {
-        "name": "Change Case",
-        "control_type": "MenuItemControl"
+        "name": "More options",
+        "control_type": "ButtonControl"
       },
       "target": {
-        "name": "Change Case",
-        "control_type": "MenuItemControl",
-        "automation_id": "ChangeCaseGallery"
+        "name": "More options",
+        "control_type": "ButtonControl",
+        "automation_id": "OverFlowButton"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 373,
-          "y": 217
+          "x": 1354,
+          "y": 1029
         },
         "element_bounds": {
-          "left": 340,
-          "top": 201,
-          "right": 400,
-          "bottom": 237
+          "left": 1328,
+          "top": 1003,
+          "right": 1382,
+          "bottom": 1057
         }
       },
       "semantic_tags": {
@@ -605,55 +604,55 @@
           "endIndex": 9
         },
         "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.95,
-          "rationale": "Clicked Change Case to open its menu/gallery."
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Opens the More options menu in Media Player."
         },
         "l4": {
-          "tag": "Format <Text Document>",
-          "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 9
     },
     {
-      "timestamp": 58.0234,
-      "application": "WINWORD.EXE",
-      "window_title": "",
+      "timestamp": 100.3308,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Capitalize Each Word",
-        "control_type": "ListItemControl"
+        "name": "Properties",
+        "control_type": "MenuItemControl"
       },
       "cursor_position": [
-        478,
-        385
+        1230,
+        721
       ],
       "element_under_cursor": {
-        "name": "Capitalize Each Word",
-        "control_type": "ListItemControl"
+        "name": "Speed",
+        "control_type": "TextControl"
       },
       "target": {
-        "name": "Capitalize Each Word",
-        "control_type": "ListItemControl",
-        "automation_id": ""
+        "name": "Speed",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 478,
-          "y": 385
+          "x": 1230,
+          "y": 721
         },
         "element_bounds": {
-          "left": 342,
-          "top": 365,
-          "right": 574,
-          "bottom": 407
+          "left": 1203,
+          "top": 707,
+          "right": 1496,
+          "bottom": 735
         }
       },
       "semantic_tags": {
@@ -663,55 +662,55 @@
           "endIndex": 10
         },
         "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.97,
-          "rationale": "Chose Capitalize Each Word from the Change Case options."
+          "tag": "Open <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Opens the Speed submenu from the options menu."
         },
         "l4": {
-          "tag": "Format <Text Document>",
-          "confidence": 0.91,
-          "rationale": "Placed the cursor in the Word document and used Change Case > Capitalize Each Word to change the title’s capitalization formatting."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 10
     },
     {
-      "timestamp": 75.029,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 119.3618,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "0.25 ×",
+        "control_type": "MenuItemControl"
       },
       "cursor_position": [
-        210,
-        94
+        1617,
+        927
       ],
       "element_under_cursor": {
-        "name": "Insert",
-        "control_type": "TabItemControl"
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl"
       },
       "target": {
-        "name": "Insert",
-        "control_type": "TabItemControl",
-        "automation_id": "TabInsert"
+        "name": "1.5 ×",
+        "control_type": "MenuItemControl",
+        "automation_id": "MTCPlaybackRateButtonFast"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 210,
-          "y": 94
+          "x": 1617,
+          "y": 927
         },
         "element_bounds": {
-          "left": 171,
-          "top": 72,
-          "right": 251,
-          "bottom": 117
+          "left": 1580,
+          "top": 901,
+          "right": 1795,
+          "bottom": 952
         }
       },
       "semantic_tags": {
@@ -721,55 +720,55 @@
           "endIndex": 11
         },
         "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.88,
-          "rationale": "Activated the Insert ribbon tab."
+          "tag": "Select <Menu Item>",
+          "confidence": 0.99,
+          "rationale": "Selects the 1.5× playback speed option."
         },
         "l4": {
-          "tag": "Insert <Text Document>",
-          "confidence": 0.98,
-          "rationale": "Switched to Insert and added a page number via Page Number > Bottom of Page > Plain Number 2, then closed header/footer editing."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 11
     },
     {
-      "timestamp": 82.3549,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 129.8884,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "0.25 ×",
+        "control_type": "MenuItemControl"
       },
       "cursor_position": [
-        1200,
-        219
+        1617,
+        927
       ],
       "element_under_cursor": {
-        "name": "Page Number",
+        "name": "1.5 ×",
         "control_type": "MenuItemControl"
       },
       "target": {
-        "name": "Page Number",
+        "name": "1.5 ×",
         "control_type": "MenuItemControl",
-        "automation_id": "HeaderFooterPageNumberInsert"
+        "automation_id": "MTCPlaybackRateButtonFast"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1200,
-          "y": 219
+          "x": 1617,
+          "y": 927
         },
         "element_bounds": {
-          "left": 1115,
-          "top": 201,
-          "right": 1290,
-          "bottom": 237
+          "left": 1580,
+          "top": 901,
+          "right": 1795,
+          "bottom": 952
         }
       },
       "semantic_tags": {
@@ -779,55 +778,55 @@
           "endIndex": 12
         },
         "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.96,
-          "rationale": "Clicked Page Number to open its insertion menu."
+          "tag": "Select <Menu Item>",
+          "confidence": 0.99,
+          "rationale": "Selects the 1.5× playback speed option."
         },
         "l4": {
-          "tag": "Insert <Text Document>",
-          "confidence": 0.98,
-          "rationale": "Switched to Insert and added a page number via Page Number > Bottom of Page > Plain Number 2, then closed header/footer editing."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 12
     },
     {
-      "timestamp": 90.5065,
-      "application": "WINWORD.EXE",
-      "window_title": "",
+      "timestamp": 149.9007,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "",
-        "control_type": "MenuItemControl"
+        "name": "More options",
+        "control_type": "ButtonControl"
       },
       "cursor_position": [
-        1234,
-        304
+        787,
+        600
       ],
       "element_under_cursor": {
-        "name": "Bottom of Page",
-        "control_type": "MenuItemControl"
+        "name": "Media Player",
+        "control_type": "WindowControl"
       },
       "target": {
-        "name": "Bottom of Page",
-        "control_type": "MenuItemControl",
+        "name": "Media Player",
+        "control_type": "WindowControl",
         "automation_id": ""
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1234,
-          "y": 304
+          "x": 787,
+          "y": 600
         },
         "element_bounds": {
-          "left": 1117,
-          "top": 283,
-          "right": 1397,
-          "bottom": 327
+          "left": 188,
+          "top": 145,
+          "right": 1388,
+          "bottom": 1093
         }
       },
       "semantic_tags": {
@@ -837,55 +836,55 @@
           "endIndex": 13
         },
         "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.96,
-          "rationale": "Clicked Page Number to open its insertion menu."
+          "tag": "Switch <Window>",
+          "confidence": 0.74,
+          "rationale": "Returns focus to the Media Player window from the open menu."
         },
         "l4": {
-          "tag": "Insert <Text Document>",
-          "confidence": 0.98,
-          "rationale": "Switched to Insert and added a page number via Page Number > Bottom of Page > Plain Number 2, then closed header/footer editing."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 13
     },
     {
-      "timestamp": 109.3355,
-      "application": "WINWORD.EXE",
-      "window_title": "",
+      "timestamp": 160.3686,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Bottom of Page",
-        "control_type": "MenuControl"
+        "name": "More options",
+        "control_type": "ButtonControl"
       },
       "cursor_position": [
-        792,
-        585
+        1354,
+        1029
       ],
       "element_under_cursor": {
-        "name": "Plain Number 2",
-        "control_type": "ListItemControl"
+        "name": "More options",
+        "control_type": "ButtonControl"
       },
       "target": {
-        "name": "Plain Number 2",
-        "control_type": "ListItemControl",
-        "automation_id": ""
+        "name": "More options",
+        "control_type": "ButtonControl",
+        "automation_id": "OverFlowButton"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 792,
-          "y": 585
+          "x": 1354,
+          "y": 1029
         },
         "element_bounds": {
-          "left": 489,
-          "top": 492,
-          "right": 1089,
-          "bottom": 656
+          "left": 1328,
+          "top": 1003,
+          "right": 1382,
+          "bottom": 1057
         }
       },
       "semantic_tags": {
@@ -895,55 +894,55 @@
           "endIndex": 14
         },
         "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.98,
-          "rationale": "Selected Plain Number 2 as the page number style."
+          "tag": "Open <Button>",
+          "confidence": 0.96,
+          "rationale": "Opens the More options menu again."
         },
         "l4": {
-          "tag": "Insert <Text Document>",
-          "confidence": 0.98,
-          "rationale": "Switched to Insert and added a page number via Page Number > Bottom of Page > Plain Number 2, then closed header/footer editing."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 14
     },
     {
-      "timestamp": 129.3929,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 186.3182,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Footer -Section 1-",
-        "control_type": "EditControl"
+        "name": "Properties",
+        "control_type": "MenuItemControl"
       },
       "cursor_position": [
-        1684,
-        201
+        1224,
+        721
       ],
       "element_under_cursor": {
-        "name": "Close Header and Footer",
-        "control_type": "ButtonControl"
+        "name": "Speed",
+        "control_type": "TextControl"
       },
       "target": {
-        "name": "Close Header and Footer",
-        "control_type": "ButtonControl",
-        "automation_id": "HeaderFooterClose"
+        "name": "Speed",
+        "control_type": "TextControl",
+        "automation_id": "TextBlock"
       },
       "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 1684,
-          "y": 201
+          "x": 1224,
+          "y": 721
         },
         "element_bounds": {
-          "left": 1629,
-          "top": 123,
-          "right": 1742,
-          "bottom": 237
+          "left": 1196,
+          "top": 707,
+          "right": 1504,
+          "bottom": 735
         }
       },
       "semantic_tags": {
@@ -953,706 +952,80 @@
           "endIndex": 15
         },
         "l3": {
-          "tag": "Close <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked Close Header and Footer to exit header/footer editing."
+          "tag": "Open <Menu Item>",
+          "confidence": 0.95,
+          "rationale": "Opens the Speed submenu again."
         },
         "l4": {
-          "tag": "Insert <Text Document>",
-          "confidence": 0.98,
-          "rationale": "Switched to Insert and added a page number via Page Number > Bottom of Page > Plain Number 2, then closed header/footer editing."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Capitalize title words",
-          "confidence": 0.91,
-          "rationale": "These actions select the title text and use formatting/menu controls to apply the capitalization change requested by the task."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 15
     },
     {
-      "timestamp": 141.6389,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
+      "timestamp": 218.2326,
+      "application": "ApplicationFrameHost.exe",
+      "window_title": "Media Player",
       "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
+        "name": "0.25 ×",
+        "control_type": "MenuItemControl"
       },
       "cursor_position": [
-        960,
+        600,
         600
       ],
       "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
+        "name": "Close",
+        "control_type": "ButtonControl"
       },
-      "event": "scroll",
-      "delta": [
-        0,
-        -5
-      ],
+      "target": {
+        "name": "Close",
+        "control_type": "ButtonControl",
+        "automation_id": "Light Dismiss"
+      },
+      "event": "mouse_click",
       "coordinates": {
         "cursor": {
-          "x": 960,
+          "x": 600,
           "y": 600
         },
         "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
+          "left": 188,
+          "top": 145,
+          "right": 1818,
+          "bottom": 1093
         }
       },
       "semantic_tags": {
         "l2": {
-          "tag": "S",
+          "tag": "B",
           "startIndex": 16,
-          "endIndex": 27
+          "endIndex": 16
         },
         "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
+          "tag": "Close <Button>",
+          "confidence": 0.93,
+          "rationale": "Closes the light-dismiss menu overlay."
         },
         "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
+          "tag": "View <Video>",
+          "confidence": 0.93,
+          "rationale": "Uses Media Player playback controls to open the speed menu, choose 1.5× speed, and dismiss the overlay so the video continues at the faster rate."
         },
         "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
+          "tag": "Set playback speed to 15x",
+          "confidence": 0.94,
+          "rationale": "These actions switch to the player and use its controls/menus to change playback speed while viewing the opened video, matching the 1.5x playback goal."
         }
       },
       "index": 16
-    },
-    {
-      "timestamp": 151.8912,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 162.4253,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 825
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 171.7407,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 609
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 181.2719,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 2 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 559,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 191.9778,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 2 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 203.1311,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 2 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 215.4847,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "https://www.space.com/35695-weirdest-solar-system-facts.html",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -2
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 901,
-          "top": 577,
-          "right": 1517,
-          "bottom": 603
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 246.93,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 2 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        15
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 925
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 261.0372,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Header -Section 1-",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        10
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 565,
-          "right": 1821,
-          "bottom": 709
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 271.7276,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 282.9083,
-      "application": "WINWORD.EXE",
-      "window_title": "Task ID 50 - Word",
-      "focused_element": {
-        "name": "Task ID 50  -  Last saved by user",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Page 1 content",
-        "control_type": "EditControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 597,
-          "top": 267,
-          "right": 1821,
-          "bottom": 1095
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 16,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.94,
-          "rationale": "Scrolled the document view downward."
-        },
-        "l4": {
-          "tag": "View <Text Document>",
-          "confidence": 0.96,
-          "rationale": "Scrolled through the Word document to inspect the content after the formatting and page number changes."
-        },
-        "l5": {
-          "tag": "Review edited title",
-          "confidence": 0.76,
-          "rationale": "The remaining span is scrolling and viewing the document, likely to inspect the result after formatting the title."
-        }
-      },
-      "index": 27
     }
   ]
 }

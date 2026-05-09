@@ -1,0 +1,460 @@
+{
+  "metadata": {
+    "task_id": 31,
+    "task_title": "Add a formula in Excel",
+    "instruction": "Open Task ID 44.xlsx in Documents > Task 44 folder, calculate the average of \"# Days to finish\" using mathematical functions available in Excel.",
+    "context": "I am tracking all the books I've read in an excel sheet. I have columns for \"Book Title\", \"# Days to Finish\", and \"Rating (1-10)\". I want to know how many days I took to read a book on average.",
+    "task_group": "Document Editing",
+    "applications": "Excel",
+    "success": true,
+    "user_info": {
+      "user_type": "Claude-Sonnet-4.5",
+      "user_id": "Screen Reader",
+      "condition": "blind"
+    },
+    "session": {
+      "started_at": 1764475664.7151716,
+      "ended_at": 1764476876.5603209,
+      "duration": 1211.85
+    },
+    "statistics": {
+      "total_events": 7,
+      "apps_used": [
+        "explorer.exe"
+      ],
+      "by_type": {
+        "key_press": 5,
+        "hotkey": 2
+      },
+      "by_app": {
+        "explorer.exe": 7
+      },
+      "keystrokes": {
+        "total_hotkeys": 1,
+        "total_screen_reader_commands": 0,
+        "total_other_keys": 4,
+        "hotkeys": {
+          "Ctrl+L": 1
+        },
+        "screen_reader_commands": {},
+        "other_keys": {
+          "d": 2,
+          "Shift": 2
+        }
+      }
+    }
+  },
+  "actions": [
+    {
+      "timestamp": 0,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "Task ID 58 ",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Ctrl",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 584,
+          "top": 711,
+          "right": 1874,
+          "bottom": 780
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 0,
+          "endIndex": 0
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl key press as part of Ctrl+L, which moves focus to the File Explorer address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 0
+    },
+    {
+      "timestamp": 1.0011,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "l",
+      "modifiers": [
+        "Ctrl"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 1,
+          "endIndex": 1
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl key press as part of Ctrl+L, which moves focus to the File Explorer address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 1
+    },
+    {
+      "timestamp": 1.0608,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "hotkey",
+      "combo": "Ctrl+L",
+      "mods": [
+        "Ctrl"
+      ],
+      "key": "l",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": "focus_location_bar"
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 2,
+          "endIndex": 2
+        },
+        "l3": {
+          "tag": "Move Focus To <Text>",
+          "confidence": 0.95,
+          "rationale": "Ctrl key press as part of Ctrl+L, which moves focus to the File Explorer address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 2
+    },
+    {
+      "timestamp": 4.7451,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 3,
+          "endIndex": 3
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Shift key press as part of typing an uppercase character into the address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 3
+    },
+    {
+      "timestamp": 4.8844,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "d",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 4,
+          "endIndex": 4
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Shift key press as part of typing an uppercase character into the address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 4
+    },
+    {
+      "timestamp": 4.9723,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "hotkey",
+      "combo": "Shift+D",
+      "mods": [
+        "Shift"
+      ],
+      "key": "d",
+      "classification": {
+        "screen_reader_combo": false,
+        "reader_hint": null,
+        "intent": null
+      },
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "H",
+          "startIndex": 5,
+          "endIndex": 5
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Shift key press as part of typing an uppercase character into the address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 5
+    },
+    {
+      "timestamp": 5.0559,
+      "application": "explorer.exe",
+      "window_title": "Home - File Explorer",
+      "focused_element": {
+        "name": "Address Bar",
+        "control_type": "EditControl"
+      },
+      "cursor_position": [
+        1245,
+        777
+      ],
+      "element_under_cursor": {
+        "name": "C:\\Users\\ananyagm-admin\\Documents\\Task 31",
+        "control_type": "ListItemControl"
+      },
+      "event": "key_press",
+      "key": "Shift",
+      "modifiers": [
+        "Shift"
+      ],
+      "coordinates": {
+        "cursor": {
+          "x": 1245,
+          "y": 777
+        },
+        "element_bounds": {
+          "left": 647,
+          "top": 726,
+          "right": 1502,
+          "bottom": 786
+        }
+      },
+      "semantic_tags": {
+        "l2": {
+          "tag": "K",
+          "startIndex": 6,
+          "endIndex": 6
+        },
+        "l3": {
+          "tag": "Type <Text>",
+          "confidence": 0.93,
+          "rationale": "Shift key press as part of typing an uppercase character into the address bar."
+        },
+        "l4": {
+          "tag": "Navigate <Application>",
+          "confidence": 0.84,
+          "rationale": "The user is using File Explorer’s address bar (Ctrl+L) and beginning to type a destination path, which is part of navigating to a folder within the application."
+        },
+        "l5": {
+          "tag": "Open workbook",
+          "confidence": 0.81,
+          "rationale": "The entire trace is a single application navigation span with focus moves and typing, consistent with locating and opening Task 44.xlsx in the Documents > Task 44 folder before any spreadsheet calculation."
+        }
+      },
+      "index": 6
+    }
+  ]
+}
