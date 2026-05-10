@@ -1,0 +1,8 @@
+# Claude agent videos are hosted on GitHub Releases, not in the repo
+a11y-cua/dataset/Claude-Sonnet-4.5/**/*.mp4
+
+# Utility scripts
+compress_claude_videos.py
+
+# macOS
+.DS_Store

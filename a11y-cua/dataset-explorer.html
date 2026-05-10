@@ -213,6 +213,10 @@
     }
 
     function getDatasetVideoPath(user, taskId) {
+        if (user.id.startsWith("Claude-")) {
+            const cond = user.path.split("/")[1].replace(/ /g, "-");
+            return `https://github.com/gmananya/research-website/releases/download/dataset-videos/${cond}-${taskId}.mp4`;
+        }
         return `dataset/${encodeDatasetPath(user.path)}/${taskId}/screen.mp4`;
     }
 
