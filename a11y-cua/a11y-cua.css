@@ -740,8 +740,18 @@ details[open] > .action-summary::after {
     flex-shrink: 0;
     font-size: 11px;
     letter-spacing: 0.04em;
-    min-width: 76px;
+    min-width: 110px;
     text-transform: uppercase;
+}
+
+.demographics-section {
+    border-top: 1px solid #edf0f5;
+    margin-top: 20px;
+    padding-top: 4px;
+}
+
+.demographics-heading {
+    margin-top: 14px;
 }
 
 .ctx-val {

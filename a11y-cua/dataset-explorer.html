@@ -57,6 +57,11 @@
                         <p id="actions-status" class="actions-status">Select a task to view actions.</p>
                         <ol id="actions-list"></ol>
                     </div>
+
+                    <div id="demographics-section" class="demographics-section" style="display:none;">
+                        <h3 class="section-label demographics-heading">Participant</h3>
+                        <div id="demographics-content"></div>
+                    </div>
                 </div>
 
                 <p class="recording-note">Recordings were collected with the A11y-CUA's Computer Use Recorder.</p>
@@ -208,6 +213,55 @@
     const actionsStatusEl = document.getElementById("actions-status");
     let selectedTaskId = "4";
     let currentActions = [];
+    let demographicsData = null;
+
+    async function loadDemographics() {
+        if (demographicsData) return demographicsData;
+        try {
+            const resp = await fetch("demographics.json");
+            demographicsData = resp.ok ? await resp.json() : {};
+        } catch { demographicsData = {}; }
+        return demographicsData;
+    }
+
+    async function renderDemographics(userId) {
+        const section = document.getElementById("demographics-section");
+        const content = document.getElementById("demographics-content");
+        const data = await loadDemographics();
+        const d = data[userId];
+
+        if (!d) { section.style.display = "none"; return; }
+
+        section.style.display = "block";
+        content.innerHTML = "";
+
+        const isBLVU = userId.startsWith("BLVU");
+        const rows = [
+            ["Age", d.age],
+            ["Gender", d.gender === "M" ? "Male" : "Female"],
+            ["Years of computer use", d.years_computer_use],
+            ...(isBLVU ? [
+                ["Vision impairment", d.vision_impairment],
+                ["Onset", d.onset],
+                ["Years using AT", d.years_at_use],
+                ["AT used", d.at_used.join(", ")]
+            ] : [])
+        ];
+
+        rows.forEach(([key, val]) => {
+            const row = document.createElement("div");
+            row.className = "ctx-row";
+            const k = document.createElement("span");
+            k.className = "ctx-key";
+            k.textContent = key;
+            const v = document.createElement("span");
+            v.className = "ctx-val";
+            v.textContent = val;
+            row.appendChild(k);
+            row.appendChild(v);
+            content.appendChild(row);
+        });
+    }
 
     function encodeDatasetPath(path) {
         return path.split("/").map(encodeURIComponent).join("/");
@@ -441,6 +495,7 @@
         }
 
         loadAndRenderActions(user, task.id);
+        renderDemographics(user.id);
     }
 
     videoEl.addEventListener("timeupdate", () => {

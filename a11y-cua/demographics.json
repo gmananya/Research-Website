@@ -1,0 +1,114 @@
+{
+  "BLVU1": {
+    "age": 28,
+    "gender": "M",
+    "years_computer_use": 25,
+    "vision_impairment": "Congenital Glaucoma",
+    "onset": "Since birth",
+    "years_at_use": 10,
+    "at_used": ["JAWS", "NVDA"]
+  },
+  "BLVU2": {
+    "age": 20,
+    "gender": "M",
+    "years_computer_use": 10,
+    "vision_impairment": "Completely blind",
+    "onset": "Since birth",
+    "years_at_use": 10,
+    "at_used": ["NVDA", "VoiceOver"]
+  },
+  "BLVU3": {
+    "age": 24,
+    "gender": "M",
+    "years_computer_use": 11,
+    "vision_impairment": "Completely blind",
+    "onset": "Since birth",
+    "years_at_use": 12,
+    "at_used": ["NVDA", "JAWS"]
+  },
+  "BLVU4": {
+    "age": 34,
+    "gender": "M",
+    "years_computer_use": 19,
+    "vision_impairment": "Completely blind",
+    "onset": "Since birth",
+    "years_at_use": 8,
+    "at_used": ["Braille Display", "NVDA"]
+  },
+  "BLVU5": {
+    "age": 31,
+    "gender": "M",
+    "years_computer_use": 25,
+    "vision_impairment": "Completely blind (left eye), Glaucoma (right eye)",
+    "onset": "Since birth",
+    "years_at_use": 12,
+    "at_used": ["NVDA", "JAWS", "Braille Display"]
+  },
+  "BLVU6": {
+    "age": 37,
+    "gender": "F",
+    "years_computer_use": 20,
+    "vision_impairment": "Completely blind",
+    "onset": "Since birth",
+    "years_at_use": 25,
+    "at_used": ["JAWS", "VoiceOver", "NVDA", "Narrator", "Braille Display"]
+  },
+  "BLVU7": {
+    "age": 44,
+    "gender": "M",
+    "years_computer_use": 25,
+    "vision_impairment": "Retinitis Pigmentosa",
+    "onset": "9 years old",
+    "years_at_use": 20,
+    "at_used": ["JAWS", "NVDA", "VoiceOver", "Android TalkBack"]
+  },
+  "BLVU8": {
+    "age": 30,
+    "gender": "F",
+    "years_computer_use": 15,
+    "vision_impairment": "Pathologic Myopia",
+    "onset": "2 years old",
+    "years_at_use": 15,
+    "at_used": ["JAWS", "Braille Display", "ZoomText"]
+  },
+  "SU1": {
+    "age": 32,
+    "gender": "M",
+    "years_computer_use": 22
+  },
+  "SU2": {
+    "age": 28,
+    "gender": "M",
+    "years_computer_use": 23
+  },
+  "SU3": {
+    "age": 60,
+    "gender": "M",
+    "years_computer_use": 28
+  },
+  "SU4": {
+    "age": 31,
+    "gender": "F",
+    "years_computer_use": 20
+  },
+  "SU5": {
+    "age": 35,
+    "gender": "F",
+    "years_computer_use": 13
+  },
+  "SU6": {
+    "age": 22,
+    "gender": "M",
+    "years_computer_use": 15
+  },
+  "SU7": {
+    "age": 24,
+    "gender": "F",
+    "years_computer_use": 16
+  },
+  "SU8": {
+    "age": 29,
+    "gender": "M",
+    "years_computer_use": 25
+  }
+}
