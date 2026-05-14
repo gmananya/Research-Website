@@ -9,11 +9,16 @@
 <body class="explorer-page">
     <div class="explorer-container">
         <header>
-            <!-- <p class="explorer-back-link"><a href="a11y-cua.html" class="paper-link">← Back to Project Page</a></p> -->
             <h1>A11y-CUA Data Explorer</h1>
             <p class="institution">
-                Explore task recordings from the A11y-CUA website dataset subset by selecting a participant or CUA condition and a task.
+                A11y-CUA is a multimodal desktop interaction dataset capturing real task trajectories across two human cohorts (sighted users and blind/low-vision users) and two AI agents, each under standard and accessibility-modified conditions. Explore recordings from the website dataset subset below by selecting a participant or CUA condition and a task.
             </p>
+            <div class="explorer-links">
+                <a href="https://huggingface.co/datasets/berkeley-hci/A11y-CUA" target="_blank" class="explorer-btn">HuggingFace Dataset</a>
+                <a href="#" target="_blank" class="explorer-btn">Reduced Dataset</a>
+                <a href="https://ananyagm.com/a11y-cua/a11y-cua.html" target="_blank" class="explorer-btn">Project Page</a>
+                <a href="https://github.com/gmananya/Computer-Use-Recorder" target="_blank" class="explorer-btn">Recorder Code</a>
+            </div>
         </header>
 
 
@@ -390,9 +395,6 @@
                     ["Window",   action.window_title],
                     fe && fe.name ? ["Focused",    `${fe.name} — ${fe.control_type}`] : null,
                     ec && ec.name ? ["Cursor on",  `${ec.name} — ${ec.control_type}`] : null,
-                    st && st.l3 && st.l3.tag ? ["Action type", st.l3.tag] : null,
-                    st && st.l4 && st.l4.tag ? ["Intent",      st.l4.tag] : null,
-                    st && st.l5 && st.l5.tag ? ["Goal",        st.l5.tag] : null,
                 ].filter(r => r && r[1]).forEach(([key, val]) => {
                     const row = document.createElement("div");
                     row.className = "ctx-row";

@@ -344,6 +344,28 @@ ul.dash-list li::before {
     white-space: nowrap;
 }
 
+.explorer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 16px 0 4px;
+}
+
+.explorer-btn {
+    background: #333;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 18px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.explorer-btn:hover {
+    background: #555;
+}
+
 .explorer-toolbar {
     align-items: center;
     background: #fff;
