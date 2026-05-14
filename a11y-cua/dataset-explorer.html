@@ -20,13 +20,18 @@
         <div class="explorer-toolbar">
             <label for="viewer-user">User</label>
             <select id="viewer-user"></select>
+            <label>Task</label>
+            <div class="custom-select" id="task-custom-select">
+                <button class="custom-select-btn" type="button" id="task-select-btn"
+                        aria-haspopup="listbox" aria-expanded="false">
+                    <span class="custom-select-text" id="task-select-label"></span>
+                    <span class="custom-select-caret">▾</span>
+                </button>
+                <ul class="custom-select-list" role="listbox" id="task-select-list"></ul>
+            </div>
         </div>
 
         <main class="data-explorer">
-            <aside class="task-sidebar" aria-label="Task categories">
-                <div id="task-groups"></div>
-            </aside>
-
             <section class="recording-panel" aria-label="Selected recording">
                 <div class="recording-card">
                     <h2>Recording</h2>
@@ -190,7 +195,6 @@
 
     const VIDEO_TASK_IDS = new Set(["4", "9", "10", "12", "13", "18", "21", "22", "28", "30", "31", "35", "37", "39", "42", "43", "50", "51", "52", "60"]);
     const userSelect = document.getElementById("viewer-user");
-    const taskGroupsEl = document.getElementById("task-groups");
     const videoEl = document.getElementById("viewer-video");
     const emptyMsg = document.getElementById("viewer-empty");
     const taskIdEl = document.getElementById("task-id");
@@ -229,55 +233,53 @@
         });
     }
 
-    function renderTaskGroups() {
-        const groupedTasks = DATASET_TASKS.reduce((groups, task) => {
-            groups[task.group] = groups[task.group] || [];
-            groups[task.group].push(task);
-            return groups;
-        }, {});
-
-        Object.entries(groupedTasks).forEach(([group, tasks], index) => {
-            const groupEl = document.createElement("div");
-            groupEl.className = "task-group";
-
-            const header = document.createElement("button");
-            header.className = "task-group-header";
-            header.type = "button";
-            header.setAttribute("aria-expanded", index === 0 ? "true" : "false");
-            header.innerHTML = `<span>${group}</span><span class="group-toggle">${index === 0 ? "-" : "+"}</span>`;
-
-            const list = document.createElement("div");
-            list.className = `task-list${index === 0 ? " is-open" : ""}`;
-
-            tasks.forEach((task) => {
-                const taskButton = document.createElement("button");
-                taskButton.className = "task-item";
-                taskButton.type = "button";
-                taskButton.dataset.taskId = task.id;
-                taskButton.textContent = `Task ${task.id}: ${task.title}`;
-                taskButton.addEventListener("click", () => {
-                    selectedTaskId = task.id;
-                    updateActiveTask();
-                    renderSelection();
-                });
-                list.appendChild(taskButton);
-            });
-
-            header.addEventListener("click", () => {
-                const isOpen = list.classList.toggle("is-open");
-                header.setAttribute("aria-expanded", String(isOpen));
-                header.querySelector(".group-toggle").textContent = isOpen ? "-" : "+";
-            });
-
-            groupEl.appendChild(header);
-            groupEl.appendChild(list);
-            taskGroupsEl.appendChild(groupEl);
-        });
+    function updateActiveTask() {
+        updateTaskDropdownLabel();
     }
 
-    function updateActiveTask() {
-        document.querySelectorAll(".task-item").forEach((button) => {
-            button.classList.toggle("is-active", button.dataset.taskId === selectedTaskId);
+    function renderTaskDropdown() {
+        const list = document.getElementById("task-select-list");
+        const btn = document.getElementById("task-select-btn");
+        DATASET_TASKS.forEach(task => {
+            const li = document.createElement("li");
+            li.className = "custom-select-option";
+            li.setAttribute("role", "option");
+            li.dataset.taskId = task.id;
+            const name = document.createElement("span");
+            name.className = "option-name";
+            name.textContent = `Task ${task.id}: ${task.title}`;
+            const cat = document.createElement("span");
+            cat.className = "option-cat";
+            cat.textContent = task.group;
+            li.appendChild(name);
+            li.appendChild(cat);
+            li.addEventListener("click", () => {
+                selectedTaskId = task.id;
+                updateActiveTask();
+                closeTaskDropdown();
+                renderSelection();
+            });
+            list.appendChild(li);
+        });
+        btn.addEventListener("click", e => {
+            e.stopPropagation();
+            const isOpen = list.classList.toggle("is-open");
+            btn.setAttribute("aria-expanded", String(isOpen));
+        });
+        document.addEventListener("click", closeTaskDropdown);
+    }
+
+    function closeTaskDropdown() {
+        document.getElementById("task-select-list").classList.remove("is-open");
+        document.getElementById("task-select-btn").setAttribute("aria-expanded", "false");
+    }
+
+    function updateTaskDropdownLabel() {
+        const task = getTask(selectedTaskId);
+        document.getElementById("task-select-label").textContent =
+            task ? `Task ${task.id}: ${task.title}` : "";
+        document.querySelectorAll(".custom-select-option").forEach(opt => {
+            opt.classList.toggle("is-active", opt.dataset.taskId === selectedTaskId);
         });
     }
 
@@ -406,7 +408,7 @@
     });
 
     renderUsers();
-    renderTaskGroups();
+    renderTaskDropdown();
     updateActiveTask();
     renderSelection();
     userSelect.addEventListener("change", renderSelection);
