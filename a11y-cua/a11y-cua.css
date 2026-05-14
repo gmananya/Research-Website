@@ -754,6 +754,14 @@ details[open] > .action-summary::after {
     margin-top: 14px;
 }
 
+#demographics-content .ctx-row {
+    justify-content: space-between;
+}
+
+#demographics-content .ctx-val {
+    text-align: right;
+}
+
 .ctx-val {
     color: #444;
     font-size: 12px;
