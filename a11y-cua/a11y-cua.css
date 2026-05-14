@@ -352,14 +352,31 @@ ul.dash-list li::before {
 }
 
 .explorer-btn {
-    color: #007bff;
-    font-size: 16px;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    color: #344054;
+    display: inline-flex;
+    font-size: 13px;
     font-weight: 500;
+    gap: 7px;
+    padding: 8px 14px;
     text-decoration: none;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    white-space: nowrap;
 }
 
 .explorer-btn:hover {
-    text-decoration: underline;
+    background: #f0f4ff;
+    border-color: #4070f0;
+    color: #1849c4;
+    text-decoration: none;
+}
+
+.explorer-btn svg {
+    flex-shrink: 0;
 }
 
 .explorer-toolbar {
@@ -759,6 +776,7 @@ details[open] > .action-summary::after {
 }
 
 #demographics-content .ctx-val {
+    margin-left: auto;
     text-align: right;
 }
 
