@@ -656,12 +656,11 @@ ul.dash-list li::before {
 .action-item {
     counter-increment: action-counter;
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     gap: 8px;
-    padding: 5px 10px;
+    padding: 0 10px;
     border-left: 3px solid transparent;
     transition: background 0.15s, border-color 0.15s;
-    cursor: default;
 }
 
 .action-item::before {
@@ -672,6 +671,65 @@ ul.dash-list li::before {
     text-align: right;
     flex-shrink: 0;
     font-family: monospace;
+    padding-top: 5px;
+}
+
+.action-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.action-summary {
+    align-items: baseline;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 5px 0;
+    user-select: none;
+}
+
+.action-summary::-webkit-details-marker {
+    display: none;
+}
+
+.action-summary::after {
+    color: #ccc;
+    content: "▾";
+    flex-shrink: 0;
+    font-size: 11px;
+    margin-left: auto;
+}
+
+details[open] > .action-summary::after {
+    content: "▴";
+}
+
+.action-context {
+    border-top: 1px solid #edf0f5;
+    margin-bottom: 6px;
+    padding: 7px 0 4px;
+}
+
+.ctx-row {
+    display: flex;
+    gap: 10px;
+    padding: 2px 0;
+}
+
+.ctx-key {
+    color: #aaa;
+    flex-shrink: 0;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    min-width: 76px;
+    text-transform: uppercase;
+}
+
+.ctx-val {
+    color: #444;
+    font-size: 12px;
+    word-break: break-word;
 }
 
 .action-item.is-active {

@@ -358,6 +358,13 @@
                 li.dataset.timestamp = action.timestamp;
                 li.dataset.index = i;
 
+                // ---- collapsible details wrapper ----
+                const details = document.createElement("details");
+                details.className = "action-details";
+
+                const summary = document.createElement("summary");
+                summary.className = "action-summary";
+
                 const label = document.createElement("span");
                 label.className = "action-label";
                 label.textContent = formatAction(action);
@@ -366,8 +373,42 @@
                 ts.className = "action-ts";
                 ts.textContent = action.timestamp.toFixed(2) + "s";
 
-                li.appendChild(label);
-                li.appendChild(ts);
+                summary.appendChild(label);
+                summary.appendChild(ts);
+                details.appendChild(summary);
+
+                // ---- context panel ----
+                const ctx = document.createElement("div");
+                ctx.className = "action-context";
+
+                const fe = action.focused_element;
+                const ec = action.element_under_cursor;
+                const st = action.semantic_tags;
+
+                [
+                    ["App",      action.application],
+                    ["Window",   action.window_title],
+                    fe && fe.name ? ["Focused",    `${fe.name} — ${fe.control_type}`] : null,
+                    ec && ec.name ? ["Cursor on",  `${ec.name} — ${ec.control_type}`] : null,
+                    st && st.l3 && st.l3.tag ? ["Action type", st.l3.tag] : null,
+                    st && st.l4 && st.l4.tag ? ["Intent",      st.l4.tag] : null,
+                    st && st.l5 && st.l5.tag ? ["Goal",        st.l5.tag] : null,
+                ].filter(r => r && r[1]).forEach(([key, val]) => {
+                    const row = document.createElement("div");
+                    row.className = "ctx-row";
+                    const k = document.createElement("span");
+                    k.className = "ctx-key";
+                    k.textContent = key;
+                    const v = document.createElement("span");
+                    v.className = "ctx-val";
+                    v.textContent = val;
+                    row.appendChild(k);
+                    row.appendChild(v);
+                    ctx.appendChild(row);
+                });
+
+                details.appendChild(ctx);
+                li.appendChild(details);
                 actionsListEl.appendChild(li);
             });
 
