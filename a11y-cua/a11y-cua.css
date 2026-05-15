@@ -353,8 +353,8 @@ ul.dash-list li::before {
 
 .explorer-btn {
     align-items: center;
-    background: #0d6efd;
-    border: 1px solid #0d6efd;
+    background: #1976d2;
+    border: 1px solid #1976d2;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     color: #fff;
