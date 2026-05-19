@@ -44,6 +44,17 @@
                     <video id="viewer-video" controls poster="media/default-cua-demo-thumb.jpg">
                         Your browser does not support the video tag.
                     </video>
+                    <audio id="viewer-audio"></audio>
+                    <div id="audio-bar" class="audio-bar" style="display:none;">
+                        <span class="audio-bar-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                            System Audio
+                        </span>
+                        <button id="audio-mute-btn" class="audio-mute-btn" title="Mute system audio">
+                            <svg id="audio-mute-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
+                            <span id="audio-mute-label">Mute</span>
+                        </button>
+                    </div>
                     <p id="viewer-empty" class="viewer-empty">
                         A video file is not available for this task in the website dataset subset.
                     </p>
@@ -207,6 +218,11 @@
     const VIDEO_TASK_IDS = new Set(["4", "9", "10", "12", "13", "18", "21", "22", "28", "30", "31", "35", "37", "39", "42", "43", "50", "51", "52", "60"]);
     const userSelect = document.getElementById("viewer-user");
     const videoEl = document.getElementById("viewer-video");
+    const audioEl = document.getElementById("viewer-audio");
+    const audioBar = document.getElementById("audio-bar");
+    const audioMuteBtn = document.getElementById("audio-mute-btn");
+    const audioMuteIcon = document.getElementById("audio-mute-icon");
+    const audioMuteLabel = document.getElementById("audio-mute-label");
     const emptyMsg = document.getElementById("viewer-empty");
     const taskIdEl = document.getElementById("task-id");
     const taskInstructionEl = document.getElementById("task-instruction");
@@ -215,6 +231,23 @@
     let selectedTaskId = "4";
     let currentActions = [];
     let demographicsData = null;
+
+    function hasAudio(user) {
+        return user.id.startsWith("BLVU") || user.id === "Claude-Screen-Reader";
+    }
+
+    function updateMuteButton() {
+        const muted = audioEl.muted;
+        audioMuteLabel.textContent = muted ? "Unmute" : "Mute";
+        audioMuteIcon.innerHTML = muted
+            ? `<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>`
+            : `<polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>`;
+    }
+
+    audioMuteBtn.addEventListener("click", () => {
+        audioEl.muted = !audioEl.muted;
+        updateMuteButton();
+    });
 
     async function loadDemographics() {
         if (demographicsData) return demographicsData;
@@ -495,10 +528,33 @@
             videoEl.load();
         }
 
+        if (hasVideo && hasAudio(user)) {
+            const audioPath = `dataset/${encodeDatasetPath(user.path)}/${task.id}/system_audio.mp3`;
+            audioEl.src = audioPath;
+            audioEl.muted = false;
+            audioEl.load();
+            audioBar.style.display = "flex";
+            updateMuteButton();
+        } else {
+            audioEl.pause();
+            audioEl.removeAttribute("src");
+            audioEl.load();
+            audioBar.style.display = "none";
+        }
+
         loadAndRenderActions(user, task.id);
         renderDemographics(user.id);
     }
 
+    videoEl.addEventListener("play", () => {
+        if (audioEl.src) audioEl.play().catch(() => {});
+    });
+    videoEl.addEventListener("pause", () => {
+        if (audioEl.src) audioEl.pause();
+    });
+    videoEl.addEventListener("seeked", () => {
+        if (audioEl.src) audioEl.currentTime = videoEl.currentTime;
+    });
     videoEl.addEventListener("timeupdate", () => {
         highlightActiveAction(videoEl.currentTime);
     });

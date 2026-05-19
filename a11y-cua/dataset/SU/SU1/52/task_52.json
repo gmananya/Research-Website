@@ -1,1559 +1,1586 @@
 {
-  "metadata": {
-    "task_id": 52,
-    "task_title": "Adjust brightness on photo",
-    "instruction": "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1.",
-    "context": "The default brightness setting of The Eiffel Tower photo is too high",
-    "task_group": "Media",
-    "applications": "Photos",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU1",
-      "condition": "sighted"
+    "metadata": {
+        "task_id": 52,
+        "task_title": "Adjust brightness on photo",
+        "instruction": "Open Task ID 77.jpg in Documents > Task 77 folder on Photos app. Turn down the brightness to -1.",
+        "context": "The default brightness setting of The Eiffel Tower photo is too high",
+        "task_group": "Media",
+        "applications": "Photos",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU1",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1755787771.0371637,
+            "ended_at": 1755787809.180976,
+            "started_time": "00:00.000",
+            "ended_time": "00:26.896",
+            "duration": 38.14
+        },
+        "statistics": {
+            "total_events": 25,
+            "apps_used": [
+                "explorer.exe",
+                "Photos.exe"
+            ],
+            "by_type": {
+                "mouse_move": 11,
+                "mouse_click": 11,
+                "drag_drop": 2,
+                "key_press": 1
+            },
+            "by_app": {
+                "explorer.exe": 8,
+                "Photos.exe": 17
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 1,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {
+                    "Right": 1
+                }
+            }
+        }
     },
-    "session": {
-      "started_at": 1755787771.0371637,
-      "ended_at": 1755787809.180976,
-      "duration": 38.14
-    },
-    "statistics": {
-      "total_events": 25,
-      "apps_used": [
-        "explorer.exe",
-        "Photos.exe"
-      ],
-      "by_type": {
-        "mouse_move": 11,
-        "mouse_click": 11,
-        "drag_drop": 2,
-        "key_press": 1
-      },
-      "by_app": {
-        "explorer.exe": 8,
-        "Photos.exe": 17
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 1,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {
-          "Right": 1
+    "actions": [
+        {
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "explorer.exe",
+            "window_title": "Home - File Explorer",
+            "cursor_position": [
+                1137,
+                1067
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "File Explorer - 1 running window",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                8,
+                77
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1137,
+                    "y": 1067
+                },
+                "element_bounds": {
+                    "left": 1096,
+                    "top": 1008,
+                    "right": 1162,
+                    "bottom": 1080
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.93,
+                    "rationale": "Moved the cursor within File Explorer before choosing Documents."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 0
+        },
+        {
+            "timestamp": 1.6127,
+            "time": "00:01.613",
+            "application": "explorer.exe",
+            "window_title": "Home - File Explorer",
+            "cursor_position": [
+                791,
+                636
+            ],
+            "focused_element": {
+                "name": "Recommended",
+                "control_type": "GroupControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "target": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 791,
+                    "y": 636
+                },
+                "element_bounds": {
+                    "left": 740,
+                    "top": 609,
+                    "right": 835,
+                    "bottom": 657
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 1,
+                    "endIndex": 1
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.97,
+                    "rationale": "Clicked the pinned Documents entry to open the Documents folder."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 1.6905,
+            "time": "00:01.690",
+            "application": "explorer.exe",
+            "window_title": "Home - File Explorer",
+            "cursor_position": [
+                792,
+                638
+            ],
+            "focused_element": {
+                "name": "Recommended",
+                "control_type": "GroupControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                13,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 792,
+                    "y": 638
+                },
+                "element_bounds": {
+                    "left": 740,
+                    "top": 609,
+                    "right": 835,
+                    "bottom": 657
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 2,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.9,
+                    "rationale": "Moved the cursor inside the Documents File Explorer window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 4.9884,
+            "time": "00:04.988",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1134,
+                736
+            ],
+            "focused_element": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1134,
+                    "y": 736
+                },
+                "element_bounds": {
+                    "left": 1018,
+                    "top": 722,
+                    "right": 1423,
+                    "bottom": 751
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 3,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.85,
+                    "rationale": "Clicked the Task 77 folder item to select it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 5.2116,
+            "time": "00:05.212",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1134,
+                736
+            ],
+            "focused_element": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1134,
+                    "y": 736
+                },
+                "element_bounds": {
+                    "left": 1018,
+                    "top": 722,
+                    "right": 1423,
+                    "bottom": 751
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 3,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.92,
+                    "rationale": "Clicked the Task 77 item again to open the folder."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 5.833,
+            "time": "00:05.833",
+            "application": "explorer.exe",
+            "window_title": "Task 77 - File Explorer",
+            "cursor_position": [
+                1134,
+                736
+            ],
+            "focused_element": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Items View",
+                "control_type": "ListControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -9,
+                -7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1134,
+                    "y": 736
+                },
+                "element_bounds": {
+                    "left": 964,
+                    "top": 312,
+                    "right": 1840,
+                    "bottom": 958
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.84,
+                    "rationale": "Moved the cursor over the Task 77 item in the folder list."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 6.8403,
+            "time": "00:06.840",
+            "application": "explorer.exe",
+            "window_title": "Task 77 - File Explorer",
+            "cursor_position": [
+                1073,
+                418
+            ],
+            "focused_element": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Task 77",
+                "control_type": "ListItemControl",
+                "automation_id": "0"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1073,
+                    "y": 418
+                },
+                "element_bounds": {
+                    "left": 985,
+                    "top": 321,
+                    "right": 1143,
+                    "bottom": 498
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 6,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.88,
+                    "rationale": "Clicked the Task 77 file/item to select it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 7.065,
+            "time": "00:07.065",
+            "application": "explorer.exe",
+            "window_title": "Task 77 - File Explorer",
+            "cursor_position": [
+                1073,
+                418
+            ],
+            "focused_element": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Task 77",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Task 77",
+                "control_type": "ListItemControl",
+                "automation_id": "0"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1073,
+                    "y": 418
+                },
+                "element_bounds": {
+                    "left": 985,
+                    "top": 321,
+                    "right": 1143,
+                    "bottom": 498
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 6,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.95,
+                    "rationale": "Clicked the Task 77 file/item again to open it in Photos."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 9.3381,
+            "time": "00:09.338",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1072,
+                417
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "CustomControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -5,
+                -34
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1072,
+                    "y": 417
+                },
+                "element_bounds": {
+                    "left": 408,
+                    "top": 224,
+                    "right": 1337,
+                    "bottom": 843
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.89,
+                    "rationale": "Moved the cursor into the opened photo window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
+                },
+                "l5": {
+                    "tag": "Open target photo",
+                    "confidence": 0.98,
+                    "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 11.6296,
+            "time": "00:11.630",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                226,
+                191
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Edit",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Edit",
+                "control_type": "ButtonControl",
+                "automation_id": "EditButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 226,
+                    "y": 191
+                },
+                "element_bounds": {
+                    "left": 169,
+                    "top": 152,
+                    "right": 272,
+                    "bottom": 224
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Open <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the Edit button to enter photo editing mode."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 12.439,
+            "time": "00:12.439",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                226,
+                191
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Back",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -95,
+                1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 226,
+                    "y": 191
+                },
+                "element_bounds": {
+                    "left": 169,
+                    "top": 161,
+                    "right": 229,
+                    "bottom": 215
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.86,
+                    "rationale": "Moved the cursor over the photo editing workspace."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 15.2421,
+            "time": "00:15.242",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                716,
+                282
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "target": {
+                "name": "Task 77.jpg",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 716,
+                    "y": 282
+                },
+                "element_bounds": {
+                    "left": 163,
+                    "top": 224,
+                    "right": 1581,
+                    "bottom": 915
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.72,
+                    "rationale": "Clicked inside the Task 77.jpg photo window/content area."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 16.1804,
+            "time": "00:16.180",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                716,
+                282
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -103,
+                -70
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 716,
+                    "y": 282
+                },
+                "element_bounds": {
+                    "left": 163,
+                    "top": 224,
+                    "right": 1581,
+                    "bottom": 915
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.84,
+                    "rationale": "Moved the cursor again within the photo editor."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 17.1617,
+            "time": "00:17.162",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1282,
+                551
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Light Adjustments",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "Light Adjustments",
+                "control_type": "GroupControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1282,
+                    "y": 551
+                },
+                "element_bounds": {
+                    "left": 1020,
+                    "top": 388,
+                    "right": 1539,
+                    "bottom": 1090
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Open <Button>",
+                    "confidence": 0.86,
+                    "rationale": "Clicked Light Adjustments to open the brightness controls."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 17.2656,
+            "time": "00:17.266",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1281,
+                551
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Light Adjustments",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -9,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1281,
+                    "y": 551
+                },
+                "element_bounds": {
+                    "left": 1020,
+                    "top": 388,
+                    "right": 1539,
+                    "bottom": 1090
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 14,
+                    "endIndex": 14
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Slider>",
+                    "confidence": 0.91,
+                    "rationale": "Moved the cursor to the brightness slider control."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 14
+        },
+        {
+            "event": "drag_drop",
+            "timestamp": 20.4637,
+            "time": "00:20.464",
+            "button": "Button.left",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1267,
+                557
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
+                "control_type": "SliderControl"
+            },
+            "from": {
+                "application": "Photos.exe",
+                "window_title": "Task 77.jpg",
+                "cursor_position": [
+                    1282,
+                    551
+                ],
+                "element_under_cursor": {
+                    "name": "Light Adjustments",
+                    "control_type": "GroupControl"
+                },
+                "focused_element": {
+                    "name": "",
+                    "control_type": "PaneControl"
+                }
+            },
+            "to": {
+                "application": "Photos.exe",
+                "window_title": "Task 77.jpg",
+                "cursor_position": [
+                    1267,
+                    557
+                ],
+                "element_under_cursor": {
+                    "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
+                    "control_type": "SliderControl"
+                },
+                "focused_element": {
+                    "name": "",
+                    "control_type": "PaneControl"
+                }
+            },
+            "drag_distance": 16,
+            "duration_ms": 3235,
+            "slider": {
+                "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
+                "control_type": "SliderControl",
+                "automation_id": "Slider64",
+                "before": null,
+                "after": {
+                    "value": -6,
+                    "min": -104,
+                    "max": 104,
+                    "small_change": 0,
+                    "large_change": 0,
+                    "is_read_only": false
+                }
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1267,
+                    "y": 557
+                },
+                "element_bounds": {
+                    "left": 1017,
+                    "top": 523,
+                    "right": 1542,
+                    "bottom": 565
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "D",
+                    "startIndex": 15,
+                    "endIndex": 15
+                },
+                "l3": {
+                    "tag": "Move <Slider>",
+                    "confidence": 0.97,
+                    "rationale": "Dragged the brightness slider to change its value."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 20.9869,
+            "time": "00:20.987",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1253,
+                533
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
+                "control_type": "SliderControl"
+            },
+            "event": "key_press",
+            "key": "Right",
+            "coordinates": {
+                "cursor": {
+                    "x": 1253,
+                    "y": 533
+                },
+                "element_bounds": {
+                    "left": 1017,
+                    "top": 523,
+                    "right": 1542,
+                    "bottom": 565
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 16,
+                    "endIndex": 16
+                },
+                "l3": {
+                    "tag": "Move <Slider>",
+                    "confidence": 0.97,
+                    "rationale": "Dragged the brightness slider to change its value."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 21.8473,
+            "time": "00:21.847",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1253,
+                533
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
+                "control_type": "SliderControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -14,
+                -25
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1253,
+                    "y": 533
+                },
+                "element_bounds": {
+                    "left": 1017,
+                    "top": 523,
+                    "right": 1542,
+                    "bottom": 565
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 17,
+                    "endIndex": 17
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.82,
+                    "rationale": "Moved the cursor back over the editor area."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 22.1999,
+            "time": "00:22.200",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1360,
+                383
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "Image Editor",
+                "control_type": "DocumentControl",
+                "automation_id": "RootWebArea"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1360,
+                    "y": 383
+                },
+                "element_bounds": {
+                    "left": 162,
+                    "top": 223,
+                    "right": 1581,
+                    "bottom": 915
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 18,
+                    "endIndex": 18
+                },
+                "l3": {
+                    "tag": "Select <Canvas>",
+                    "confidence": 0.7,
+                    "rationale": "Clicked the image editing surface to refocus the photo."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 24.0288,
+            "time": "00:24.029",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1359,
+                383
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -12,
+                -2
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1359,
+                    "y": 383
+                },
+                "element_bounds": {
+                    "left": 162,
+                    "top": 223,
+                    "right": 1581,
+                    "bottom": 915
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 19,
+                    "endIndex": 19
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.79,
+                    "rationale": "Moved the cursor toward another area of the Photos window."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 25.8199,
+            "time": "00:25.820",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1025,
+                181
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Non Client Input Sink Window",
+                "control_type": "PaneControl"
+            },
+            "target": {
+                "name": "Non Client Input Sink Window",
+                "control_type": "PaneControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1025,
+                    "y": 181
+                },
+                "element_bounds": {
+                    "left": 163,
+                    "top": 152,
+                    "right": 1581,
+                    "bottom": 224
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 20,
+                    "endIndex": 20
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Clicked the window background/overlay area in Photos."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 26.0373,
+            "time": "00:26.037",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1213,
+                189
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Non Client Input Sink Window",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                189,
+                8
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1213,
+                    "y": 189
+                },
+                "element_bounds": {
+                    "left": 351,
+                    "top": 160,
+                    "right": 1769,
+                    "bottom": 232
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 21,
+                    "endIndex": 21
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Slider>",
+                    "confidence": 0.88,
+                    "rationale": "Moved the cursor near the adjustment slider again."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 21
+        },
+        {
+            "event": "drag_drop",
+            "timestamp": 26.337,
+            "time": "00:26.337",
+            "button": "Button.left",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1238,
+                189
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Non Client Input Sink Window",
+                "control_type": "PaneControl"
+            },
+            "from": {
+                "application": "Photos.exe",
+                "window_title": "Task 77.jpg",
+                "cursor_position": [
+                    1025,
+                    181
+                ],
+                "element_under_cursor": {
+                    "name": "Non Client Input Sink Window",
+                    "control_type": "PaneControl"
+                },
+                "focused_element": {
+                    "name": "",
+                    "control_type": "PaneControl"
+                }
+            },
+            "to": {
+                "application": "Photos.exe",
+                "window_title": "Task 77.jpg",
+                "cursor_position": [
+                    1238,
+                    189
+                ],
+                "element_under_cursor": {
+                    "name": "Non Client Input Sink Window",
+                    "control_type": "PaneControl"
+                },
+                "focused_element": {
+                    "name": "",
+                    "control_type": "PaneControl"
+                }
+            },
+            "drag_distance": 213,
+            "duration_ms": 459,
+            "coordinates": {
+                "cursor": {
+                    "x": 1238,
+                    "y": 189
+                },
+                "element_bounds": {
+                    "left": 376,
+                    "top": 160,
+                    "right": 1794,
+                    "bottom": 232
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "D",
+                    "startIndex": 22,
+                    "endIndex": 22
+                },
+                "l3": {
+                    "tag": "Move <Slider>",
+                    "confidence": 0.96,
+                    "rationale": "Dragged the slider again to fine-tune brightness."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 26.3702,
+            "time": "00:26.370",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                1238,
+                189
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Non Client Input Sink Window",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                25,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1238,
+                    "y": 189
+                },
+                "element_bounds": {
+                    "left": 376,
+                    "top": 160,
+                    "right": 1794,
+                    "bottom": 232
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 23,
+                    "endIndex": 23
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Slider>",
+                    "confidence": 0.87,
+                    "rationale": "Moved the cursor over the slider after adjustment."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 26.896,
+            "time": "00:26.896",
+            "application": "Photos.exe",
+            "window_title": "Task 77.jpg",
+            "cursor_position": [
+                215,
+                475
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "target": {
+                "name": "Computer Use Logger",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 215,
+                    "y": 475
+                },
+                "element_bounds": {
+                    "left": 87,
+                    "top": 121,
+                    "right": 987,
+                    "bottom": 621
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 24,
+                    "endIndex": 24
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.58,
+                    "rationale": "Clicked the logger/window area at the end of the trace."
+                },
+                "l4": {
+                    "tag": "Format <Image>",
+                    "confidence": 0.97,
+                    "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
+                },
+                "l5": {
+                    "tag": "Lower brightness",
+                    "confidence": 0.97,
+                    "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
+                }
+            },
+            "index": 24
         }
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
-      "cursor_position": [
-        1137,
-        1067
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "File Explorer - 1 running window",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        8,
-        77
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1137,
-          "y": 1067
-        },
-        "element_bounds": {
-          "left": 1096,
-          "top": 1008,
-          "right": 1162,
-          "bottom": 1080
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.93,
-          "rationale": "Moved the cursor within File Explorer before choosing Documents."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 1.6127,
-      "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
-      "cursor_position": [
-        791,
-        636
-      ],
-      "focused_element": {
-        "name": "Recommended",
-        "control_type": "GroupControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "target": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 791,
-          "y": 636
-        },
-        "element_bounds": {
-          "left": 740,
-          "top": 609,
-          "right": 835,
-          "bottom": 657
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 1,
-          "endIndex": 1
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.97,
-          "rationale": "Clicked the pinned Documents entry to open the Documents folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 1.6905,
-      "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
-      "cursor_position": [
-        792,
-        638
-      ],
-      "focused_element": {
-        "name": "Recommended",
-        "control_type": "GroupControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        13,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 792,
-          "y": 638
-        },
-        "element_bounds": {
-          "left": 740,
-          "top": 609,
-          "right": 835,
-          "bottom": 657
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 2,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.9,
-          "rationale": "Moved the cursor inside the Documents File Explorer window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 4.9884,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1134,
-        736
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1134,
-          "y": 736
-        },
-        "element_bounds": {
-          "left": 1018,
-          "top": 722,
-          "right": 1423,
-          "bottom": 751
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 3,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.85,
-          "rationale": "Clicked the Task 77 folder item to select it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 5.2116,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1134,
-        736
-      ],
-      "focused_element": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1134,
-          "y": 736
-        },
-        "element_bounds": {
-          "left": 1018,
-          "top": 722,
-          "right": 1423,
-          "bottom": 751
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 3,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.92,
-          "rationale": "Clicked the Task 77 item again to open the folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 5.833,
-      "application": "explorer.exe",
-      "window_title": "Task 77 - File Explorer",
-      "cursor_position": [
-        1134,
-        736
-      ],
-      "focused_element": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -9,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1134,
-          "y": 736
-        },
-        "element_bounds": {
-          "left": 964,
-          "top": 312,
-          "right": 1840,
-          "bottom": 958
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.84,
-          "rationale": "Moved the cursor over the Task 77 item in the folder list."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 6.8403,
-      "application": "explorer.exe",
-      "window_title": "Task 77 - File Explorer",
-      "cursor_position": [
-        1073,
-        418
-      ],
-      "focused_element": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Task 77",
-        "control_type": "ListItemControl",
-        "automation_id": "0"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1073,
-          "y": 418
-        },
-        "element_bounds": {
-          "left": 985,
-          "top": 321,
-          "right": 1143,
-          "bottom": 498
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 6,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.88,
-          "rationale": "Clicked the Task 77 file/item to select it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 7.065,
-      "application": "explorer.exe",
-      "window_title": "Task 77 - File Explorer",
-      "cursor_position": [
-        1073,
-        418
-      ],
-      "focused_element": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Task 77",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Task 77",
-        "control_type": "ListItemControl",
-        "automation_id": "0"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1073,
-          "y": 418
-        },
-        "element_bounds": {
-          "left": 985,
-          "top": 321,
-          "right": 1143,
-          "bottom": 498
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 6,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.95,
-          "rationale": "Clicked the Task 77 file/item again to open it in Photos."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 9.3381,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1072,
-        417
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "CustomControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -5,
-        -34
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1072,
-          "y": 417
-        },
-        "element_bounds": {
-          "left": 408,
-          "top": 224,
-          "right": 1337,
-          "bottom": 843
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.89,
-          "rationale": "Moved the cursor into the opened photo window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Navigated through File Explorer from Documents into the Task 77 folder and opened Task 77.jpg in Photos."
-        },
-        "l5": {
-          "tag": "Open target photo",
-          "confidence": 0.98,
-          "rationale": "This span covers navigating Photos through folders to locate and open the target file in Documents > Task 77, completing the image-opening part of the task."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 11.6296,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        226,
-        191
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Edit",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Edit",
-        "control_type": "ButtonControl",
-        "automation_id": "EditButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 226,
-          "y": 191
-        },
-        "element_bounds": {
-          "left": 169,
-          "top": 152,
-          "right": 272,
-          "bottom": 224
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the Edit button to enter photo editing mode."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 12.439,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        226,
-        191
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Back",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -95,
-        1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 226,
-          "y": 191
-        },
-        "element_bounds": {
-          "left": 169,
-          "top": 161,
-          "right": 229,
-          "bottom": 215
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.86,
-          "rationale": "Moved the cursor over the photo editing workspace."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 15.2421,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        716,
-        282
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "Task 77.jpg",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 716,
-          "y": 282
-        },
-        "element_bounds": {
-          "left": 163,
-          "top": 224,
-          "right": 1581,
-          "bottom": 915
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.72,
-          "rationale": "Clicked inside the Task 77.jpg photo window/content area."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 16.1804,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        716,
-        282
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -103,
-        -70
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 716,
-          "y": 282
-        },
-        "element_bounds": {
-          "left": 163,
-          "top": 224,
-          "right": 1581,
-          "bottom": 915
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.84,
-          "rationale": "Moved the cursor again within the photo editor."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 17.1617,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1282,
-        551
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Light Adjustments",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Light Adjustments",
-        "control_type": "GroupControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1282,
-          "y": 551
-        },
-        "element_bounds": {
-          "left": 1020,
-          "top": 388,
-          "right": 1539,
-          "bottom": 1090
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.86,
-          "rationale": "Clicked Light Adjustments to open the brightness controls."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 17.2656,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1281,
-        551
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Light Adjustments",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -9,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1281,
-          "y": 551
-        },
-        "element_bounds": {
-          "left": 1020,
-          "top": 388,
-          "right": 1539,
-          "bottom": 1090
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Move Cursor To <Slider>",
-          "confidence": 0.91,
-          "rationale": "Moved the cursor to the brightness slider control."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 14
-    },
-    {
-      "event": "drag_drop",
-      "timestamp": 20.4637,
-      "button": "Button.left",
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1267,
-        557
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
-        "control_type": "SliderControl"
-      },
-      "from": {
-        "application": "Photos.exe",
-        "window_title": "Task 77.jpg",
-        "cursor_position": [
-          1282,
-          551
-        ],
-        "element_under_cursor": {
-          "name": "Light Adjustments",
-          "control_type": "GroupControl"
-        },
-        "focused_element": {
-          "name": "",
-          "control_type": "PaneControl"
-        }
-      },
-      "to": {
-        "application": "Photos.exe",
-        "window_title": "Task 77.jpg",
-        "cursor_position": [
-          1267,
-          557
-        ],
-        "element_under_cursor": {
-          "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
-          "control_type": "SliderControl"
-        },
-        "focused_element": {
-          "name": "",
-          "control_type": "PaneControl"
-        }
-      },
-      "drag_distance": 16,
-      "duration_ms": 3235,
-      "slider": {
-        "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
-        "control_type": "SliderControl",
-        "automation_id": "Slider64",
-        "before": null,
-        "after": {
-          "value": -6,
-          "min": -104,
-          "max": 104,
-          "small_change": 0,
-          "large_change": 0,
-          "is_read_only": false
-        }
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1267,
-          "y": 557
-        },
-        "element_bounds": {
-          "left": 1017,
-          "top": 523,
-          "right": 1542,
-          "bottom": 565
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "D",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Move <Slider>",
-          "confidence": 0.97,
-          "rationale": "Dragged the brightness slider to change its value."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 20.9869,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1253,
-        533
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
-        "control_type": "SliderControl"
-      },
-      "event": "key_press",
-      "key": "Right",
-      "coordinates": {
-        "cursor": {
-          "x": 1253,
-          "y": 533
-        },
-        "element_bounds": {
-          "left": 1017,
-          "top": 523,
-          "right": 1542,
-          "bottom": 565
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Move <Slider>",
-          "confidence": 0.97,
-          "rationale": "Dragged the brightness slider to change its value."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 21.8473,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1253,
-        533
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Brightness. Drag on slider or use arrow keys to change Brightness value",
-        "control_type": "SliderControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -14,
-        -25
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1253,
-          "y": 533
-        },
-        "element_bounds": {
-          "left": 1017,
-          "top": 523,
-          "right": 1542,
-          "bottom": 565
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.82,
-          "rationale": "Moved the cursor back over the editor area."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 22.1999,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1360,
-        383
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Image Editor",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1360,
-          "y": 383
-        },
-        "element_bounds": {
-          "left": 162,
-          "top": 223,
-          "right": 1581,
-          "bottom": 915
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Select <Canvas>",
-          "confidence": 0.7,
-          "rationale": "Clicked the image editing surface to refocus the photo."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 24.0288,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1359,
-        383
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -12,
-        -2
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1359,
-          "y": 383
-        },
-        "element_bounds": {
-          "left": 162,
-          "top": 223,
-          "right": 1581,
-          "bottom": 915
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 19,
-          "endIndex": 19
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.79,
-          "rationale": "Moved the cursor toward another area of the Photos window."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 25.8199,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1025,
-        181
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Non Client Input Sink Window",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "Non Client Input Sink Window",
-        "control_type": "PaneControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1025,
-          "y": 181
-        },
-        "element_bounds": {
-          "left": 163,
-          "top": 152,
-          "right": 1581,
-          "bottom": 224
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 20,
-          "endIndex": 20
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.62,
-          "rationale": "Clicked the window background/overlay area in Photos."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 26.0373,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1213,
-        189
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Non Client Input Sink Window",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        189,
-        8
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1213,
-          "y": 189
-        },
-        "element_bounds": {
-          "left": 351,
-          "top": 160,
-          "right": 1769,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 21,
-          "endIndex": 21
-        },
-        "l3": {
-          "tag": "Move Cursor To <Slider>",
-          "confidence": 0.88,
-          "rationale": "Moved the cursor near the adjustment slider again."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 21
-    },
-    {
-      "event": "drag_drop",
-      "timestamp": 26.337,
-      "button": "Button.left",
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1238,
-        189
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Non Client Input Sink Window",
-        "control_type": "PaneControl"
-      },
-      "from": {
-        "application": "Photos.exe",
-        "window_title": "Task 77.jpg",
-        "cursor_position": [
-          1025,
-          181
-        ],
-        "element_under_cursor": {
-          "name": "Non Client Input Sink Window",
-          "control_type": "PaneControl"
-        },
-        "focused_element": {
-          "name": "",
-          "control_type": "PaneControl"
-        }
-      },
-      "to": {
-        "application": "Photos.exe",
-        "window_title": "Task 77.jpg",
-        "cursor_position": [
-          1238,
-          189
-        ],
-        "element_under_cursor": {
-          "name": "Non Client Input Sink Window",
-          "control_type": "PaneControl"
-        },
-        "focused_element": {
-          "name": "",
-          "control_type": "PaneControl"
-        }
-      },
-      "drag_distance": 213,
-      "duration_ms": 459,
-      "coordinates": {
-        "cursor": {
-          "x": 1238,
-          "y": 189
-        },
-        "element_bounds": {
-          "left": 376,
-          "top": 160,
-          "right": 1794,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "D",
-          "startIndex": 22,
-          "endIndex": 22
-        },
-        "l3": {
-          "tag": "Move <Slider>",
-          "confidence": 0.96,
-          "rationale": "Dragged the slider again to fine-tune brightness."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 26.3702,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        1238,
-        189
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Non Client Input Sink Window",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        25,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1238,
-          "y": 189
-        },
-        "element_bounds": {
-          "left": 376,
-          "top": 160,
-          "right": 1794,
-          "bottom": 232
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Cursor To <Slider>",
-          "confidence": 0.87,
-          "rationale": "Moved the cursor over the slider after adjustment."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 26.896,
-      "application": "Photos.exe",
-      "window_title": "Task 77.jpg",
-      "cursor_position": [
-        215,
-        475
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "Computer Use Logger",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 215,
-          "y": 475
-        },
-        "element_bounds": {
-          "left": 87,
-          "top": 121,
-          "right": 987,
-          "bottom": 621
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 24,
-          "endIndex": 24
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.58,
-          "rationale": "Clicked the logger/window area at the end of the trace."
-        },
-        "l4": {
-          "tag": "Format <Image>",
-          "confidence": 0.97,
-          "rationale": "Entered photo editing controls and adjusted the image brightness using Light Adjustments and the brightness slider, including a final fine-tune to reach the target level."
-        },
-        "l5": {
-          "tag": "Lower brightness",
-          "confidence": 0.97,
-          "rationale": "This span covers entering photo adjustment controls and moving the brightness slider to reduce brightness toward -1, matching the edit instruction."
-        }
-      },
-      "index": 24
-    }
-  ]
+    ]
 }

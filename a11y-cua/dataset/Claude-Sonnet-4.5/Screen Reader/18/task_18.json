@@ -1,2519 +1,2564 @@
 {
-  "metadata": {
-    "task_id": 18,
-    "task_title": "Force quit an application",
-    "instruction": "Open Chrome and close the application from Task Manager",
-    "context": "I'm browsing on Chrome but it is frozen.",
-    "task_group": "System Operations",
-    "applications": "Task Manager, Chrome",
-    "success": true,
-    "user_info": {
-      "user_type": "Claude-Sonnet-4.5",
-      "user_id": "Screen Reader",
-      "condition": "blind"
-    },
-    "session": {
-      "started_at": 1764464528.4460342,
-      "ended_at": 1764464920.6719232,
-      "duration": 392.23
-    },
-    "statistics": {
-      "total_events": 43,
-      "apps_used": [
-        "chrome.exe",
-        "Taskmgr.exe",
-        "explorer.exe"
-      ],
-      "by_type": {
-        "key_press": 36,
-        "hotkey": 7
-      },
-      "by_app": {
-        "chrome.exe": 7,
-        "Taskmgr.exe": 33,
-        "explorer.exe": 3
-      },
-      "keystrokes": {
-        "total_hotkeys": 7,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 20,
-        "hotkeys": {
-          "Ctrl+A": 2,
-          "Ctrl+F": 2,
-          "Alt+Tab": 1,
-          "Ctrl+Shift+Esc": 1,
-          "Win+Tab": 1
+    "metadata": {
+        "task_id": 18,
+        "task_title": "Force quit an application",
+        "instruction": "Open Chrome and close the application from Task Manager",
+        "context": "I'm browsing on Chrome but it is frozen.",
+        "task_group": "System Operations",
+        "applications": "Task Manager, Chrome",
+        "success": true,
+        "user_info": {
+            "user_type": "Claude-Sonnet-4.5",
+            "user_id": "Screen Reader",
+            "condition": "blind"
         },
-        "screen_reader_commands": {},
-        "other_keys": {
-          "Tab": 6,
-          "Delete": 3,
-          "Esc": 3,
-          "c": 1,
-          "Down": 1,
-          "e": 1,
-          "g": 1,
-          "h": 1,
-          "m": 1,
-          "o": 1,
-          "r": 1
+        "session": {
+            "started_at": 1764464528.4460342,
+            "ended_at": 1764464920.6719232,
+            "started_time": "00:00.000",
+            "ended_time": "04:31.944",
+            "duration": 392.23
+        },
+        "statistics": {
+            "total_events": 43,
+            "apps_used": [
+                "chrome.exe",
+                "Taskmgr.exe",
+                "explorer.exe"
+            ],
+            "by_type": {
+                "key_press": 36,
+                "hotkey": 7
+            },
+            "by_app": {
+                "chrome.exe": 7,
+                "Taskmgr.exe": 33,
+                "explorer.exe": 3
+            },
+            "keystrokes": {
+                "total_hotkeys": 7,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 20,
+                "hotkeys": {
+                    "Ctrl+A": 2,
+                    "Ctrl+F": 2,
+                    "Alt+Tab": 1,
+                    "Ctrl+Shift+Esc": 1,
+                    "Win+Tab": 1
+                },
+                "screen_reader_commands": {},
+                "other_keys": {
+                    "Tab": 6,
+                    "Delete": 3,
+                    "Esc": 3,
+                    "c": 1,
+                    "Down": 1,
+                    "e": 1,
+                    "g": 1,
+                    "h": 1,
+                    "m": 1,
+                    "o": 1,
+                    "r": 1
+                }
+            }
+        },
+        "web": {
+            "tabs": [
+                {
+                    "order": 1,
+                    "first_ts": -13.97,
+                    "url": "https://www.google.com/warmup.html",
+                    "title": "Warmup Page",
+                    "file": "/task_logs/29/web_logs/web_tab1_1764464573613.json",
+                    "dom_url": "/task_logs/User 24/29/web_logs/web_tab1_1764464573613.html",
+                    "a11y_url": "/task_logs/User 24/29/web_logs/web_tab1_1764464573613_a11y_tree.json"
+                }
+            ],
+            "total_events": 1,
+            "by_tab": {
+                "1::-13.97": 1
+            }
         }
-      }
     },
-    "web": {
-      "tabs": [
+    "actions": [
         {
-          "order": 1,
-          "first_ts": -13.97,
-          "url": "https://www.google.com/warmup.html",
-          "title": "Warmup Page",
-          "file": "/task_logs/29/web_logs/web_tab1_1764464573613.json",
-          "dom_url": "/task_logs/User 24/29/web_logs/web_tab1_1764464573613.html",
-          "a11y_url": "/task_logs/User 24/29/web_logs/web_tab1_1764464573613_a11y_tree.json"
-        }
-      ],
-      "total_events": 1,
-      "by_tab": {
-        "1::-13.97": 1
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 247,
-          "right": 1718,
-          "bottom": 1163
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.99,
-          "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 0.3267,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Shift",
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 1,
-          "endIndex": 1
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.99,
-          "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 0.3698,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "modifiers": [
-        "Ctrl",
-        "Shift"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 2,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.99,
-          "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 0.4073,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+Shift+Esc",
-      "mods": [
-        "Ctrl",
-        "Shift"
-      ],
-      "key": "Esc",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 3,
-          "endIndex": 3
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.99,
-          "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 18.6706,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 4,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Move Focus To <Menu Item>",
-          "confidence": 0.53,
-          "rationale": "Alt key press to shift focus toward the menu bar."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 20.5629,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "modifiers": [
-        "Alt"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Move Focus To <Webpage>",
-          "confidence": 0.72,
-          "rationale": "Tab moves focus from Chrome's address bar into the page area."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 20.7621,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "hotkey",
-      "combo": "Alt+Tab",
-      "mods": [
-        "Alt"
-      ],
-      "key": "Tab",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": "task_switch"
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.98,
-          "rationale": "Alt+Tab switches to another window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 33.7213,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.92,
-          "rationale": "Windows key opens the Start/Windows surface."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 33.8747,
-      "application": "explorer.exe",
-      "window_title": "",
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Move Focus To <Window>",
-          "confidence": 0.55,
-          "rationale": "Tab moves keyboard focus within the shell UI."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 34.2709,
-      "application": "explorer.exe",
-      "window_title": "",
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Expedia",
-        "control_type": "HyperlinkControl"
-      },
-      "event": "hotkey",
-      "combo": "Win+Tab",
-      "mods": [
-        "Win"
-      ],
-      "key": "Tab",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 946,
-          "top": 739,
-          "right": 1114,
-          "bottom": 907
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.96,
-          "rationale": "Win+Tab switches to Task View or another window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 39.8757,
-      "application": "explorer.exe",
-      "window_title": "Task View",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled",
-        "control_type": "ListItemControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 988,
-          "top": 444,
-          "right": 1411,
-          "bottom": 803
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.9,
-          "rationale": "Windows key opens the Start/Windows surface from Task View."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.99,
-          "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.92,
-          "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 90.2746,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "OBS Studio",
-        "control_type": "TreeItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 766,
-          "right": 1093,
-          "bottom": 808
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Move Focus To <Search Box>",
-          "confidence": 0.71,
-          "rationale": "Tab moves focus to the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 99.6864,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0.1 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.97,
-          "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 99.7756,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0.1 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "f",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.97,
-          "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 99.815,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0.1 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+F",
-      "mods": [
-        "Ctrl"
-      ],
-      "key": "f",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.97,
-          "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 117.6093,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "c",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 117.7436,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "h",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 117.8463,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 117.9024,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "o",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 117.9446,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "m",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 19,
-          "endIndex": 19
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 117.9814,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "0 MB/s",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 986,
-          "top": 764,
-          "right": 1093,
-          "bottom": 806
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 20,
-          "endIndex": 20
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the search query into the Task Manager search box."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 127.6409,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 386,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 21,
-          "endIndex": 21
-        },
-        "l3": {
-          "tag": "Cancel <Search Box>",
-          "confidence": 0.86,
-          "rationale": "Esc cancels the active search interaction."
-        },
-        "l4": {
-          "tag": "Search <Application>",
-          "confidence": 0.93,
-          "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
-        },
-        "l5": {
-          "tag": "Locate Chrome process",
-          "confidence": 0.9,
-          "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 136.6765,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Run new task",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 386,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 22,
-          "endIndex": 22
-        },
-        "l3": {
-          "tag": "Move Focus To <Button>",
-          "confidence": 0.78,
-          "rationale": "Tab moves focus to the Run new task button."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.85,
-          "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 144.575,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "More app bar",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 386,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Focus To <Column>",
-          "confidence": 0.84,
-          "rationale": "Tab moves focus onward to the CPU column header."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.85,
-          "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 152.4176,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "CPU 22% Sorted (descending). Press Enter to change sorting.",
-        "control_type": "HeaderItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 388,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 24,
-          "endIndex": 24
-        },
-        "l3": {
-          "tag": "Move Focus To <Column>",
-          "confidence": 0.84,
-          "rationale": "Tab moves focus onward to the CPU column header."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.85,
-          "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 162.9489,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "CPU 12% Sorted (descending). Press Enter to change sorting.",
-        "control_type": "HeaderItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Down",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 388,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 25,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Move Focus To <Column>",
-          "confidence": 0.84,
-          "rationale": "Tab moves focus onward to the CPU column header."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.85,
-          "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 171.5572,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "CPU 12% Sorted (descending). Press Enter to change sorting.",
-        "control_type": "HeaderItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 388,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 26,
-          "endIndex": 26
-        },
-        "l3": {
-          "tag": "Cancel <Column>",
-          "confidence": 0.82,
-          "rationale": "Esc cancels focus or interaction on the column header."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.85,
-          "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 180.9604,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Google Chrome. 9 instances.",
-        "control_type": "TreeItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "g",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 386,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 27,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Select <Row>",
-          "confidence": 0.74,
-          "rationale": "Typing a letter jumps to and activates the Google Chrome process row."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.97,
-          "rationale": "Typing 'g' selects the Google Chrome process row, and Delete confirms ending that application."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 190.3539,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Google Chrome. 9 instances.",
-        "control_type": "TreeItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "Processes",
-        "control_type": "DataGridControl"
-      },
-      "event": "key_press",
-      "key": "Delete",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 386,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 28,
-          "endIndex": 28
-        },
-        "l3": {
-          "tag": "Delete <Row>",
-          "confidence": 0.93,
-          "rationale": "Delete ends the selected Google Chrome process row."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.97,
-          "rationale": "Typing 'g' selects the Google Chrome process row, and Delete confirms ending that application."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.88,
-          "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 211.342,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Processes",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 29,
-          "endIndex": 29
-        },
-        "l3": {
-          "tag": "Move Focus To <List Item>",
-          "confidence": 0.77,
-          "rationale": "Tab moves focus to the Processes navigation item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 219.9871,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 30,
-          "endIndex": 30
-        },
-        "l3": {
-          "tag": "Move Focus To <List Item>",
-          "confidence": 0.77,
-          "rationale": "Tab moves focus to the Processes navigation item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 231.0875,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 31,
-          "endIndex": 31
-        },
-        "l3": {
-          "tag": "Select All <List Item>",
-          "confidence": 0.62,
-          "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 231.1969,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "a",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 32,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Select All <List Item>",
-          "confidence": 0.62,
-          "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 32
-    },
-    {
-      "timestamp": 231.2854,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+A",
-      "mods": [
-        "Ctrl"
-      ],
-      "key": "a",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 33,
-          "endIndex": 33
-        },
-        "l3": {
-          "tag": "Select All <List Item>",
-          "confidence": 0.62,
-          "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 33
-    },
-    {
-      "timestamp": 241.1523,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 34,
-          "endIndex": 34
-        },
-        "l3": {
-          "tag": "Cancel <List Item>",
-          "confidence": 0.85,
-          "rationale": "Esc cancels the current selection or focus on the Settings item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.76,
-          "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 34
-    },
-    {
-      "timestamp": 250.8007,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 35,
-          "endIndex": 35
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.96,
-          "rationale": "Start of the Ctrl+F find shortcut in the search box."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 35
-    },
-    {
-      "timestamp": 250.9344,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "f",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 36,
-          "endIndex": 36
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.96,
-          "rationale": "Start of the Ctrl+F find shortcut in the search box."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 36
-    },
-    {
-      "timestamp": 250.9934,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+F",
-      "mods": [
-        "Ctrl"
-      ],
-      "key": "f",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 37,
-          "endIndex": 37
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.96,
-          "rationale": "Start of the Ctrl+F find shortcut in the search box."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 37
-    },
-    {
-      "timestamp": 259.9039,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 38,
-          "endIndex": 38
-        },
-        "l3": {
-          "tag": "Select All <Text>",
-          "confidence": 0.95,
-          "rationale": "Start of the Ctrl+A shortcut to select the search text."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 38
-    },
-    {
-      "timestamp": 259.9816,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "a",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 39,
-          "endIndex": 39
-        },
-        "l3": {
-          "tag": "Select All <Text>",
-          "confidence": 0.95,
-          "rationale": "Start of the Ctrl+A shortcut to select the search text."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 39
-    },
-    {
-      "timestamp": 260.0456,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+A",
-      "mods": [
-        "Ctrl"
-      ],
-      "key": "a",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 40,
-          "endIndex": 40
-        },
-        "l3": {
-          "tag": "Select All <Text>",
-          "confidence": 0.95,
-          "rationale": "Start of the Ctrl+A shortcut to select the search text."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 40
-    },
-    {
-      "timestamp": 271.8606,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Delete",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 41,
-          "endIndex": 41
-        },
-        "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.93,
-          "rationale": "Delete removes the selected search text."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 41
-    },
-    {
-      "timestamp": 271.9444,
-      "application": "Taskmgr.exe",
-      "window_title": "Task Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        1066,
-        789
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Delete",
-      "coordinates": {
-        "cursor": {
-          "x": 1066,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 237,
-          "top": 308,
-          "right": 1311,
-          "bottom": 1026
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 42,
-          "endIndex": 42
-        },
-        "l3": {
-          "tag": "Delete <Text>",
-          "confidence": 0.93,
-          "rationale": "Delete removes the selected search text."
-        },
-        "l4": {
-          "tag": "Edit <Text>",
-          "confidence": 0.9,
-          "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
-        },
-        "l5": {
-          "tag": "Clear search field",
-          "confidence": 0.8,
-          "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
-        }
-      },
-      "index": 42
-    }
-  ]
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 247,
+                    "right": 1718,
+                    "bottom": 1163
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.99,
+                    "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 0
+        },
+        {
+            "timestamp": 0.3267,
+            "time": "00:00.327",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Shift",
+            "modifiers": [
+                "Ctrl",
+                "Shift"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 1,
+                    "endIndex": 1
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.99,
+                    "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 0.3698,
+            "time": "00:00.370",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "modifiers": [
+                "Ctrl",
+                "Shift"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 2,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.99,
+                    "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 0.4073,
+            "time": "00:00.407",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+Shift+Esc",
+            "mods": [
+                "Ctrl",
+                "Shift"
+            ],
+            "key": "Esc",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 3,
+                    "endIndex": 3
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.99,
+                    "rationale": "Start of the Ctrl+Shift+Esc shortcut used to open Task Manager."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 18.6706,
+            "time": "00:18.671",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 4,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Move Focus To <Menu Item>",
+                    "confidence": 0.53,
+                    "rationale": "Alt key press to shift focus toward the menu bar."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 20.5629,
+            "time": "00:20.563",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "modifiers": [
+                "Alt"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Move Focus To <Webpage>",
+                    "confidence": 0.72,
+                    "rationale": "Tab moves focus from Chrome's address bar into the page area."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 20.7621,
+            "time": "00:20.762",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "hotkey",
+            "combo": "Alt+Tab",
+            "mods": [
+                "Alt"
+            ],
+            "key": "Tab",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": "task_switch"
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Switch <Window>",
+                    "confidence": 0.98,
+                    "rationale": "Alt+Tab switches to another window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 33.7213,
+            "time": "00:33.721",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.92,
+                    "rationale": "Windows key opens the Start/Windows surface."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 33.8747,
+            "time": "00:33.875",
+            "application": "explorer.exe",
+            "window_title": "",
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Move Focus To <Window>",
+                    "confidence": 0.55,
+                    "rationale": "Tab moves keyboard focus within the shell UI."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 34.2709,
+            "time": "00:34.271",
+            "application": "explorer.exe",
+            "window_title": "",
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Expedia",
+                "control_type": "HyperlinkControl"
+            },
+            "event": "hotkey",
+            "combo": "Win+Tab",
+            "mods": [
+                "Win"
+            ],
+            "key": "Tab",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 946,
+                    "top": 739,
+                    "right": 1114,
+                    "bottom": 907
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Switch <Window>",
+                    "confidence": 0.96,
+                    "rationale": "Win+Tab switches to Task View or another window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 39.8757,
+            "time": "00:39.876",
+            "application": "explorer.exe",
+            "window_title": "Task View",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "OBS 32.0.2 - Profile: Untitled - Scenes: Untitled",
+                "control_type": "ListItemControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 988,
+                    "top": 444,
+                    "right": 1411,
+                    "bottom": 803
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.9,
+                    "rationale": "Windows key opens the Start/Windows surface from Task View."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Ctrl+Shift+Esc from Chrome opens Task Manager, moving to the Task Manager application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.92,
+                    "rationale": "These navigation actions open and switch into the Task Manager window from Chrome."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 90.2746,
+            "time": "01:30.275",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "OBS Studio",
+                "control_type": "TreeItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 766,
+                    "right": 1093,
+                    "bottom": 808
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Move Focus To <Search Box>",
+                    "confidence": 0.71,
+                    "rationale": "Tab moves focus to the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 99.6864,
+            "time": "01:39.686",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0.1 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.97,
+                    "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 99.7756,
+            "time": "01:39.776",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0.1 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "f",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.97,
+                    "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 99.815,
+            "time": "01:39.815",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0.1 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+F",
+            "mods": [
+                "Ctrl"
+            ],
+            "key": "f",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 14,
+                    "endIndex": 14
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.97,
+                    "rationale": "Start of the Ctrl+F find shortcut in Task Manager."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 14
+        },
+        {
+            "timestamp": 117.6093,
+            "time": "01:57.609",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "c",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 15,
+                    "endIndex": 15
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 117.7436,
+            "time": "01:57.744",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "h",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 16,
+                    "endIndex": 16
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 117.8463,
+            "time": "01:57.846",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 17,
+                    "endIndex": 17
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 117.9024,
+            "time": "01:57.902",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "o",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 18,
+                    "endIndex": 18
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 117.9446,
+            "time": "01:57.945",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "m",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 19,
+                    "endIndex": 19
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 117.9814,
+            "time": "01:57.981",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "0 MB/s",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 986,
+                    "top": 764,
+                    "right": 1093,
+                    "bottom": 806
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 20,
+                    "endIndex": 20
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the search query into the Task Manager search box."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 127.6409,
+            "time": "02:07.641",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 386,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 21,
+                    "endIndex": 21
+                },
+                "l3": {
+                    "tag": "Cancel <Search Box>",
+                    "confidence": 0.86,
+                    "rationale": "Esc cancels the active search interaction."
+                },
+                "l4": {
+                    "tag": "Search <Application>",
+                    "confidence": 0.93,
+                    "rationale": "In Task Manager, the user focuses the search box, invokes search, types 'chrome', and then cancels the search interaction."
+                },
+                "l5": {
+                    "tag": "Locate Chrome process",
+                    "confidence": 0.9,
+                    "rationale": "The focus moves to the search box, text is entered, and the search filters for Chrome."
+                }
+            },
+            "index": 21
+        },
+        {
+            "timestamp": 136.6765,
+            "time": "02:16.677",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Run new task",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 386,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 22,
+                    "endIndex": 22
+                },
+                "l3": {
+                    "tag": "Move Focus To <Button>",
+                    "confidence": 0.78,
+                    "rationale": "Tab moves focus to the Run new task button."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.85,
+                    "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 144.575,
+            "time": "02:24.575",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "More app bar",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 386,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 23,
+                    "endIndex": 23
+                },
+                "l3": {
+                    "tag": "Move Focus To <Column>",
+                    "confidence": 0.84,
+                    "rationale": "Tab moves focus onward to the CPU column header."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.85,
+                    "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 152.4176,
+            "time": "02:32.418",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "CPU 22% Sorted (descending). Press Enter to change sorting.",
+                "control_type": "HeaderItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 388,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 24,
+                    "endIndex": 24
+                },
+                "l3": {
+                    "tag": "Move Focus To <Column>",
+                    "confidence": 0.84,
+                    "rationale": "Tab moves focus onward to the CPU column header."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.85,
+                    "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 24
+        },
+        {
+            "timestamp": 162.9489,
+            "time": "02:42.949",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "CPU 12% Sorted (descending). Press Enter to change sorting.",
+                "control_type": "HeaderItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Down",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 388,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 25,
+                    "endIndex": 25
+                },
+                "l3": {
+                    "tag": "Move Focus To <Column>",
+                    "confidence": 0.84,
+                    "rationale": "Tab moves focus onward to the CPU column header."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.85,
+                    "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 25
+        },
+        {
+            "timestamp": 171.5572,
+            "time": "02:51.557",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "CPU 12% Sorted (descending). Press Enter to change sorting.",
+                "control_type": "HeaderItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 388,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 26,
+                    "endIndex": 26
+                },
+                "l3": {
+                    "tag": "Cancel <Column>",
+                    "confidence": 0.82,
+                    "rationale": "Esc cancels focus or interaction on the column header."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.85,
+                    "rationale": "After canceling search, the user tabs through Task Manager controls and column headers to move around the interface."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 26
+        },
+        {
+            "timestamp": 180.9604,
+            "time": "03:00.960",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Google Chrome. 9 instances.",
+                "control_type": "TreeItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "g",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 386,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 27,
+                    "endIndex": 27
+                },
+                "l3": {
+                    "tag": "Select <Row>",
+                    "confidence": 0.74,
+                    "rationale": "Typing a letter jumps to and activates the Google Chrome process row."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.97,
+                    "rationale": "Typing 'g' selects the Google Chrome process row, and Delete confirms ending that application."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 27
+        },
+        {
+            "timestamp": 190.3539,
+            "time": "03:10.354",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Google Chrome. 9 instances.",
+                "control_type": "TreeItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "Processes",
+                "control_type": "DataGridControl"
+            },
+            "event": "key_press",
+            "key": "Delete",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 386,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 28,
+                    "endIndex": 28
+                },
+                "l3": {
+                    "tag": "Delete <Row>",
+                    "confidence": 0.93,
+                    "rationale": "Delete ends the selected Google Chrome process row."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.97,
+                    "rationale": "Typing 'g' selects the Google Chrome process row, and Delete confirms ending that application."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.88,
+                    "rationale": "The trace navigates to the Chrome process row and deletes it to terminate the frozen app."
+                }
+            },
+            "index": 28
+        },
+        {
+            "timestamp": 211.342,
+            "time": "03:31.342",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Processes",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 29,
+                    "endIndex": 29
+                },
+                "l3": {
+                    "tag": "Move Focus To <List Item>",
+                    "confidence": 0.77,
+                    "rationale": "Tab moves focus to the Processes navigation item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 29
+        },
+        {
+            "timestamp": 219.9871,
+            "time": "03:39.987",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 30,
+                    "endIndex": 30
+                },
+                "l3": {
+                    "tag": "Move Focus To <List Item>",
+                    "confidence": 0.77,
+                    "rationale": "Tab moves focus to the Processes navigation item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 30
+        },
+        {
+            "timestamp": 231.0875,
+            "time": "03:51.088",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 31,
+                    "endIndex": 31
+                },
+                "l3": {
+                    "tag": "Select All <List Item>",
+                    "confidence": 0.62,
+                    "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 31
+        },
+        {
+            "timestamp": 231.1969,
+            "time": "03:51.197",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "a",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 32,
+                    "endIndex": 32
+                },
+                "l3": {
+                    "tag": "Select All <List Item>",
+                    "confidence": 0.62,
+                    "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 32
+        },
+        {
+            "timestamp": 231.2854,
+            "time": "03:51.285",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+A",
+            "mods": [
+                "Ctrl"
+            ],
+            "key": "a",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 33,
+                    "endIndex": 33
+                },
+                "l3": {
+                    "tag": "Select All <List Item>",
+                    "confidence": 0.62,
+                    "rationale": "Start of the Ctrl+A shortcut to select all items in the current list scope."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 33
+        },
+        {
+            "timestamp": 241.1523,
+            "time": "04:01.152",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 34,
+                    "endIndex": 34
+                },
+                "l3": {
+                    "tag": "Cancel <List Item>",
+                    "confidence": 0.85,
+                    "rationale": "Esc cancels the current selection or focus on the Settings item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.76,
+                    "rationale": "The user continues tabbing and canceling selections to move among Task Manager navigation items after the kill action."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 34
+        },
+        {
+            "timestamp": 250.8007,
+            "time": "04:10.801",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 35,
+                    "endIndex": 35
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.96,
+                    "rationale": "Start of the Ctrl+F find shortcut in the search box."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 35
+        },
+        {
+            "timestamp": 250.9344,
+            "time": "04:10.934",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "f",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 36,
+                    "endIndex": 36
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.96,
+                    "rationale": "Start of the Ctrl+F find shortcut in the search box."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 36
+        },
+        {
+            "timestamp": 250.9934,
+            "time": "04:10.993",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+F",
+            "mods": [
+                "Ctrl"
+            ],
+            "key": "f",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 37,
+                    "endIndex": 37
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.96,
+                    "rationale": "Start of the Ctrl+F find shortcut in the search box."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 37
+        },
+        {
+            "timestamp": 259.9039,
+            "time": "04:19.904",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 38,
+                    "endIndex": 38
+                },
+                "l3": {
+                    "tag": "Select All <Text>",
+                    "confidence": 0.95,
+                    "rationale": "Start of the Ctrl+A shortcut to select the search text."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 38
+        },
+        {
+            "timestamp": 259.9816,
+            "time": "04:19.982",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "a",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 39,
+                    "endIndex": 39
+                },
+                "l3": {
+                    "tag": "Select All <Text>",
+                    "confidence": 0.95,
+                    "rationale": "Start of the Ctrl+A shortcut to select the search text."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 39
+        },
+        {
+            "timestamp": 260.0456,
+            "time": "04:20.046",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+A",
+            "mods": [
+                "Ctrl"
+            ],
+            "key": "a",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 40,
+                    "endIndex": 40
+                },
+                "l3": {
+                    "tag": "Select All <Text>",
+                    "confidence": 0.95,
+                    "rationale": "Start of the Ctrl+A shortcut to select the search text."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 40
+        },
+        {
+            "timestamp": 271.8606,
+            "time": "04:31.861",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Delete",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 41,
+                    "endIndex": 41
+                },
+                "l3": {
+                    "tag": "Delete <Text>",
+                    "confidence": 0.93,
+                    "rationale": "Delete removes the selected search text."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 41
+        },
+        {
+            "timestamp": 271.9444,
+            "time": "04:31.944",
+            "application": "Taskmgr.exe",
+            "window_title": "Task Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                1066,
+                789
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Delete",
+            "coordinates": {
+                "cursor": {
+                    "x": 1066,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 237,
+                    "top": 308,
+                    "right": 1311,
+                    "bottom": 1026
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 42,
+                    "endIndex": 42
+                },
+                "l3": {
+                    "tag": "Delete <Text>",
+                    "confidence": 0.93,
+                    "rationale": "Delete removes the selected search text."
+                },
+                "l4": {
+                    "tag": "Edit <Text>",
+                    "confidence": 0.9,
+                    "rationale": "Ctrl+F returns to the search box, then Ctrl+A and Delete clear the existing search text."
+                },
+                "l5": {
+                    "tag": "Clear search field",
+                    "confidence": 0.8,
+                    "rationale": "Focus returns to the search box and the remaining text is selected and deleted to reset Task Manager."
+                }
+            },
+            "index": 42
+        }
+    ]
 }

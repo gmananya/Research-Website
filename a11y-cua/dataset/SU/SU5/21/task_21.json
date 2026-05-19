@@ -1,850 +1,866 @@
 {
-  "metadata": {
-    "task_id": 21,
-    "task_title": "Recover a photo from Trash",
-    "instruction": "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder.",
-    "context": "I accidentally deleted a file with the name Task ID 79.jpg.",
-    "task_group": "System Operation",
-    "applications": "Recycle bin",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU5",
-      "condition": "sighted"
+    "metadata": {
+        "task_id": 21,
+        "task_title": "Recover a photo from Trash",
+        "instruction": "Recover the file Task ID 79.jpg from Recycle Bin and verify whether it is restored to its previous location in Documents > Task 79 folder.",
+        "context": "I accidentally deleted a file with the name Task ID 79.jpg.",
+        "task_group": "System Operation",
+        "applications": "Recycle bin",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU5",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1756176173.7003264,
+            "ended_at": 1756176213.0107677,
+            "started_time": "00:00.000",
+            "ended_time": "00:24.466",
+            "duration": 39.31
+        },
+        "statistics": {
+            "total_events": 14,
+            "apps_used": [
+                "explorer.exe"
+            ],
+            "by_type": {
+                "mouse_click": 8,
+                "mouse_move": 6
+            },
+            "by_app": {
+                "explorer.exe": 14
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 0,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {}
+            }
+        }
     },
-    "session": {
-      "started_at": 1756176173.7003264,
-      "ended_at": 1756176213.0107677,
-      "duration": 39.31
-    },
-    "statistics": {
-      "total_events": 14,
-      "apps_used": [
-        "explorer.exe"
-      ],
-      "by_type": {
-        "mouse_click": 8,
-        "mouse_move": 6
-      },
-      "by_app": {
-        "explorer.exe": 14
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 0,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {}
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "cursor_position": [
-        38,
-        37
-      ],
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 38,
-          "y": 37
+    "actions": [
+        {
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "cursor_position": [
+                38,
+                37
+            ],
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 38,
+                    "y": 37
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 5,
+                    "right": 112,
+                    "bottom": 109
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.96,
+                    "rationale": "Clicked the Recycle Bin item to open it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Opened the Recycle Bin window to access the deleted items list."
+                },
+                "l5": {
+                    "tag": "Open Recycle Bin",
+                    "confidence": 0.94,
+                    "rationale": "Started recovery by opening Recycle Bin from the application."
+                }
+            },
+            "index": 0
         },
-        "element_bounds": {
-          "left": 0,
-          "top": 5,
-          "right": 112,
-          "bottom": 109
+        {
+            "timestamp": 1.8765,
+            "time": "00:01.877",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                50,
+                34
+            ],
+            "focused_element": {
+                "name": "2",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                4,
+                -11
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 50,
+                    "y": 34
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 5,
+                    "right": 112,
+                    "bottom": 109
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 1,
+                    "endIndex": 1
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.93,
+                    "rationale": "Hovered over the file list item in Recycle Bin."
+                },
+                "l4": {
+                    "tag": "Confirm <Item Card>",
+                    "confidence": 0.97,
+                    "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
+                },
+                "l5": {
+                    "tag": "Restore selected file",
+                    "confidence": 0.9,
+                    "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 4.6278,
+            "time": "00:04.628",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                1055,
+                428
+            ],
+            "focused_element": {
+                "name": "2",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1055,
+                    "y": 428
+                },
+                "element_bounds": {
+                    "left": 1025,
+                    "top": 417,
+                    "right": 1376,
+                    "bottom": 446
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 2,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.84,
+                    "rationale": "Clicked the item name area to select the deleted file entry."
+                },
+                "l4": {
+                    "tag": "Confirm <Item Card>",
+                    "confidence": 0.97,
+                    "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
+                },
+                "l5": {
+                    "tag": "Restore selected file",
+                    "confidence": 0.9,
+                    "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 6.3026,
+            "time": "00:06.303",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                1058,
+                435
+            ],
+            "focused_element": {
+                "name": "Cut",
+                "control_type": "MenuItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Close",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                3,
+                6
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1058,
+                    "y": 435
+                },
+                "element_bounds": {
+                    "left": 1055,
+                    "top": 428,
+                    "right": 1459,
+                    "bottom": 784
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 3,
+                    "endIndex": 3
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Menu Item>",
+                    "confidence": 0.94,
+                    "rationale": "Moved the pointer over a context menu item."
+                },
+                "l4": {
+                    "tag": "Confirm <Item Card>",
+                    "confidence": 0.97,
+                    "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
+                },
+                "l5": {
+                    "tag": "Restore selected file",
+                    "confidence": 0.9,
+                    "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 7.0727,
+            "time": "00:07.073",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                1150,
+                591
+            ],
+            "focused_element": {
+                "name": "Cut",
+                "control_type": "MenuItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Restore",
+                "control_type": "MenuItemControl"
+            },
+            "target": {
+                "name": "Restore",
+                "control_type": "MenuItemControl",
+                "automation_id": "undelete"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1150,
+                    "y": 591
+                },
+                "element_bounds": {
+                    "left": 1065,
+                    "top": 572,
+                    "right": 1451,
+                    "bottom": 620
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 4,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Select <Menu Item>",
+                    "confidence": 0.98,
+                    "rationale": "Activated the Restore command from the context menu."
+                },
+                "l4": {
+                    "tag": "Confirm <Item Card>",
+                    "confidence": 0.97,
+                    "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
+                },
+                "l5": {
+                    "tag": "Restore selected file",
+                    "confidence": 0.9,
+                    "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 8.839,
+            "time": "00:08.839",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                1143,
+                586
+            ],
+            "focused_element": {
+                "name": "User 0",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Items View",
+                "control_type": "ListControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -7,
+                -7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1143,
+                    "y": 586
+                },
+                "element_bounds": {
+                    "left": 971,
+                    "top": 233,
+                    "right": 1909,
+                    "bottom": 883
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.88,
+                    "rationale": "Hovered over a navigation/list item in File Explorer."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 10.0929,
+            "time": "00:10.093",
+            "application": "explorer.exe",
+            "window_title": "Recycle Bin - File Explorer",
+            "cursor_position": [
+                797,
+                544
+            ],
+            "focused_element": {
+                "name": "User 0",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Pictures (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "target": {
+                "name": "Pictures (pinned)",
+                "control_type": "TreeItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 797,
+                    "y": 544
+                },
+                "element_bounds": {
+                    "left": 809,
+                    "top": 530,
+                    "right": 874,
+                    "bottom": 578
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.97,
+                    "rationale": "Clicked the Pictures pinned location to open that folder."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 10.9501,
+            "time": "00:10.950",
+            "application": "explorer.exe",
+            "window_title": "Pictures - File Explorer",
+            "cursor_position": [
+                800,
+                538
+            ],
+            "focused_element": {
+                "name": "Pictures (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Pictures (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -1,
+                -8
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 800,
+                    "y": 538
+                },
+                "element_bounds": {
+                    "left": 809,
+                    "top": 530,
+                    "right": 874,
+                    "bottom": 578
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.92,
+                    "rationale": "Moved the cursor over the Pictures navigation item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 11.7351,
+            "time": "00:11.735",
+            "application": "explorer.exe",
+            "window_title": "Pictures - File Explorer",
+            "cursor_position": [
+                830,
+                488
+            ],
+            "focused_element": {
+                "name": "Pictures (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "target": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 830,
+                    "y": 488
+                },
+                "element_bounds": {
+                    "left": 809,
+                    "top": 482,
+                    "right": 904,
+                    "bottom": 530
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.97,
+                    "rationale": "Clicked the Documents pinned location to open it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 12.91,
+            "time": "00:12.910",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                843,
+                485
+            ],
+            "focused_element": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                43,
+                -53
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 843,
+                    "y": 485
+                },
+                "element_bounds": {
+                    "left": 809,
+                    "top": 482,
+                    "right": 904,
+                    "bottom": 530
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.92,
+                    "rationale": "Hovered over the Documents navigation item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 18.1254,
+            "time": "00:18.125",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1109,
+                626
+            ],
+            "focused_element": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1109,
+                    "y": 626
+                },
+                "element_bounds": {
+                    "left": 1025,
+                    "top": 610,
+                    "right": 1430,
+                    "bottom": 639
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 10,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.83,
+                    "rationale": "Selected the Task 79 folder item in Documents."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 18.5401,
+            "time": "00:18.540",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1109,
+                626
+            ],
+            "focused_element": {
+                "name": "Task 79",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1109,
+                    "y": 626
+                },
+                "element_bounds": {
+                    "left": 1025,
+                    "top": 610,
+                    "right": 1430,
+                    "bottom": 639
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 10,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.95,
+                    "rationale": "Double-clicked the Task 79 folder to open it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.95,
+                    "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
+                },
+                "l5": {
+                    "tag": "Navigate to Task 79 folder",
+                    "confidence": 0.87,
+                    "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 19.6841,
+            "time": "00:19.684",
+            "application": "explorer.exe",
+            "window_title": "Task 79 - File Explorer",
+            "cursor_position": [
+                1109,
+                619
+            ],
+            "focused_element": {
+                "name": "Task ID 79",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Items View",
+                "control_type": "ListControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -6,
+                -24
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1109,
+                    "y": 619
+                },
+                "element_bounds": {
+                    "left": 971,
+                    "top": 233,
+                    "right": 1909,
+                    "bottom": 883
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.93,
+                    "rationale": "Moved the cursor over the restored file item in Task 79."
+                },
+                "l4": {
+                    "tag": "Review <Item Card>",
+                    "confidence": 0.87,
+                    "rationale": "Hovered over the restored Task ID 79 file entry to verify that it appeared in the Task 79 folder."
+                },
+                "l5": {
+                    "tag": "Verify restored file location",
+                    "confidence": 0.92,
+                    "rationale": "Reviewed the item card in the destination folder to confirm the file was restored."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 24.4656,
+            "time": "00:24.466",
+            "application": "explorer.exe",
+            "window_title": "Task 79 - File Explorer",
+            "cursor_position": [
+                1863,
+                53
+            ],
+            "focused_element": {
+                "name": "Task ID 79",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Close",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Close",
+                "control_type": "ButtonControl",
+                "automation_id": "Close"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1863,
+                    "y": 53
+                },
+                "element_bounds": {
+                    "left": 1839,
+                    "top": 30,
+                    "right": 1910,
+                    "bottom": 74
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Close <Window>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the window close button."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.79,
+                    "rationale": "Closed the File Explorer window after verification, leaving the current application view."
+                },
+                "l5": {
+                    "tag": "Close window",
+                    "confidence": 0.98,
+                    "rationale": "Closed the window after completing the verification step."
+                }
+            },
+            "index": 13
         }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.96,
-          "rationale": "Clicked the Recycle Bin item to open it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.98,
-          "rationale": "Opened the Recycle Bin window to access the deleted items list."
-        },
-        "l5": {
-          "tag": "Open Recycle Bin",
-          "confidence": 0.94,
-          "rationale": "Started recovery by opening Recycle Bin from the application."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 1.8765,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        50,
-        34
-      ],
-      "focused_element": {
-        "name": "2",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        4,
-        -11
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 50,
-          "y": 34
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 5,
-          "right": 112,
-          "bottom": 109
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 1,
-          "endIndex": 1
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.93,
-          "rationale": "Hovered over the file list item in Recycle Bin."
-        },
-        "l4": {
-          "tag": "Confirm <Item Card>",
-          "confidence": 0.97,
-          "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
-        },
-        "l5": {
-          "tag": "Restore selected file",
-          "confidence": 0.9,
-          "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 4.6278,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        1055,
-        428
-      ],
-      "focused_element": {
-        "name": "2",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1055,
-          "y": 428
-        },
-        "element_bounds": {
-          "left": 1025,
-          "top": 417,
-          "right": 1376,
-          "bottom": 446
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 2,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.84,
-          "rationale": "Clicked the item name area to select the deleted file entry."
-        },
-        "l4": {
-          "tag": "Confirm <Item Card>",
-          "confidence": 0.97,
-          "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
-        },
-        "l5": {
-          "tag": "Restore selected file",
-          "confidence": 0.9,
-          "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 6.3026,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        1058,
-        435
-      ],
-      "focused_element": {
-        "name": "Cut",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Close",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        3,
-        6
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1058,
-          "y": 435
-        },
-        "element_bounds": {
-          "left": 1055,
-          "top": 428,
-          "right": 1459,
-          "bottom": 784
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 3,
-          "endIndex": 3
-        },
-        "l3": {
-          "tag": "Move Cursor To <Menu Item>",
-          "confidence": 0.94,
-          "rationale": "Moved the pointer over a context menu item."
-        },
-        "l4": {
-          "tag": "Confirm <Item Card>",
-          "confidence": 0.97,
-          "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
-        },
-        "l5": {
-          "tag": "Restore selected file",
-          "confidence": 0.9,
-          "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 7.0727,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        1150,
-        591
-      ],
-      "focused_element": {
-        "name": "Cut",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Restore",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Restore",
-        "control_type": "MenuItemControl",
-        "automation_id": "undelete"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1150,
-          "y": 591
-        },
-        "element_bounds": {
-          "left": 1065,
-          "top": 572,
-          "right": 1451,
-          "bottom": 620
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 4,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Select <Menu Item>",
-          "confidence": 0.98,
-          "rationale": "Activated the Restore command from the context menu."
-        },
-        "l4": {
-          "tag": "Confirm <Item Card>",
-          "confidence": 0.97,
-          "rationale": "Selected the deleted file entry and invoked Restore to recover it from Recycle Bin."
-        },
-        "l5": {
-          "tag": "Restore selected file",
-          "confidence": 0.9,
-          "rationale": "Identified Task ID 79.jpg and used the context/menu action to restore it."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 8.839,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        1143,
-        586
-      ],
-      "focused_element": {
-        "name": "User 0",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -7,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1143,
-          "y": 586
-        },
-        "element_bounds": {
-          "left": 971,
-          "top": 233,
-          "right": 1909,
-          "bottom": 883
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.88,
-          "rationale": "Hovered over a navigation/list item in File Explorer."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 10.0929,
-      "application": "explorer.exe",
-      "window_title": "Recycle Bin - File Explorer",
-      "cursor_position": [
-        797,
-        544
-      ],
-      "focused_element": {
-        "name": "User 0",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Pictures (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "target": {
-        "name": "Pictures (pinned)",
-        "control_type": "TreeItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 797,
-          "y": 544
-        },
-        "element_bounds": {
-          "left": 809,
-          "top": 530,
-          "right": 874,
-          "bottom": 578
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.97,
-          "rationale": "Clicked the Pictures pinned location to open that folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 10.9501,
-      "application": "explorer.exe",
-      "window_title": "Pictures - File Explorer",
-      "cursor_position": [
-        800,
-        538
-      ],
-      "focused_element": {
-        "name": "Pictures (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Pictures (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -1,
-        -8
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 800,
-          "y": 538
-        },
-        "element_bounds": {
-          "left": 809,
-          "top": 530,
-          "right": 874,
-          "bottom": 578
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.92,
-          "rationale": "Moved the cursor over the Pictures navigation item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 11.7351,
-      "application": "explorer.exe",
-      "window_title": "Pictures - File Explorer",
-      "cursor_position": [
-        830,
-        488
-      ],
-      "focused_element": {
-        "name": "Pictures (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "target": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 830,
-          "y": 488
-        },
-        "element_bounds": {
-          "left": 809,
-          "top": 482,
-          "right": 904,
-          "bottom": 530
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.97,
-          "rationale": "Clicked the Documents pinned location to open it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 12.91,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        843,
-        485
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        43,
-        -53
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 843,
-          "y": 485
-        },
-        "element_bounds": {
-          "left": 809,
-          "top": 482,
-          "right": 904,
-          "bottom": 530
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.92,
-          "rationale": "Hovered over the Documents navigation item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 18.1254,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1109,
-        626
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1109,
-          "y": 626
-        },
-        "element_bounds": {
-          "left": 1025,
-          "top": 610,
-          "right": 1430,
-          "bottom": 639
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 10,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.83,
-          "rationale": "Selected the Task 79 folder item in Documents."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 18.5401,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1109,
-        626
-      ],
-      "focused_element": {
-        "name": "Task 79",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1109,
-          "y": 626
-        },
-        "element_bounds": {
-          "left": 1025,
-          "top": 610,
-          "right": 1430,
-          "bottom": 639
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 10,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.95,
-          "rationale": "Double-clicked the Task 79 folder to open it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.95,
-          "rationale": "Moved through File Explorer's navigation pane and folders to reach Documents > Task 79."
-        },
-        "l5": {
-          "tag": "Navigate to Task 79 folder",
-          "confidence": 0.87,
-          "rationale": "Moved through File Explorer toward the expected Documents > Task 79 location for verification."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 19.6841,
-      "application": "explorer.exe",
-      "window_title": "Task 79 - File Explorer",
-      "cursor_position": [
-        1109,
-        619
-      ],
-      "focused_element": {
-        "name": "Task ID 79",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -6,
-        -24
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1109,
-          "y": 619
-        },
-        "element_bounds": {
-          "left": 971,
-          "top": 233,
-          "right": 1909,
-          "bottom": 883
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.93,
-          "rationale": "Moved the cursor over the restored file item in Task 79."
-        },
-        "l4": {
-          "tag": "Review <Item Card>",
-          "confidence": 0.87,
-          "rationale": "Hovered over the restored Task ID 79 file entry to verify that it appeared in the Task 79 folder."
-        },
-        "l5": {
-          "tag": "Verify restored file location",
-          "confidence": 0.92,
-          "rationale": "Reviewed the item card in the destination folder to confirm the file was restored."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 24.4656,
-      "application": "explorer.exe",
-      "window_title": "Task 79 - File Explorer",
-      "cursor_position": [
-        1863,
-        53
-      ],
-      "focused_element": {
-        "name": "Task ID 79",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Close",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Close",
-        "control_type": "ButtonControl",
-        "automation_id": "Close"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1863,
-          "y": 53
-        },
-        "element_bounds": {
-          "left": 1839,
-          "top": 30,
-          "right": 1910,
-          "bottom": 74
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Close <Window>",
-          "confidence": 0.99,
-          "rationale": "Clicked the window close button."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.79,
-          "rationale": "Closed the File Explorer window after verification, leaving the current application view."
-        },
-        "l5": {
-          "tag": "Close window",
-          "confidence": 0.98,
-          "rationale": "Closed the window after completing the verification step."
-        }
-      },
-      "index": 13
-    }
-  ]
+    ]
 }

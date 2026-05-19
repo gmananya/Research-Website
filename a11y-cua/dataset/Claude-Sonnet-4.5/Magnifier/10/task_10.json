@@ -1,3551 +1,3637 @@
 {
-  "metadata": {
-    "task_id": 10,
-    "task_title": "Translating the language of a webpage",
-    "instruction": "Visit www.france24.com/fr. Translate the news page in French on this webpage to English using Google Translate.",
-    "context": "I want to get up-to-date about some news from France but the reliable news websites are mostly in French. I want to read the English Translation of this.",
-    "task_group": "Browsing and Web",
-    "applications": "Chrome",
-    "success": true,
-    "user_info": {
-      "user_type": "Claude-Sonnet-4.5",
-      "user_id": "Magnifier",
-      "condition": "low-vision"
-    },
-    "session": {
-      "started_at": 1764878998.6973128,
-      "ended_at": 1764879667.3174326,
-      "duration": 668.62
-    },
-    "statistics": {
-      "total_events": 84,
-      "apps_used": [
-        "explorer.exe",
-        "Code.exe",
-        "chrome.exe"
-      ],
-      "by_type": {
-        "key_press": 52,
-        "mouse_click": 23,
-        "hotkey": 5,
-        "scroll": 4
-      },
-      "by_app": {
-        "explorer.exe": 60,
-        "Code.exe": 4,
-        "chrome.exe": 20
-      },
-      "keystrokes": {
-        "total_hotkeys": 5,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 41,
-        "hotkeys": {
-          "Win+R": 3,
-          "Alt+Tab": 1,
-          "Ctrl+Home": 1
+    "metadata": {
+        "task_id": 10,
+        "task_title": "Translating the language of a webpage",
+        "instruction": "Visit www.france24.com/fr. Translate the news page in French on this webpage to English using Google Translate.",
+        "context": "I want to get up-to-date about some news from France but the reliable news websites are mostly in French. I want to read the English Translation of this.",
+        "task_group": "Browsing and Web",
+        "applications": "Chrome",
+        "success": true,
+        "user_info": {
+            "user_type": "Claude-Sonnet-4.5",
+            "user_id": "Magnifier",
+            "condition": "low-vision"
         },
-        "screen_reader_commands": {},
-        "other_keys": {
-          "e": 4,
-          "Tab": 4,
-          "c": 3,
-          "Esc": 3,
-          "m": 3,
-          "r": 3,
-          "w": 3,
-          ".": 2,
-          "Enter": 2,
-          "f": 2,
-          "o": 2,
-          "/": 1,
-          "2": 1,
-          "4": 1,
-          "a": 1,
-          "d": 1,
-          "g": 1,
-          "h": 1,
-          "Home": 1,
-          "n": 1,
-          "s": 1
+        "session": {
+            "started_at": 1764878998.6973128,
+            "ended_at": 1764879667.3174326,
+            "started_time": "00:00.000",
+            "ended_time": "09:49.693",
+            "duration": 668.62
+        },
+        "statistics": {
+            "total_events": 84,
+            "apps_used": [
+                "explorer.exe",
+                "Code.exe",
+                "chrome.exe"
+            ],
+            "by_type": {
+                "key_press": 52,
+                "mouse_click": 23,
+                "hotkey": 5,
+                "scroll": 4
+            },
+            "by_app": {
+                "explorer.exe": 60,
+                "Code.exe": 4,
+                "chrome.exe": 20
+            },
+            "keystrokes": {
+                "total_hotkeys": 5,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 41,
+                "hotkeys": {
+                    "Win+R": 3,
+                    "Alt+Tab": 1,
+                    "Ctrl+Home": 1
+                },
+                "screen_reader_commands": {},
+                "other_keys": {
+                    "e": 4,
+                    "Tab": 4,
+                    "c": 3,
+                    "Esc": 3,
+                    "m": 3,
+                    "r": 3,
+                    "w": 3,
+                    ".": 2,
+                    "Enter": 2,
+                    "f": 2,
+                    "o": 2,
+                    "/": 1,
+                    "2": 1,
+                    "4": 1,
+                    "a": 1,
+                    "d": 1,
+                    "g": 1,
+                    "h": 1,
+                    "Home": 1,
+                    "n": 1,
+                    "s": 1
+                }
+            }
+        },
+        "web": {
+            "tabs": [
+                {
+                    "order": 1,
+                    "first_ts": 295.0999,
+                    "url": "https://www.france24.com/fr/",
+                    "title": "France 24 - News & Current Events - Live International News",
+                    "file": "/task_logs/16/web_logs/web_tab1_1764879334773.json",
+                    "dom_url": "/task_logs/User 16/16/web_logs/web_tab1_1764879334773.html",
+                    "a11y_url": "/task_logs/User 16/16/web_logs/web_tab1_1764879334773_a11y_tree.json"
+                }
+            ],
+            "total_events": 29,
+            "by_tab": {
+                "1::295.0999": 29
+            }
         }
-      }
     },
-    "web": {
-      "tabs": [
+    "actions": [
         {
-          "order": 1,
-          "first_ts": 295.0999,
-          "url": "https://www.france24.com/fr/",
-          "title": "France 24 - News & Current Events - Live International News",
-          "file": "/task_logs/16/web_logs/web_tab1_1764879334773.json",
-          "dom_url": "/task_logs/User 16/16/web_logs/web_tab1_1764879334773.html",
-          "a11y_url": "/task_logs/User 16/16/web_logs/web_tab1_1764879334773_a11y_tree.json"
-        }
-      ],
-      "total_events": 29,
-      "by_tab": {
-        "1::295.0999": 29
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0.0,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Search box",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        960,
-        1192
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 1192
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 1128,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 0,
-          "endIndex": 0
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 20.3981,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "target": {
-        "name": "Desktop",
-        "control_type": "ListControl",
-        "automation_id": "1"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 1,
-          "endIndex": 1
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 36.2966,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        1890,
-        1146
-      ],
-      "element_under_cursor": {
-        "name": "Clock 2:11 PM\n‎12/‎4/‎2025",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Clock 2:11 PM\n‎12/‎4/‎2025",
-        "control_type": "ButtonControl",
-        "automation_id": "SystemTrayIcon"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1890,
-          "y": 1146
-        },
-        "element_bounds": {
-          "left": 1795,
-          "top": 1128,
-          "right": 1901,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 2,
-          "endIndex": 2
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 52.3294,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "target": {
-        "name": "Desktop",
-        "control_type": "ListControl",
-        "automation_id": "1"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 3,
-          "endIndex": 3
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 69.8048,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 4,
-          "endIndex": 4
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 69.8287,
-      "application": "Code.exe",
-      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
-      "focused_element": {
-        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "modifiers": [
-        "Alt"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 5,
-          "endIndex": 5
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 69.9277,
-      "application": "Code.exe",
-      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
-      "focused_element": {
-        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "hotkey",
-      "combo": "Alt+Tab",
-      "mods": [
-        "Alt"
-      ],
-      "key": "Tab",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": "task_switch"
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 6,
-          "endIndex": 6
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 77.4035,
-      "application": "Code.exe",
-      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
-      "focused_element": {
-        "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 7,
-          "endIndex": 7
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 77.5072,
-      "application": "Code.exe",
-      "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 8,
-          "endIndex": 8
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 77.5286,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        84,
-        888
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "hotkey",
-      "combo": "Win+R",
-      "mods": [
-        "Win"
-      ],
-      "key": "r",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 84,
-          "y": 888
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 9,
-          "endIndex": 9
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 84.0561,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 10,
-          "endIndex": 11
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 84.2051,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 10,
-          "endIndex": 11
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 84.3397,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 12,
-          "endIndex": 12
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 90.848,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "c",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 13,
-          "endIndex": 13
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 90.9119,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "h",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 118,
-          "top": 971,
-          "right": 798,
-          "bottom": 1025
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 14,
-          "endIndex": 14
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 90.9355,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 15,
-          "endIndex": 15
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 90.9628,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "o",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 16,
-          "endIndex": 16
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 91.0015,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "m",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 17,
-          "endIndex": 17
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 91.0203,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        505,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 505,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 18,
-          "endIndex": 18
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 97.6585,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        355,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 355,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 19,
-          "endIndex": 19
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 116.238,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        355,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 355,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 20,
-          "endIndex": 20
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 124.5869,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        552,
-        985
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "target": {
-        "name": "Desktop",
-        "control_type": "ListControl",
-        "automation_id": "1"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 552,
-          "y": 985
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 21,
-          "endIndex": 21
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 156.3855,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        960,
-        1192
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 1192
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 1128,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 22,
-          "endIndex": 22
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 156.4839,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        960,
-        1192
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 1192
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 1128,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 23,
-          "endIndex": 23
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 156.5071,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        960,
-        1192
-      ],
-      "element_under_cursor": {
-        "name": "Task View",
-        "control_type": "ButtonControl"
-      },
-      "event": "hotkey",
-      "combo": "Win+R",
-      "mods": [
-        "Win"
-      ],
-      "key": "r",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 1192
-        },
-        "element_bounds": {
-          "left": 931,
-          "top": 1128,
-          "right": 997,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 24,
-          "endIndex": 24
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 164.1185,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 25,
-          "endIndex": 26
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 164.2676,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 25,
-          "endIndex": 26
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 164.3996,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 27,
-          "endIndex": 27
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 173.6539,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "m",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 28,
-          "endIndex": 28
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 173.6864,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "ms-screenclip:///?source=TextExtractorHotKey&type=textExtractor",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "s",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 118,
-          "top": 834,
-          "right": 538,
-          "bottom": 861
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 29,
-          "endIndex": 29
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 173.828,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 30,
-          "endIndex": 30
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 173.8541,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "d",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 31,
-          "endIndex": 31
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 173.885,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "g",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 32,
-          "endIndex": 32
-        }
-      },
-      "index": 32
-    },
-    {
-      "timestamp": 173.9119,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        838
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 33,
-          "endIndex": 33
-        }
-      },
-      "index": 33
-    },
-    {
-      "timestamp": 181.2026,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        357,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 357,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 34,
-          "endIndex": 34
-        }
-      },
-      "index": 34
-    },
-    {
-      "timestamp": 209.9898,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        357,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 357,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 35,
-          "endIndex": 35
-        }
-      },
-      "index": 35
-    },
-    {
-      "timestamp": 217.6515,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        547,
-        982
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "target": {
-        "name": "Desktop",
-        "control_type": "ListControl",
-        "automation_id": "1"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 547,
-          "y": 982
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 36,
-          "endIndex": 36
-        }
-      },
-      "index": 36
-    },
-    {
-      "timestamp": 228.3305,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        547,
-        982
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Win",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 547,
-          "y": 982
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 37,
-          "endIndex": 37
-        }
-      },
-      "index": 37
-    },
-    {
-      "timestamp": 228.4357,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        547,
-        982
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "modifiers": [
-        "Win"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 547,
-          "y": 982
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 38,
-          "endIndex": 38
-        }
-      },
-      "index": 38
-    },
-    {
-      "timestamp": 228.4585,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        547,
-        982
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "hotkey",
-      "combo": "Win+R",
-      "mods": [
-        "Win"
-      ],
-      "key": "r",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 547,
-          "y": 982
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 39,
-          "endIndex": 39
-        }
-      },
-      "index": 39
-    },
-    {
-      "timestamp": 237.1799,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 40,
-          "endIndex": 41
-        }
-      },
-      "index": 40
-    },
-    {
-      "timestamp": 237.3303,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 40,
-          "endIndex": 41
-        }
-      },
-      "index": 41
-    },
-    {
-      "timestamp": 237.4627,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 42,
-          "endIndex": 42
-        }
-      },
-      "index": 42
-    },
-    {
-      "timestamp": 248.3346,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "w",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 43,
-          "endIndex": 43
-        }
-      },
-      "index": 43
-    },
-    {
-      "timestamp": 248.366,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "w",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 44,
-          "endIndex": 44
-        }
-      },
-      "index": 44
-    },
-    {
-      "timestamp": 248.3918,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "w",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 45,
-          "endIndex": 45
-        }
-      },
-      "index": 45
-    },
-    {
-      "timestamp": 248.4196,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": ".",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 46,
-          "endIndex": 46
-        }
-      },
-      "index": 46
-    },
-    {
-      "timestamp": 248.4517,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "f",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 47,
-          "endIndex": 47
-        }
-      },
-      "index": 47
-    },
-    {
-      "timestamp": 248.4786,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 48,
-          "endIndex": 48
-        }
-      },
-      "index": 48
-    },
-    {
-      "timestamp": 248.5032,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "a",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 49,
-          "endIndex": 49
-        }
-      },
-      "index": 49
-    },
-    {
-      "timestamp": 248.5372,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "n",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 50,
-          "endIndex": 50
-        }
-      },
-      "index": 50
-    },
-    {
-      "timestamp": 248.5633,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "c",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 51,
-          "endIndex": 51
-        }
-      },
-      "index": 51
-    },
-    {
-      "timestamp": 248.5882,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 52,
-          "endIndex": 52
-        }
-      },
-      "index": 52
-    },
-    {
-      "timestamp": 248.6198,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "2",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 53,
-          "endIndex": 53
-        }
-      },
-      "index": 53
-    },
-    {
-      "timestamp": 248.6443,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "4",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 54,
-          "endIndex": 54
-        }
-      },
-      "index": 54
-    },
-    {
-      "timestamp": 248.6762,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": ".",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 55,
-          "endIndex": 55
-        }
-      },
-      "index": 55
-    },
-    {
-      "timestamp": 248.7031,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "c",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 56,
-          "endIndex": 56
-        }
-      },
-      "index": 56
-    },
-    {
-      "timestamp": 248.7285,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "o",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 57,
-          "endIndex": 57
-        }
-      },
-      "index": 57
-    },
-    {
-      "timestamp": 248.7608,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "m",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 58,
-          "endIndex": 58
-        }
-      },
-      "index": 58
-    },
-    {
-      "timestamp": 248.787,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "/",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 59,
-          "endIndex": 59
-        }
-      },
-      "index": 59
-    },
-    {
-      "timestamp": 248.8173,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "f",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 60,
-          "endIndex": 60
-        }
-      },
-      "index": 60
-    },
-    {
-      "timestamp": 248.8433,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        510,
-        834
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "coordinates": {
-        "cursor": {
-          "x": 510,
-          "y": 834
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 61,
-          "endIndex": 61
-        }
-      },
-      "index": 61
-    },
-    {
-      "timestamp": 258.4138,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Open:",
-        "control_type": "EditControl"
-      },
-      "cursor_position": [
-        357,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Run",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Run",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 357,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 11,
-          "top": 777,
-          "right": 601,
-          "bottom": 1124
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 62,
-          "endIndex": 62
-        }
-      },
-      "index": 62
-    },
-    {
-      "timestamp": 284.4773,
-      "application": "explorer.exe",
-      "window_title": "Run",
-      "focused_element": {
-        "name": "Recycle Bin",
-        "control_type": "ListItemControl"
-      },
-      "cursor_position": [
-        357,
-        994
-      ],
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "key_press",
-      "key": "Enter",
-      "coordinates": {
-        "cursor": {
-          "x": 357,
-          "y": 994
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1200
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 63,
-          "endIndex": 63
-        }
-      },
-      "index": 63
-    },
-    {
-      "timestamp": 312.6496,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        1080,
-        1066
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Bienvenue chez France Médias Monde Gestion du consentement",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1080,
-          "y": 1066
-        },
-        "element_bounds": {
-          "left": 67,
-          "top": 574,
-          "right": 1657,
-          "bottom": 26246
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 64,
-          "endIndex": 64
-        }
-      },
-      "index": 64
-    },
-    {
-      "timestamp": 322.5155,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "France 24 - Infos, news & actualités - L'information internationale en direct",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        936,
-        865
-      ],
-      "element_under_cursor": {
-        "name": "Bienvenue chez France Médias Monde Gestion du consentement",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "stocker et/ou accéder à des informations sur un terminal",
-        "control_type": "TextControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 936,
-          "y": 865
-        },
-        "element_bounds": {
-          "left": 340,
-          "top": 263,
-          "right": 1384,
-          "bottom": 1068
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 65,
-          "endIndex": 65
-        }
-      },
-      "index": 65
-    },
-    {
-      "timestamp": 346.9935,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        1252,
-        865
-      ],
-      "element_under_cursor": {
-        "name": "À Mayotte, les agents recenseurs toquent à toutes les portes",
-        "control_type": "TextControl"
-      },
-      "target": {
-        "name": ", publicités et contenu personnalisés, mesure de performance des publicités et du contenu, études d’audience et développement de services",
-        "control_type": "TextControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1252,
-          "y": 865
-        },
-        "element_bounds": {
-          "left": 1170,
-          "top": 831,
-          "right": 1584,
-          "bottom": 904
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 66,
-          "endIndex": 66
-        }
-      },
-      "index": 66
-    },
-    {
-      "timestamp": 359.4364,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        1252,
-        865
-      ],
-      "element_under_cursor": {
-        "name": ", publicités et contenu personnalisés, mesure de performance des publicités et du contenu, études d’audience et développement de services",
-        "control_type": "TextControl"
-      },
-      "event": "key_press",
-      "key": "Esc",
-      "coordinates": {
-        "cursor": {
-          "x": 1252,
-          "y": 865
-        },
-        "element_bounds": {
-          "left": 412,
-          "top": 857,
-          "right": 1312,
-          "bottom": 903
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 67,
-          "endIndex": 67
-        }
-      },
-      "index": 67
-    },
-    {
-      "timestamp": 369.9295,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 67,
-          "top": 574,
-          "right": 1657,
-          "bottom": 26246
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 68,
-          "endIndex": 68
-        }
-      },
-      "index": 68
-    },
-    {
-      "timestamp": 382.0255,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "France 24 - Infos, news & actualités - L'information internationale en direct",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 67,
-          "top": 574,
-          "right": 1657,
-          "bottom": 26246
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 69,
-          "endIndex": 69
-        }
-      },
-      "index": 69
-    },
-    {
-      "timestamp": 393.4797,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "France 24 - Infos, news & actualités - L'information internationale en direct",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 181,
-          "right": 1717,
-          "bottom": 1126
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 70,
-          "endIndex": 70
-        }
-      },
-      "index": 70
-    },
-    {
-      "timestamp": 405.7553,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "Paramétrer",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 181,
-          "right": 1717,
-          "bottom": 1126
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 71,
-          "endIndex": 71
-        }
-      },
-      "index": 71
-    },
-    {
-      "timestamp": 418.437,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "Refuser",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 181,
-          "right": 1717,
-          "bottom": 1126
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 72,
-          "endIndex": 72
-        }
-      },
-      "index": 72
-    },
-    {
-      "timestamp": 430.9375,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "Accepter",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Tab",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 181,
-          "right": 1717,
-          "bottom": 1126
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 73,
-          "endIndex": 73
-        }
-      },
-      "index": 73
-    },
-    {
-      "timestamp": 442.2915,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "Accepter",
-        "control_type": "ButtonControl"
-      },
-      "cursor_position": [
-        1650,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Enter",
-      "coordinates": {
-        "cursor": {
-          "x": 1650,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 181,
-          "right": 1717,
-          "bottom": 1126
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 74,
-          "endIndex": 74
-        }
-      },
-      "index": 74
-    },
-    {
-      "timestamp": 462.7539,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "France 24 - Infos, news & actualités - L'information internationale en direct",
-        "control_type": "DocumentControl"
-      },
-      "cursor_position": [
-        600,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "France 24 - Infos, news & actualités - L'information internationale en direct",
-        "control_type": "DocumentControl",
-        "automation_id": "RootWebArea"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 600,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 7,
-          "top": 370,
-          "right": 1694,
-          "bottom": 26067
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 75,
-          "endIndex": 75
-        }
-      },
-      "index": 75
-    },
-    {
-      "timestamp": 476.4574,
-      "application": "chrome.exe",
-      "window_title": "France 24 - Infos, news & actualités - L'information internationale en direct - Google Chrome",
-      "focused_element": {
-        "name": "Translate to English",
-        "control_type": "MenuItemControl"
-      },
-      "cursor_position": [
-        1131,
-        904
-      ],
-      "element_under_cursor": {
-        "name": "Translate to English",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Translate to English",
-        "control_type": "MenuItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1131,
-          "y": 904
-        },
-        "element_bounds": {
-          "left": 600,
-          "top": 889,
-          "right": 1140,
-          "bottom": 932
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 76,
-          "endIndex": 76
-        }
-      },
-      "index": 76
-    },
-    {
-      "timestamp": 509.4745,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicité",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 55,
-          "top": 574,
-          "right": 1646,
-          "bottom": 26135
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 77,
-          "endIndex": 79
-        }
-      },
-      "index": 77
-    },
-    {
-      "timestamp": 529.5531,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicité",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 55,
-          "top": 124,
-          "right": 1646,
-          "bottom": 25918
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 77,
-          "endIndex": 79
-        }
-      },
-      "index": 78
-    },
-    {
-      "timestamp": 548.417,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicité",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        10
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 55,
-          "top": -326,
-          "right": 1646,
-          "bottom": 25468
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 77,
-          "endIndex": 79
-        }
-      },
-      "index": 79
-    },
-    {
-      "timestamp": 562.8557,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        600
-      ],
-      "element_under_cursor": {
-        "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video Publicité ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicité",
-        "control_type": "GroupControl"
-      },
-      "event": "key_press",
-      "key": "Home",
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 600
-        },
-        "element_bounds": {
-          "left": 55,
-          "top": 574,
-          "right": 1646,
-          "bottom": 26368
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 80,
-          "endIndex": 80
-        }
-      },
-      "index": 80
-    },
-    {
-      "timestamp": 589.647,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        15
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 15
-        },
-        "element_bounds": {
-          "left": 442,
-          "top": 0,
-          "right": 1512,
-          "bottom": 62
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 81,
-          "endIndex": 81
-        }
-      },
-      "index": 81
-    },
-    {
-      "timestamp": 589.6748,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        15
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Home",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 15
-        },
-        "element_bounds": {
-          "left": 442,
-          "top": 0,
-          "right": 1512,
-          "bottom": 62
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 82,
-          "endIndex": 82
-        }
-      },
-      "index": 82
-    },
-    {
-      "timestamp": 589.6934,
-      "application": "chrome.exe",
-      "window_title": "Translated",
-      "focused_element": {
-        "name": "English",
-        "control_type": "TabItemControl"
-      },
-      "cursor_position": [
-        960,
-        15
-      ],
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "hotkey",
-      "combo": "Ctrl+Home",
-      "mods": [
-        "Ctrl"
-      ],
-      "key": "Home",
-      "classification": {
-        "screen_reader_combo": false,
-        "reader_hint": null,
-        "intent": null
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 960,
-          "y": 15
-        },
-        "element_bounds": {
-          "left": 442,
-          "top": 0,
-          "right": 1512,
-          "bottom": 62
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "H",
-          "startIndex": 83,
-          "endIndex": 83
-        }
-      },
-      "index": 83
-    }
-  ]
+            "timestamp": 0.0,
+            "time": "00:00.000",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Search box",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                960,
+                1192
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 1192
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 1128,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 0,
+                    "endIndex": 0
+                }
+            },
+            "index": 0
+        },
+        {
+            "timestamp": 20.3981,
+            "time": "00:20.398",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "target": {
+                "name": "Desktop",
+                "control_type": "ListControl",
+                "automation_id": "1"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 1,
+                    "endIndex": 1
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 36.2966,
+            "time": "00:36.297",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                1890,
+                1146
+            ],
+            "element_under_cursor": {
+                "name": "Clock 2:11 PM\n\u200e12/\u200e4/\u200e2025",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Clock 2:11 PM\n\u200e12/\u200e4/\u200e2025",
+                "control_type": "ButtonControl",
+                "automation_id": "SystemTrayIcon"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1890,
+                    "y": 1146
+                },
+                "element_bounds": {
+                    "left": 1795,
+                    "top": 1128,
+                    "right": 1901,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 2,
+                    "endIndex": 2
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 52.3294,
+            "time": "00:52.329",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "target": {
+                "name": "Desktop",
+                "control_type": "ListControl",
+                "automation_id": "1"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 3,
+                    "endIndex": 3
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 69.8048,
+            "time": "01:09.805",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 4,
+                    "endIndex": 4
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 69.8287,
+            "time": "01:09.829",
+            "application": "Code.exe",
+            "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+            "focused_element": {
+                "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "modifiers": [
+                "Alt"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 5,
+                    "endIndex": 5
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 69.9277,
+            "time": "01:09.928",
+            "application": "Code.exe",
+            "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+            "focused_element": {
+                "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "hotkey",
+            "combo": "Alt+Tab",
+            "mods": [
+                "Alt"
+            ],
+            "key": "Tab",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": "task_switch"
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 6,
+                    "endIndex": 6
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 77.4035,
+            "time": "01:17.403",
+            "application": "Code.exe",
+            "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+            "focused_element": {
+                "name": "Terminal 1, python Use Alt+F1 for terminal accessibility help",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 7,
+                    "endIndex": 7
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 77.5072,
+            "time": "01:17.507",
+            "application": "Code.exe",
+            "window_title": "Computer-Use-Agents - Visual Studio Code [Administrator]",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 8,
+                    "endIndex": 8
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 77.5286,
+            "time": "01:17.529",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                84,
+                888
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "hotkey",
+            "combo": "Win+R",
+            "mods": [
+                "Win"
+            ],
+            "key": "r",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 84,
+                    "y": 888
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 9,
+                    "endIndex": 9
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 84.0561,
+            "time": "01:24.056",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 10,
+                    "endIndex": 11
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 84.2051,
+            "time": "01:24.205",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 10,
+                    "endIndex": 11
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 84.3397,
+            "time": "01:24.340",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 12,
+                    "endIndex": 12
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 90.848,
+            "time": "01:30.848",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "c",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 13,
+                    "endIndex": 13
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 90.9119,
+            "time": "01:30.912",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "h",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 118,
+                    "top": 971,
+                    "right": 798,
+                    "bottom": 1025
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 14,
+                    "endIndex": 14
+                }
+            },
+            "index": 14
+        },
+        {
+            "timestamp": 90.9355,
+            "time": "01:30.936",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 15,
+                    "endIndex": 15
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 90.9628,
+            "time": "01:30.963",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "o",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 16,
+                    "endIndex": 16
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 91.0015,
+            "time": "01:31.001",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "m",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 17,
+                    "endIndex": 17
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 91.0203,
+            "time": "01:31.020",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                505,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 505,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 18,
+                    "endIndex": 18
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 97.6585,
+            "time": "01:37.659",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                355,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 355,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 19,
+                    "endIndex": 19
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 116.238,
+            "time": "01:56.238",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                355,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 355,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 20,
+                    "endIndex": 20
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 124.5869,
+            "time": "02:04.587",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                552,
+                985
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "target": {
+                "name": "Desktop",
+                "control_type": "ListControl",
+                "automation_id": "1"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 552,
+                    "y": 985
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 21,
+                    "endIndex": 21
+                }
+            },
+            "index": 21
+        },
+        {
+            "timestamp": 156.3855,
+            "time": "02:36.386",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                960,
+                1192
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 1192
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 1128,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 22,
+                    "endIndex": 22
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 156.4839,
+            "time": "02:36.484",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                960,
+                1192
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 1192
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 1128,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 23,
+                    "endIndex": 23
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 156.5071,
+            "time": "02:36.507",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                960,
+                1192
+            ],
+            "element_under_cursor": {
+                "name": "Task View",
+                "control_type": "ButtonControl"
+            },
+            "event": "hotkey",
+            "combo": "Win+R",
+            "mods": [
+                "Win"
+            ],
+            "key": "r",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 1192
+                },
+                "element_bounds": {
+                    "left": 931,
+                    "top": 1128,
+                    "right": 997,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 24,
+                    "endIndex": 24
+                }
+            },
+            "index": 24
+        },
+        {
+            "timestamp": 164.1185,
+            "time": "02:44.119",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 25,
+                    "endIndex": 26
+                }
+            },
+            "index": 25
+        },
+        {
+            "timestamp": 164.2676,
+            "time": "02:44.268",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 25,
+                    "endIndex": 26
+                }
+            },
+            "index": 26
+        },
+        {
+            "timestamp": 164.3996,
+            "time": "02:44.400",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 27,
+                    "endIndex": 27
+                }
+            },
+            "index": 27
+        },
+        {
+            "timestamp": 173.6539,
+            "time": "02:53.654",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "m",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 28,
+                    "endIndex": 28
+                }
+            },
+            "index": 28
+        },
+        {
+            "timestamp": 173.6864,
+            "time": "02:53.686",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "ms-screenclip:///?source=TextExtractorHotKey&type=textExtractor",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "s",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 118,
+                    "top": 834,
+                    "right": 538,
+                    "bottom": 861
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 29,
+                    "endIndex": 29
+                }
+            },
+            "index": 29
+        },
+        {
+            "timestamp": 173.828,
+            "time": "02:53.828",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 30,
+                    "endIndex": 30
+                }
+            },
+            "index": 30
+        },
+        {
+            "timestamp": 173.8541,
+            "time": "02:53.854",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "d",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 31,
+                    "endIndex": 31
+                }
+            },
+            "index": 31
+        },
+        {
+            "timestamp": 173.885,
+            "time": "02:53.885",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "g",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 32,
+                    "endIndex": 32
+                }
+            },
+            "index": 32
+        },
+        {
+            "timestamp": 173.9119,
+            "time": "02:53.912",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                838
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 33,
+                    "endIndex": 33
+                }
+            },
+            "index": 33
+        },
+        {
+            "timestamp": 181.2026,
+            "time": "03:01.203",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                357,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 357,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 34,
+                    "endIndex": 34
+                }
+            },
+            "index": 34
+        },
+        {
+            "timestamp": 209.9898,
+            "time": "03:29.990",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                357,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 357,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 35,
+                    "endIndex": 35
+                }
+            },
+            "index": 35
+        },
+        {
+            "timestamp": 217.6515,
+            "time": "03:37.651",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                547,
+                982
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "target": {
+                "name": "Desktop",
+                "control_type": "ListControl",
+                "automation_id": "1"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 547,
+                    "y": 982
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 36,
+                    "endIndex": 36
+                }
+            },
+            "index": 36
+        },
+        {
+            "timestamp": 228.3305,
+            "time": "03:48.331",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                547,
+                982
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Win",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 547,
+                    "y": 982
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 37,
+                    "endIndex": 37
+                }
+            },
+            "index": 37
+        },
+        {
+            "timestamp": 228.4357,
+            "time": "03:48.436",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                547,
+                982
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "modifiers": [
+                "Win"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 547,
+                    "y": 982
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 38,
+                    "endIndex": 38
+                }
+            },
+            "index": 38
+        },
+        {
+            "timestamp": 228.4585,
+            "time": "03:48.458",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                547,
+                982
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "hotkey",
+            "combo": "Win+R",
+            "mods": [
+                "Win"
+            ],
+            "key": "r",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 547,
+                    "y": 982
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 39,
+                    "endIndex": 39
+                }
+            },
+            "index": 39
+        },
+        {
+            "timestamp": 237.1799,
+            "time": "03:57.180",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 40,
+                    "endIndex": 41
+                }
+            },
+            "index": 40
+        },
+        {
+            "timestamp": 237.3303,
+            "time": "03:57.330",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 40,
+                    "endIndex": 41
+                }
+            },
+            "index": 41
+        },
+        {
+            "timestamp": 237.4627,
+            "time": "03:57.463",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 42,
+                    "endIndex": 42
+                }
+            },
+            "index": 42
+        },
+        {
+            "timestamp": 248.3346,
+            "time": "04:08.335",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "w",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 43,
+                    "endIndex": 43
+                }
+            },
+            "index": 43
+        },
+        {
+            "timestamp": 248.366,
+            "time": "04:08.366",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "w",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 44,
+                    "endIndex": 44
+                }
+            },
+            "index": 44
+        },
+        {
+            "timestamp": 248.3918,
+            "time": "04:08.392",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "w",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 45,
+                    "endIndex": 45
+                }
+            },
+            "index": 45
+        },
+        {
+            "timestamp": 248.4196,
+            "time": "04:08.420",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": ".",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 46,
+                    "endIndex": 46
+                }
+            },
+            "index": 46
+        },
+        {
+            "timestamp": 248.4517,
+            "time": "04:08.452",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "f",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 47,
+                    "endIndex": 47
+                }
+            },
+            "index": 47
+        },
+        {
+            "timestamp": 248.4786,
+            "time": "04:08.479",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 48,
+                    "endIndex": 48
+                }
+            },
+            "index": 48
+        },
+        {
+            "timestamp": 248.5032,
+            "time": "04:08.503",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "a",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 49,
+                    "endIndex": 49
+                }
+            },
+            "index": 49
+        },
+        {
+            "timestamp": 248.5372,
+            "time": "04:08.537",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "n",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 50,
+                    "endIndex": 50
+                }
+            },
+            "index": 50
+        },
+        {
+            "timestamp": 248.5633,
+            "time": "04:08.563",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "c",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 51,
+                    "endIndex": 51
+                }
+            },
+            "index": 51
+        },
+        {
+            "timestamp": 248.5882,
+            "time": "04:08.588",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 52,
+                    "endIndex": 52
+                }
+            },
+            "index": 52
+        },
+        {
+            "timestamp": 248.6198,
+            "time": "04:08.620",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "2",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 53,
+                    "endIndex": 53
+                }
+            },
+            "index": 53
+        },
+        {
+            "timestamp": 248.6443,
+            "time": "04:08.644",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "4",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 54,
+                    "endIndex": 54
+                }
+            },
+            "index": 54
+        },
+        {
+            "timestamp": 248.6762,
+            "time": "04:08.676",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": ".",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 55,
+                    "endIndex": 55
+                }
+            },
+            "index": 55
+        },
+        {
+            "timestamp": 248.7031,
+            "time": "04:08.703",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "c",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 56,
+                    "endIndex": 56
+                }
+            },
+            "index": 56
+        },
+        {
+            "timestamp": 248.7285,
+            "time": "04:08.728",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "o",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 57,
+                    "endIndex": 57
+                }
+            },
+            "index": 57
+        },
+        {
+            "timestamp": 248.7608,
+            "time": "04:08.761",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "m",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 58,
+                    "endIndex": 58
+                }
+            },
+            "index": 58
+        },
+        {
+            "timestamp": 248.787,
+            "time": "04:08.787",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "/",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 59,
+                    "endIndex": 59
+                }
+            },
+            "index": 59
+        },
+        {
+            "timestamp": 248.8173,
+            "time": "04:08.817",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "f",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 60,
+                    "endIndex": 60
+                }
+            },
+            "index": 60
+        },
+        {
+            "timestamp": 248.8433,
+            "time": "04:08.843",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                510,
+                834
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "coordinates": {
+                "cursor": {
+                    "x": 510,
+                    "y": 834
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 61,
+                    "endIndex": 61
+                }
+            },
+            "index": 61
+        },
+        {
+            "timestamp": 258.4138,
+            "time": "04:18.414",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Open:",
+                "control_type": "EditControl"
+            },
+            "cursor_position": [
+                357,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Run",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Run",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 357,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 11,
+                    "top": 777,
+                    "right": 601,
+                    "bottom": 1124
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 62,
+                    "endIndex": 62
+                }
+            },
+            "index": 62
+        },
+        {
+            "timestamp": 284.4773,
+            "time": "04:44.477",
+            "application": "explorer.exe",
+            "window_title": "Run",
+            "focused_element": {
+                "name": "Recycle Bin",
+                "control_type": "ListItemControl"
+            },
+            "cursor_position": [
+                357,
+                994
+            ],
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "key_press",
+            "key": "Enter",
+            "coordinates": {
+                "cursor": {
+                    "x": 357,
+                    "y": 994
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1200
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 63,
+                    "endIndex": 63
+                }
+            },
+            "index": 63
+        },
+        {
+            "timestamp": 312.6496,
+            "time": "05:12.650",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                1080,
+                1066
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "Bienvenue chez France M\u00e9dias Monde Gestion du consentement",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1080,
+                    "y": 1066
+                },
+                "element_bounds": {
+                    "left": 67,
+                    "top": 574,
+                    "right": 1657,
+                    "bottom": 26246
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 64,
+                    "endIndex": 64
+                }
+            },
+            "index": 64
+        },
+        {
+            "timestamp": 322.5155,
+            "time": "05:22.515",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                936,
+                865
+            ],
+            "element_under_cursor": {
+                "name": "Bienvenue chez France M\u00e9dias Monde Gestion du consentement",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "stocker et/ou acc\u00e9der \u00e0 des informations sur un terminal",
+                "control_type": "TextControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 936,
+                    "y": 865
+                },
+                "element_bounds": {
+                    "left": 340,
+                    "top": 263,
+                    "right": 1384,
+                    "bottom": 1068
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 65,
+                    "endIndex": 65
+                }
+            },
+            "index": 65
+        },
+        {
+            "timestamp": 346.9935,
+            "time": "05:46.993",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                1252,
+                865
+            ],
+            "element_under_cursor": {
+                "name": "\u00c0 Mayotte, les agents recenseurs toquent \u00e0 toutes les portes",
+                "control_type": "TextControl"
+            },
+            "target": {
+                "name": ", publicit\u00e9s et contenu personnalis\u00e9s, mesure de performance des publicit\u00e9s et du contenu, \u00e9tudes d\u2019audience et d\u00e9veloppement de services",
+                "control_type": "TextControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1252,
+                    "y": 865
+                },
+                "element_bounds": {
+                    "left": 1170,
+                    "top": 831,
+                    "right": 1584,
+                    "bottom": 904
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 66,
+                    "endIndex": 66
+                }
+            },
+            "index": 66
+        },
+        {
+            "timestamp": 359.4364,
+            "time": "05:59.436",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                1252,
+                865
+            ],
+            "element_under_cursor": {
+                "name": ", publicit\u00e9s et contenu personnalis\u00e9s, mesure de performance des publicit\u00e9s et du contenu, \u00e9tudes d\u2019audience et d\u00e9veloppement de services",
+                "control_type": "TextControl"
+            },
+            "event": "key_press",
+            "key": "Esc",
+            "coordinates": {
+                "cursor": {
+                    "x": 1252,
+                    "y": 865
+                },
+                "element_bounds": {
+                    "left": 412,
+                    "top": 857,
+                    "right": 1312,
+                    "bottom": 903
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 67,
+                    "endIndex": 67
+                }
+            },
+            "index": 67
+        },
+        {
+            "timestamp": 369.9295,
+            "time": "06:09.930",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                960,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                5
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 67,
+                    "top": 574,
+                    "right": 1657,
+                    "bottom": 26246
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 68,
+                    "endIndex": 68
+                }
+            },
+            "index": 68
+        },
+        {
+            "timestamp": 382.0255,
+            "time": "06:22.026",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct",
+                "control_type": "DocumentControl",
+                "automation_id": "RootWebArea"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 67,
+                    "top": 574,
+                    "right": 1657,
+                    "bottom": 26246
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 69,
+                    "endIndex": 69
+                }
+            },
+            "index": 69
+        },
+        {
+            "timestamp": 393.4797,
+            "time": "06:33.480",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 181,
+                    "right": 1717,
+                    "bottom": 1126
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 70,
+                    "endIndex": 70
+                }
+            },
+            "index": 70
+        },
+        {
+            "timestamp": 405.7553,
+            "time": "06:45.755",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "Param\u00e9trer",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 181,
+                    "right": 1717,
+                    "bottom": 1126
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 71,
+                    "endIndex": 71
+                }
+            },
+            "index": 71
+        },
+        {
+            "timestamp": 418.437,
+            "time": "06:58.437",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "Refuser",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 181,
+                    "right": 1717,
+                    "bottom": 1126
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 72,
+                    "endIndex": 72
+                }
+            },
+            "index": 72
+        },
+        {
+            "timestamp": 430.9375,
+            "time": "07:10.938",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "Accepter",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Tab",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 181,
+                    "right": 1717,
+                    "bottom": 1126
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 73,
+                    "endIndex": 73
+                }
+            },
+            "index": 73
+        },
+        {
+            "timestamp": 442.2915,
+            "time": "07:22.291",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "Accepter",
+                "control_type": "ButtonControl"
+            },
+            "cursor_position": [
+                1650,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Enter",
+            "coordinates": {
+                "cursor": {
+                    "x": 1650,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 181,
+                    "right": 1717,
+                    "bottom": 1126
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 74,
+                    "endIndex": 74
+                }
+            },
+            "index": 74
+        },
+        {
+            "timestamp": 462.7539,
+            "time": "07:42.754",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct",
+                "control_type": "DocumentControl"
+            },
+            "cursor_position": [
+                600,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct",
+                "control_type": "DocumentControl",
+                "automation_id": "RootWebArea"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 600,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 7,
+                    "top": 370,
+                    "right": 1694,
+                    "bottom": 26067
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 75,
+                    "endIndex": 75
+                }
+            },
+            "index": 75
+        },
+        {
+            "timestamp": 476.4574,
+            "time": "07:56.457",
+            "application": "chrome.exe",
+            "window_title": "France 24 - Infos, news & actualit\u00e9s - L'information internationale en direct - Google Chrome",
+            "focused_element": {
+                "name": "Translate to English",
+                "control_type": "MenuItemControl"
+            },
+            "cursor_position": [
+                1131,
+                904
+            ],
+            "element_under_cursor": {
+                "name": "Translate to English",
+                "control_type": "MenuItemControl"
+            },
+            "target": {
+                "name": "Translate to English",
+                "control_type": "MenuItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1131,
+                    "y": 904
+                },
+                "element_bounds": {
+                    "left": 600,
+                    "top": 889,
+                    "right": 1140,
+                    "bottom": 932
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 76,
+                    "endIndex": 76
+                }
+            },
+            "index": 76
+        },
+        {
+            "timestamp": 509.4745,
+            "time": "08:29.474",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicit\u00e9",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 55,
+                    "top": 574,
+                    "right": 1646,
+                    "bottom": 26135
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 77,
+                    "endIndex": 79
+                }
+            },
+            "index": 77
+        },
+        {
+            "timestamp": 529.5531,
+            "time": "08:49.553",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicit\u00e9",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 55,
+                    "top": 124,
+                    "right": 1646,
+                    "bottom": 25918
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 77,
+                    "endIndex": 79
+                }
+            },
+            "index": 78
+        },
+        {
+            "timestamp": 548.417,
+            "time": "09:08.417",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicit\u00e9",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                10
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 55,
+                    "top": -326,
+                    "right": 1646,
+                    "bottom": 25468
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 77,
+                    "endIndex": 79
+                }
+            },
+            "index": 79
+        },
+        {
+            "timestamp": 562.8557,
+            "time": "09:22.856",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                600
+            ],
+            "element_under_cursor": {
+                "name": "Rwanda and the Democratic Republic of Congo sign a peace agreement in Washington The presidents of Rwanda and the Democratic Republic of Congo (DR Congo) are being received by Donald Trump in Washington on Thursday to sign a peace agreement, amid persistent disagreements between the two countries. AFRICA ON THE SAME SUBJECT The Democratic Republic of Congo and the M23 rebels sign a framework agreement to end fighting in the east DR Congo: The formation of a new M23 contingent reignites fears in the east of the country THE LATEST NEWSPAPER The newspaper Start the video Publicit\u00e9 ADVERTISEMENT Report this advertisement ADVERTISEMENT Signaler cette publicit\u00e9",
+                "control_type": "GroupControl"
+            },
+            "event": "key_press",
+            "key": "Home",
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 600
+                },
+                "element_bounds": {
+                    "left": 55,
+                    "top": 574,
+                    "right": 1646,
+                    "bottom": 26368
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 80,
+                    "endIndex": 80
+                }
+            },
+            "index": 80
+        },
+        {
+            "timestamp": 589.647,
+            "time": "09:49.647",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                15
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 15
+                },
+                "element_bounds": {
+                    "left": 442,
+                    "top": 0,
+                    "right": 1512,
+                    "bottom": 62
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 81,
+                    "endIndex": 81
+                }
+            },
+            "index": 81
+        },
+        {
+            "timestamp": 589.6748,
+            "time": "09:49.675",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                15
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Home",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 15
+                },
+                "element_bounds": {
+                    "left": 442,
+                    "top": 0,
+                    "right": 1512,
+                    "bottom": 62
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 82,
+                    "endIndex": 82
+                }
+            },
+            "index": 82
+        },
+        {
+            "timestamp": 589.6934,
+            "time": "09:49.693",
+            "application": "chrome.exe",
+            "window_title": "Translated",
+            "focused_element": {
+                "name": "English",
+                "control_type": "TabItemControl"
+            },
+            "cursor_position": [
+                960,
+                15
+            ],
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "hotkey",
+            "combo": "Ctrl+Home",
+            "mods": [
+                "Ctrl"
+            ],
+            "key": "Home",
+            "classification": {
+                "screen_reader_combo": false,
+                "reader_hint": null,
+                "intent": null
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 960,
+                    "y": 15
+                },
+                "element_bounds": {
+                    "left": 442,
+                    "top": 0,
+                    "right": 1512,
+                    "bottom": 62
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "H",
+                    "startIndex": 83,
+                    "endIndex": 83
+                }
+            },
+            "index": 83
+        }
+    ]
 }

@@ -1,1968 +1,2003 @@
 {
-  "metadata": {
-    "task_id": 22,
-    "task_title": "Use calculator application to perform multiplication",
-    "instruction": "Compute the product of 20 and 483 on Calculator",
-    "context": "I want to do a multiplication calculation using my the calculator application.",
-    "task_group": "System Application",
-    "applications": "Calculator",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU5",
-      "condition": "sighted"
+    "metadata": {
+        "task_id": 22,
+        "task_title": "Use calculator application to perform multiplication",
+        "instruction": "Compute the product of 20 and 483 on Calculator",
+        "context": "I want to do a multiplication calculation using my the calculator application.",
+        "task_group": "System Application",
+        "applications": "Calculator",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU5",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1756175110.0978172,
+            "ended_at": 1756175182.427875,
+            "started_time": "00:00.000",
+            "ended_time": "00:48.716",
+            "duration": 72.33
+        },
+        "statistics": {
+            "total_events": 33,
+            "apps_used": [
+                "ApplicationFrameHost.exe",
+                "ApplicationFrameHost.exe::Calculator"
+            ],
+            "by_type": {
+                "mouse_move": 15,
+                "mouse_click": 14,
+                "drag_drop": 1,
+                "key_press": 3
+            },
+            "by_app": {
+                "ApplicationFrameHost.exe": 33
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 3,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {
+                    "3": 1,
+                    "4": 1,
+                    "8": 1
+                }
+            }
+        }
     },
-    "session": {
-      "started_at": 1756175110.0978172,
-      "ended_at": 1756175182.427875,
-      "duration": 72.33
-    },
-    "statistics": {
-      "total_events": 33,
-      "apps_used": [
-        "ApplicationFrameHost.exe",
-        "ApplicationFrameHost.exe::Calculator"
-      ],
-      "by_type": {
-        "mouse_move": 15,
-        "mouse_click": 14,
-        "drag_drop": 1,
-        "key_press": 3
-      },
-      "by_app": {
-        "ApplicationFrameHost.exe": 33
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 3,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {
-          "3": 1,
-          "4": 1,
-          "8": 1
-        }
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        672,
-        262
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        24,
-        -93
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 672,
-          "y": 262
-        },
-        "element_bounds": {
-          "left": 125,
-          "top": 159,
-          "right": 1025,
-          "bottom": 659
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.97,
-          "rationale": "Cursor moved over the calculator display text."
-        },
-        "l4": {
-          "tag": "Arrange <Application>",
-          "confidence": 0.96,
-          "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
-        },
-        "l5": {
-          "tag": "Prepare Calculator Window",
-          "confidence": 0.9,
-          "rationale": "Application is being positioned/selected before any calculation input begins."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 1.7044,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        352,
-        31
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Calculator",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Calculator",
-        "control_type": "WindowControl",
-        "automation_id": "TitleBar"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 352,
-          "y": 31
-        },
-        "element_bounds": {
-          "left": 327,
-          "top": 1,
-          "right": 609,
-          "bottom": 49
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 1,
-          "endIndex": 1
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.84,
-          "rationale": "Clicked the calculator title bar to activate the window."
-        },
-        "l4": {
-          "tag": "Arrange <Application>",
-          "confidence": 0.96,
-          "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
-        },
-        "l5": {
-          "tag": "Prepare Calculator Window",
-          "confidence": 0.9,
-          "rationale": "Application is being positioned/selected before any calculation input begins."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 1.9205,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        359,
-        29
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Calculator",
-        "control_type": "WindowControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        13,
-        -4
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 359,
-          "y": 29
-        },
-        "element_bounds": {
-          "left": 327,
-          "top": 1,
-          "right": 609,
-          "bottom": 49
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 2,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.82,
-          "rationale": "Cursor hovered in the calculator window chrome area."
-        },
-        "l4": {
-          "tag": "Arrange <Application>",
-          "confidence": 0.96,
-          "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
-        },
-        "l5": {
-          "tag": "Prepare Calculator Window",
-          "confidence": 0.9,
-          "rationale": "Application is being positioned/selected before any calculation input begins."
-        }
-      },
-      "index": 2
-    },
-    {
-      "event": "drag_drop",
-      "timestamp": 2.7591,
-      "button": "Button.left",
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1270,
-        63
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Calculator",
-        "control_type": "WindowControl"
-      },
-      "from": {
-        "application": "ApplicationFrameHost.exe",
-        "window_title": "Calculator",
-        "cursor_position": [
-          352,
-          31
-        ],
-        "element_under_cursor": {
-          "name": "Calculator",
-          "control_type": "WindowControl"
-        },
-        "focused_element": {
-          "name": "Display is 0",
-          "control_type": "TextControl"
-        }
-      },
-      "to": {
-        "application": "ApplicationFrameHost.exe",
-        "window_title": "Calculator",
-        "cursor_position": [
-          1270,
-          63
-        ],
-        "element_under_cursor": {
-          "name": "Calculator",
-          "control_type": "WindowControl"
-        },
-        "focused_element": {
-          "name": "Display is 0",
-          "control_type": "TextControl"
-        }
-      },
-      "drag_distance": 918,
-      "duration_ms": 1014,
-      "coordinates": {
-        "cursor": {
-          "x": 1270,
-          "y": 63
-        },
-        "element_bounds": {
-          "left": 1245,
-          "top": 33,
-          "right": 1527,
-          "bottom": 81
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "D",
-          "startIndex": 3,
-          "endIndex": 3
-        },
-        "l3": {
-          "tag": "Move <Window>",
-          "confidence": 0.95,
-          "rationale": "Dragged the calculator window/title bar to reposition it."
-        },
-        "l4": {
-          "tag": "Arrange <Application>",
-          "confidence": 0.96,
-          "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
-        },
-        "l5": {
-          "tag": "Prepare Calculator Window",
-          "confidence": 0.9,
-          "rationale": "Application is being positioned/selected before any calculation input begins."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 3.012,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1260,
-        89
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Calculator",
-        "control_type": "WindowControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -15,
-        29
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1260,
-          "y": 89
-        },
-        "element_bounds": {
-          "left": 1245,
-          "top": 33,
-          "right": 1527,
-          "bottom": 81
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 4,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.75,
-          "rationale": "Cursor moved within the calculator window area before the next button click."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 4.6356,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1248,
-        685
-      ],
-      "focused_element": {
-        "name": "Display is 0",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Two",
-        "control_type": "ButtonControl",
-        "automation_id": "num2Button"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1248,
-          "y": 685
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 669,
-          "right": 1285,
-          "bottom": 746
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the 2 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 5.0119,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1248,
-        678
-      ],
-      "focused_element": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1248,
-          "y": 678
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 669,
-          "right": 1285,
-          "bottom": 746
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the 2 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 6.0966,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1244,
-        574
-      ],
-      "focused_element": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Eight",
-        "control_type": "ButtonControl",
-        "automation_id": "num8Button"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1244,
-          "y": 574
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the 8 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 6.7371,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1256,
-        572
-      ],
-      "focused_element": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        12,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1256,
-          "y": 572
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the 8 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 7.8884,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1469,
-        547
-      ],
-      "focused_element": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl",
-        "automation_id": "multiplyButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1469,
-          "y": 547
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 510,
-          "right": 1522,
-          "bottom": 586
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the multiply operator button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 9.7319,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1468,
-        541
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -26,
-        11
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1468,
-          "y": 541
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 510,
-          "right": 1522,
-          "bottom": 586
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the multiply button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.88,
-          "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
-        },
-        "l5": {
-          "tag": "Enter First Factor",
-          "confidence": 0.86,
-          "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 12.2204,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1448,
-        381
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Backspace",
-        "control_type": "ButtonControl",
-        "automation_id": "backSpaceButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1448,
-          "y": 381
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Delete <Button>",
-          "confidence": 0.96,
-          "rationale": "Clicked Backspace to remove the last entered item."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 12.7118,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1440,
-        387
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        21,
-        4
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1440,
-          "y": 387
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the Backspace button."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 16.7364,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1469,
-        382
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Backspace",
-        "control_type": "ButtonControl",
-        "automation_id": "backSpaceButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1469,
-          "y": 382
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Delete <Button>",
-          "confidence": 0.96,
-          "rationale": "Clicked Backspace again to delete more input."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 17.56,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1464,
-        384
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -7,
-        9
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1464,
-          "y": 384
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the Backspace button."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 22.8054,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1442,
-        397
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Backspace",
-        "control_type": "ButtonControl",
-        "automation_id": "backSpaceButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1442,
-          "y": 397
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Delete <Button>",
-          "confidence": 0.96,
-          "rationale": "Clicked Backspace to continue removing the mistaken entry."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 23.596,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1444,
-        390
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        2,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1444,
-          "y": 390
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 352,
-          "right": 1522,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the Backspace button."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 25.5331,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1330,
-        404
-      ],
-      "focused_element": {
-        "name": "Backspace",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Clear",
-        "control_type": "ButtonControl",
-        "automation_id": "clearButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1330,
-          "y": 404
-        },
-        "element_bounds": {
-          "left": 1289,
-          "top": 352,
-          "right": 1403,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Delete <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked Clear to reset the current calculator entry."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 26.2877,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1330,
-        404
-      ],
-      "focused_element": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Clear",
-        "control_type": "ButtonControl",
-        "automation_id": "clearButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1330,
-          "y": 404
-        },
-        "element_bounds": {
-          "left": 1289,
-          "top": 352,
-          "right": 1403,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Delete <Button>",
-          "confidence": 0.95,
-          "rationale": "Clicked Clear to reset the current calculator entry."
-        },
-        "l4": {
-          "tag": "Edit <Application>",
-          "confidence": 0.98,
-          "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
-        },
-        "l5": {
-          "tag": "Clear Mistaken Input",
-          "confidence": 0.79,
-          "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 27.4617,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1332,
-        399
-      ],
-      "focused_element": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        9,
-        -8
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1332,
-          "y": 399
-        },
-        "element_bounds": {
-          "left": 1289,
-          "top": 352,
-          "right": 1403,
-          "bottom": 427
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 19,
-          "endIndex": 19
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.97,
-          "rationale": "Cursor moved over the Clear button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 29.7361,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1232,
-        710
-      ],
-      "focused_element": {
-        "name": "Clear",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Two",
-        "control_type": "ButtonControl",
-        "automation_id": "num2Button"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1232,
-          "y": 710
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 669,
-          "right": 1285,
-          "bottom": 746
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 20,
-          "endIndex": 20
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the 2 digit button to start entering 20."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 30.3743,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1232,
-        715
-      ],
-      "focused_element": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1232,
-          "y": 715
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 669,
-          "right": 1285,
-          "bottom": 746
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 21,
-          "endIndex": 21
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the 2 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 31.6592,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1234,
-        793
-      ],
-      "focused_element": {
-        "name": "Two",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Zero",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Zero",
-        "control_type": "ButtonControl",
-        "automation_id": "num0Button"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1234,
-          "y": 793
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 748,
-          "right": 1285,
-          "bottom": 824
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 22,
-          "endIndex": 22
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the 0 digit button to complete 20."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 32.5154,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1239,
-        784
-      ],
-      "focused_element": {
-        "name": "Zero",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Zero",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        5,
-        -10
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1239,
-          "y": 784
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 748,
-          "right": 1285,
-          "bottom": 824
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the 0 digit button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 34.0716,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1442,
-        557
-      ],
-      "focused_element": {
-        "name": "Zero",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl",
-        "automation_id": "multiplyButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1442,
-          "y": 557
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 510,
-          "right": 1522,
-          "bottom": 586
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 24,
-          "endIndex": 24
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the multiply operator button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 34.8942,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1435,
-        555
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -5,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1435,
-          "y": 555
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 510,
-          "right": 1522,
-          "bottom": 586
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 25,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the multiply button."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 37.727,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1234,
-        535
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "event": "key_press",
-      "key": "4",
-      "coordinates": {
-        "cursor": {
-          "x": 1234,
-          "y": 535
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 26,
-          "endIndex": 26
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.86,
-          "rationale": "Typed the digit 4 into the calculator display/input."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 38.392,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1234,
-        535
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "event": "key_press",
-      "key": "8",
-      "coordinates": {
-        "cursor": {
-          "x": 1234,
-          "y": 535
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 27,
-          "endIndex": 27
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.86,
-          "rationale": "Typed the digit 4 into the calculator display/input."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 40.4941,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1234,
-        535
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "event": "key_press",
-      "key": "3",
-      "coordinates": {
-        "cursor": {
-          "x": 1234,
-          "y": 535
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 28,
-          "endIndex": 28
-        },
-        "l3": {
-          "tag": "Type <Text>",
-          "confidence": 0.86,
-          "rationale": "Typed the digit 4 into the calculator display/input."
-        },
-        "l4": {
-          "tag": "Enter <Application>",
-          "confidence": 0.96,
-          "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
-        },
-        "l5": {
-          "tag": "Enter Second Factor",
-          "confidence": 0.88,
-          "rationale": "This span adds the remaining digits needed for the second operand in the product."
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 41.3273,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1241,
-        538
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Eight",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        5,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1241,
-          "y": 538
-        },
-        "element_bounds": {
-          "left": 1171,
-          "top": 510,
-          "right": 1285,
-          "bottom": 587
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 29,
-          "endIndex": 29
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.97,
-          "rationale": "Cursor hovered over the multiply button before calculating."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.99,
-          "rationale": "Moved to the equals button and clicked it to compute the product."
-        },
-        "l5": {
-          "tag": "Compute Result",
-          "confidence": 0.93,
-          "rationale": "Confirming the application corresponds to executing the calculation and showing the result."
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 43.4009,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1475,
-        797
-      ],
-      "focused_element": {
-        "name": "Multiply by",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Equals",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Equals",
-        "control_type": "ButtonControl",
-        "automation_id": "equalButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1475,
-          "y": 797
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 747,
-          "right": 1522,
-          "bottom": 824
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 30,
-          "endIndex": 30
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the Equals button to compute the product."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.99,
-          "rationale": "Moved to the equals button and clicked it to compute the product."
-        },
-        "l5": {
-          "tag": "Compute Result",
-          "confidence": 0.93,
-          "rationale": "Confirming the application corresponds to executing the calculation and showing the result."
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 45.545,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1474,
-        789
-      ],
-      "focused_element": {
-        "name": "Equals",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Equals",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        -7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1474,
-          "y": 789
-        },
-        "element_bounds": {
-          "left": 1408,
-          "top": 747,
-          "right": 1522,
-          "bottom": 824
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 31,
-          "endIndex": 31
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.98,
-          "rationale": "Cursor hovered over the Equals button."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.82,
-          "rationale": "After the result was shown, the user moved the cursor and closed the Calculator window to exit the application."
-        },
-        "l5": {
-          "tag": "Close Calculator",
-          "confidence": 0.84,
-          "rationale": "The final actions close the calculator window after completing the task."
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 48.7161,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Calculator",
-      "cursor_position": [
-        1487,
-        59
-      ],
-      "focused_element": {
-        "name": "Equals",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Close Calculator",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Close Calculator",
-        "control_type": "ButtonControl",
-        "automation_id": "Close"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1487,
-          "y": 59
-        },
-        "element_bounds": {
-          "left": 1458,
-          "top": 33,
-          "right": 1527,
-          "bottom": 81
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 32,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Close <Button>",
-          "confidence": 0.99,
-          "rationale": "Clicked the window close button to exit Calculator."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.82,
-          "rationale": "After the result was shown, the user moved the cursor and closed the Calculator window to exit the application."
-        },
-        "l5": {
-          "tag": "Close Calculator",
-          "confidence": 0.84,
-          "rationale": "The final actions close the calculator window after completing the task."
-        }
-      },
-      "index": 32
-    }
-  ]
+    "actions": [
+        {
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                672,
+                262
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                24,
+                -93
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 672,
+                    "y": 262
+                },
+                "element_bounds": {
+                    "left": 125,
+                    "top": 159,
+                    "right": 1025,
+                    "bottom": 659
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Text>",
+                    "confidence": 0.97,
+                    "rationale": "Cursor moved over the calculator display text."
+                },
+                "l4": {
+                    "tag": "Arrange <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
+                },
+                "l5": {
+                    "tag": "Prepare Calculator Window",
+                    "confidence": 0.9,
+                    "rationale": "Application is being positioned/selected before any calculation input begins."
+                }
+            },
+            "index": 0
+        },
+        {
+            "timestamp": 1.7044,
+            "time": "00:01.704",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                352,
+                31
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Calculator",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Calculator",
+                "control_type": "WindowControl",
+                "automation_id": "TitleBar"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 352,
+                    "y": 31
+                },
+                "element_bounds": {
+                    "left": 327,
+                    "top": 1,
+                    "right": 609,
+                    "bottom": 49
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 1,
+                    "endIndex": 1
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.84,
+                    "rationale": "Clicked the calculator title bar to activate the window."
+                },
+                "l4": {
+                    "tag": "Arrange <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
+                },
+                "l5": {
+                    "tag": "Prepare Calculator Window",
+                    "confidence": 0.9,
+                    "rationale": "Application is being positioned/selected before any calculation input begins."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 1.9205,
+            "time": "00:01.921",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                359,
+                29
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Calculator",
+                "control_type": "WindowControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                13,
+                -4
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 359,
+                    "y": 29
+                },
+                "element_bounds": {
+                    "left": 327,
+                    "top": 1,
+                    "right": 609,
+                    "bottom": 49
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 2,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.82,
+                    "rationale": "Cursor hovered in the calculator window chrome area."
+                },
+                "l4": {
+                    "tag": "Arrange <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
+                },
+                "l5": {
+                    "tag": "Prepare Calculator Window",
+                    "confidence": 0.9,
+                    "rationale": "Application is being positioned/selected before any calculation input begins."
+                }
+            },
+            "index": 2
+        },
+        {
+            "event": "drag_drop",
+            "timestamp": 2.7591,
+            "time": "00:02.759",
+            "button": "Button.left",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1270,
+                63
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Calculator",
+                "control_type": "WindowControl"
+            },
+            "from": {
+                "application": "ApplicationFrameHost.exe",
+                "window_title": "Calculator",
+                "cursor_position": [
+                    352,
+                    31
+                ],
+                "element_under_cursor": {
+                    "name": "Calculator",
+                    "control_type": "WindowControl"
+                },
+                "focused_element": {
+                    "name": "Display is 0",
+                    "control_type": "TextControl"
+                }
+            },
+            "to": {
+                "application": "ApplicationFrameHost.exe",
+                "window_title": "Calculator",
+                "cursor_position": [
+                    1270,
+                    63
+                ],
+                "element_under_cursor": {
+                    "name": "Calculator",
+                    "control_type": "WindowControl"
+                },
+                "focused_element": {
+                    "name": "Display is 0",
+                    "control_type": "TextControl"
+                }
+            },
+            "drag_distance": 918,
+            "duration_ms": 1014,
+            "coordinates": {
+                "cursor": {
+                    "x": 1270,
+                    "y": 63
+                },
+                "element_bounds": {
+                    "left": 1245,
+                    "top": 33,
+                    "right": 1527,
+                    "bottom": 81
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "D",
+                    "startIndex": 3,
+                    "endIndex": 3
+                },
+                "l3": {
+                    "tag": "Move <Window>",
+                    "confidence": 0.95,
+                    "rationale": "Dragged the calculator window/title bar to reposition it."
+                },
+                "l4": {
+                    "tag": "Arrange <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Activated the Calculator window and dragged its title bar to reposition the application."
+                },
+                "l5": {
+                    "tag": "Prepare Calculator Window",
+                    "confidence": 0.9,
+                    "rationale": "Application is being positioned/selected before any calculation input begins."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 3.012,
+            "time": "00:03.012",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1260,
+                89
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Calculator",
+                "control_type": "WindowControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -15,
+                29
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1260,
+                    "y": 89
+                },
+                "element_bounds": {
+                    "left": 1245,
+                    "top": 33,
+                    "right": 1527,
+                    "bottom": 81
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 4,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.75,
+                    "rationale": "Cursor moved within the calculator window area before the next button click."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 4.6356,
+            "time": "00:04.636",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1248,
+                685
+            ],
+            "focused_element": {
+                "name": "Display is 0",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Two",
+                "control_type": "ButtonControl",
+                "automation_id": "num2Button"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1248,
+                    "y": 685
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 669,
+                    "right": 1285,
+                    "bottom": 746
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the 2 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 5.0119,
+            "time": "00:05.012",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1248,
+                678
+            ],
+            "focused_element": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                -7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1248,
+                    "y": 678
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 669,
+                    "right": 1285,
+                    "bottom": 746
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the 2 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 6.0966,
+            "time": "00:06.097",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1244,
+                574
+            ],
+            "focused_element": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Eight",
+                "control_type": "ButtonControl",
+                "automation_id": "num8Button"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1244,
+                    "y": 574
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the 8 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 6.7371,
+            "time": "00:06.737",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1256,
+                572
+            ],
+            "focused_element": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                12,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1256,
+                    "y": 572
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the 8 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 7.8884,
+            "time": "00:07.888",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1469,
+                547
+            ],
+            "focused_element": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl",
+                "automation_id": "multiplyButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1469,
+                    "y": 547
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 510,
+                    "right": 1522,
+                    "bottom": 586
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the multiply operator button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 9.7319,
+            "time": "00:09.732",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1468,
+                541
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -26,
+                11
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1468,
+                    "y": 541
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 510,
+                    "right": 1522,
+                    "bottom": 586
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the multiply button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.88,
+                    "rationale": "Entered the initial partial expression by selecting 2, 8, and the multiply operator; the cursor moves are incidental."
+                },
+                "l5": {
+                    "tag": "Enter First Factor",
+                    "confidence": 0.86,
+                    "rationale": "These actions enter the first part of the multiplication expression, likely the initial operand and operator setup."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 12.2204,
+            "time": "00:12.220",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1448,
+                381
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Backspace",
+                "control_type": "ButtonControl",
+                "automation_id": "backSpaceButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1448,
+                    "y": 381
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Delete <Button>",
+                    "confidence": 0.96,
+                    "rationale": "Clicked Backspace to remove the last entered item."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 12.7118,
+            "time": "00:12.712",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1440,
+                387
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                21,
+                4
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1440,
+                    "y": 387
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the Backspace button."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 16.7364,
+            "time": "00:16.736",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1469,
+                382
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Backspace",
+                "control_type": "ButtonControl",
+                "automation_id": "backSpaceButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1469,
+                    "y": 382
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Delete <Button>",
+                    "confidence": 0.96,
+                    "rationale": "Clicked Backspace again to delete more input."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 17.56,
+            "time": "00:17.560",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1464,
+                384
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -7,
+                9
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1464,
+                    "y": 384
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 14,
+                    "endIndex": 14
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the Backspace button."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 14
+        },
+        {
+            "timestamp": 22.8054,
+            "time": "00:22.805",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1442,
+                397
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Backspace",
+                "control_type": "ButtonControl",
+                "automation_id": "backSpaceButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1442,
+                    "y": 397
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 15,
+                    "endIndex": 15
+                },
+                "l3": {
+                    "tag": "Delete <Button>",
+                    "confidence": 0.96,
+                    "rationale": "Clicked Backspace to continue removing the mistaken entry."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 23.596,
+            "time": "00:23.596",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1444,
+                390
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                2,
+                -7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1444,
+                    "y": 390
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 352,
+                    "right": 1522,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 16,
+                    "endIndex": 16
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the Backspace button."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 25.5331,
+            "time": "00:25.533",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1330,
+                404
+            ],
+            "focused_element": {
+                "name": "Backspace",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Clear",
+                "control_type": "ButtonControl",
+                "automation_id": "clearButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1330,
+                    "y": 404
+                },
+                "element_bounds": {
+                    "left": 1289,
+                    "top": 352,
+                    "right": 1403,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 17,
+                    "endIndex": 17
+                },
+                "l3": {
+                    "tag": "Delete <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Clicked Clear to reset the current calculator entry."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 26.2877,
+            "time": "00:26.288",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1330,
+                404
+            ],
+            "focused_element": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Clear",
+                "control_type": "ButtonControl",
+                "automation_id": "clearButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1330,
+                    "y": 404
+                },
+                "element_bounds": {
+                    "left": 1289,
+                    "top": 352,
+                    "right": 1403,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 18,
+                    "endIndex": 18
+                },
+                "l3": {
+                    "tag": "Delete <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Clicked Clear to reset the current calculator entry."
+                },
+                "l4": {
+                    "tag": "Edit <Application>",
+                    "confidence": 0.98,
+                    "rationale": "Corrected the mistaken entry by using Backspace repeatedly and then Clear to reset the calculator input."
+                },
+                "l5": {
+                    "tag": "Clear Mistaken Input",
+                    "confidence": 0.79,
+                    "rationale": "Repeated delete actions indicate removing an incorrect entry before continuing."
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 27.4617,
+            "time": "00:27.462",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1332,
+                399
+            ],
+            "focused_element": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                9,
+                -8
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1332,
+                    "y": 399
+                },
+                "element_bounds": {
+                    "left": 1289,
+                    "top": 352,
+                    "right": 1403,
+                    "bottom": 427
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 19,
+                    "endIndex": 19
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.97,
+                    "rationale": "Cursor moved over the Clear button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 29.7361,
+            "time": "00:29.736",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1232,
+                710
+            ],
+            "focused_element": {
+                "name": "Clear",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Two",
+                "control_type": "ButtonControl",
+                "automation_id": "num2Button"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1232,
+                    "y": 710
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 669,
+                    "right": 1285,
+                    "bottom": 746
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 20,
+                    "endIndex": 20
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the 2 digit button to start entering 20."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 30.3743,
+            "time": "00:30.374",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1232,
+                715
+            ],
+            "focused_element": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1232,
+                    "y": 715
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 669,
+                    "right": 1285,
+                    "bottom": 746
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 21,
+                    "endIndex": 21
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the 2 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 21
+        },
+        {
+            "timestamp": 31.6592,
+            "time": "00:31.659",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1234,
+                793
+            ],
+            "focused_element": {
+                "name": "Two",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Zero",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Zero",
+                "control_type": "ButtonControl",
+                "automation_id": "num0Button"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1234,
+                    "y": 793
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 748,
+                    "right": 1285,
+                    "bottom": 824
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 22,
+                    "endIndex": 22
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the 0 digit button to complete 20."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 32.5154,
+            "time": "00:32.515",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1239,
+                784
+            ],
+            "focused_element": {
+                "name": "Zero",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Zero",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                5,
+                -10
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1239,
+                    "y": 784
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 748,
+                    "right": 1285,
+                    "bottom": 824
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 23,
+                    "endIndex": 23
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the 0 digit button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 34.0716,
+            "time": "00:34.072",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1442,
+                557
+            ],
+            "focused_element": {
+                "name": "Zero",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl",
+                "automation_id": "multiplyButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1442,
+                    "y": 557
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 510,
+                    "right": 1522,
+                    "bottom": 586
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 24,
+                    "endIndex": 24
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the multiply operator button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 24
+        },
+        {
+            "timestamp": 34.8942,
+            "time": "00:34.894",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1435,
+                555
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -5,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1435,
+                    "y": 555
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 510,
+                    "right": 1522,
+                    "bottom": 586
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 25,
+                    "endIndex": 25
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the multiply button."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 25
+        },
+        {
+            "timestamp": 37.727,
+            "time": "00:37.727",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1234,
+                535
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "event": "key_press",
+            "key": "4",
+            "coordinates": {
+                "cursor": {
+                    "x": 1234,
+                    "y": 535
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 26,
+                    "endIndex": 26
+                },
+                "l3": {
+                    "tag": "Type <Text>",
+                    "confidence": 0.86,
+                    "rationale": "Typed the digit 4 into the calculator display/input."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 26
+        },
+        {
+            "timestamp": 38.392,
+            "time": "00:38.392",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1234,
+                535
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "event": "key_press",
+            "key": "8",
+            "coordinates": {
+                "cursor": {
+                    "x": 1234,
+                    "y": 535
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 27,
+                    "endIndex": 27
+                },
+                "l3": {
+                    "tag": "Type <Text>",
+                    "confidence": 0.86,
+                    "rationale": "Typed the digit 4 into the calculator display/input."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 27
+        },
+        {
+            "timestamp": 40.4941,
+            "time": "00:40.494",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1234,
+                535
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "event": "key_press",
+            "key": "3",
+            "coordinates": {
+                "cursor": {
+                    "x": 1234,
+                    "y": 535
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 28,
+                    "endIndex": 28
+                },
+                "l3": {
+                    "tag": "Type <Text>",
+                    "confidence": 0.86,
+                    "rationale": "Typed the digit 4 into the calculator display/input."
+                },
+                "l4": {
+                    "tag": "Enter <Application>",
+                    "confidence": 0.96,
+                    "rationale": "Started over by entering 20 and selecting the multiply operator for a new calculation."
+                },
+                "l5": {
+                    "tag": "Enter Second Factor",
+                    "confidence": 0.88,
+                    "rationale": "This span adds the remaining digits needed for the second operand in the product."
+                }
+            },
+            "index": 28
+        },
+        {
+            "timestamp": 41.3273,
+            "time": "00:41.327",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1241,
+                538
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Eight",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                5,
+                3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1241,
+                    "y": 538
+                },
+                "element_bounds": {
+                    "left": 1171,
+                    "top": 510,
+                    "right": 1285,
+                    "bottom": 587
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 29,
+                    "endIndex": 29
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.97,
+                    "rationale": "Cursor hovered over the multiply button before calculating."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Moved to the equals button and clicked it to compute the product."
+                },
+                "l5": {
+                    "tag": "Compute Result",
+                    "confidence": 0.93,
+                    "rationale": "Confirming the application corresponds to executing the calculation and showing the result."
+                }
+            },
+            "index": 29
+        },
+        {
+            "timestamp": 43.4009,
+            "time": "00:43.401",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1475,
+                797
+            ],
+            "focused_element": {
+                "name": "Multiply by",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Equals",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Equals",
+                "control_type": "ButtonControl",
+                "automation_id": "equalButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1475,
+                    "y": 797
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 747,
+                    "right": 1522,
+                    "bottom": 824
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 30,
+                    "endIndex": 30
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the Equals button to compute the product."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.99,
+                    "rationale": "Moved to the equals button and clicked it to compute the product."
+                },
+                "l5": {
+                    "tag": "Compute Result",
+                    "confidence": 0.93,
+                    "rationale": "Confirming the application corresponds to executing the calculation and showing the result."
+                }
+            },
+            "index": 30
+        },
+        {
+            "timestamp": 45.545,
+            "time": "00:45.545",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1474,
+                789
+            ],
+            "focused_element": {
+                "name": "Equals",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Equals",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                -7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1474,
+                    "y": 789
+                },
+                "element_bounds": {
+                    "left": 1408,
+                    "top": 747,
+                    "right": 1522,
+                    "bottom": 824
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 31,
+                    "endIndex": 31
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Cursor hovered over the Equals button."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.82,
+                    "rationale": "After the result was shown, the user moved the cursor and closed the Calculator window to exit the application."
+                },
+                "l5": {
+                    "tag": "Close Calculator",
+                    "confidence": 0.84,
+                    "rationale": "The final actions close the calculator window after completing the task."
+                }
+            },
+            "index": 31
+        },
+        {
+            "timestamp": 48.7161,
+            "time": "00:48.716",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Calculator",
+            "cursor_position": [
+                1487,
+                59
+            ],
+            "focused_element": {
+                "name": "Equals",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Close Calculator",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Close Calculator",
+                "control_type": "ButtonControl",
+                "automation_id": "Close"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1487,
+                    "y": 59
+                },
+                "element_bounds": {
+                    "left": 1458,
+                    "top": 33,
+                    "right": 1527,
+                    "bottom": 81
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 32,
+                    "endIndex": 32
+                },
+                "l3": {
+                    "tag": "Close <Button>",
+                    "confidence": 0.99,
+                    "rationale": "Clicked the window close button to exit Calculator."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.82,
+                    "rationale": "After the result was shown, the user moved the cursor and closed the Calculator window to exit the application."
+                },
+                "l5": {
+                    "tag": "Close Calculator",
+                    "confidence": 0.84,
+                    "rationale": "The final actions close the calculator window after completing the task."
+                }
+            },
+            "index": 32
+        }
+    ]
 }

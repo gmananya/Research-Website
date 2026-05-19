@@ -1,1654 +1,1683 @@
 {
-  "metadata": {
-    "task_id": 50,
-    "task_title": "Change the video speed",
-    "instruction": "Open video Task ID 75.mp4 in Documents > Task 75 folder on Windows Media Player. Play the video in 1.5x speed.",
-    "context": "I'm watching a video on Windows Media Player, but I'm on a time crunch so I want to speed through it.",
-    "task_group": "Media",
-    "applications": "Windows Media Player",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU1",
-      "condition": "sighted"
+    "metadata": {
+        "task_id": 50,
+        "task_title": "Change the video speed",
+        "instruction": "Open video Task ID 75.mp4 in Documents > Task 75 folder on Windows Media Player. Play the video in 1.5x speed.",
+        "context": "I'm watching a video on Windows Media Player, but I'm on a time crunch so I want to speed through it.",
+        "task_group": "Media",
+        "applications": "Windows Media Player",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU1",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1755787682.706908,
+            "ended_at": 1755787716.8768141,
+            "started_time": "00:00.000",
+            "ended_time": "00:25.210",
+            "duration": 34.17
+        },
+        "statistics": {
+            "total_events": 27,
+            "apps_used": [
+                "explorer.exe",
+                "ApplicationFrameHost.exe",
+                "ApplicationFrameHost.exe::MediaPlayer"
+            ],
+            "by_type": {
+                "mouse_move": 13,
+                "mouse_click": 13,
+                "drag_drop": 1
+            },
+            "by_app": {
+                "explorer.exe": 9,
+                "ApplicationFrameHost.exe": 18
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 0,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {}
+            }
+        }
     },
-    "session": {
-      "started_at": 1755787682.706908,
-      "ended_at": 1755787716.8768141,
-      "duration": 34.17
-    },
-    "statistics": {
-      "total_events": 27,
-      "apps_used": [
-        "explorer.exe",
-        "ApplicationFrameHost.exe",
-        "ApplicationFrameHost.exe::MediaPlayer"
-      ],
-      "by_type": {
-        "mouse_move": 13,
-        "mouse_click": 13,
-        "drag_drop": 1
-      },
-      "by_app": {
-        "explorer.exe": 9,
-        "ApplicationFrameHost.exe": 18
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 0,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {}
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
-      "cursor_position": [
-        1121,
-        1053
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "File Explorer - 1 running window",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        16,
-        23
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1121,
-          "y": 1053
+    "actions": [
+        {
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "explorer.exe",
+            "window_title": "Home - File Explorer",
+            "cursor_position": [
+                1121,
+                1053
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "File Explorer - 1 running window",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                16,
+                23
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1121,
+                    "y": 1053
+                },
+                "element_bounds": {
+                    "left": 1096,
+                    "top": 1008,
+                    "right": 1162,
+                    "bottom": 1080
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.95,
+                    "rationale": "Mouse moves within the File Explorer window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 0
         },
-        "element_bounds": {
-          "left": 1096,
-          "top": 1008,
-          "right": 1162,
-          "bottom": 1080
+        {
+            "timestamp": 0.9643,
+            "time": "00:00.964",
+            "application": "explorer.exe",
+            "window_title": "Home - File Explorer",
+            "cursor_position": [
+                792,
+                648
+            ],
+            "focused_element": {
+                "name": "Recommended",
+                "control_type": "GroupControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "target": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 792,
+                    "y": 648
+                },
+                "element_bounds": {
+                    "left": 740,
+                    "top": 609,
+                    "right": 835,
+                    "bottom": 657
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 1,
+                    "endIndex": 1
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.96,
+                    "rationale": "Clicking the Documents pinned entry opens the Documents folder."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 1.4902,
+            "time": "00:01.490",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                793,
+                648
+            ],
+            "focused_element": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                8,
+                1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 793,
+                    "y": 648
+                },
+                "element_bounds": {
+                    "left": 740,
+                    "top": 609,
+                    "right": 835,
+                    "bottom": 657
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 2,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.92,
+                    "rationale": "Cursor hovers over the Documents navigation item area."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 4.5549,
+            "time": "00:04.555",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1098,
+                702
+            ],
+            "focused_element": {
+                "name": "Documents (pinned)",
+                "control_type": "TreeItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1098,
+                    "y": 702
+                },
+                "element_bounds": {
+                    "left": 1018,
+                    "top": 674,
+                    "right": 1423,
+                    "bottom": 703
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 3,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.84,
+                    "rationale": "Click selects the Task 75 folder/item in Documents."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 4.7535,
+            "time": "00:04.753",
+            "application": "explorer.exe",
+            "window_title": "Documents - File Explorer",
+            "cursor_position": [
+                1098,
+                702
+            ],
+            "focused_element": {
+                "name": "Task 75",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Name",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Name",
+                "control_type": "EditControl",
+                "automation_id": "System.ItemNameDisplay"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1098,
+                    "y": 702
+                },
+                "element_bounds": {
+                    "left": 1018,
+                    "top": 674,
+                    "right": 1423,
+                    "bottom": 703
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 3,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.93,
+                    "rationale": "Second click opens the Task 75 folder."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 5.3909,
+            "time": "00:05.391",
+            "application": "explorer.exe",
+            "window_title": "Task 75 - File Explorer",
+            "cursor_position": [
+                1098,
+                701
+            ],
+            "focused_element": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Items View",
+                "control_type": "ListControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                1,
+                -28
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1098,
+                    "y": 701
+                },
+                "element_bounds": {
+                    "left": 964,
+                    "top": 312,
+                    "right": 1840,
+                    "bottom": 958
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.92,
+                    "rationale": "Cursor hovers over the Task ID 75 file item."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 6.3415,
+            "time": "00:06.341",
+            "application": "explorer.exe",
+            "window_title": "Task 75 - File Explorer",
+            "cursor_position": [
+                1070,
+                411
+            ],
+            "focused_element": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl",
+                "automation_id": "0"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1070,
+                    "y": 411
+                },
+                "element_bounds": {
+                    "left": 985,
+                    "top": 321,
+                    "right": 1143,
+                    "bottom": 498
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.85,
+                    "rationale": "Click selects the video file Task ID 75."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 6.4791,
+            "time": "00:06.479",
+            "application": "explorer.exe",
+            "window_title": "Task 75 - File Explorer",
+            "cursor_position": [
+                1070,
+                411
+            ],
+            "focused_element": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1070,
+                    "y": 411
+                },
+                "element_bounds": {
+                    "left": 985,
+                    "top": 321,
+                    "right": 1143,
+                    "bottom": 498
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.91,
+                    "rationale": "Cursor remains over the same video file item before opening it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 6.6172,
+            "time": "00:06.617",
+            "application": "explorer.exe",
+            "window_title": "Task 75 - File Explorer",
+            "cursor_position": [
+                1070,
+                411
+            ],
+            "focused_element": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Task ID 75",
+                "control_type": "ListItemControl",
+                "automation_id": "0"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1070,
+                    "y": 411
+                },
+                "element_bounds": {
+                    "left": 985,
+                    "top": 321,
+                    "right": 1143,
+                    "bottom": 498
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.97,
+                    "rationale": "Click opens Task ID 75.mp4 in Media Player."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 7.5098,
+            "time": "00:07.510",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1069,
+                410
+            ],
+            "focused_element": {
+                "name": "Media Player",
+                "control_type": "WindowControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -1,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1069,
+                    "y": 410
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 49,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.95,
+                    "rationale": "Mouse moves into the Media Player window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 10.2705,
+            "time": "00:10.271",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1455,
+                857
+            ],
+            "focused_element": {
+                "name": "Pause",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "Media Player",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1455,
+                    "y": 857
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 773,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.7,
+                    "rationale": "Click activates the Media Player window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
+                },
+                "l5": {
+                    "tag": "Open target video file",
+                    "confidence": 0.97,
+                    "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 10.3763,
+            "time": "00:10.376",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1455,
+                858
+            ],
+            "focused_element": {
+                "name": "Pause",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1455,
+                    "y": 858
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 773,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.96,
+                    "rationale": "Cursor hovers over the Pause control."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 10.7478,
+            "time": "00:10.748",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1452,
+                879
+            ],
+            "focused_element": {
+                "name": "Pause",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Volume",
+                "control_type": "ButtonControl",
+                "automation_id": "VolumeMuteButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1452,
+                    "y": 879
+                },
+                "element_bounds": {
+                    "left": 1424,
+                    "top": 859,
+                    "right": 1478,
+                    "bottom": 913
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Toggle <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Clicking the volume button toggles mute/unmute."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 10.8948,
+            "time": "00:10.895",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1450,
+                880
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -2,
+                6
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1450,
+                    "y": 880
+                },
+                "element_bounds": {
+                    "left": 1424,
+                    "top": 859,
+                    "right": 1478,
+                    "bottom": 913
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Cursor hovers over the volume control button."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 11.6211,
+            "time": "00:11.621",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1393,
+                800
+            ],
+            "focused_element": {
+                "name": "Unmute",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "target": {
+                "name": "Volume",
+                "control_type": "SliderControl",
+                "automation_id": "VolumeSlider"
+            },
+            "slider": {
+                "name": "Volume",
+                "control_type": "SliderControl",
+                "automation_id": "VolumeSlider",
+                "before": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 100,
+                    "small_change": 1,
+                    "large_change": 10,
+                    "is_read_only": false
+                }
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1393,
+                    "y": 800
+                },
+                "element_bounds": {
+                    "left": 1327,
+                    "top": 782,
+                    "right": 1600,
+                    "bottom": 830
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 14,
+                    "endIndex": 14
+                },
+                "l3": {
+                    "tag": "Select <Slider>",
+                    "confidence": 0.73,
+                    "rationale": "Clicking the volume slider interacts with the current volume level."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 14
+        },
+        {
+            "timestamp": 11.7857,
+            "time": "00:11.786",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1393,
+                800
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -54,
+                -20
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1393,
+                    "y": 800
+                },
+                "element_bounds": {
+                    "left": 1330,
+                    "top": 782,
+                    "right": 1600,
+                    "bottom": 830
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 15,
+                    "endIndex": 15
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Slider>",
+                    "confidence": 0.96,
+                    "rationale": "Cursor hovers over the volume slider track."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 12.0764,
+            "time": "00:12.076",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1418,
+                803
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "target": {
+                "name": "Volume",
+                "control_type": "SliderControl",
+                "automation_id": "VolumeSlider"
+            },
+            "button": "Button.left",
+            "event": "drag_drop",
+            "from": {
+                "application": "ApplicationFrameHost.exe",
+                "window_title": "Media Player",
+                "cursor_position": [
+                    1393,
+                    800
+                ],
+                "element_under_cursor": {
+                    "name": "Volume",
+                    "control_type": "SliderControl"
+                },
+                "focused_element": {
+                    "name": "Unmute",
+                    "control_type": "ButtonControl"
+                }
+            },
+            "drag_distance": 25,
+            "duration_ms": 392,
+            "slider": {
+                "name": "Volume",
+                "control_type": "SliderControl",
+                "automation_id": "VolumeSlider",
+                "before": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 100,
+                    "small_change": 1,
+                    "large_change": 10,
+                    "is_read_only": false
+                },
+                "after": {
+                    "value": 31,
+                    "min": 0,
+                    "max": 100,
+                    "small_change": 1,
+                    "large_change": 10,
+                    "is_read_only": false
+                }
+            },
+            "coordinates": {
+                "cursor": {
+                    "x": 1418,
+                    "y": 803
+                },
+                "element_bounds": {
+                    "left": 1330,
+                    "top": 782,
+                    "right": 1600,
+                    "bottom": 830
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "D",
+                    "startIndex": 16,
+                    "endIndex": 16
+                },
+                "l3": {
+                    "tag": "Move <Slider>",
+                    "confidence": 0.97,
+                    "rationale": "Drag and drop adjusts the slider value to change volume."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 12.1545,
+            "time": "00:12.155",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1418,
+                804
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "element_under_cursor": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                25,
+                4
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1418,
+                    "y": 804
+                },
+                "element_bounds": {
+                    "left": 1330,
+                    "top": 782,
+                    "right": 1600,
+                    "bottom": 830
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 17,
+                    "endIndex": 17
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Slider>",
+                    "confidence": 0.95,
+                    "rationale": "Cursor hovers over the adjusted volume slider."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 12.5512,
+            "time": "00:12.551",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1268,
+                893
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "SliderControl"
+            },
+            "element_under_cursor": {
+                "name": "Close",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Close",
+                "control_type": "ButtonControl",
+                "automation_id": "Light Dismiss"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1268,
+                    "y": 893
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 1,
+                    "right": 1683,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 18,
+                    "endIndex": 18
+                },
+                "l3": {
+                    "tag": "Close <Button>",
+                    "confidence": 0.96,
+                    "rationale": "Clicking the light-dismiss close button closes the volume popup."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 12.6541,
+            "time": "00:12.654",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1268,
+                893
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -14,
+                14
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1268,
+                    "y": 893
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 773,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 19,
+                    "endIndex": 19
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Cursor hovers over the volume button again."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 14.8571,
+            "time": "00:14.857",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1071,
+                551
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Media Player",
+                "control_type": "WindowControl"
+            },
+            "target": {
+                "name": "Media Player",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1071,
+                    "y": 551
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 1,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 20,
+                    "endIndex": 20
+                },
+                "l3": {
+                    "tag": "Select <Window>",
+                    "confidence": 0.69,
+                    "rationale": "Clicking the Media Player window brings it back into focus."
+                },
+                "l4": {
+                    "tag": "Edit <Audio>",
+                    "confidence": 0.91,
+                    "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 15.4387,
+            "time": "00:15.439",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1071,
+                550
+            ],
+            "focused_element": {
+                "name": "Open file(s)",
+                "control_type": "MenuItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Close",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                6,
+                -23
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1071,
+                    "y": 550
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 1,
+                    "right": 1683,
+                    "bottom": 969
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 21,
+                    "endIndex": 21
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Menu Item>",
+                    "confidence": 0.96,
+                    "rationale": "Cursor moves to the Open file(s) menu item."
+                },
+                "l4": {
+                    "tag": "Edit <Video>",
+                    "confidence": 0.97,
+                    "rationale": "Changes the video's playback speed to 1.5\u00d7 in Media Player."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 21
+        },
+        {
+            "timestamp": 17.7628,
+            "time": "00:17.763",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1503,
+                773
+            ],
+            "focused_element": {
+                "name": "0.25 \u00d7",
+                "control_type": "MenuItemControl"
+            },
+            "element_under_cursor": {
+                "name": "1.5 \u00d7",
+                "control_type": "MenuItemControl"
+            },
+            "target": {
+                "name": "1.5 \u00d7",
+                "control_type": "MenuItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1503,
+                    "y": 773
+                },
+                "element_bounds": {
+                    "left": 1418,
+                    "top": 740,
+                    "right": 1633,
+                    "bottom": 792
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 22,
+                    "endIndex": 22
+                },
+                "l3": {
+                    "tag": "Select <Menu Item>",
+                    "confidence": 0.98,
+                    "rationale": "Click selects the 1.5\u00d7 playback speed menu item."
+                },
+                "l4": {
+                    "tag": "Edit <Video>",
+                    "confidence": 0.97,
+                    "rationale": "Changes the video's playback speed to 1.5\u00d7 in Media Player."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 20.6447,
+            "time": "00:20.645",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                1503,
+                773
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1503,
+                    "y": 773
+                },
+                "element_bounds": {
+                    "left": 129,
+                    "top": 773,
+                    "right": 1682,
+                    "bottom": 949
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 23,
+                    "endIndex": 23
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Cursor hovers over the volume button."
+                },
+                "l4": {
+                    "tag": "Confirm <Video>",
+                    "confidence": 0.87,
+                    "rationale": "Uses the play/pause control to start video playback at the selected speed."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 24.0658,
+            "time": "00:24.066",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                913,
+                871
+            ],
+            "focused_element": {
+                "name": "Volume",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Pause",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Pause",
+                "control_type": "ButtonControl",
+                "automation_id": "MTCPlayPauseButton.Pause"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 913,
+                    "y": 871
+                },
+                "element_bounds": {
+                    "left": 868,
+                    "top": 849,
+                    "right": 942,
+                    "bottom": 924
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 24,
+                    "endIndex": 24
+                },
+                "l3": {
+                    "tag": "Toggle <Button>",
+                    "confidence": 0.91,
+                    "rationale": "Clicking the play/pause control toggles playback state."
+                },
+                "l4": {
+                    "tag": "Confirm <Video>",
+                    "confidence": 0.87,
+                    "rationale": "Uses the play/pause control to start video playback at the selected speed."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 24
+        },
+        {
+            "timestamp": 24.4932,
+            "time": "00:24.493",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                912,
+                871
+            ],
+            "focused_element": {
+                "name": "Play",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Play",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -1,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 912,
+                    "y": 871
+                },
+                "element_bounds": {
+                    "left": 868,
+                    "top": 849,
+                    "right": 942,
+                    "bottom": 924
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 25,
+                    "endIndex": 25
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.95,
+                    "rationale": "Cursor hovers over the Play control."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.77,
+                    "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 25
+        },
+        {
+            "timestamp": 25.2097,
+            "time": "00:25.210",
+            "application": "ApplicationFrameHost.exe",
+            "window_title": "Media Player",
+            "cursor_position": [
+                95,
+                388
+            ],
+            "focused_element": {
+                "name": "Play",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "target": {
+                "name": "Computer Use Logger",
+                "control_type": "WindowControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 95,
+                    "y": 388
+                },
+                "element_bounds": {
+                    "left": 49,
+                    "top": 83,
+                    "right": 949,
+                    "bottom": 583
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 26,
+                    "endIndex": 26
+                },
+                "l3": {
+                    "tag": "Switch <Window>",
+                    "confidence": 0.78,
+                    "rationale": "Click switches focus to the Computer Use Logger window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.77,
+                    "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
+                },
+                "l5": {
+                    "tag": "Set playback speed to 15x",
+                    "confidence": 0.93,
+                    "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
+                }
+            },
+            "index": 26
         }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.95,
-          "rationale": "Mouse moves within the File Explorer window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 0.9643,
-      "application": "explorer.exe",
-      "window_title": "Home - File Explorer",
-      "cursor_position": [
-        792,
-        648
-      ],
-      "focused_element": {
-        "name": "Recommended",
-        "control_type": "GroupControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "target": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 792,
-          "y": 648
-        },
-        "element_bounds": {
-          "left": 740,
-          "top": 609,
-          "right": 835,
-          "bottom": 657
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 1,
-          "endIndex": 1
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.96,
-          "rationale": "Clicking the Documents pinned entry opens the Documents folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 1.4902,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        793,
-        648
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        8,
-        1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 793,
-          "y": 648
-        },
-        "element_bounds": {
-          "left": 740,
-          "top": 609,
-          "right": 835,
-          "bottom": 657
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 2,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.92,
-          "rationale": "Cursor hovers over the Documents navigation item area."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 4.5549,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1098,
-        702
-      ],
-      "focused_element": {
-        "name": "Documents (pinned)",
-        "control_type": "TreeItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1098,
-          "y": 702
-        },
-        "element_bounds": {
-          "left": 1018,
-          "top": 674,
-          "right": 1423,
-          "bottom": 703
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 3,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.84,
-          "rationale": "Click selects the Task 75 folder/item in Documents."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 4.7535,
-      "application": "explorer.exe",
-      "window_title": "Documents - File Explorer",
-      "cursor_position": [
-        1098,
-        702
-      ],
-      "focused_element": {
-        "name": "Task 75",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Name",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Name",
-        "control_type": "EditControl",
-        "automation_id": "System.ItemNameDisplay"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1098,
-          "y": 702
-        },
-        "element_bounds": {
-          "left": 1018,
-          "top": 674,
-          "right": 1423,
-          "bottom": 703
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 3,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.93,
-          "rationale": "Second click opens the Task 75 folder."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 5.3909,
-      "application": "explorer.exe",
-      "window_title": "Task 75 - File Explorer",
-      "cursor_position": [
-        1098,
-        701
-      ],
-      "focused_element": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Items View",
-        "control_type": "ListControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        1,
-        -28
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1098,
-          "y": 701
-        },
-        "element_bounds": {
-          "left": 964,
-          "top": 312,
-          "right": 1840,
-          "bottom": 958
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.92,
-          "rationale": "Cursor hovers over the Task ID 75 file item."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 6.3415,
-      "application": "explorer.exe",
-      "window_title": "Task 75 - File Explorer",
-      "cursor_position": [
-        1070,
-        411
-      ],
-      "focused_element": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl",
-        "automation_id": "0"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1070,
-          "y": 411
-        },
-        "element_bounds": {
-          "left": 985,
-          "top": 321,
-          "right": 1143,
-          "bottom": 498
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.85,
-          "rationale": "Click selects the video file Task ID 75."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 6.4791,
-      "application": "explorer.exe",
-      "window_title": "Task 75 - File Explorer",
-      "cursor_position": [
-        1070,
-        411
-      ],
-      "focused_element": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1070,
-          "y": 411
-        },
-        "element_bounds": {
-          "left": 985,
-          "top": 321,
-          "right": 1143,
-          "bottom": 498
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.91,
-          "rationale": "Cursor remains over the same video file item before opening it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 6.6172,
-      "application": "explorer.exe",
-      "window_title": "Task 75 - File Explorer",
-      "cursor_position": [
-        1070,
-        411
-      ],
-      "focused_element": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Task ID 75",
-        "control_type": "ListItemControl",
-        "automation_id": "0"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1070,
-          "y": 411
-        },
-        "element_bounds": {
-          "left": 985,
-          "top": 321,
-          "right": 1143,
-          "bottom": 498
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.97,
-          "rationale": "Click opens Task ID 75.mp4 in Media Player."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 7.5098,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1069,
-        410
-      ],
-      "focused_element": {
-        "name": "Media Player",
-        "control_type": "WindowControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -1,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1069,
-          "y": 410
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 49,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.95,
-          "rationale": "Mouse moves into the Media Player window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 10.2705,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1455,
-        857
-      ],
-      "focused_element": {
-        "name": "Pause",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Media Player",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1455,
-          "y": 857
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 773,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.7,
-          "rationale": "Click activates the Media Player window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "Navigates through File Explorer from Home to Documents > Task 75 and opens Task ID 75.mp4, which launches Media Player."
-        },
-        "l5": {
-          "tag": "Open target video file",
-          "confidence": 0.97,
-          "rationale": "This span navigates through the folder structure and opens the requested Task 75 video file in the player."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 10.3763,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1455,
-        858
-      ],
-      "focused_element": {
-        "name": "Pause",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1455,
-          "y": 858
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 773,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.96,
-          "rationale": "Cursor hovers over the Pause control."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 10.7478,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1452,
-        879
-      ],
-      "focused_element": {
-        "name": "Pause",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Volume",
-        "control_type": "ButtonControl",
-        "automation_id": "VolumeMuteButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1452,
-          "y": 879
-        },
-        "element_bounds": {
-          "left": 1424,
-          "top": 859,
-          "right": 1478,
-          "bottom": 913
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Toggle <Button>",
-          "confidence": 0.98,
-          "rationale": "Clicking the volume button toggles mute/unmute."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 10.8948,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1450,
-        880
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -2,
-        6
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1450,
-          "y": 880
-        },
-        "element_bounds": {
-          "left": 1424,
-          "top": 859,
-          "right": 1478,
-          "bottom": 913
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.95,
-          "rationale": "Cursor hovers over the volume control button."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 11.6211,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1393,
-        800
-      ],
-      "focused_element": {
-        "name": "Unmute",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "target": {
-        "name": "Volume",
-        "control_type": "SliderControl",
-        "automation_id": "VolumeSlider"
-      },
-      "slider": {
-        "name": "Volume",
-        "control_type": "SliderControl",
-        "automation_id": "VolumeSlider",
-        "before": {
-          "value": 0,
-          "min": 0,
-          "max": 100,
-          "small_change": 1,
-          "large_change": 10,
-          "is_read_only": false
-        }
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1393,
-          "y": 800
-        },
-        "element_bounds": {
-          "left": 1327,
-          "top": 782,
-          "right": 1600,
-          "bottom": 830
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Select <Slider>",
-          "confidence": 0.73,
-          "rationale": "Clicking the volume slider interacts with the current volume level."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 11.7857,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1393,
-        800
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -54,
-        -20
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1393,
-          "y": 800
-        },
-        "element_bounds": {
-          "left": 1330,
-          "top": 782,
-          "right": 1600,
-          "bottom": 830
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Move Cursor To <Slider>",
-          "confidence": 0.96,
-          "rationale": "Cursor hovers over the volume slider track."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 12.0764,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1418,
-        803
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "target": {
-        "name": "Volume",
-        "control_type": "SliderControl",
-        "automation_id": "VolumeSlider"
-      },
-      "button": "Button.left",
-      "event": "drag_drop",
-      "from": {
-        "application": "ApplicationFrameHost.exe",
-        "window_title": "Media Player",
-        "cursor_position": [
-          1393,
-          800
-        ],
-        "element_under_cursor": {
-          "name": "Volume",
-          "control_type": "SliderControl"
-        },
-        "focused_element": {
-          "name": "Unmute",
-          "control_type": "ButtonControl"
-        }
-      },
-      "drag_distance": 25,
-      "duration_ms": 392,
-      "slider": {
-        "name": "Volume",
-        "control_type": "SliderControl",
-        "automation_id": "VolumeSlider",
-        "before": {
-          "value": 0,
-          "min": 0,
-          "max": 100,
-          "small_change": 1,
-          "large_change": 10,
-          "is_read_only": false
-        },
-        "after": {
-          "value": 31,
-          "min": 0,
-          "max": 100,
-          "small_change": 1,
-          "large_change": 10,
-          "is_read_only": false
-        }
-      },
-      "coordinates": {
-        "cursor": {
-          "x": 1418,
-          "y": 803
-        },
-        "element_bounds": {
-          "left": 1330,
-          "top": 782,
-          "right": 1600,
-          "bottom": 830
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "D",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Move <Slider>",
-          "confidence": 0.97,
-          "rationale": "Drag and drop adjusts the slider value to change volume."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 12.1545,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1418,
-        804
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "element_under_cursor": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        25,
-        4
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1418,
-          "y": 804
-        },
-        "element_bounds": {
-          "left": 1330,
-          "top": 782,
-          "right": 1600,
-          "bottom": 830
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Move Cursor To <Slider>",
-          "confidence": 0.95,
-          "rationale": "Cursor hovers over the adjusted volume slider."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 12.5512,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1268,
-        893
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "SliderControl"
-      },
-      "element_under_cursor": {
-        "name": "Close",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Close",
-        "control_type": "ButtonControl",
-        "automation_id": "Light Dismiss"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1268,
-          "y": 893
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 1,
-          "right": 1683,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Close <Button>",
-          "confidence": 0.96,
-          "rationale": "Clicking the light-dismiss close button closes the volume popup."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 12.6541,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1268,
-        893
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -14,
-        14
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1268,
-          "y": 893
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 773,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 19,
-          "endIndex": 19
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.95,
-          "rationale": "Cursor hovers over the volume button again."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 14.8571,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1071,
-        551
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Media Player",
-        "control_type": "WindowControl"
-      },
-      "target": {
-        "name": "Media Player",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1071,
-          "y": 551
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 1,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 20,
-          "endIndex": 20
-        },
-        "l3": {
-          "tag": "Select <Window>",
-          "confidence": 0.69,
-          "rationale": "Clicking the Media Player window brings it back into focus."
-        },
-        "l4": {
-          "tag": "Edit <Audio>",
-          "confidence": 0.91,
-          "rationale": "Opens the volume controls, adjusts the playback volume with the slider, and closes the popup."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 15.4387,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1071,
-        550
-      ],
-      "focused_element": {
-        "name": "Open file(s)",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Close",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        6,
-        -23
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1071,
-          "y": 550
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 1,
-          "right": 1683,
-          "bottom": 969
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 21,
-          "endIndex": 21
-        },
-        "l3": {
-          "tag": "Move Cursor To <Menu Item>",
-          "confidence": 0.96,
-          "rationale": "Cursor moves to the Open file(s) menu item."
-        },
-        "l4": {
-          "tag": "Edit <Video>",
-          "confidence": 0.97,
-          "rationale": "Changes the video's playback speed to 1.5× in Media Player."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 17.7628,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1503,
-        773
-      ],
-      "focused_element": {
-        "name": "0.25 ×",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "1.5 ×",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "1.5 ×",
-        "control_type": "MenuItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 773
-        },
-        "element_bounds": {
-          "left": 1418,
-          "top": 740,
-          "right": 1633,
-          "bottom": 792
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 22,
-          "endIndex": 22
-        },
-        "l3": {
-          "tag": "Select <Menu Item>",
-          "confidence": 0.98,
-          "rationale": "Click selects the 1.5× playback speed menu item."
-        },
-        "l4": {
-          "tag": "Edit <Video>",
-          "confidence": 0.97,
-          "rationale": "Changes the video's playback speed to 1.5× in Media Player."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 20.6447,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        1503,
-        773
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1503,
-          "y": 773
-        },
-        "element_bounds": {
-          "left": 129,
-          "top": 773,
-          "right": 1682,
-          "bottom": 949
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.95,
-          "rationale": "Cursor hovers over the volume button."
-        },
-        "l4": {
-          "tag": "Confirm <Video>",
-          "confidence": 0.87,
-          "rationale": "Uses the play/pause control to start video playback at the selected speed."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 24.0658,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        913,
-        871
-      ],
-      "focused_element": {
-        "name": "Volume",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Pause",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Pause",
-        "control_type": "ButtonControl",
-        "automation_id": "MTCPlayPauseButton.Pause"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 913,
-          "y": 871
-        },
-        "element_bounds": {
-          "left": 868,
-          "top": 849,
-          "right": 942,
-          "bottom": 924
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 24,
-          "endIndex": 24
-        },
-        "l3": {
-          "tag": "Toggle <Button>",
-          "confidence": 0.91,
-          "rationale": "Clicking the play/pause control toggles playback state."
-        },
-        "l4": {
-          "tag": "Confirm <Video>",
-          "confidence": 0.87,
-          "rationale": "Uses the play/pause control to start video playback at the selected speed."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 24.4932,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        912,
-        871
-      ],
-      "focused_element": {
-        "name": "Play",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Play",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -1,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 912,
-          "y": 871
-        },
-        "element_bounds": {
-          "left": 868,
-          "top": 849,
-          "right": 942,
-          "bottom": 924
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 25,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.95,
-          "rationale": "Cursor hovers over the Play control."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.77,
-          "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 25.2097,
-      "application": "ApplicationFrameHost.exe",
-      "window_title": "Media Player",
-      "cursor_position": [
-        95,
-        388
-      ],
-      "focused_element": {
-        "name": "Play",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "target": {
-        "name": "Computer Use Logger",
-        "control_type": "WindowControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 95,
-          "y": 388
-        },
-        "element_bounds": {
-          "left": 49,
-          "top": 83,
-          "right": 949,
-          "bottom": 583
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 26,
-          "endIndex": 26
-        },
-        "l3": {
-          "tag": "Switch <Window>",
-          "confidence": 0.78,
-          "rationale": "Click switches focus to the Computer Use Logger window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.77,
-          "rationale": "Switches focus away from Media Player to the Computer Use Logger window."
-        },
-        "l5": {
-          "tag": "Set playback speed to 15x",
-          "confidence": 0.93,
-          "rationale": "These actions open the playback settings, move the speed slider/menu choices to the desired rate, confirm the change, and return focus to the video window for playback."
-        }
-      },
-      "index": 26
-    }
-  ]
+    ]
 }

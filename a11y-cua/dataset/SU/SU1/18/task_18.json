@@ -1,741 +1,755 @@
 {
-  "metadata": {
-    "task_id": 18,
-    "task_title": "Force quit an application",
-    "instruction": "Open Chrome and close the application from Task Manager",
-    "context": "I'm browsing on Chrome but it is frozen.",
-    "task_group": "System Operations",
-    "applications": "Task Manager, Chrome",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU1",
-      "condition": "sighted"
+    "metadata": {
+        "task_id": 18,
+        "task_title": "Force quit an application",
+        "instruction": "Open Chrome and close the application from Task Manager",
+        "context": "I'm browsing on Chrome but it is frozen.",
+        "task_group": "System Operations",
+        "applications": "Task Manager, Chrome",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU1",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1755552093.1290572,
+            "ended_at": 1755552118.694494,
+            "started_time": "00:00.000",
+            "ended_time": "00:20.418",
+            "duration": 25.57
+        },
+        "statistics": {
+            "total_events": 12,
+            "apps_used": [
+                "python3.13.exe",
+                "explorer.exe",
+                "chrome.exe"
+            ],
+            "by_type": {
+                "mouse_move": 3,
+                "mouse_click": 3,
+                "key_press": 6
+            },
+            "by_app": {
+                "python3.13.exe": 3,
+                "explorer.exe": 1,
+                "chrome.exe": 8
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 0,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {}
+            }
+        }
     },
-    "session": {
-      "started_at": 1755552093.1290572,
-      "ended_at": 1755552118.694494,
-      "duration": 25.57
-    },
-    "statistics": {
-      "total_events": 12,
-      "apps_used": [
-        "python3.13.exe",
-        "explorer.exe",
-        "chrome.exe"
-      ],
-      "by_type": {
-        "mouse_move": 3,
-        "mouse_click": 3,
-        "key_press": 6
-      },
-      "by_app": {
-        "python3.13.exe": 3,
-        "explorer.exe": 1,
-        "chrome.exe": 8
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 0,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {}
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        763,
-        634
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 763,
-          "y": 634
+    "actions": [
+        {
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                763,
+                634
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 763,
+                    "y": 634
+                },
+                "element_bounds": {
+                    "left": 536,
+                    "top": 595,
+                    "right": 766,
+                    "bottom": 644
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.56,
+                    "rationale": "Mouse moved within the logger window before interacting with any specific control."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 0
         },
-        "element_bounds": {
-          "left": 536,
-          "top": 595,
-          "right": 766,
-          "bottom": 644
+        {
+            "timestamp": 0.8247,
+            "time": "00:00.825",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                62,
+                670
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 62,
+                    "y": 670
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 645,
+                    "right": 112,
+                    "bottom": 774
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 1,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Select <List Item>",
+                    "confidence": 0.93,
+                    "rationale": "Clicked the Google Chrome entry in the list to select it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 0.9967,
+            "time": "00:00.997",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "cursor_position": [
+                62,
+                670
+            ],
+            "focused_element": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 62,
+                    "y": 670
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 645,
+                    "right": 112,
+                    "bottom": 774
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 1,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.9,
+                    "rationale": "Clicked the Google Chrome program entry in Program Manager to launch/open it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 2.0175,
+            "time": "00:02.018",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                62,
+                670
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -4,
+                3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 62,
+                    "y": 670
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 645,
+                    "right": 112,
+                    "bottom": 774
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 3,
+                    "endIndex": 3
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Search Box>",
+                    "confidence": 0.88,
+                    "rationale": "Moved the pointer over the Chrome address/search bar area."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 3.5236,
+            "time": "00:03.524",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Ctrl",
+            "modifiers": [
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1887,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 4,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 3.6831,
+            "time": "00:03.683",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt",
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 4.1786,
+            "time": "00:04.179",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt",
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 4.2236,
+            "time": "00:04.224",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt",
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 4.2734,
+            "time": "00:04.273",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Alt",
+            "modifiers": [
+                "Alt",
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 4.337,
+            "time": "00:04.337",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                725,
+                513
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "key_press",
+            "key": "Delete",
+            "modifiers": [
+                "Alt",
+                "Ctrl"
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 725,
+                    "y": 513
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Open <Window>",
+                    "confidence": 0.62,
+                    "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.93,
+                    "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
+                },
+                "l5": {
+                    "tag": "Open Task Manager",
+                    "confidence": 0.88,
+                    "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 7.5922,
+            "time": "00:07.592",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                838,
+                754
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                126,
+                240
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 838,
+                    "y": 754
+                },
+                "element_bounds": {
+                    "left": 565,
+                    "top": 181,
+                    "right": 1909,
+                    "bottom": 997
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.63,
+                    "rationale": "Mouse moved within the active Chrome window without targeting a specific control."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.62,
+                    "rationale": "The user moves the pointer back to the logger window and clicks a button, which functions as a final confirmation/finish action in the application."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.93,
+                    "rationale": "This span covers the final confirmation action to terminate the frozen Chrome application from Task Manager."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 20.4182,
+            "time": "00:20.418",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                679,
+                632
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "",
+                "control_type": "ButtonControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 679,
+                    "y": 632
+                },
+                "element_bounds": {
+                    "left": 536,
+                    "top": 595,
+                    "right": 766,
+                    "bottom": 644
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.86,
+                    "rationale": "Clicked a command button in the Computer Use Logger window."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.62,
+                    "rationale": "The user moves the pointer back to the logger window and clicks a button, which functions as a final confirmation/finish action in the application."
+                },
+                "l5": {
+                    "tag": "End Chrome task",
+                    "confidence": 0.93,
+                    "rationale": "This span covers the final confirmation action to terminate the frozen Chrome application from Task Manager."
+                }
+            },
+            "index": 11
         }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.56,
-          "rationale": "Mouse moved within the logger window before interacting with any specific control."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 0.8247,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        62,
-        670
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 62,
-          "y": 670
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 645,
-          "right": 112,
-          "bottom": 774
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 1,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Select <List Item>",
-          "confidence": 0.93,
-          "rationale": "Clicked the Google Chrome entry in the list to select it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 0.9967,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "cursor_position": [
-        62,
-        670
-      ],
-      "focused_element": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 62,
-          "y": 670
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 645,
-          "right": 112,
-          "bottom": 774
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 1,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.9,
-          "rationale": "Clicked the Google Chrome program entry in Program Manager to launch/open it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 2.0175,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        62,
-        670
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -4,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 62,
-          "y": 670
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 645,
-          "right": 112,
-          "bottom": 774
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 3,
-          "endIndex": 3
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.88,
-          "rationale": "Moved the pointer over the Chrome address/search bar area."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 3.5236,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Ctrl",
-      "modifiers": [
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1887,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 4,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 3.6831,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 4.1786,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 4.2236,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 4.2734,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Alt",
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 4.337,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        725,
-        513
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "key_press",
-      "key": "Delete",
-      "modifiers": [
-        "Alt",
-        "Ctrl"
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 725,
-          "y": 513
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Open <Window>",
-          "confidence": 0.62,
-          "rationale": "Keyboard shortcut input associated with opening a system window/dialog."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.93,
-          "rationale": "The user selects Google Chrome in the list and opens it from Program Manager, which launches the Chrome application."
-        },
-        "l5": {
-          "tag": "Open Task Manager",
-          "confidence": 0.88,
-          "rationale": "This span covers navigating to and opening the utility needed to manage running apps, including locating the relevant window/search result."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 7.5922,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        838,
-        754
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        126,
-        240
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 838,
-          "y": 754
-        },
-        "element_bounds": {
-          "left": 565,
-          "top": 181,
-          "right": 1909,
-          "bottom": 997
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.63,
-          "rationale": "Mouse moved within the active Chrome window without targeting a specific control."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.62,
-          "rationale": "The user moves the pointer back to the logger window and clicks a button, which functions as a final confirmation/finish action in the application."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.93,
-          "rationale": "This span covers the final confirmation action to terminate the frozen Chrome application from Task Manager."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 20.4182,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        679,
-        632
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 679,
-          "y": 632
-        },
-        "element_bounds": {
-          "left": 536,
-          "top": 595,
-          "right": 766,
-          "bottom": 644
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.86,
-          "rationale": "Clicked a command button in the Computer Use Logger window."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.62,
-          "rationale": "The user moves the pointer back to the logger window and clicks a button, which functions as a final confirmation/finish action in the application."
-        },
-        "l5": {
-          "tag": "End Chrome task",
-          "confidence": 0.93,
-          "rationale": "This span covers the final confirmation action to terminate the frozen Chrome application from Task Manager."
-        }
-      },
-      "index": 11
-    }
-  ]
+    ]
 }

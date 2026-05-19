@@ -1,3103 +1,3159 @@
 {
-  "metadata": {
-    "task_id": 12,
-    "task_title": "Change default search engine",
-    "instruction": "Set DuckDuckGo as the default search engine on Chrome",
-    "context": "I prefer a privacy-focused search engine and want to use DuckDuckGo by default.",
-    "task_group": "Browsing and Web",
-    "applications": "Chrome",
-    "success": true,
-    "user_info": {
-      "user_type": "SU",
-      "user_id": "SU1",
-      "condition": "sighted"
-    },
-    "session": {
-      "started_at": 1755550265.2458615,
-      "ended_at": 1755550296.562107,
-      "duration": 31.32
-    },
-    "statistics": {
-      "total_events": 54,
-      "apps_used": [
-        "python3.13.exe",
-        "explorer.exe",
-        "chrome.exe"
-      ],
-      "by_type": {
-        "mouse_move": 15,
-        "mouse_click": 11,
-        "key_press": 22,
-        "scroll": 6
-      },
-      "by_app": {
-        "python3.13.exe": 4,
-        "explorer.exe": 1,
-        "chrome.exe": 49
-      },
-      "keystrokes": {
-        "total_hotkeys": 0,
-        "total_screen_reader_commands": 0,
-        "total_other_keys": 22,
-        "hotkeys": {},
-        "screen_reader_commands": {},
-        "other_keys": {
-          "e": 4,
-          "n": 3,
-          "Enter": 2,
-          "g": 2,
-          "i": 2,
-          "s": 2,
-          "t": 2,
-          "a": 1,
-          "c": 1,
-          "h": 1,
-          "r": 1,
-          "Space": 1
+    "metadata": {
+        "task_id": 12,
+        "task_title": "Change default search engine",
+        "instruction": "Set DuckDuckGo as the default search engine on Chrome",
+        "context": "I prefer a privacy-focused search engine and want to use DuckDuckGo by default.",
+        "task_group": "Browsing and Web",
+        "applications": "Chrome",
+        "success": true,
+        "user_info": {
+            "user_type": "SU",
+            "user_id": "SU1",
+            "condition": "sighted"
+        },
+        "session": {
+            "started_at": 1755550265.2458615,
+            "ended_at": 1755550296.562107,
+            "started_time": "00:00.000",
+            "ended_time": "00:28.057",
+            "duration": 31.32
+        },
+        "statistics": {
+            "total_events": 54,
+            "apps_used": [
+                "python3.13.exe",
+                "explorer.exe",
+                "chrome.exe"
+            ],
+            "by_type": {
+                "mouse_move": 15,
+                "mouse_click": 11,
+                "key_press": 22,
+                "scroll": 6
+            },
+            "by_app": {
+                "python3.13.exe": 4,
+                "explorer.exe": 1,
+                "chrome.exe": 49
+            },
+            "keystrokes": {
+                "total_hotkeys": 0,
+                "total_screen_reader_commands": 0,
+                "total_other_keys": 22,
+                "hotkeys": {},
+                "screen_reader_commands": {},
+                "other_keys": {
+                    "e": 4,
+                    "n": 3,
+                    "Enter": 2,
+                    "g": 2,
+                    "i": 2,
+                    "s": 2,
+                    "t": 2,
+                    "a": 1,
+                    "c": 1,
+                    "h": 1,
+                    "r": 1,
+                    "Space": 1
+                }
+            }
+        },
+        "web": {
+            "tabs": [
+                {
+                    "order": 1,
+                    "first_ts": 26.2471,
+                    "url": "https://duckduckgo.com/?q=testing&ia=web",
+                    "title": "testing at DuckDuckGo",
+                    "file": "/task_logs/18/web_logs/web_tab1_1755550293562.json",
+                    "dom_url": "/task_logs/18/web_logs/web_tab1_1755550293562.html",
+                    "a11y_url": "/task_logs/18/web_logs/web_tab1_1755550293562_a11y_tree.json"
+                }
+            ],
+            "total_events": 1,
+            "by_tab": {
+                "1::26.2471": 1
+            }
         }
-      }
     },
-    "web": {
-      "tabs": [
+    "actions": [
         {
-          "order": 1,
-          "first_ts": 26.2471,
-          "url": "https://duckduckgo.com/?q=testing&ia=web",
-          "title": "testing at DuckDuckGo",
-          "file": "/task_logs/18/web_logs/web_tab1_1755550293562.json",
-          "dom_url": "/task_logs/18/web_logs/web_tab1_1755550293562.html",
-          "a11y_url": "/task_logs/18/web_logs/web_tab1_1755550293562_a11y_tree.json"
-        }
-      ],
-      "total_events": 1,
-      "by_tab": {
-        "1::26.2471": 1
-      }
-    }
-  },
-  "actions": [
-    {
-      "timestamp": 0,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        134,
-        467
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Desktop",
-        "control_type": "ListControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 134,
-          "y": 467
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 1920,
-          "bottom": 1080
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 0,
-          "endIndex": 0
-        },
-        "l3": {
-          "tag": "Move Cursor To <List Item>",
-          "confidence": 0.86,
-          "rationale": "Cursor is moved over the Google Chrome entry in the logger list before clicking it."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "Launch Google Chrome from the logger/application launcher."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 0
-    },
-    {
-      "timestamp": 0.772,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        42,
-        518
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 42,
-          "y": 518
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 485,
-          "right": 112,
-          "bottom": 614
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 1,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.95,
-          "rationale": "Clicking the Google Chrome list item launches the app from the logger."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "Launch Google Chrome from the logger/application launcher."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 1
-    },
-    {
-      "timestamp": 0.952,
-      "application": "explorer.exe",
-      "window_title": "Program Manager",
-      "cursor_position": [
-        42,
-        518
-      ],
-      "focused_element": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl"
-      },
-      "target": {
-        "name": "Google Chrome",
-        "control_type": "ListItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 42,
-          "y": 518
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 485,
-          "right": 112,
-          "bottom": 614
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "DB",
-          "startIndex": 1,
-          "endIndex": 2
-        },
-        "l3": {
-          "tag": "Open <List Item>",
-          "confidence": 0.95,
-          "rationale": "Clicking the Google Chrome list item launches the app from the logger."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.97,
-          "rationale": "Launch Google Chrome from the logger/application launcher."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 2
-    },
-    {
-      "timestamp": 1.7457,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        42,
-        518
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 42,
-          "y": 518
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 181,
-          "right": 1920,
-          "bottom": 1008
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 3,
-          "endIndex": 3
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.95,
-          "rationale": "The cursor moves to Chrome's address and search bar."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.96,
-          "rationale": "Use Chrome's browser controls and menu to open the Settings page."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 3
-    },
-    {
-      "timestamp": 2.7679,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        1874,
-        92
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Chrome",
-        "control_type": "ButtonControl",
-        "automation_id": "view_1007"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1874,
-          "y": 92
-        },
-        "element_bounds": {
-          "left": 1861,
-          "top": 69,
-          "right": 1920,
-          "bottom": 120
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 4,
-          "endIndex": 4
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.97,
-          "rationale": "Clicking the Chrome menu button opens the browser menu."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.96,
-          "rationale": "Use Chrome's browser controls and menu to open the Settings page."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 4
-    },
-    {
-      "timestamp": 3.115,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        1874,
-        93
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Chrome",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        5,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1874,
-          "y": 93
-        },
-        "element_bounds": {
-          "left": 1861,
-          "top": 69,
-          "right": 1920,
-          "bottom": 120
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 5,
-          "endIndex": 5
-        },
-        "l3": {
-          "tag": "Move Cursor To <Menu Item>",
-          "confidence": 0.9,
-          "rationale": "The cursor moves toward the Settings menu item."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.96,
-          "rationale": "Use Chrome's browser controls and menu to open the Settings page."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 5
-    },
-    {
-      "timestamp": 8.2828,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        1619,
-        933
-      ],
-      "focused_element": {
-        "name": "Settings",
-        "control_type": "MenuItemControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings",
-        "control_type": "MenuItemControl"
-      },
-      "target": {
-        "name": "Settings",
-        "control_type": "MenuItemControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1619,
-          "y": 933
-        },
-        "element_bounds": {
-          "left": 1392,
-          "top": 906,
-          "right": 1920,
-          "bottom": 948
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 6,
-          "endIndex": 6
-        },
-        "l3": {
-          "tag": "Open <Menu Item>",
-          "confidence": 0.98,
-          "rationale": "Clicking Settings opens Chrome settings."
-        },
-        "l4": {
-          "tag": "Navigate <Web>",
-          "confidence": 0.96,
-          "rationale": "Use Chrome's browser controls and menu to open the Settings page."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 6
-    },
-    {
-      "timestamp": 8.7163,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1619,
-        932
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -21,
-        -11
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1619,
-          "y": 932
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 181,
-          "right": 1920,
-          "bottom": 1008
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 7,
-          "endIndex": 7
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.88,
-          "rationale": "The cursor moves over the settings page content area."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 7
-    },
-    {
-      "timestamp": 9.5252,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "target": {
-        "name": "Search settings",
-        "control_type": "EditControl",
-        "automation_id": "searchInput"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1555,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 8,
-          "endIndex": 8
-        },
-        "l3": {
-          "tag": "Move Focus To <Search Box>",
-          "confidence": 0.96,
-          "rationale": "Clicking the Search settings field places focus in the search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 8
-    },
-    {
-      "timestamp": 11.1512,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "s",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1555,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 9,
-          "endIndex": 9
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 9
-    },
-    {
-      "timestamp": 11.2627,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 10,
-          "endIndex": 10
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 10
-    },
-    {
-      "timestamp": 11.3789,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "a",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 11,
-          "endIndex": 11
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 11
-    },
-    {
-      "timestamp": 11.4575,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "r",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 12,
-          "endIndex": 12
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 12
-    },
-    {
-      "timestamp": 11.6493,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "c",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 13,
-          "endIndex": 13
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 13
-    },
-    {
-      "timestamp": 11.761,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "h",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 14,
-          "endIndex": 14
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 14
-    },
-    {
-      "timestamp": 11.8808,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Space",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 15,
-          "endIndex": 15
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 15
-    },
-    {
-      "timestamp": 11.9729,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 16,
-          "endIndex": 16
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 16
-    },
-    {
-      "timestamp": 12.0705,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "n",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 17,
-          "endIndex": 17
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 17
-    },
-    {
-      "timestamp": 12.157,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "g",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 18,
-          "endIndex": 18
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 18
-    },
-    {
-      "timestamp": 12.2411,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "i",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 19,
-          "endIndex": 19
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 19
-    },
-    {
-      "timestamp": 12.3125,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "n",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 20,
-          "endIndex": 20
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 20
-    },
-    {
-      "timestamp": 12.3814,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 21,
-          "endIndex": 21
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter s into the settings search box."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 21
-    },
-    {
-      "timestamp": 12.516,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        693,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "key_press",
-      "key": "Enter",
-      "coordinates": {
-        "cursor": {
-          "x": 693,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 22,
-          "endIndex": 22
-        },
-        "l3": {
-          "tag": "Find <Search Box>",
-          "confidence": 0.9,
-          "rationale": "Pressing Enter runs the search within Chrome settings."
-        },
-        "l4": {
-          "tag": "Search <Website>",
-          "confidence": 0.99,
-          "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 22
-    },
-    {
-      "timestamp": 13.3446,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        694,
-        232
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        7,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 694,
-          "y": 232
-        },
-        "element_bounds": {
-          "left": 576,
-          "top": 206,
-          "right": 1513,
-          "bottom": 240
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 23,
-          "endIndex": 23
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.8,
-          "rationale": "The cursor moves over the settings page while the user prepares to scroll."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 23
-    },
-    {
-      "timestamp": 14.3399,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1084,
-        731
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Choose another account",
-        "control_type": "ButtonControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1084,
-          "y": 731
-        },
-        "element_bounds": {
-          "left": 1069,
-          "top": 692,
-          "right": 1118,
-          "bottom": 741
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 24,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 24
-    },
-    {
-      "timestamp": 14.3901,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1084,
-        731
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Choose another account",
-        "control_type": "ButtonControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1084,
-          "y": 731
-        },
-        "element_bounds": {
-          "left": 1069,
-          "top": 689,
-          "right": 1118,
-          "bottom": 738
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 24,
-          "endIndex": 25
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 25
-    },
-    {
-      "timestamp": 14.5403,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1084,
-        730
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -21,
-        -3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1084,
-          "y": 730
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": 96,
-          "right": 1550,
-          "bottom": 1279
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 26,
-          "endIndex": 26
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "The cursor moves over the settings content area."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 26
-    },
-    {
-      "timestamp": 15.2304,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1012,
-        676
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1012,
-          "y": 676
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": 638,
-          "right": 1550,
-          "bottom": 711
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 27,
-          "endIndex": 28
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 27
-    },
-    {
-      "timestamp": 15.2781,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1012,
-        676
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1012,
-          "y": 676
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": 638,
-          "right": 1550,
-          "bottom": 711
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 27,
-          "endIndex": 28
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 28
-    },
-    {
-      "timestamp": 15.4667,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1012,
-        676
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -48,
-        -15
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1012,
-          "y": 676
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": 474,
-          "right": 1550,
-          "bottom": 547
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 29,
-          "endIndex": 29
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.78,
-          "rationale": "The cursor moves over the page content while navigating the settings page."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 29
-    },
-    {
-      "timestamp": 15.6667,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1007,
-        685
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1007,
-          "y": 685
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": -216,
-          "right": 1550,
-          "bottom": 967
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 30,
-          "endIndex": 30
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 30
-    },
-    {
-      "timestamp": 15.7139,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1007,
-        687
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -4,
-        7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1007,
-          "y": 687
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": -216,
-          "right": 1550,
-          "bottom": 967
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 31,
-          "endIndex": 31
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.77,
-          "rationale": "The cursor moves across the settings page content."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 31
-    },
-    {
-      "timestamp": 15.7582,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1007,
-        688
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "scroll",
-      "delta": [
-        0,
-        -1
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1007,
-          "y": 688
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": -216,
-          "right": 1550,
-          "bottom": 967
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "S",
-          "startIndex": 32,
-          "endIndex": 32
-        },
-        "l3": {
-          "tag": "Scroll <Webpage>",
-          "confidence": 0.99,
-          "rationale": "The settings page is scrolled downward."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 32
-    },
-    {
-      "timestamp": 15.814,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1006,
-        691
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -1,
-        4
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1006,
-          "y": 691
-        },
-        "element_bounds": {
-          "left": 529,
-          "top": -216,
-          "right": 1550,
-          "bottom": 967
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 33,
-          "endIndex": 33
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.8,
-          "rationale": "The cursor moves over the settings page near the search engine section."
-        },
-        "l4": {
-          "tag": "Navigate <Website>",
-          "confidence": 0.98,
-          "rationale": "Scroll through Chrome Settings to reach the search engine section."
-        },
-        "l5": {
-          "tag": "Find search engine settings",
-          "confidence": 0.93,
-          "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
-        }
-      },
-      "index": 33
-    },
-    {
-      "timestamp": 16.7567,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1421,
-        838
-      ],
-      "focused_element": {
-        "name": "Search settings",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "Change",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Change",
-        "control_type": "ButtonControl",
-        "automation_id": "openDialogButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1421,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 1401,
-          "top": 826,
-          "right": 1520,
-          "bottom": 881
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 34,
-          "endIndex": 34
-        },
-        "l3": {
-          "tag": "Open <Button>",
-          "confidence": 0.98,
-          "rationale": "Clicking Change opens the search engine selection dialog."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 34
-    },
-    {
-      "timestamp": 17.1479,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1421,
-        838
-      ],
-      "focused_element": {
-        "name": "Search engine These search engines are popular in your region",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "Settings",
-        "control_type": "DocumentControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -61,
-        7
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1421,
-          "y": 838
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 181,
-          "right": 1920,
-          "bottom": 1008
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 35,
-          "endIndex": 35
-        },
-        "l3": {
-          "tag": "Move Cursor To <Text>",
-          "confidence": 0.8,
-          "rationale": "The cursor moves over the search engine dialog text area."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 35
-    },
-    {
-      "timestamp": 18.2763,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1272,
-        672
-      ],
-      "focused_element": {
-        "name": "Search engine These search engines are popular in your region",
-        "control_type": "TextControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "GroupControl"
-      },
-      "target": {
-        "name": "Search engine These search engines are popular in your region",
-        "control_type": "WindowControl",
-        "automation_id": "dialog"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1272,
-          "y": 672
-        },
-        "element_bounds": {
-          "left": 624,
-          "top": 631,
-          "right": 1296,
-          "bottom": 704
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 36,
-          "endIndex": 36
-        },
-        "l3": {
-          "tag": "Move Focus To <Window>",
-          "confidence": 0.72,
-          "rationale": "Clicking inside the dialog activates the search engine window."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 36
-    },
-    {
-      "timestamp": 18.4733,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1273,
-        672
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "RadioButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "RadioButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        9,
-        -5
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1273,
-          "y": 672
-        },
-        "element_bounds": {
-          "left": 1266,
-          "top": 652,
-          "right": 1296,
-          "bottom": 683
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 37,
-          "endIndex": 37
-        },
-        "l3": {
-          "tag": "Move Cursor To <Radio Button>",
-          "confidence": 0.88,
-          "rationale": "The cursor moves toward a search engine option in the dialog."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 37
-    },
-    {
-      "timestamp": 19.1188,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1235,
-        835
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "RadioButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Set as default",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Set as default",
-        "control_type": "ButtonControl",
-        "automation_id": "setAsDefaultButton"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1235,
-          "y": 835
-        },
-        "element_bounds": {
-          "left": 1140,
-          "top": 811,
-          "right": 1308,
-          "bottom": 866
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 38,
-          "endIndex": 38
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.97,
-          "rationale": "Clicking Set as default confirms the choice as the default search engine."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 38
-    },
-    {
-      "timestamp": 19.3233,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        1235,
-        835
-      ],
-      "focused_element": {
-        "name": "Set as default",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "Set as default",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        -2,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1235,
-          "y": 835
-        },
-        "element_bounds": {
-          "left": 1140,
-          "top": 811,
-          "right": 1308,
-          "bottom": 866
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 39,
-          "endIndex": 39
-        },
-        "l3": {
-          "tag": "Move Cursor To <Button>",
-          "confidence": 0.92,
-          "rationale": "The cursor moves over the Set as default button."
-        },
-        "l4": {
-          "tag": "Edit <Website>",
-          "confidence": 0.91,
-          "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
-        },
-        "l5": {
-          "tag": "Set DuckDuckGo as default",
-          "confidence": 0.95,
-          "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
-        }
-      },
-      "index": 39
-    },
-    {
-      "timestamp": 23.1104,
-      "application": "chrome.exe",
-      "window_title": "Settings - Google Chrome",
-      "cursor_position": [
-        393,
-        36
-      ],
-      "focused_element": {
-        "name": "Change",
-        "control_type": "ButtonControl"
-      },
-      "element_under_cursor": {
-        "name": "New Tab",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "New Tab",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 393,
-          "y": 36
-        },
-        "element_bounds": {
-          "left": 375,
-          "top": 0,
-          "right": 417,
-          "bottom": 62
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 40,
-          "endIndex": 40
-        },
-        "l3": {
-          "tag": "Switch <Button>",
-          "confidence": 0.9,
-          "rationale": "Clicking the New Tab tab switches focus to that tab."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 40
-    },
-    {
-      "timestamp": 23.5447,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        393,
-        36
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        4,
-        -10
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 393,
-          "y": 36
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 0,
-          "right": 741,
-          "bottom": 62
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 41,
-          "endIndex": 41
-        },
-        "l3": {
-          "tag": "Move Cursor To <Search Box>",
-          "confidence": 0.95,
-          "rationale": "The cursor moves to the address and search bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 41
-    },
-    {
-      "timestamp": 24.3336,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "t",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 482
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 42,
-          "endIndex": 42
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 42
-    },
-    {
-      "timestamp": 24.467,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "e",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 662
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 43,
-          "endIndex": 43
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 43
-    },
-    {
-      "timestamp": 24.565,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "s",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 602
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 44,
-          "endIndex": 44
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 44
-    },
-    {
-      "timestamp": 24.6714,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "t",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 482
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 45,
-          "endIndex": 45
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 45
-    },
-    {
-      "timestamp": 24.7437,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "i",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 422
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 46,
-          "endIndex": 46
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 46
-    },
-    {
-      "timestamp": 24.8454,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "n",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 422
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 47,
-          "endIndex": 47
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 47
-    },
-    {
-      "timestamp": 24.9317,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "Address and search bar",
-        "control_type": "EditControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "g",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 422
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 48,
-          "endIndex": 48
-        },
-        "l3": {
-          "tag": "Type <Search Box>",
-          "confidence": 0.99,
-          "rationale": "Typing the letter t into the address bar."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 48
-    },
-    {
-      "timestamp": 25.0668,
-      "application": "chrome.exe",
-      "window_title": "New Tab - Google Chrome",
-      "cursor_position": [
-        403,
-        60
-      ],
-      "focused_element": {
-        "name": "New Tab",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "key_press",
-      "key": "Enter",
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 60
-        },
-        "element_bounds": {
-          "left": 147,
-          "top": 37,
-          "right": 1611,
-          "bottom": 422
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "K",
-          "startIndex": 49,
-          "endIndex": 49
-        },
-        "l3": {
-          "tag": "Open <Webpage>",
-          "confidence": 0.9,
-          "rationale": "Pressing Enter opens the DuckDuckGo search results page."
-        },
-        "l4": {
-          "tag": "Search <Web>",
-          "confidence": 0.95,
-          "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 49
-    },
-    {
-      "timestamp": 25.8869,
-      "application": "chrome.exe",
-      "window_title": "testing at DuckDuckGo - Google Chrome",
-      "cursor_position": [
-        403,
-        61
-      ],
-      "focused_element": {
-        "name": "testing at DuckDuckGo",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        10,
-        3
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 403,
-          "y": 61
-        },
-        "element_bounds": {
-          "left": 0,
-          "top": 60,
-          "right": 1920,
-          "bottom": 129
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 50,
-          "endIndex": 50
-        },
-        "l3": {
-          "tag": "Move Cursor To <Webpage>",
-          "confidence": 0.9,
-          "rationale": "The cursor moves over the loaded DuckDuckGo results page."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Switch back to the Computer Use Logger application."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 50
-    },
-    {
-      "timestamp": 27.0046,
-      "application": "chrome.exe",
-      "window_title": "testing at DuckDuckGo - Google Chrome",
-      "cursor_position": [
-        1292,
-        1045
-      ],
-      "focused_element": {
-        "name": "testing at DuckDuckGo",
-        "control_type": "DocumentControl"
-      },
-      "element_under_cursor": {
-        "name": "Python 3.13 - 1 running window",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "Python 3.13 - 1 running window",
-        "control_type": "ButtonControl",
-        "automation_id": "Appid: PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0!Python"
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 1292,
-          "y": 1045
-        },
-        "element_bounds": {
-          "left": 1261,
-          "top": 1008,
-          "right": 1327,
-          "bottom": 1080
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 51,
-          "endIndex": 51
-        },
-        "l3": {
-          "tag": "Switch <Button>",
-          "confidence": 0.97,
-          "rationale": "Clicking the Python taskbar button switches to that window."
-        },
-        "l4": {
-          "tag": "Navigate <Application>",
-          "confidence": 0.94,
-          "rationale": "Switch back to the Computer Use Logger application."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 51
-    },
-    {
-      "timestamp": 27.259,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        1292,
-        1045
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "Python 3.13 - 1 running window",
-        "control_type": "ButtonControl"
-      },
-      "event": "mouse_move",
-      "delta": [
-        0,
-        0
-      ],
-      "coordinates": {
-        "cursor": {
-          "x": 1292,
-          "y": 1045
-        },
-        "element_bounds": {
-          "left": 1261,
-          "top": 1008,
-          "right": 1327,
-          "bottom": 1080
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "P",
-          "startIndex": 52,
-          "endIndex": 52
-        },
-        "l3": {
-          "tag": "Move Cursor To <Window>",
-          "confidence": 0.83,
-          "rationale": "The cursor moves within the Computer Use Logger window after switching back."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.48,
-          "rationale": "Click the logger's final control, likely to finish or confirm the session."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 52
-    },
-    {
-      "timestamp": 28.0569,
-      "application": "python3.13.exe",
-      "window_title": "Computer Use Logger",
-      "cursor_position": [
-        772,
-        650
-      ],
-      "focused_element": {
-        "name": "",
-        "control_type": "PaneControl"
-      },
-      "element_under_cursor": {
-        "name": "",
-        "control_type": "ButtonControl"
-      },
-      "target": {
-        "name": "",
-        "control_type": "ButtonControl",
-        "automation_id": ""
-      },
-      "event": "mouse_click",
-      "coordinates": {
-        "cursor": {
-          "x": 772,
-          "y": 650
-        },
-        "element_bounds": {
-          "left": 574,
-          "top": 633,
-          "right": 804,
-          "bottom": 682
-        }
-      },
-      "semantic_tags": {
-        "l2": {
-          "tag": "B",
-          "startIndex": 53,
-          "endIndex": 53
-        },
-        "l3": {
-          "tag": "Select <Button>",
-          "confidence": 0.55,
-          "rationale": "Clicking the unlabeled logger button activates a control in the logger window."
-        },
-        "l4": {
-          "tag": "Confirm <Application>",
-          "confidence": 0.48,
-          "rationale": "Click the logger's final control, likely to finish or confirm the session."
-        },
-        "l5": {
-          "tag": "Verify DuckDuckGo search",
-          "confidence": 0.72,
-          "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
-        }
-      },
-      "index": 53
-    }
-  ]
+            "timestamp": 0,
+            "time": "00:00.000",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                134,
+                467
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Desktop",
+                "control_type": "ListControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 134,
+                    "y": 467
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 1920,
+                    "bottom": 1080
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 0,
+                    "endIndex": 0
+                },
+                "l3": {
+                    "tag": "Move Cursor To <List Item>",
+                    "confidence": 0.86,
+                    "rationale": "Cursor is moved over the Google Chrome entry in the logger list before clicking it."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.97,
+                    "rationale": "Launch Google Chrome from the logger/application launcher."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 0
+        },
+        {
+            "timestamp": 0.772,
+            "time": "00:00.772",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                42,
+                518
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 42,
+                    "y": 518
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 485,
+                    "right": 112,
+                    "bottom": 614
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 1,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.95,
+                    "rationale": "Clicking the Google Chrome list item launches the app from the logger."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.97,
+                    "rationale": "Launch Google Chrome from the logger/application launcher."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 1
+        },
+        {
+            "timestamp": 0.952,
+            "time": "00:00.952",
+            "application": "explorer.exe",
+            "window_title": "Program Manager",
+            "cursor_position": [
+                42,
+                518
+            ],
+            "focused_element": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl"
+            },
+            "target": {
+                "name": "Google Chrome",
+                "control_type": "ListItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 42,
+                    "y": 518
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 485,
+                    "right": 112,
+                    "bottom": 614
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "DB",
+                    "startIndex": 1,
+                    "endIndex": 2
+                },
+                "l3": {
+                    "tag": "Open <List Item>",
+                    "confidence": 0.95,
+                    "rationale": "Clicking the Google Chrome list item launches the app from the logger."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.97,
+                    "rationale": "Launch Google Chrome from the logger/application launcher."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 2
+        },
+        {
+            "timestamp": 1.7457,
+            "time": "00:01.746",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                42,
+                518
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 42,
+                    "y": 518
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 181,
+                    "right": 1920,
+                    "bottom": 1008
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 3,
+                    "endIndex": 3
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Search Box>",
+                    "confidence": 0.95,
+                    "rationale": "The cursor moves to Chrome's address and search bar."
+                },
+                "l4": {
+                    "tag": "Navigate <Web>",
+                    "confidence": 0.96,
+                    "rationale": "Use Chrome's browser controls and menu to open the Settings page."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 3
+        },
+        {
+            "timestamp": 2.7679,
+            "time": "00:02.768",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                1874,
+                92
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Chrome",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Chrome",
+                "control_type": "ButtonControl",
+                "automation_id": "view_1007"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1874,
+                    "y": 92
+                },
+                "element_bounds": {
+                    "left": 1861,
+                    "top": 69,
+                    "right": 1920,
+                    "bottom": 120
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 4,
+                    "endIndex": 4
+                },
+                "l3": {
+                    "tag": "Open <Button>",
+                    "confidence": 0.97,
+                    "rationale": "Clicking the Chrome menu button opens the browser menu."
+                },
+                "l4": {
+                    "tag": "Navigate <Web>",
+                    "confidence": 0.96,
+                    "rationale": "Use Chrome's browser controls and menu to open the Settings page."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 4
+        },
+        {
+            "timestamp": 3.115,
+            "time": "00:03.115",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                1874,
+                93
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Chrome",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                5,
+                3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1874,
+                    "y": 93
+                },
+                "element_bounds": {
+                    "left": 1861,
+                    "top": 69,
+                    "right": 1920,
+                    "bottom": 120
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 5,
+                    "endIndex": 5
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Menu Item>",
+                    "confidence": 0.9,
+                    "rationale": "The cursor moves toward the Settings menu item."
+                },
+                "l4": {
+                    "tag": "Navigate <Web>",
+                    "confidence": 0.96,
+                    "rationale": "Use Chrome's browser controls and menu to open the Settings page."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 5
+        },
+        {
+            "timestamp": 8.2828,
+            "time": "00:08.283",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                1619,
+                933
+            ],
+            "focused_element": {
+                "name": "Settings",
+                "control_type": "MenuItemControl"
+            },
+            "element_under_cursor": {
+                "name": "Settings",
+                "control_type": "MenuItemControl"
+            },
+            "target": {
+                "name": "Settings",
+                "control_type": "MenuItemControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1619,
+                    "y": 933
+                },
+                "element_bounds": {
+                    "left": 1392,
+                    "top": 906,
+                    "right": 1920,
+                    "bottom": 948
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 6,
+                    "endIndex": 6
+                },
+                "l3": {
+                    "tag": "Open <Menu Item>",
+                    "confidence": 0.98,
+                    "rationale": "Clicking Settings opens Chrome settings."
+                },
+                "l4": {
+                    "tag": "Navigate <Web>",
+                    "confidence": 0.96,
+                    "rationale": "Use Chrome's browser controls and menu to open the Settings page."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 6
+        },
+        {
+            "timestamp": 8.7163,
+            "time": "00:08.716",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1619,
+                932
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -21,
+                -11
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1619,
+                    "y": 932
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 181,
+                    "right": 1920,
+                    "bottom": 1008
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 7,
+                    "endIndex": 7
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.88,
+                    "rationale": "The cursor moves over the settings page content area."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 7
+        },
+        {
+            "timestamp": 9.5252,
+            "time": "00:09.525",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "target": {
+                "name": "Search settings",
+                "control_type": "EditControl",
+                "automation_id": "searchInput"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1555,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 8,
+                    "endIndex": 8
+                },
+                "l3": {
+                    "tag": "Move Focus To <Search Box>",
+                    "confidence": 0.96,
+                    "rationale": "Clicking the Search settings field places focus in the search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 8
+        },
+        {
+            "timestamp": 11.1512,
+            "time": "00:11.151",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "s",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1555,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 9,
+                    "endIndex": 9
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 9
+        },
+        {
+            "timestamp": 11.2627,
+            "time": "00:11.263",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 10,
+                    "endIndex": 10
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 10
+        },
+        {
+            "timestamp": 11.3789,
+            "time": "00:11.379",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "a",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 11,
+                    "endIndex": 11
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 11
+        },
+        {
+            "timestamp": 11.4575,
+            "time": "00:11.457",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "r",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 12,
+                    "endIndex": 12
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 12
+        },
+        {
+            "timestamp": 11.6493,
+            "time": "00:11.649",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "c",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 13,
+                    "endIndex": 13
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 13
+        },
+        {
+            "timestamp": 11.761,
+            "time": "00:11.761",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "h",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 14,
+                    "endIndex": 14
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 14
+        },
+        {
+            "timestamp": 11.8808,
+            "time": "00:11.881",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "Space",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 15,
+                    "endIndex": 15
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 15
+        },
+        {
+            "timestamp": 11.9729,
+            "time": "00:11.973",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 16,
+                    "endIndex": 16
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 16
+        },
+        {
+            "timestamp": 12.0705,
+            "time": "00:12.070",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "n",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 17,
+                    "endIndex": 17
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 17
+        },
+        {
+            "timestamp": 12.157,
+            "time": "00:12.157",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "g",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 18,
+                    "endIndex": 18
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 18
+        },
+        {
+            "timestamp": 12.2411,
+            "time": "00:12.241",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "i",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 19,
+                    "endIndex": 19
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 19
+        },
+        {
+            "timestamp": 12.3125,
+            "time": "00:12.312",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "n",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 20,
+                    "endIndex": 20
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 20
+        },
+        {
+            "timestamp": 12.3814,
+            "time": "00:12.381",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 21,
+                    "endIndex": 21
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter s into the settings search box."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 21
+        },
+        {
+            "timestamp": 12.516,
+            "time": "00:12.516",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                693,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "key_press",
+            "key": "Enter",
+            "coordinates": {
+                "cursor": {
+                    "x": 693,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 22,
+                    "endIndex": 22
+                },
+                "l3": {
+                    "tag": "Find <Search Box>",
+                    "confidence": 0.9,
+                    "rationale": "Pressing Enter runs the search within Chrome settings."
+                },
+                "l4": {
+                    "tag": "Search <Website>",
+                    "confidence": 0.99,
+                    "rationale": "Focus the Settings search box, type \"search engine\", and submit to find the relevant setting."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 22
+        },
+        {
+            "timestamp": 13.3446,
+            "time": "00:13.345",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                694,
+                232
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                7,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 694,
+                    "y": 232
+                },
+                "element_bounds": {
+                    "left": 576,
+                    "top": 206,
+                    "right": 1513,
+                    "bottom": 240
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 23,
+                    "endIndex": 23
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.8,
+                    "rationale": "The cursor moves over the settings page while the user prepares to scroll."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 23
+        },
+        {
+            "timestamp": 14.3399,
+            "time": "00:14.340",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1084,
+                731
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Choose another account",
+                "control_type": "ButtonControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1084,
+                    "y": 731
+                },
+                "element_bounds": {
+                    "left": 1069,
+                    "top": 692,
+                    "right": 1118,
+                    "bottom": 741
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 24,
+                    "endIndex": 25
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 24
+        },
+        {
+            "timestamp": 14.3901,
+            "time": "00:14.390",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1084,
+                731
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Choose another account",
+                "control_type": "ButtonControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1084,
+                    "y": 731
+                },
+                "element_bounds": {
+                    "left": 1069,
+                    "top": 689,
+                    "right": 1118,
+                    "bottom": 738
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 24,
+                    "endIndex": 25
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 25
+        },
+        {
+            "timestamp": 14.5403,
+            "time": "00:14.540",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1084,
+                730
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -21,
+                -3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1084,
+                    "y": 730
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": 96,
+                    "right": 1550,
+                    "bottom": 1279
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 26,
+                    "endIndex": 26
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.78,
+                    "rationale": "The cursor moves over the settings content area."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 26
+        },
+        {
+            "timestamp": 15.2304,
+            "time": "00:15.230",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1012,
+                676
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1012,
+                    "y": 676
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": 638,
+                    "right": 1550,
+                    "bottom": 711
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 27,
+                    "endIndex": 28
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 27
+        },
+        {
+            "timestamp": 15.2781,
+            "time": "00:15.278",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1012,
+                676
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1012,
+                    "y": 676
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": 638,
+                    "right": 1550,
+                    "bottom": 711
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 27,
+                    "endIndex": 28
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 28
+        },
+        {
+            "timestamp": 15.4667,
+            "time": "00:15.467",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1012,
+                676
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -48,
+                -15
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1012,
+                    "y": 676
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": 474,
+                    "right": 1550,
+                    "bottom": 547
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 29,
+                    "endIndex": 29
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.78,
+                    "rationale": "The cursor moves over the page content while navigating the settings page."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 29
+        },
+        {
+            "timestamp": 15.6667,
+            "time": "00:15.667",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1007,
+                685
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1007,
+                    "y": 685
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": -216,
+                    "right": 1550,
+                    "bottom": 967
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 30,
+                    "endIndex": 30
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 30
+        },
+        {
+            "timestamp": 15.7139,
+            "time": "00:15.714",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1007,
+                687
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -4,
+                7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1007,
+                    "y": 687
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": -216,
+                    "right": 1550,
+                    "bottom": 967
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 31,
+                    "endIndex": 31
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.77,
+                    "rationale": "The cursor moves across the settings page content."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 31
+        },
+        {
+            "timestamp": 15.7582,
+            "time": "00:15.758",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1007,
+                688
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "scroll",
+            "delta": [
+                0,
+                -1
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1007,
+                    "y": 688
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": -216,
+                    "right": 1550,
+                    "bottom": 967
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "S",
+                    "startIndex": 32,
+                    "endIndex": 32
+                },
+                "l3": {
+                    "tag": "Scroll <Webpage>",
+                    "confidence": 0.99,
+                    "rationale": "The settings page is scrolled downward."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 32
+        },
+        {
+            "timestamp": 15.814,
+            "time": "00:15.814",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1006,
+                691
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -1,
+                4
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1006,
+                    "y": 691
+                },
+                "element_bounds": {
+                    "left": 529,
+                    "top": -216,
+                    "right": 1550,
+                    "bottom": 967
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 33,
+                    "endIndex": 33
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.8,
+                    "rationale": "The cursor moves over the settings page near the search engine section."
+                },
+                "l4": {
+                    "tag": "Navigate <Website>",
+                    "confidence": 0.98,
+                    "rationale": "Scroll through Chrome Settings to reach the search engine section."
+                },
+                "l5": {
+                    "tag": "Find search engine settings",
+                    "confidence": 0.93,
+                    "rationale": "Covers launching the browser app and opening the settings/menu path needed before changing the search engine."
+                }
+            },
+            "index": 33
+        },
+        {
+            "timestamp": 16.7567,
+            "time": "00:16.757",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1421,
+                838
+            ],
+            "focused_element": {
+                "name": "Search settings",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "Change",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Change",
+                "control_type": "ButtonControl",
+                "automation_id": "openDialogButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1421,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 1401,
+                    "top": 826,
+                    "right": 1520,
+                    "bottom": 881
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 34,
+                    "endIndex": 34
+                },
+                "l3": {
+                    "tag": "Open <Button>",
+                    "confidence": 0.98,
+                    "rationale": "Clicking Change opens the search engine selection dialog."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 34
+        },
+        {
+            "timestamp": 17.1479,
+            "time": "00:17.148",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1421,
+                838
+            ],
+            "focused_element": {
+                "name": "Search engine These search engines are popular in your region",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "Settings",
+                "control_type": "DocumentControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -61,
+                7
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1421,
+                    "y": 838
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 181,
+                    "right": 1920,
+                    "bottom": 1008
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 35,
+                    "endIndex": 35
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Text>",
+                    "confidence": 0.8,
+                    "rationale": "The cursor moves over the search engine dialog text area."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 35
+        },
+        {
+            "timestamp": 18.2763,
+            "time": "00:18.276",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1272,
+                672
+            ],
+            "focused_element": {
+                "name": "Search engine These search engines are popular in your region",
+                "control_type": "TextControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "GroupControl"
+            },
+            "target": {
+                "name": "Search engine These search engines are popular in your region",
+                "control_type": "WindowControl",
+                "automation_id": "dialog"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1272,
+                    "y": 672
+                },
+                "element_bounds": {
+                    "left": 624,
+                    "top": 631,
+                    "right": 1296,
+                    "bottom": 704
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 36,
+                    "endIndex": 36
+                },
+                "l3": {
+                    "tag": "Move Focus To <Window>",
+                    "confidence": 0.72,
+                    "rationale": "Clicking inside the dialog activates the search engine window."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 36
+        },
+        {
+            "timestamp": 18.4733,
+            "time": "00:18.473",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1273,
+                672
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "RadioButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "RadioButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                9,
+                -5
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1273,
+                    "y": 672
+                },
+                "element_bounds": {
+                    "left": 1266,
+                    "top": 652,
+                    "right": 1296,
+                    "bottom": 683
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 37,
+                    "endIndex": 37
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Radio Button>",
+                    "confidence": 0.88,
+                    "rationale": "The cursor moves toward a search engine option in the dialog."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 37
+        },
+        {
+            "timestamp": 19.1188,
+            "time": "00:19.119",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1235,
+                835
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "RadioButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Set as default",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Set as default",
+                "control_type": "ButtonControl",
+                "automation_id": "setAsDefaultButton"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1235,
+                    "y": 835
+                },
+                "element_bounds": {
+                    "left": 1140,
+                    "top": 811,
+                    "right": 1308,
+                    "bottom": 866
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 38,
+                    "endIndex": 38
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.97,
+                    "rationale": "Clicking Set as default confirms the choice as the default search engine."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 38
+        },
+        {
+            "timestamp": 19.3233,
+            "time": "00:19.323",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                1235,
+                835
+            ],
+            "focused_element": {
+                "name": "Set as default",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "Set as default",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                -2,
+                3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1235,
+                    "y": 835
+                },
+                "element_bounds": {
+                    "left": 1140,
+                    "top": 811,
+                    "right": 1308,
+                    "bottom": 866
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 39,
+                    "endIndex": 39
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Button>",
+                    "confidence": 0.92,
+                    "rationale": "The cursor moves over the Set as default button."
+                },
+                "l4": {
+                    "tag": "Edit <Website>",
+                    "confidence": 0.91,
+                    "rationale": "Open the search engine chooser and change the default search engine to DuckDuckGo."
+                },
+                "l5": {
+                    "tag": "Set DuckDuckGo as default",
+                    "confidence": 0.95,
+                    "rationale": "Edits the website settings and selects the radio/button control for DuckDuckGo as the default search engine."
+                }
+            },
+            "index": 39
+        },
+        {
+            "timestamp": 23.1104,
+            "time": "00:23.110",
+            "application": "chrome.exe",
+            "window_title": "Settings - Google Chrome",
+            "cursor_position": [
+                393,
+                36
+            ],
+            "focused_element": {
+                "name": "Change",
+                "control_type": "ButtonControl"
+            },
+            "element_under_cursor": {
+                "name": "New Tab",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "New Tab",
+                "control_type": "ButtonControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 393,
+                    "y": 36
+                },
+                "element_bounds": {
+                    "left": 375,
+                    "top": 0,
+                    "right": 417,
+                    "bottom": 62
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 40,
+                    "endIndex": 40
+                },
+                "l3": {
+                    "tag": "Switch <Button>",
+                    "confidence": 0.9,
+                    "rationale": "Clicking the New Tab tab switches focus to that tab."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 40
+        },
+        {
+            "timestamp": 23.5447,
+            "time": "00:23.545",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                393,
+                36
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                4,
+                -10
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 393,
+                    "y": 36
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 0,
+                    "right": 741,
+                    "bottom": 62
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 41,
+                    "endIndex": 41
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Search Box>",
+                    "confidence": 0.95,
+                    "rationale": "The cursor moves to the address and search bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 41
+        },
+        {
+            "timestamp": 24.3336,
+            "time": "00:24.334",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "t",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 482
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 42,
+                    "endIndex": 42
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 42
+        },
+        {
+            "timestamp": 24.467,
+            "time": "00:24.467",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "e",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 662
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 43,
+                    "endIndex": 43
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 43
+        },
+        {
+            "timestamp": 24.565,
+            "time": "00:24.565",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "s",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 602
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 44,
+                    "endIndex": 44
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 44
+        },
+        {
+            "timestamp": 24.6714,
+            "time": "00:24.671",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "t",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 482
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 45,
+                    "endIndex": 45
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 45
+        },
+        {
+            "timestamp": 24.7437,
+            "time": "00:24.744",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "i",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 422
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 46,
+                    "endIndex": 46
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 46
+        },
+        {
+            "timestamp": 24.8454,
+            "time": "00:24.845",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "n",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 422
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 47,
+                    "endIndex": 47
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 47
+        },
+        {
+            "timestamp": 24.9317,
+            "time": "00:24.932",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "Address and search bar",
+                "control_type": "EditControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "g",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 422
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 48,
+                    "endIndex": 48
+                },
+                "l3": {
+                    "tag": "Type <Search Box>",
+                    "confidence": 0.99,
+                    "rationale": "Typing the letter t into the address bar."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 48
+        },
+        {
+            "timestamp": 25.0668,
+            "time": "00:25.067",
+            "application": "chrome.exe",
+            "window_title": "New Tab - Google Chrome",
+            "cursor_position": [
+                403,
+                60
+            ],
+            "focused_element": {
+                "name": "New Tab",
+                "control_type": "DocumentControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "key_press",
+            "key": "Enter",
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 60
+                },
+                "element_bounds": {
+                    "left": 147,
+                    "top": 37,
+                    "right": 1611,
+                    "bottom": 422
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "K",
+                    "startIndex": 49,
+                    "endIndex": 49
+                },
+                "l3": {
+                    "tag": "Open <Webpage>",
+                    "confidence": 0.9,
+                    "rationale": "Pressing Enter opens the DuckDuckGo search results page."
+                },
+                "l4": {
+                    "tag": "Search <Web>",
+                    "confidence": 0.95,
+                    "rationale": "Switch to a new tab, type a test query in the address bar, and run it to verify DuckDuckGo is the default search engine."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 49
+        },
+        {
+            "timestamp": 25.8869,
+            "time": "00:25.887",
+            "application": "chrome.exe",
+            "window_title": "testing at DuckDuckGo - Google Chrome",
+            "cursor_position": [
+                403,
+                61
+            ],
+            "focused_element": {
+                "name": "testing at DuckDuckGo",
+                "control_type": "DocumentControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                10,
+                3
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 403,
+                    "y": 61
+                },
+                "element_bounds": {
+                    "left": 0,
+                    "top": 60,
+                    "right": 1920,
+                    "bottom": 129
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 50,
+                    "endIndex": 50
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Webpage>",
+                    "confidence": 0.9,
+                    "rationale": "The cursor moves over the loaded DuckDuckGo results page."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.94,
+                    "rationale": "Switch back to the Computer Use Logger application."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 50
+        },
+        {
+            "timestamp": 27.0046,
+            "time": "00:27.005",
+            "application": "chrome.exe",
+            "window_title": "testing at DuckDuckGo - Google Chrome",
+            "cursor_position": [
+                1292,
+                1045
+            ],
+            "focused_element": {
+                "name": "testing at DuckDuckGo",
+                "control_type": "DocumentControl"
+            },
+            "element_under_cursor": {
+                "name": "Python 3.13 - 1 running window",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "Python 3.13 - 1 running window",
+                "control_type": "ButtonControl",
+                "automation_id": "Appid: PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0!Python"
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 1292,
+                    "y": 1045
+                },
+                "element_bounds": {
+                    "left": 1261,
+                    "top": 1008,
+                    "right": 1327,
+                    "bottom": 1080
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 51,
+                    "endIndex": 51
+                },
+                "l3": {
+                    "tag": "Switch <Button>",
+                    "confidence": 0.97,
+                    "rationale": "Clicking the Python taskbar button switches to that window."
+                },
+                "l4": {
+                    "tag": "Navigate <Application>",
+                    "confidence": 0.94,
+                    "rationale": "Switch back to the Computer Use Logger application."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 51
+        },
+        {
+            "timestamp": 27.259,
+            "time": "00:27.259",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                1292,
+                1045
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "Python 3.13 - 1 running window",
+                "control_type": "ButtonControl"
+            },
+            "event": "mouse_move",
+            "delta": [
+                0,
+                0
+            ],
+            "coordinates": {
+                "cursor": {
+                    "x": 1292,
+                    "y": 1045
+                },
+                "element_bounds": {
+                    "left": 1261,
+                    "top": 1008,
+                    "right": 1327,
+                    "bottom": 1080
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "P",
+                    "startIndex": 52,
+                    "endIndex": 52
+                },
+                "l3": {
+                    "tag": "Move Cursor To <Window>",
+                    "confidence": 0.83,
+                    "rationale": "The cursor moves within the Computer Use Logger window after switching back."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.48,
+                    "rationale": "Click the logger's final control, likely to finish or confirm the session."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 52
+        },
+        {
+            "timestamp": 28.0569,
+            "time": "00:28.057",
+            "application": "python3.13.exe",
+            "window_title": "Computer Use Logger",
+            "cursor_position": [
+                772,
+                650
+            ],
+            "focused_element": {
+                "name": "",
+                "control_type": "PaneControl"
+            },
+            "element_under_cursor": {
+                "name": "",
+                "control_type": "ButtonControl"
+            },
+            "target": {
+                "name": "",
+                "control_type": "ButtonControl",
+                "automation_id": ""
+            },
+            "event": "mouse_click",
+            "coordinates": {
+                "cursor": {
+                    "x": 772,
+                    "y": 650
+                },
+                "element_bounds": {
+                    "left": 574,
+                    "top": 633,
+                    "right": 804,
+                    "bottom": 682
+                }
+            },
+            "semantic_tags": {
+                "l2": {
+                    "tag": "B",
+                    "startIndex": 53,
+                    "endIndex": 53
+                },
+                "l3": {
+                    "tag": "Select <Button>",
+                    "confidence": 0.55,
+                    "rationale": "Clicking the unlabeled logger button activates a control in the logger window."
+                },
+                "l4": {
+                    "tag": "Confirm <Application>",
+                    "confidence": 0.48,
+                    "rationale": "Click the logger's final control, likely to finish or confirm the session."
+                },
+                "l5": {
+                    "tag": "Verify DuckDuckGo search",
+                    "confidence": 0.72,
+                    "rationale": "Searches the web to test the new default engine and handles the final application-level confirmation prompt."
+                }
+            },
+            "index": 53
+        }
+    ]
 }
