@@ -1,11 +1,11 @@
 {
     "metadata": {
         "task_id": 4,
-        "task_title": "",
-        "instruction": "",
-        "context": "",
-        "task_group": "",
-        "applications": "",
+        "task_title": "Search for a product on an online store",
+        "instruction": "Visit walmart.com on Chrome. Search for a frying pan, then click on the first product with a pan size of exactly 10 inches and add it to cart.",
+        "context": "I've been getting into cooking recently, so I've decided to upgrade my frying pan.",
+        "task_group": "Browsing and Web",
+        "applications": "Chrome",
         "success": true,
         "user_info": {
             "user_type": "SU",
