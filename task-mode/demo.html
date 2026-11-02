@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Mode Demo</title>
+    <link rel="stylesheet" href="task-mode.css">
+    <style>
+        body.explorer-page { background: #f7f9fc; }
+        .explorer-container { max-width: 1180px; margin: 0 auto; }
+        .explorer-container header { margin-bottom: 40px; }
+        .explorer-links { display: flex; flex-wrap: wrap; gap: 20px; margin: 16px 0 4px; }
+        .explorer-btn {
+            align-items: center; background: #1976d2; border: 1px solid #1976d2; border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12); color: #fff; display: inline-flex; font-size: 13px;
+            font-weight: 500; gap: 7px; padding: 8px 14px; text-decoration: none; white-space: nowrap;
+        }
+        .explorer-btn:hover { background: #0b5ed7; border-color: #0a58ca; }
+        .explorer-btn svg { flex-shrink: 0; }
+
+        .explorer-toolbar {
+            align-items: center; background: #fff; border: 1px solid #e5e9f0; border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05); display: flex; flex-wrap: wrap; gap: 12px 24px;
+            margin-bottom: 22px; padding: 16px;
+        }
+        .field { align-items: center; display: flex; gap: 12px; min-width: 0; }
+        .field.grow { flex: 1; min-width: 280px; }
+        .field label, .field .field-label { color: #333; font-weight: 600; white-space: nowrap; }
+        .field[hidden] { display: none; }
+        /* custom task dropdown, same as the A11y-CUA explorer */
+        .custom-select { flex: 1; min-width: 0; position: relative; }
+        .custom-select-btn {
+            align-items: center; background: #fff; border: 1px solid #ccd4df; border-radius: 6px; cursor: pointer;
+            display: flex; font: inherit; gap: 8px; height: 46px; justify-content: space-between; padding: 10px; text-align: left; width: 100%;
+        }
+        .custom-select-btn:focus { outline: 2px solid #007bff; outline-offset: 1px; }
+        .custom-select-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .custom-select-caret { color: #999; flex-shrink: 0; font-size: 11px; }
+        .custom-select-list {
+            background: #fff; border: 1px solid #ccd4df; border-radius: 6px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            display: none; left: 0; list-style: none; max-height: 340px; overflow-y: auto; padding: 4px 0;
+            position: absolute; right: 0; top: calc(100% + 4px); z-index: 200;
+        }
+        .custom-select-list.is-open { display: block; }
+        .custom-select-option { align-items: center; cursor: pointer; display: flex; gap: 16px; justify-content: space-between; padding: 8px 12px; }
+        .custom-select-option:hover, .custom-select-option.is-active { background: #f0f3f8; }
+        .custom-select-option.is-active .option-name { color: #007bff; }
+        .option-name { color: #333; flex: 1; font-size: 14px; min-width: 0; }
+        .option-cat { color: #bbb; flex-shrink: 0; font-size: 13px; white-space: nowrap; }
+        .custom-select-group { color: #667; font-size: 12px; font-weight: 600; letter-spacing: .04em; padding: 10px 12px 4px; text-transform: uppercase; }
+        .custom-select-group:not(:first-child) { border-top: 1px solid #edf0f5; margin-top: 4px; }
+        .segmented { display: inline-flex; flex-wrap: wrap; border: 1px solid #ccd4df; border-radius: 6px; overflow: hidden; }
+        .segmented button {
+            background: #fff; border: 0; border-right: 1px solid #ccd4df; color: #333; cursor: pointer;
+            font: inherit; font-size: 13px; height: 46px; padding: 0 12px;
+        }
+        .segmented button:last-child { border-right: 0; }
+        .segmented button[aria-pressed="true"] { background: #1976d2; color: #fff; }
+        .segmented button:disabled { color: #b8c0cc; cursor: not-allowed; background: #fafbfc; }
+        .segmented button:focus-visible { outline: 2px solid #007bff; outline-offset: -2px; }
+        .toggle { align-items: center; display: inline-flex; font-size: 14px; gap: 6px; height: 46px; cursor: pointer; }
+
+        .viewer-layout { display: grid; grid-template-columns: 300px 1fr; gap: 18px; align-items: start; }
+        .details-card {
+            background: #fff; border: 1px solid #edf0f5; border-radius: 8px;
+            box-shadow: 0 8px 22px rgba(0,0,0,0.06); padding: 23px; font-size: 14px;
+        }
+        .details-card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: #667; margin: 0 0 6px; }
+        .details-card p { margin-bottom: 14px; }
+        .details-card .task-text { font-size: 16px; color: #222; }
+        .frames { display: grid; grid-template-columns: 1fr; gap: 12px; }
+        .frames.compare { grid-template-columns: 1fr 1fr; }
+        .frame-card { background: #fff; border: 1px solid #e5e9f0; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,0.06); }
+        .frame-bar {
+            align-items: center; background: #f2f4f8; border-bottom: 1px solid #e5e9f0; color: #445;
+            display: flex; font-size: 12px; gap: 8px; justify-content: space-between; padding: 6px 10px;
+        }
+        .frame-bar a { color: #1976d2; text-decoration: none; }
+        .frame-wrap { position: relative; height: 76vh; min-height: 480px; }
+        .frame-wrap iframe { border: 0; width: 100%; height: 100%; background: #fff; display: block; }
+        .frame-loading {
+            position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+            color: #667; font-size: 14px; background: rgba(255,255,255,.85); pointer-events: none;
+        }
+        .frame-loading[hidden] { display: none; }
+        .mode-help dt { font-weight: 600; margin-top: 8px; }
+        .mode-help dd { margin: 2px 0 0; color: #555; }
+        .note { color: #777; font-size: 13px; margin-top: 14px; }
+        @media (max-width: 900px) {
+            body.explorer-page { padding: 24px 16px; }
+            .explorer-toolbar, .field { align-items: flex-start; flex-direction: column; }
+            .field, .field.grow, .custom-select { width: 100%; min-width: 0; }
+            .viewer-layout { grid-template-columns: 1fr; }
+            .frames.compare { grid-template-columns: 1fr; }
+            .frame-wrap { height: 70vh; }
+        }
+    </style>
+</head>
+<body class="explorer-page">
+    <div class="explorer-container">
+        <header>
+            <h1>Task Mode Demo</h1>
+            <p class="institution">
+                See the webpages from the Task Mode user study as participants saw them. Pick a task, then switch rendering modes
+                or compare a mode with the original page.
+            </p>
+            <div class="explorer-links">
+                <a href="task-mode.html" class="explorer-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Project Page</a>
+                <a href="https://arxiv.org/abs/2507.14769" target="_blank" class="explorer-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg> Paper</a>
+            </div>
+        </header>
+
+        <div class="explorer-toolbar">
+            <div class="field grow">
+                <span class="field-label" id="case-label">Task</span>
+                <div class="custom-select">
+                    <button class="custom-select-btn" type="button" id="case-select-btn"
+                            aria-haspopup="listbox" aria-expanded="false" aria-labelledby="case-label case-select-text">
+                        <span class="custom-select-text" id="case-select-text"></span>
+                        <span class="custom-select-caret">▾</span>
+                    </button>
+                    <ul class="custom-select-list" role="listbox" id="case-select-list" aria-labelledby="case-label"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="explorer-toolbar">
+            <div class="field" id="page-field">
+                <span class="field-label" id="page-label">Page</span>
+                <div class="segmented" id="page-buttons" role="group" aria-labelledby="page-label"></div>
+            </div>
+            <div class="field">
+                <span class="field-label" id="mode-label">Rendering mode</span>
+                <div class="segmented" id="mode-buttons" role="group" aria-labelledby="mode-label"></div>
+            </div>
+            <label class="toggle"><input type="checkbox" id="compare-toggle"> Compare with original</label>
+        </div>
+
+        <div class="viewer-layout">
+            <aside class="details-card" aria-live="polite">
+                <h2>Task</h2>
+                <p class="task-text" id="task-text"></p>
+                <h2>Website</h2>
+                <p id="site-text"></p>
+                <h2>Rendering modes</h2>
+                <dl class="mode-help">
+                    <dt>Original</dt><dd>The page before Task Mode.</dd>
+                    <dt>Color Gradients</dt><dd>All content kept; a heatmap shows each element's relevance to the task.</dd>
+                    <dt>Opacity</dt><dd>All content kept; less relevant content fades out.</dd>
+                    <dt>Task-specific (25/50/75%)</dt><dd>Content below the relevance threshold is hidden, for both sighted and screen reader users.</dd>
+                </dl>
+                <p class="note">Pages are saved snapshots, so links, ads, and videos do not work.</p>
+            </aside>
+            <div class="frames" id="frames"></div>
+        </div>
+    </div>
+
+    <script>
+    // Study pages are packed to fit this site (see website-demo/scripts/pack_taskmode.py):
+    // inline media moved to study/assets/, large <style>/<script> bodies to study/blocks/*.gz,
+    // and each page gzipped. unpackPage() reverses that and shows the page from a blob URL.
+    const BASE = new URL("study/", location.href).href;
+    const ASSETS = BASE + "assets/";
+    const blockCache = new Map();
+    // Saved news pages embed dozens of ad/video iframes and trackers that can keep a page "loading" for
+    // 15+ seconds. Only images, styles, and fonts are allowed (scripts never run in the sandboxed frame anyway),
+    // and the blocked embeds are hidden so they don't leave empty boxes.
+    const SNAPSHOT_CSP = '<meta http-equiv="Content-Security-Policy" content="default-src \'none\'; ' +
+        'img-src * data: blob:; style-src * \'unsafe-inline\' data: blob:; font-src * data: blob:">' +
+        '<style>iframe, video, embed, object { display: none !important; }</style>';
+
+    async function gunzipText(url) {
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(r.status);
+        const buf = new Uint8Array(await r.arrayBuffer());
+        if (buf[0] !== 0x1f || buf[1] !== 0x8b) return new TextDecoder().decode(buf);
+        const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+        return new Response(stream).text();
+    }
+
+    async function unpackPage(rel) {
+        let html = await gunzipText(BASE + "pages/" + rel + ".gz");
+        const ids = [...new Set([...html.matchAll(/@@TMB:([0-9a-f]{20})@@/g)].map((m) => m[1]))];
+        await Promise.all(ids.map(async (id) => {
+            if (!blockCache.has(id)) blockCache.set(id, gunzipText(BASE + "blocks/" + id + ".gz"));
+            const body = await blockCache.get(id);
+            html = html.split("@@TMB:" + id + "@@").join(body);
+        }));
+        html = html.split("@@TMA@@").join(ASSETS);
+        // Insert at the top of the document (after any doctype): some saved pages contain "<head>" inside
+        // embedded srcdoc attributes, so matching the first <head> tag is not reliable.
+        const doctype = html.match(/^\s*<!doctype[^>]*>/i);
+        html = doctype ? doctype[0] + SNAPSHOT_CSP + html.slice(doctype[0].length) : SNAPSHOT_CSP + html;
+        return URL.createObjectURL(new Blob([html], { type: "text/html" }));
+    }
+
+    const caseBtn = document.getElementById("case-select-btn");
+    const caseText = document.getElementById("case-select-text");
+    const caseList = document.getElementById("case-select-list");
+    const pageField = document.getElementById("page-field");
+    const pageButtons = document.getElementById("page-buttons");
+    const modeButtons = document.getElementById("mode-buttons");
+    const compareToggle = document.getElementById("compare-toggle");
+    const framesEl = document.getElementById("frames");
+    const taskText = document.getElementById("task-text");
+    const siteText = document.getElementById("site-text");
+
+    const PAGE_LABELS = { "about-book-webpage": "Book details page", "bull-of-the-day": "Bull of the Day article" };
+    let manifest = null;
+    let cases = [];
+    let currentCase = null;
+    let currentPageId = null;
+    let currentMode = null;
+
+    // A few examples: one Phase 1 task per website and two participant-chosen websites.
+    const SHOWN_CASES = new Set(["task-1", "task-4", "task-7", "participant-a/bbc-news", "participant-c/fairfield"]);
+
+    // Phase 1 tasks are fixed; Phase 2 cases are participant + site pairs.
+    function buildCases() {
+        return [
+            ...manifest.phase1.map((t, i) => ({
+                id: t.id, group: "Phase 1: fixed tasks", label: `Task ${i + 1}: ${t.task}`, cat: t.site,
+                task: t.task, site: t.site, pages: t.pages,
+            })),
+            ...manifest.phase2.flatMap((p) => p.sites.map((s) => ({
+                id: `${p.id}/${s.id}`, group: "Phase 2: participants' own websites", label: `${p.label}: ${s.site}`, cat: "",
+                task: `${p.label} chose this website and their own task.`, site: s.site, pages: s.pages,
+            }))),
+        ].filter((c) => SHOWN_CASES.has(c.id));
+    }
+
+    function renderCaseList() {
+        caseList.innerHTML = "";
+        let group = null;
+        cases.forEach((c) => {
+            if (c.group !== group) {
+                group = c.group;
+                const h = document.createElement("li");
+                h.className = "custom-select-group";
+                h.setAttribute("role", "presentation");
+                h.textContent = group;
+                caseList.appendChild(h);
+            }
+            const li = document.createElement("li");
+            li.className = "custom-select-option";
+            li.setAttribute("role", "option");
+            li.tabIndex = 0;
+            li.dataset.caseId = c.id;
+            const name = document.createElement("span");
+            name.className = "option-name";
+            name.textContent = c.label;
+            const cat = document.createElement("span");
+            cat.className = "option-cat";
+            cat.textContent = c.cat;
+            li.append(name, cat);
+            const pick = () => { closeCaseList(); caseBtn.focus(); selectCase(c); };
+            li.addEventListener("click", pick);
+            li.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(); } });
+            caseList.appendChild(li);
+        });
+    }
+
+    function selectCase(c) {
+        currentCase = c;
+        currentPageId = "main" in c.pages ? "main" : Object.keys(c.pages)[0];
+        caseText.textContent = c.label;
+        caseList.querySelectorAll(".custom-select-option").forEach((li) => {
+            const active = li.dataset.caseId === c.id;
+            li.classList.toggle("is-active", active);
+            li.setAttribute("aria-selected", String(active));
+        });
+        taskText.textContent = c.task;
+        siteText.textContent = c.site;
+        renderPages();
+    }
+
+    function segButton(text, pressed, disabled, onClick, title) {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.textContent = text;
+        if (title) b.title = title;
+        b.disabled = disabled;
+        b.setAttribute("aria-pressed", String(pressed));
+        b.addEventListener("click", onClick);
+        return b;
+    }
+
+    // Page buttons only appear for the few cases where participants opened a second page.
+    function renderPages() {
+        const entries = Object.entries(currentCase.pages).sort(([a], [b]) => (b === "main") - (a === "main"));
+        pageField.hidden = entries.length < 2;
+        pageButtons.innerHTML = "";
+        entries.forEach(([id, p]) => pageButtons.appendChild(
+            segButton(PAGE_LABELS[id] || p.label, id === currentPageId, false, () => { currentPageId = id; renderPages(); })));
+        renderModes();
+    }
+
+    function renderModes() {
+        const modes = currentCase.pages[currentPageId].modes;
+        modeButtons.innerHTML = "";
+        // Keep the current mode when the new page has it; otherwise prefer a task-specific view.
+        if (!modes[currentMode]) {
+            currentMode = ["50", "75", "25", "color-gradients", "opacity", "original"].find((m) => modes[m]);
+        }
+        manifest.modeOrder.forEach((m) => {
+            const label = manifest.modeLabels[m].replace("All information ", "").replace(/[()]/g, "").replace("Only task-specific", "Task-specific");
+            modeButtons.appendChild(segButton(label, m === currentMode, !modes[m], () => { currentMode = m; renderModes(); }, manifest.modeLabels[m]));
+        });
+        compareToggle.disabled = !modes.original || currentMode === "original";
+        if (compareToggle.disabled) compareToggle.checked = false;
+        renderFrames();
+    }
+
+    let liveUrls = [];
+    let renderToken = 0;
+    function frameCard(label, rel, token) {
+        const card = document.createElement("div");
+        card.className = "frame-card";
+        card.innerHTML = `<div class="frame-bar"><strong></strong><a target="_blank" rel="noopener">Open in new tab ↗</a></div>
+            <div class="frame-wrap"><div class="frame-loading">Loading page…</div><iframe sandbox="allow-same-origin"></iframe></div>`;
+        card.querySelector("strong").textContent = label;
+        const link = card.querySelector("a");
+        link.hidden = true;
+        const loading = card.querySelector(".frame-loading");
+        const iframe = card.querySelector("iframe");
+        iframe.title = `${label} rendering of the study webpage`;
+        unpackPage(rel).then((url) => {
+            if (token !== renderToken) { URL.revokeObjectURL(url); return; }  // a newer selection replaced this one
+            liveUrls.push(url);
+            link.href = url;
+            link.hidden = false;
+            iframe.src = url;
+            // Hide the overlay once the page is parsed rather than waiting for every image to finish.
+            const poll = setInterval(() => {
+                const doc = iframe.contentDocument;
+                if (!card.isConnected || (doc && doc.URL === url && doc.readyState !== "loading")) {
+                    loading.hidden = true;
+                    clearInterval(poll);
+                }
+            }, 100);
+        }).catch(() => {
+            if (token === renderToken) loading.textContent = "This page could not be loaded.";
+        });
+        return card;
+    }
+
+    function renderFrames() {
+        const modes = currentCase.pages[currentPageId].modes;
+        const token = ++renderToken;
+        framesEl.innerHTML = "";
+        liveUrls.forEach((u) => URL.revokeObjectURL(u));
+        liveUrls = [];
+        const compare = compareToggle.checked && modes.original && currentMode !== "original";
+        framesEl.classList.toggle("compare", Boolean(compare));
+        if (compare) framesEl.appendChild(frameCard(manifest.modeLabels.original, modes.original, token));
+        framesEl.appendChild(frameCard(manifest.modeLabels[currentMode], modes[currentMode], token));
+    }
+
+    function closeCaseList() {
+        caseList.classList.remove("is-open");
+        caseBtn.setAttribute("aria-expanded", "false");
+    }
+    caseBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        caseBtn.setAttribute("aria-expanded", String(caseList.classList.toggle("is-open")));
+    });
+    document.addEventListener("click", closeCaseList);
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeCaseList(); });
+    compareToggle.addEventListener("change", renderFrames);
+
+    fetch(BASE + "manifest.json")
+        .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then((m) => { manifest = m; cases = buildCases(); renderCaseList(); selectCase(cases[0]); })
+        .catch(() => {
+            framesEl.innerHTML = '<div class="details-card">The study pages could not be loaded right now. Please try again later.</div>';
+        });
+    </script>
+</body>
+</html>
