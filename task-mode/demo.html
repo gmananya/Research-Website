@@ -218,8 +218,8 @@
     // Phase 1 tasks are fixed; Phase 2 cases are participant + site pairs.
     function buildCases() {
         return [
-            ...manifest.phase1.map((t, i) => ({
-                id: t.id, group: "Phase 1: fixed tasks", label: `Task ${i + 1}: ${t.task}`, cat: t.site,
+            ...manifest.phase1.map((t) => ({
+                id: t.id, group: "Phase 1: fixed tasks", label: `Task ${t.id.replace("task-", "")}: ${t.task}`, cat: t.site,
                 task: t.task, site: t.site, pages: t.pages,
             })),
             ...manifest.phase2.flatMap((p) => p.sites.map((s) => ({
