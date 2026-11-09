@@ -214,10 +214,20 @@ section {
     margin-bottom: 3%;
 }
 
+.split-left ul {
+    white-space: nowrap;
+}
+
 .split-left ul li {
     display: inline-block;
     list-style: none;
-    margin: 0px 30px 10px 0;
+    margin: 0px 12px 10px 0;
+}
+
+@media (max-width: 680px) {
+    .split-left ul {
+        white-space: normal;
+    }
 }
 
 .split-left ul li a {
@@ -245,7 +255,7 @@ section {
 }
 
 .bar {
-    margin: 5px 5% 5px 0;
+    margin: 5px 12px 5px 0;
     color: #008AFC;
 }
 
