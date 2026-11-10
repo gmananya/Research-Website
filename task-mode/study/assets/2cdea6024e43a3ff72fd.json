@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/ToastProvider.scss"],"names":[],"mappings":"AAAA,iCACE,kBAAA,CAGF,6EACE,iBAAA","sourcesContent":[".toast {\n  margin-bottom: 20px;\n}\n\n.placeholder.placeholder {\n  width: max-content;\n}\n"],"sourceRoot":""}
