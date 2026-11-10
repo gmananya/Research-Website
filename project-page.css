@@ -392,6 +392,11 @@ ul.dash-list li::before {
         padding: 20px;
     }
 
+    section,
+    .image-section {
+        margin-bottom: 88px;
+    }
+
     /* inline widths like 60%/80% are too small on a phone */
     .section-image,
     section video {

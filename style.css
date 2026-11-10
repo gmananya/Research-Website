@@ -305,7 +305,11 @@ h2 {
     }
 
     section {
-        padding-top: 40px;
+        padding-top: 72px;
+    }
+
+    .cards {
+        gap: 28px;
     }
 
     .name {
