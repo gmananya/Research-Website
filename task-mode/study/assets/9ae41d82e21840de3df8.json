@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/SvgProvider/SvgProvider.scss"],"names":[],"mappings":"AAAA,oCACE,UAAA","sourcesContent":[".svgPlaceholder {\n  height: 1em;\n}"],"sourceRoot":""}

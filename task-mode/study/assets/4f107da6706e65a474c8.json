@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/StaticSvg/StaticSvg.scss"],"names":[],"mappings":"AAAA,8BACE,YAAA,CACA,kBAAA,CACA,SAAA,CACA,UAAA,CACA,iBAAA","sourcesContent":[".svgWrapper {\n  display: flex;\n  align-items: center;\n  width: 1em;\n  height: 1em;\n  fill: currentColor;\n}\n"],"sourceRoot":""}

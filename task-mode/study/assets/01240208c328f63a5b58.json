@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/DynamicSvg/DynamicSvg.scss"],"names":[],"mappings":"AAAA,4BACE,UAAA,CACA,iBAAA,CAEA,gCACE,WAAA,CACA,UAAA,CACA,kBAAA","sourcesContent":[".wrapper {\n  height: 1em; // default\n  fill: currentColor;\n\n  svg {\n    height: 100%;\n    width: auto;\n    color: currentColor;\n  }\n}\n"],"sourceRoot":""}
