@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ananya Gubbi Mohanbabu</title>
     <link rel="icon"
@@ -14,160 +13,101 @@
 
 <body>
 
-    <header id="navbar" class="header">
-        <nav>
-            <a href="index.html" class="logo"></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-                <li><a href="#section-1">Home</a></li>
-                <li><a href="#section-2">Research</a></li>
-                <!-- <li><a href="#section-3">News</a></li> -->
-                <li><a target="_blank" href="cv.pdf">CV</a></li>
-                </a>
-            </ul>
-        </nav>
+    <header class="topbar">
+        <div class="topbar-inner">
+            <a href="#section-1" class="site-name">Ananya Gubbi Mohanbabu</a>
+            <nav aria-label="Site">
+                <a href="#section-1">Home</a>
+                <a href="#section-2">Research</a>
+                <!-- <a href="#section-3">News</a> -->
+                <a target="_blank" href="cv.pdf">CV</a>
+            </nav>
+        </div>
     </header>
 
-    <section>
-        <div id="section-1" class="container">
-            <div class="wrapper">
-                <div class="split-left">
-                    <div class="header-text">
-                        <h2 class="name">Ananya G M</h2>
-                        <p>
-                            I am a 3rd year PhD student advised by <a class="external-link"
-                                href="https://amypavel.com/">Dr. Amy Pavel</a> at the Department of EECS at UC Berkeley. 
-                                My research focuses on designing accessible computer use to improve human-AI collaboration. I analyze interaction traces to understand differences in how people use computers, and build task-aware interfaces and AI agents to bridge accessibility gaps.
-                                <br>
-                                <br>
-                                I received my Master's
-                            in Human-Computer Interaction from the<a class="external-link"
-                                href="https://www.ischool.utexas.edu/"> School of Information</a> at UT Austin and Bachelor's in Information Science and Engineering from  <a class="external-link"
-                                href="https://www.rvce.edu.in/"> RV College of Engineering</a>, Bengaluru.
-                            <br>
-                            <br>
-                            
-                        <ul>
-                            <li><a href="mailto: ananyagm@berkeley.edu">ananyagm@berkeley.edu</a></li> 
-                            <span class="bar">|</span>
-                            <!-- <li>GDC 3.802C</li> -->
-                            <!-- <span class="bar">|</span> -->
-                            <li><a href="https://scholar.google.com/citations?user=JPr-HWoAAAAJ&hl=en">Google
-                                    Scholar</a></li>
-                            <span class="bar">|</span>
-                            <li><a href="https://www.linkedin.com/in/ananyagm/">LinkedIn</a></li>
-                            <span class="bar">|</span>
-                            <li><a href="https://x.com/xananyagm">X</a></li>
-                        </ul>
-                        </p>
+    <main class="page">
+        <section id="section-1" class="intro">
+            <div class="intro-text">
+                <h1 class="name">Ananya G M</h1>
+                <p>
+                    I am a 3rd year PhD student advised by <a href="https://amypavel.com/">Dr. Amy Pavel</a> at the
+                    Department of EECS at UC Berkeley. My research focuses on designing accessible computer use to
+                    improve human-AI collaboration. I analyze interaction traces to understand differences in how people
+                    use computers, and build task-aware interfaces and AI agents to bridge accessibility gaps.
+                </p>
+                <p>
+                    I received my Master's in Human-Computer Interaction from the
+                    <a href="https://www.ischool.utexas.edu/">School of Information</a> at UT Austin and Bachelor's in
+                    Information Science and Engineering from <a href="https://www.rvce.edu.in/">RV College of
+                    Engineering</a>, Bengaluru.
+                </p>
+                <ul class="contact">
+                    <li><a href="mailto:ananyagm@berkeley.edu"><i class="fa fa-envelope" aria-hidden="true"></i>ananyagm@berkeley.edu</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=JPr-HWoAAAAJ&hl=en"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a></li>
+                    <li><a href="https://www.linkedin.com/in/ananyagm/"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+                    <li><a href="https://x.com/xananyagm"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>X</a></li>
+                </ul>
+            </div>
+            <img class="profile-photo" src="media/Ananya.jpeg" alt="Ananya Gubbi Mohanbabu">
+        </section>
+
+        <section id="section-2" class="research">
+            <h2>Research</h2>
+            <p class="legend"><sup>*</sup> indicates equal contribution, <sup>&dagger;</sup> indicates equal supervision</p>
+            <ul class="cards">
+            <li class="card">
+                <img class="paper-image" src="map/media/teaser.png" alt="MAP multi-level semantic representation of an interaction trace">
+                <div class="card-text">
+                    <p class="title">Comparing Computer Use Behavior Across Multiple Levels of Abstraction</p>
+                    <p class="author"><span class="ananya">Ananya Gubbi Mohanbabu</span>, Rosiana Natalie, Anhong Guo, Amy Pavel</p>
+                    <span class="venue">Under Review</span>
+                    <div class="paper-links">
+                        <a class="btn" href="https://arxiv.org/pdf/2610.26703">PDF</a>
                     </div>
                 </div>
-                <div class="split-right">
-                    <img class="profile-photo" src="media/Ananya.jpeg" alt="Ananya Gubbi Mohanbabu">
+            </li>
+            <li class="card">
+                <img class="paper-image" src="a11y-cua/media/InteractionSample_v2.png" alt="A11y-CUA Dataset">
+                <div class="card-text">
+                    <p class="title">A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</p>
+                    <p class="author"><span class="ananya">Ananya Gubbi Mohanbabu<sup>*</sup></span>, Rosiana Natalie<sup>*</sup>, Brandon Kim, Anhong Guo<sup>&dagger;</sup>, Amy Pavel<sup>&dagger;</sup></p>
+                    <span class="venue">CHI 2026</span>
+                    <div class="paper-links">
+                        <a class="btn" href="https://arxiv.org/abs/2602.09310">PDF</a>
+                        <a class="btn" href="a11y-cua/a11y-cua.html">Project Page</a>
+                        <a class="btn" href="https://huggingface.co/datasets/berkeley-hci/A11y-CUA">Dataset</a>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-
-        <div id="section-2" class="row-cards">
-            <h2 class="research">Research</h2>
-            <p style="font-size: 14px; color: #666; margin-bottom: 20px;">
-                <sup>*</sup> indicates equal contribution, <sup>†</sup> indicates equal supervision
-            </p>
-            <ul>
-                <li class="card">
-                    <article class="card-body" style="display: flex; align-items: center;">
-                        <img class="paper-image" src="map/media/teaser.png" alt="MAP multi-level semantic representation of an interaction trace">
-                        <div>
-                            <header>
-                                    <p class="title">Comparing Computer Use Behavior Across Multiple Levels of Abstraction</p>
-                                    <p class="author">
-                                        <span class="ananya">Ananya Gubbi Mohanbabu</span>, Rosiana Natalie, Anhong Guo, Amy Pavel
-                                    </p>
-                                    <p class="description">Under Review</p>
-                                    <p class="papers">
-                                        <ul class="paper-links">
-                                            <li><a href="https://arxiv.org/pdf/2610.26703">PDF</a></li>
-                                        </ul>
-                                    </p>
-                            </header>
-                        </div>
-                    </article>
-                </li>
-                <li class="card">
-                    <article class="card-body" style="display: flex; align-items: center;">
-                        <img class="paper-image" src="a11y-cua/media/InteractionSample_v2.png" alt="A11y-CUA Dataset">
-                        <div>
-                            <header>
-                                    <p class="title">A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</p>
-                                    <p class="author">
-                                        <span class="ananya">Ananya Gubbi Mohanbabu<sup>*</sup></span>, Rosiana Natalie<sup>*</sup>, Brandon Kim, Anhong Guo<sup>†</sup>, Amy Pavel<sup>†</sup>
-                                    </p>
-                                    <p class="description">CHI 2026</p>
-                                    <p class="papers">
-                                        <ul class="paper-links">
-                                            <li><a href="https://arxiv.org/abs/2602.09310">PDF</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="a11y-cua/a11y-cua.html">Project Page</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="https://huggingface.co/datasets/berkeley-hci/A11y-CUA">Dataset</a></li>
-                                        </ul>
-                                    </p>
-                            </header>
-                        </div>
-                    </article>
-                </li>
-                <li class="card">
-                    <article class="card-body" style="display: flex; align-items: center;">
-                        <img class="paper-image" src="task-mode/media/visualization-modes.png" alt="Visualization Modes in Task Mode">
-                        <div>
-                            <header>
-                                    <p class="title">Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</p>
-                                    <p class="author">
-                                        <span class="ananya">Ananya Gubbi Mohanbabu</span>, Yotam Sechayk, Amy Pavel
-                                    </p>
-                                    <p class="description">ASSETS 2025</p>
-                                    <p class="papers">
-                                        <ul class="paper-links">
-                                            <li><a href="https://arxiv.org/pdf/2507.14769">PDF</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="task-mode/task-mode.html">Project Page</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="https://github.com/UT-CS-HCI/task-mode">Code</a></li>
-                                        </ul>
-                                    </p>
-                            </header>
-                        </div>
-                    </article>
-                </li>
-                <li class="card">
-                    <article class="card-body" style="display: flex; align-items: center;">
-                        <img class="paper-image" src="context-aware-image-descriptions/media/Image.png" alt="Context-Aware Image Descriptions Hero Image">
-                        <div>
-                            <header>
-                                    <p class="title">Context-Aware Image Descriptions for Web Accessibility</p>
-                                    <p class="author">
-                                        <span class="ananya">Ananya Gubbi Mohanbabu</span>, Amy Pavel
-                                    </p>
-                                    <p class="description">ASSETS 2024</p>
-                                    <p class="papers">
-                                        <ul class="paper-links">
-                                            <li><a href="https://www.arxiv.org/pdf/2409.03054">PDF</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="context-aware-image-descriptions/context-aware-image-descriptions.html">Project Page</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="https://github.com/UT-CS-HCI/context-aware-image-descriptions">Code</a></li>
-                                            <span class="bar" style="margin: 0 10px;">|</span>
-                                            <li><a href="context-aware-image-descriptions/media/poster.pdf">Poster</a></li>
-                                        </ul>
-                                    </p>
-                            </header>
-                        </div>
-                    </article>
-                </li>
+            </li>
+            <li class="card">
+                <img class="paper-image" src="task-mode/media/visualization-modes.png" alt="Visualization Modes in Task Mode">
+                <div class="card-text">
+                    <p class="title">Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</p>
+                    <p class="author"><span class="ananya">Ananya Gubbi Mohanbabu</span>, Yotam Sechayk, Amy Pavel</p>
+                    <span class="venue">ASSETS 2025</span>
+                    <div class="paper-links">
+                        <a class="btn" href="https://arxiv.org/pdf/2507.14769">PDF</a>
+                        <a class="btn" href="task-mode/task-mode.html">Project Page</a>
+                        <a class="btn" href="https://github.com/UT-CS-HCI/task-mode">Code</a>
+                    </div>
+                </div>
+            </li>
+            <li class="card">
+                <img class="paper-image" src="context-aware-image-descriptions/media/Image.png" alt="Context-Aware Image Descriptions Hero Image">
+                <div class="card-text">
+                    <p class="title">Context-Aware Image Descriptions for Web Accessibility</p>
+                    <p class="author"><span class="ananya">Ananya Gubbi Mohanbabu</span>, Amy Pavel</p>
+                    <span class="venue">ASSETS 2024</span>
+                    <div class="paper-links">
+                        <a class="btn" href="https://www.arxiv.org/pdf/2409.03054">PDF</a>
+                        <a class="btn" href="context-aware-image-descriptions/context-aware-image-descriptions.html">Project Page</a>
+                        <a class="btn" href="https://github.com/UT-CS-HCI/context-aware-image-descriptions">Code</a>
+                        <a class="btn" href="context-aware-image-descriptions/media/poster.pdf">Poster</a>
+                    </div>
+                </div>
+            </li>
             </ul>
-        </div>
+        </section>
 
         <!-- News section hidden
         <div id="section-3" class="additional">
@@ -200,8 +140,7 @@
             </div>
         </div>
         -->
-    </section>
+    </main>
 </body>
-
 
 </html>

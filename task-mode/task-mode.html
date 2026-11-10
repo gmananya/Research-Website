@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</title>
-    <link rel="stylesheet" href="task-mode.css">
+    <link rel="stylesheet" href="../project-page.css">
+    <script src="../project-page.js" defer></script>
 </head>
-<body>
-    <div class="container">
+<body class="project-page">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <a class="home-link" href="../"><span class="arrow" aria-hidden="true">&larr;</span>Ananya Gubbi Mohanbabu</a>
+            <nav aria-label="Site">
+                <a href="../">Home</a>
+                <a href="../#section-2">Research</a>
+                <a href="../cv.pdf">CV</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="page">
+        <aside class="toc" aria-label="On this page">
+            <p class="toc-title">On this page</p>
+            <ol class="toc-list"></ol>
+        </aside>
+
+        <main class="container">
         <header>
             <h1>Task Mode: Dynamic Filtering for Task-Specific Web Navigation using LLMs</h1>
             <p class="authors">
@@ -64,12 +82,17 @@
         <!-- Pipeline Section -->
         <section id="pipeline">
             <h2>Pipeline</h2>
-            <img src="media/taskmode-pipeline.png" alt="The figure shows a diagram of system pipeline. From left to right, the diagram shows 6 groupings or columns, all connected by arrows pointing to the right. The first group includes Selected Image and Webpage. From Selected Image, there are two arrows pointing right to Alt and Image which are in the second group. From Webpage, there are three arrows pointing right to Title, URL, and Text (also in the second group). In the third column, there is an arrow pointing from URL to Purpose, and from Text there is an arrow pointing to the right to “Text to Image Distance (pixels), Text to Image Location (L, R, T,B), and Text to Image Similarity (CLIPScore). The Image also points to the right to Long Context-free Image Description and Initial Context-aware Image Description in the fourth group. Image, Alt, Title and Initial Context-aware Image Description all point to the right to Visually Concrete Text in the fifth column. The Long Context-free description points to the right to Short Context-free Image Description. The Visually Concrete Text and The Image point to the right to Long Context-Aware Image Description in the right in the sixth group. The Long Context-Aware Image Description points downwards to the Short Context-Aware Image Description." class="section-image">
-            <p>The system takes a webpage and a selected webpage image as selected by the user, then extracts all of the text elements on the page. 
-                It analyzes the webpage to get an image relevance score for each text element. Our score considers the distance between the text element and the target image, 
-                position of the text in comparison to the image, and the CLIP score similarity between the image and the text. 
-                For each text element, we combine these scores together to achieve the final relevance score. We use the extracted context text and its scores to inform the final context-aware description.
-                </p>
+            <img src="media/taskmode-pipeline.png" alt="Diagram of the Task Mode pipeline, read left to right. On the left, a user's task (&quot;I want to buy a multi-head power drill under $300&quot;) and a chosen visualization (Varying Opacity) are entered into the Task Mode browser extension, which has a rendering-style menu, a relevance-threshold slider, and a task box. The extension and the website being visited (a Home Depot page full of ads and promotions) feed into the pipeline in the middle, which has three steps connected by downward arrows: Extracting Webpage Elements, Relevance Ranking, and Relevance-Based Content Visualization. An arrow leads to the result on the right: a task-specific webpage where only power drills under $300 and the search bar stay visible and everything else is faded." class="section-image">
+            <p>The user enters their task in natural language and picks a visualization mode in the browser extension.
+                Task Mode then extracts the webpage's elements (text, images, SVG icons, and iframes) from the page's DOM,
+                skipping scripts and styles. An LLM (GPT-4o) breaks the task into its parts (the entity, constraints, actions,
+                defaults, and fallbacks) and scores how relevant each text element is to the task on a scale from 0 to 100.
+                Images are scored by combining an LLM score of their alt text with a CLIP score of the image itself, and
+                SVG icons are scored after the LLM infers what each icon means (e.g., search or cart).
+                Finally, the page is re-rendered based on these scores: as color gradients, as varying opacity, or by
+                showing only elements above a relevance threshold. Hidden elements are also marked <code>aria-hidden</code>
+                so screen readers skip them.
+            </p>
         </section>
 
         <!-- System Section -->
@@ -129,6 +152,7 @@
             </div>
         </section>
 
+    </main>
     </div>
 </body>
 </html>

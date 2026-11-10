@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</title>
-    <link rel="stylesheet" href="a11y-cua.css">
+    <link rel="stylesheet" href="../project-page.css">
+    <script src="../project-page.js" defer></script>
 </head>
-<body>
-    <div class="container">
+<body class="project-page">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <a class="home-link" href="../"><span class="arrow" aria-hidden="true">&larr;</span>Ananya Gubbi Mohanbabu</a>
+            <nav aria-label="Site">
+                <a href="../">Home</a>
+                <a href="../#section-2">Research</a>
+                <a href="../cv.pdf">CV</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="page">
+        <aside class="toc" aria-label="On this page">
+            <p class="toc-title">On this page</p>
+            <ol class="toc-list"></ol>
+        </aside>
+
+        <main class="container">
         <header>
             <h1>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents</h1>
             <p class="authors">
@@ -43,7 +61,7 @@
         </section>
 
 
-        <section id="contributions">
+        <section id="contributions" data-toc="Contributions">
             <h2>Our contributions</h2>
             <ul class="dash-list" style="line-height: 1.7; width: 100%;">
                 <li>A <strong>dataset of SUs, BLVUs, and CUAs</strong> performing 60 real-world everyday computing tasks across desktop and web applications.</li>
@@ -201,7 +219,7 @@
             >
         </section>
 
-        <section id="figures-3-6">
+        <section id="su-vs-blvu" data-toc="Sighted vs. BLV interactions">
             <h2>Contrasting Sighted and Blind and Low-Vision Users’ Interactions</h2>
             <p>
                 SUs tend to work mouse-first with routine scrolling and occasional shortcuts, visually skipping irrelevant items
@@ -224,7 +242,7 @@
             
         </section>
 
-        <section id="figures-3-6">
+        <section id="within-group-diversity" data-toc="Within-group diversity">
             <h2>Interaction Diversity within Sighted and Blind and Low-Vision User Groups</h2>
 
             <p>
@@ -251,7 +269,7 @@
         </section>
 
 
-        <section id="section-5-results">
+        <section id="section-5-results" data-toc="CUAs vs. human workflows">
             <h2>Comparing CUA Interactions to Sighted and Blind and Low-Vision User Workflows</h2>
             <p>
                 Default-CUA partially resembles sighted behavior by pointing and clicking visible controls,
@@ -271,7 +289,7 @@
             </p>
         </section>
 
-        <section id="cua-limitations">
+        <section id="cua-limitations" data-toc="CUA limitations under AT">
             <h2>Limitations of CUAs under AT Conditions</h2>
             <p>
                 We identify three recurrent gaps when CUAs operate under assistive-technology constraints,
@@ -319,7 +337,7 @@
 
 
 
-        <section id="usage">
+        <section id="usage" data-toc="Towards accessibility-aware CUAs">
             <h2>Towards Accessibility-Aware CUAs</h2>
             <p>
                 A11y-CUA is useful for benchmarking accessible CUAs, training interaction models under AT constraints,
@@ -345,6 +363,7 @@
   }</pre>
             </div>
         </section>
+    </main>
     </div>
 </body>
 </html>
