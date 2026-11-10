@@ -55,21 +55,8 @@ a:hover {
     padding: 0 32px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 16px;
-}
-
-.topbar .home-link {
-    color: var(--text);
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.topbar .home-link .arrow {
-    color: var(--muted);
-    margin-right: 6px;
 }
 
 .topbar nav {
@@ -183,7 +170,7 @@ span.author {
     font-weight: 600;
     color: var(--accent);
     background: #e8f1fb;
-    border-radius: 999px;
+    border-radius: 4px;
 }
 
 .equal-contribution {
@@ -207,7 +194,7 @@ span.author {
     color: var(--text);
     background: var(--soft);
     border: 1px solid var(--border);
-    border-radius: 999px;
+    border-radius: 6px;
     transition: border-color .15s, color .15s;
 }
 
@@ -221,7 +208,7 @@ span.author {
 
 section,
 .image-section {
-    margin-bottom: 64px;
+    margin-bottom: 112px;
 }
 
 section h2 {
@@ -394,7 +381,7 @@ ul.dash-list li::before {
 
     section,
     .image-section {
-        margin-bottom: 88px;
+        margin-bottom: 96px;
     }
 
     /* inline widths like 60%/80% are too small on a phone */

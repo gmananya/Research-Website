@@ -52,20 +52,8 @@ a:hover {
     padding: 0 32px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 16px;
-}
-
-.site-name {
-    color: var(--text);
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.site-name:hover {
-    text-decoration: none;
 }
 
 .topbar nav {
@@ -93,7 +81,11 @@ a:hover {
 }
 
 section {
-    padding-top: 64px;
+    padding-top: 112px;
+}
+
+section:first-child {
+    padding-top: 80px;
 }
 
 h2 {
@@ -106,7 +98,7 @@ h2 {
 
 .intro {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 280px;
+    grid-template-columns: minmax(0, 1fr) 300px;
     gap: 56px;
     align-items: center;
 }
@@ -122,10 +114,9 @@ h2 {
 }
 
 .profile-photo {
+    display: block;
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 12px;
+    height: auto;
 }
 
 .contact {
@@ -167,7 +158,7 @@ h2 {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
 }
 
 .card {
@@ -176,15 +167,9 @@ h2 {
     gap: 28px;
     align-items: center;
     padding: 22px;
-    border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: 5px;
     background: #fff;
-    transition: box-shadow .15s, border-color .15s;
-}
-
-.card:hover {
-    border-color: #cfd5dc;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.10), 0 2px 2px rgba(0, 0, 0, 0.10);
 }
 
 .paper-image {
@@ -218,7 +203,7 @@ h2 {
     font-weight: 600;
     color: var(--accent);
     background: #e8f1fb;
-    border-radius: 999px;
+    border-radius: 4px;
 }
 
 .paper-links {
@@ -236,7 +221,7 @@ h2 {
     color: var(--text);
     background: var(--soft);
     border: 1px solid var(--border);
-    border-radius: 999px;
+    border-radius: 6px;
     transition: border-color .15s, color .15s;
 }
 
@@ -280,7 +265,7 @@ h2 {
 
     .profile-photo {
         order: -1;
-        width: 180px;
+        max-width: 300px;
     }
 
     .card {
@@ -305,11 +290,11 @@ h2 {
     }
 
     section {
-        padding-top: 72px;
+        padding-top: 96px;
     }
 
-    .cards {
-        gap: 28px;
+    section:first-child {
+        padding-top: 40px;
     }
 
     .name {
@@ -321,9 +306,3 @@ h2 {
     }
 }
 
-@media (max-width: 420px) {
-    /* Not enough room for the full name next to the menu */
-    .site-name {
-        font-size: 15px;
-    }
-}
