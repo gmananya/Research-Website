@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP: Comparing Computer Use Behavior Across Multiple Levels of Abstraction</title>
+    <link rel="stylesheet" href="../project-page.css?v=5">
+    <script src="../project-page.js?v=5" defer></script>
+</head>
+<body class="project-page">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <nav aria-label="Site">
+                <a href="../">Home</a>
+                <a href="../#section-2">Research</a>
+                <a href="../cv.pdf">CV</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="page">
+        <aside class="toc" aria-label="On this page">
+            <p class="toc-title">On this page</p>
+            <ol class="toc-list"></ol>
+        </aside>
+
+        <main class="container">
+        <header>
+            <h1>Comparing Computer Use Behavior Across Multiple Levels of Abstraction</h1>
+            <p class="authors">
+                <a href="../" class="author">Ananya Gubbi Mohanbabu</a>,
+                <span class="author">Rosiana Natalie</span>,
+                <span class="author">Anhong Guo</span>,
+                <a href="https://amypavel.com/" class="author">Amy Pavel</a>
+            </p>
+            <p class="institution">UC Berkeley, University of Michigan</p>
+            <p class="conference">Under Review</p>
+        </header>
+
+        <div class="paper-links-section">
+            <a href="https://arxiv.org/pdf/2610.26703" class="paper-link">📄 PDF</a>
+            <a href="https://arxiv.org/abs/2610.26703" class="paper-link">⚙ arXiv</a>
+            <a href="explorer/" class="paper-link">🔎 MAP Explorer</a>
+            <!-- Add once the MAP dataset is published:
+            <a href="DATASET-URL" class="paper-link">🗂 Dataset</a> -->
+        </div>
+
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <p class="abstract-text">
+                Interaction traces record how people and agents use computers, and comparing them can reveal usability barriers,
+                differences in expertise, and human&ndash;agent similarity. Yet traces are recorded as low-level, interface-specific actions,
+                making comparisons difficult across tasks, interfaces, and input modalities. Existing approaches either compare these actions
+                directly, reduce traces to aggregate outcomes, or summarize them at higher-level goals, obscuring where behavior differs.
+                We present MAP (Multi-level Action Parsing), a hierarchical semantic representation and annotation pipeline that maps traces
+                into a common vocabulary across linked levels of abstraction. MAP compares traces by sequence, recurring patterns, and effort,
+                localizing differences by type and abstraction level. A technical evaluation across three computer use datasets shows high
+                agreement with manual annotations and broad coverage of behavior. Applying MAP shows that <b>sighted and blind users increasingly
+                converge at higher levels despite navigation differences, while agents omit corrective, help-seeking, and recovery behaviors
+                present in human traces</b>.
+            </p>
+        </section>
+
+        <section id="contributions" data-toc="Contributions">
+            <h2>Our contributions</h2>
+            <ul class="dash-list" style="line-height: 1.7; width: 100%;">
+                <li><strong>MAP, a hierarchical semantic representation of interaction traces</strong> that labels recorded actions across four levels of abstraction, and an automatic pipeline that assigns these labels to interaction traces.</li>
+                <li><strong>A decomposition of behavioral similarity into three dimensions</strong> (sequence, recurring patterns, and effort allocation) computed over MAP labels at any level, so that behavioral differences can be localized by type and level of abstraction.</li>
+                <li><strong>A technical evaluation and comparative analysis using MAP</strong>, replicating and extending prior work comparing blind and sighted computer users, and assessing differences between human and agent traces.</li>
+            </ul>
+        </section>
+
+        <div class="image-section">
+            <img src="media/teaser.png" alt="Overview of MAP's multi-level semantic representation and comparison metrics using an alarm-setting task. The center shows one interaction trace transformed from L1 Operations, such as keypresses, clicks, and pointing, into L2 Functions and Consequences, then L3 Methods such as opening the Clock application and adding an alarm, and finally the L4 Goal, 'Set up an alarm for 8:30 AM on Mondays.' Curved links show how lower-level actions contribute to higher-level labels. Callouts above illustrate questions that can be asked at different abstraction levels, such as which interaction behaviors are common among blind users or which Methods require the most effort. Callouts below illustrate MAP's three similarity metrics: Pattern Similarity identifies recurring behaviors, Sequence Similarity compares the order of interactions, and Effort Similarity compares where users spend actions and time." class="section-image">
+            <p class="description">
+                MAP transforms raw interaction traces into multi-level semantic representations (center), enabling comparison of user behavior
+                from low-level actions to high-level tasks. In this example, a user sets an alarm for 8:30 AM on Mondays: individual keypresses and
+                clicks (L1) are mapped to what they do in the interface (L2), grouped into methods such as <code>open ⟨Clock⟩ in ⟨desktop⟩</code> and
+                <code>add ⟨alarm⟩ in ⟨clock⟩</code> (L3), and finally into the task goal (L4). Given two traces, MAP supports comparisons between users
+                based on sequence alignment, effort allocation, and recurring behavioral patterns (bottom).
+            </p>
+        </div>
+
+        <section id="taxonomy">
+            <h2>The MAP Taxonomy</h2>
+            <p>
+                Comparing traces is hard because they are recorded in a low-level, input- and interface-specific vocabulary. A screen reader user may
+                press Tab six times while a sighted user points to reach the same button, yet their traces look completely different. MAP represents
+                every trace at four connected levels, building on the decomposition used in GOMS while adding interface-level semantics in between.
+                L1 and L2 Functions are assigned deterministically; the remaining fields are labeled by an LLM constrained to a fixed vocabulary, so only
+                task-dependent fields remain open-vocabulary.
+            </p>
+            <table class="custom-table" aria-label="The four semantic abstraction levels in MAP">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Definition</th>
+                        <th>Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>L1 Operations</strong></td>
+                        <td>Atomic input actions executed through mouse or keyboard.</td>
+                        <td><code>primary click</code>, <code>scroll</code>, <code>keypress</code>, <code>shortcut</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>L2 Functions &amp; Consequences</strong></td>
+                        <td>What an operation does, which UI element it acts on, and the resulting change to the interface.</td>
+                        <td><code>select ⟨button⟩ → open ⟨dialog box⟩</code><br><code>navigate ⟨link⟩ → focus ⟨link⟩</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>L3 Methods &amp; UI Containers</strong></td>
+                        <td>How a sub-goal is carried out within an application. The same method may be realized through different sequences of operations and functions.</td>
+                        <td><code>edit ⟨paragraph⟩ in ⟨text document⟩</code><br><code>add ⟨chart⟩ in ⟨spreadsheet⟩</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>L4 Goals</strong></td>
+                        <td>The intended task outcome. A goal may span one or more applications.</td>
+                        <td>Export spreadsheet as PDF<br>Schedule a meeting</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="metrics">
+            <h2>Similarity Metrics</h2>
+            <p>
+                The taxonomy gives traces a shared vocabulary, but comparing users also requires specifying <em>what aspect</em> of their behavior is
+                similar. MAP computes three complementary metrics, each at every abstraction level, so differences can be localized by both type and level.
+            </p>
+            <ul class="dash-list" style="line-height: 1.7; width: 100%;">
+                <li><strong>Sequence similarity</strong>: do two traces progress through a task in the same <em>order</em>? Computed with Needleman&ndash;Wunsch global alignment, which also shows which interactions are substituted, added, or omitted.</li>
+                <li><strong>Pattern similarity</strong>: do two traces show the same <em>recurring local behaviors</em> (e.g., hotkeys vs. point-and-click), even when their overall paths differ? Computed as cosine similarity over 1&ndash;3-gram frequency vectors.</li>
+                <li><strong>Effort similarity</strong>: do two users spend comparable <em>actions and time</em> on the same parts of a workflow? Formatting a document in 5 actions and 10 seconds vs. 15 actions and 40 seconds is semantically identical but differs in cost.</li>
+            </ul>
+        </section>
+
+        <section id="evaluation">
+            <h2>Technical Evaluation</h2>
+            <p>
+                We compared MAP's annotations against manual annotations of <strong>2,342 actions</strong> across three computer use datasets spanning
+                human and agent traces and sighted and screen reader interactions (A11y-CUA, AgentSynth, and AgentNet). MAP agrees with manual annotation on
+                <strong>77.3&ndash;87.3%</strong> of actions per semantic field, and <strong>99.2%</strong> of actions across the full corpus receive a defined
+                label rather than <em>unknown</em>, indicating that the vocabularies cover observed behavior. Most L3 errors reflect segmentation differences,
+                and L2 errors rarely propagate to L3.
+            </p>
+        </section>
+
+        <section id="results">
+            <h2>Results</h2>
+            <p>
+                We applied MAP to 30 tasks from the <a href="../a11y-cua/a11y-cua.html">A11y-CUA dataset</a>, performed by 8 sighted users (SU), 8 blind and low-vision users (BLVU),
+                and two computer use agents (CUA-D with default access, and CUA-SR with a screen reader). We asked two questions from prior work:
+                <strong>How do sighted and blind users differ in how they complete tasks with computers?</strong> and
+                <strong>How closely do agent workflows align with human workflows?</strong>
+            </p>
+
+            <img src="media/sim-matrices.png" alt="A 3-by-5 grid of pairwise similarity heatmaps. Rows show Sequence, Effort, and Pattern Similarity; columns progress from L1 Operations through two L2 representations, L3 Methods and UI Containers, and L4 Goals. Each heatmap compares eight sighted users, CUA-D, eight blind users, and CUA-SR, with darker green indicating greater similarity. At L1, and to a lesser extent L2, dark blocks appear within the sighted and blind groups while cells between groups are much lighter. These blocks become substantially less distinct at L3 and L4, where similarity is more uniform across users. CUA-D tends to resemble sighted users and CUA-SR blind users at the lower levels." class="section-image" style="margin-top: 20px;">
+            <p>
+                Pairwise Sequence, Effort, and Pattern similarity among SUs, BLVUs (labeled BU in the figure), CUA-D, and CUA-SR across MAP levels. Darker cells indicate higher similarity.
+                Strong within-group blocks at L1 and L2 weaken at L3 and L4, showing that sighted and blind users differ more in low-level execution than in
+                higher-level methods and goals.
+            </p>
+
+            <img src="media/k-means-pca.png" alt="A 3-by-5 grid of PCA scatterplots compares sighted users, blind users, CUA-Default, and CUA-SR across three similarity metrics (rows: Sequence, Effort, Pattern) and five abstraction levels. At L1, sighted and blind users form clearly separated clusters, with the strongest separation for Effort and Pattern Similarity. Separation decreases across the two L2 columns and becomes weak at L3 and L4, where the points increasingly overlap. CUA-Default generally appears nearer the sighted-user cluster at lower levels, while CUA-SR generally appears nearer the blind-user cluster. Each panel reports a silhouette score and group-match count, which are highest at L1 and generally decline toward L3 and L4." class="section-image" style="margin-top: 40px;">
+            <p>
+                PCA projections of the same traces. SUs and BLVUs are strongly separated at L1 and L2 but increasingly converge at L3 and L4.
+                Each panel reports the k-means (k=2) silhouette score and group-match count.
+            </p>
+
+            <h3 style="font-size: 20px; margin: 30px 0 15px; font-weight: 600;">Key findings</h3>
+            <table class="custom-table" aria-label="Summary of prior findings recovered by MAP and new findings revealed by its multi-level representation">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Prior finding (confirmed by MAP)</th>
+                        <th>New finding from MAP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><th colspan="3">Sighted vs. blind and low-vision users</th></tr>
+                    <tr>
+                        <td>L1</td>
+                        <td>SUs primarily use mouse input, whereas BLVUs use keyboard input.</td>
+                        <td>BLVUs repeat similar keyboard-action patterns more consistently, but vary more in the overall order of their actions across tasks.</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>BLVUs frequently use sequential and exploratory navigation and multiple navigation strategies.</td>
+                        <td>BLVUs require substantially more effort for navigation, while typing and selection are similar across groups.</td>
+                    </tr>
+                    <tr>
+                        <td>L3</td>
+                        <td>BLVUs and SUs differ in how they formulate and reformulate search queries.</td>
+                        <td>BLVUs write longer search queries but SUs query more often per task. Despite lower-level differences, both groups usually perform the same Methods to complete a task.</td>
+                    </tr>
+                    <tr>
+                        <td>L4</td>
+                        <td>BLVUs adopt coping and recovery strategies when encountering accessibility barriers.</td>
+                        <td>BLVUs more often add help-seeking goals, whereas SUs more often add verification and window-management goals.</td>
+                    </tr>
+                    <tr><th colspan="3">Humans vs. agents</th></tr>
+                    <tr>
+                        <td>L1</td>
+                        <td>Agents differ from humans in low-level execution, and changing an agent's access mode changes its behavior.</td>
+                        <td>Matching access mode does not guarantee human-like execution.</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>Screen reader use increases agent actions, and agents often type long inputs where humans navigate.</td>
+                        <td>Humans interleave typing with navigation and screen reader management more often, whereas agents type uninterruptedly and then select UI targets.</td>
+                    </tr>
+                    <tr>
+                        <td>L3</td>
+                        <td>Humans and agents can follow similar high-level steps despite different low-level execution.</td>
+                        <td>CUA-D <code>verifies</code> more often than SUs, whereas SUs <code>move</code> and <code>dismiss</code> interface elements more often. Both agents perform Methods such as <code>open</code> and <code>edit</code> at similar rates to their human counterparts.</td>
+                    </tr>
+                    <tr>
+                        <td>L4</td>
+                        <td>Humans and agents can pursue similar task goals despite differences in execution.</td>
+                        <td>Agents usually reach the same primary goal as humans but omit additional goals such as help-seeking or closing extra windows and tabs.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="applications">
+            <h2>Applications</h2>
+            <img src="media/usability-eg.png" alt="Scatterplot of each user's format Method when changing a PowerPoint theme. The horizontal axis shows actions relative to the most efficient successful user in the same group; the vertical axis shows time per action relative to the user's usual pace. Points beyond the thresholds are long-winded or slow; most difficulty comes from requiring many actions rather than performing them slowly." class="section-image" style="width: 50%; min-width: 280px;">
+            <p>
+                Beyond comparing groups, MAP's shared representation opens up several uses: <strong>surfacing efficient strategies</strong> from expert traces
+                to help novices improve, <strong>localizing usability problems</strong> on interfaces across tasks and users, and <strong>sharing a user's computer
+                use behavior</strong> without exposing their identity. The figure above shows a usability example: difficulty changing a PowerPoint theme. Each point
+                is one user's <code>format</code> Method, plotted by actions relative to the most efficient user and time per action relative to the user's usual pace.
+                Most difficulty comes from requiring many actions rather than performing them slowly.
+            </p>
+        </section>
+
+        <section id="explorer" data-toc="MAP Explorer">
+            <h2>MAP Explorer</h2>
+            <p>
+                The <a href="explorer/">MAP Explorer</a> shows MAP's multi-level representation for real traces. Pick one of 10
+                tasks (2 per category) and any two of the 8 sighted users, 8 blind and low-vision users, Default-CUA, or
+                Screen-Reader-CUA to see their L1&ndash;L4 hierarchies side by side, aligned action by action, together with
+                their Sequence, Pattern, and Effort similarity at each level.
+            </p>
+            <a href="explorer/" class="paper-link">🔎 Open the MAP Explorer</a>
+        </section>
+
+        <section id="bibtex">
+            <h2>BibTeX</h2>
+            <div class="bibtex-code">
+                <pre>@article{mohanbabu2026map,
+  title={Comparing Computer Use Behavior Across Multiple Levels of Abstraction},
+  author={Mohanbabu, Ananya Gubbi and Natalie, Rosiana and Guo, Anhong and Pavel, Amy},
+  journal={arXiv preprint arXiv:2610.26703},
+  year={2026}
+}</pre>
+            </div>
+        </section>
+
+    </main>
+    </div>
+</body>
+</html>
